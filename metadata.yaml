@@ -1,0 +1,27 @@
+composer:
+  last: Eybler
+  first: Joseph Leopold Edler von
+title: Die 4 lezten Dinge
+id: HerEy 137
+genre: oratorio
+scoring: S, 2 T, 2 B (solo), S, A, T, B (coro 1), S, A, T, B (coro 2), 2 fl, 2 ob, 2 cl (\flat B), 2 fag, contra-fag,\\2 cor (\flat E), 2 clno (C), 2 clno (\flat B), 3 trb, timp (C–G), 2 vl, vla, vlc, vlne
+ark: 68748/e1jle137
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.19212-GF
+    date: 1810
+    rism: 600110945
+    url: https://data.onb.ac.at/rec/AC14266149
+    license: public domain
+    principal: true
+    notes: "178 fol., 51 × 33.5 cm. Hand-ruled paper, 24 staves per page (8 mm) in dark brown ink and music in same ink. 89 bifolios, numbered in Eybler's hand in the upper right corner of each first page (brown ink: 1–89). In addition, folio numbers have been added by different hand in the upper right corner of every 10th and the last folio (pencil: 10, 20, …, 160, 170, 178). A clean autograph ink fair copy with very few changes. Bound in brown-grey marbled paper with an autograph label: “Vermacht seinem Freund dem k:k: Hofzahlmeiſter, H. Michael v. Barten | schlag, und nach deſſen Tode der k:k: Hofbibliothek Joseph edler von Eybler [manu propria] | [left:] Wien, 1831 [right:] k:k: Hofkapellmeiſter | Die 4 lezten Dinge | Ein Oratorium | in | 3 Abtheilungen. | 810.”. Between the front fly leaf and fol. 1, a hand-written autograph libretto has been inserted: 12 fol., 27.5 x 22.5 cm; brown ink; numbered by different hand in pencil in each upper outer corner with uppercase roman numerals: I, I′, … XII, XII′."
+imslp:
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  cor12: Corno I, II in \flat E
+  ottoni: Clarino I, II in C\\Clarino I, II in \flat B\\Timpani in C–G
+  vla: Viole
+  b: Violoncello \& Bassi
