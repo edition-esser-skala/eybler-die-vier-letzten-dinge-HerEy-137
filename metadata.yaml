@@ -16,7 +16,52 @@ sources:
     url: https://data.onb.ac.at/rec/AC14266149
     license: public domain
     principal: true
-    notes: "178 fol., 51 × 33.5 cm. Hand-ruled paper, 24 staves per page (8 mm) in dark brown ink and music in same ink. 89 bifolios, numbered in Eybler's hand in the upper right corner of each first page (brown ink: 1–89). In addition, folio numbers have been added by different hand in the upper right corner of every 10th and the last folio (pencil: 10, 20, …, 160, 170, 178). A clean autograph ink fair copy with very few changes. Bound in brown-grey marbled paper with an autograph label: “Vermacht seinem Freund dem k:k: Hofzahlmeiſter, H. Michael v. Barten | schlag, und nach deſſen Tode der k:k: Hofbibliothek Joseph edler von Eybler [manu propria] | [left:] Wien, 1831 [right:] k:k: Hofkapellmeiſter | Die 4 lezten Dinge | Ein Oratorium | in | 3 Abtheilungen. | 810.”. Between the front fly leaf and fol. 1, a hand-written autograph libretto has been inserted: 12 fol., 27.5 x 22.5 cm; brown ink; numbered by different hand in pencil in each upper outer corner with uppercase roman numerals: I, I′, … XII, XII′."
+  A2:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.9889
+    date: 1810
+    rism: 600110939
+    url: https://data.onb.ac.at/rec/AC14266151
+    license: public domain
+  B1:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.9887
+    date: 1810
+    rism: 600143009
+    url: https://data.onb.ac.at/rec/AC14319262
+    license: public domain
+  B2:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.9886/1-3
+    date: 1810
+    rism: 600110938
+    url: https://data.onb.ac.at/rec/AC14266150
+    license: public domain
+  B3:
+    siglum: A-Wn
+    shelfmark: Mus.Hs.9888
+    date: 1810
+    rism: 600142988
+    url: https://data.onb.ac.at/rec/AC14319263
+    license: public domain
+  C1:
+    siglum: A-Wn
+    shelfmark: 641435-B.3,4
+    date: 1810
+    url: https://data.onb.ac.at/rec/AC10329574
+    license: public domain
+    notes: further items available under shelfmarks 206788-B, 221159-B, 212176-B, 381391-B, and A-Wst A-14980
+  C2:
+    siglum: A-Wst
+    shelfmark: A-106121
+    date: 1810
+    url: https://permalink.obvsg.at/wbr/LQD0321147
+    license: public domain
+  D1:
+    siglum: A-Wgm
+    shelfmark: V 24399 (Q 2249)
+    date: ca. 1810
+    license: public domain
 imslp:
 parts:
   cl1: Clarinetto I in \flat B
@@ -25,3 +70,5 @@ parts:
   ottoni: Clarino I, II in C\\Clarino I, II in \flat B\\Timpani in C–G
   vla: Viole
   b: Violoncello \& Bassi
+extra_abbreviations:
+  contra-fag: contra bassoon
