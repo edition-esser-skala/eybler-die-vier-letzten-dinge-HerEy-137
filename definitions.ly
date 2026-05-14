@@ -5,8 +5,45 @@
 \include "ees.ly"
 \include "ees_articulate.ly"
 
+\layout {
+  \context {
+    \Score
+    scriptDefinitions =
+    #(acons
+      'ten
+      `((stencil . ,(lambda (grob)
+                      (grob-interpret-markup
+                        grob
+                        (markup #:override '(font-encoding . latin1)
+                                #:small #:center-align
+                                "ten."))))
+        (direction . ,UP)
+        (padding . 0.50))
+        (acons
+          'tenE
+          `((stencil . ,(lambda (grob)
+                          (grob-interpret-markup
+                            grob
+                            (markup #:override '(font-encoding . latin1)
+                                    #:small #:italic #:center-align
+                                    "ten."))))
+            (direction . ,UP)
+            (padding . 0.50))
+          default-script-alist))
+  }
+}
+ten = #(make-articulation 'ten)
+tenE = #(make-articulation 'tenE)
+pco = \once \partCombineChords
+mvD = #(define-music-function
+  (parser location offset)
+  (number?)
+  #{
+    \once \override DynamicText.X-offset = #offset
+  #})
 
 tempoOvertura = \tempoMarkup "Grave"
+  tempoOverturaB = \tempoMarkup "Allegro assai"
 
 
 \include "notes/fl1.ly"
