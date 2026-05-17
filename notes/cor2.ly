@@ -109,3 +109,107 @@ OverturaCornoII = {
     % \time 3/4 \tempoOverturaB
   }
 }
+
+GroßIstCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoGroßIst
+    e4..\f e16 e4 e
+    e4.. e16 e4 e
+    c2 r
+    e e4 e \noBreak
+    e1\fermata \bar "||" %5
+    \tempoGroßIstB R1*22 %27
+    r2 r4 g
+    e2 r
+    r4 e2 e4 %30
+    e r r c'
+    d2 r
+    g, g4 g
+    c,2 r
+    R1*2 %36
+    g'2. g4
+    c2 r
+    R1*6 %44
+    g2\f g4 g %45
+    c,2 r
+    R1*6 %52
+    r2 e4. e8
+    e2 r
+    R1*2 %56
+    r2 c4. c8
+    c2 r
+    R1*2 %60
+    c'2. c4
+    c2 r
+    R1*5 %67
+    c2 r
+    b r
+    R1 %70
+    b2 r
+    c, r
+    R1
+    c2 r
+    R1*10 %84
+    c'2 r %85
+    R1*2
+    c,1~
+    c4 r r2
+    R1 %90
+    c2 c4 c
+    c2 r
+    R1*10 %102
+    c'2 c4 c
+    f2 r
+    R1*2 %106
+    e,1
+    R
+    c~
+    c4 r r2 %110
+    e1
+    e4 r r c'
+    d e,\f e e
+    e2 r
+    R1*9 %123
+    r4 e\ff e e
+    e r r2 %125
+    b'1\ff\fermata \markCritnote
+    R1*5 %131
+    b1~\fz
+    b
+    R1*2 %135
+    c,1\fz
+    c2. c4
+    e r r2
+    r4 e e e
+    e2 r %140
+    r4 e e e
+    e2 r
+    c1\fz
+    c\fz
+    e\fz %145
+    e2 e
+    e1\fermata
+    R1*9 %156
+    r4 d' d d
+    d2 r
+    r4 c, c c
+    c2 r %160
+    R1
+    r4 e e e
+    e2 r
+    r c'
+    b c %165
+    b4 c \hA b g
+    c,2 r
+    R1*5 %172
+    e1\ff
+    R1*4 %177
+    e2\fz r
+    r4 g\ff c, c
+    c2 r %180
+    b'1\fermata
+    R1*12 %193
+    R1\fermata \bar "|." %194 finis
+  }
+}

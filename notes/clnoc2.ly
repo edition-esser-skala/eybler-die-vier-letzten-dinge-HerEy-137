@@ -100,3 +100,106 @@ OverturaClarinoCII = {
     R2.\fermata \bar "||" %188 finis
   }
 }
+
+GroßIstClarinoCII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoGroßIst
+    c4..\f c16 c4 c
+    g'4.. g16 g4 g
+    c,4.. c16 c4 c
+    g2 g4 g \noBreak
+    g1\fermata \bar "||" %5
+    \tempoGroßIstB R1*10 %15
+    g'2 g4 g
+    c,2 r
+    R1*3 %20
+    c2 c4 c
+    g2 r
+    R1*3 %25
+    g2 g4 g
+    g2 r
+    R1*2
+    r4 g2 g4 %30
+    g r r2
+    R1*9 %40
+    c2 c4 c
+    g2 r
+    R1*6 %48
+    g2 r
+    R1*4 %53
+    r2 c4. c8
+    c2 r %55
+    R1*10 %65
+    c2 c4 c
+    c2 r
+    R1*2
+    c2 r %70
+    R1
+    g'2 r
+    R1*3 %75
+    g2 g4 g
+    c2 r
+    R1
+    R1*4 %82
+    c,2 r
+    R1*14 %97
+    c2 r
+    R1*3 %101
+    g2 g4 g
+    c r r2
+    R1*3 %106
+    e1
+    c4 r r2
+    g1
+    c4 r r2 %110
+    g'1
+    g4 g\f c r
+    r c,\f g' g
+    g2 r
+    R1*7 %121
+    r2 e4.\fz e8
+    c2 r
+    r4 g\ff g g
+    c2 r %125
+    R1\fermata \markCritnote
+    R1*5 %131
+    g1~\fz
+    g2 g4. g8
+    c1~\fz
+    c2 c4. c8 %135
+    c1\fz
+    c2. c4
+    g' r r2
+    R1*4 %142
+    c,1\fz
+    c\fz
+    g\fz %145
+    g2 g
+    g1\fermata
+    R1*8 %155
+    r4 c c c
+    c2 r
+    R1*2
+    r4 c c c %160
+    c2 r
+    R1
+    r4 g c c
+    c1
+    r2 c' %165
+    b4 r r2
+    g, r
+    R1*5 %182
+    c4.\ff c16 c c4 c
+    c r r2
+    R1 %185
+    c\ff
+    g4 r r2
+    r c\fz
+    R1
+    c2 r %180
+    R1\fermata
+    R1*12 %193
+    R1\fermata \bar "|." %194 finis
+  }
+}

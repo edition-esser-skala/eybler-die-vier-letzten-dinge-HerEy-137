@@ -164,3 +164,152 @@ OverturaFlautoI = {
     R2.\fermata \bar "||" %188 finis
   }
 }
+
+GroßIstFlautoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 2/2 \tempoGroßIst
+    \pa c'4..\f c16 c4 c
+    g'4.. g16 g4 g \pd
+    \ottava #1 es'4.. es16 d4 c
+    g'2 g4 g \noBreak
+    g1\fermata \ottava #0 \bar "||" %5
+    \tempoGroßIstB R1*20 %25
+    \ottava #1 g2 g4 g
+    c,2 r4 f
+    d2 r4 es
+    c2 r4 d
+    h2. h4 %30
+    c d es2~
+    es4 d8 es f4 es
+    d2. d4
+    es g es c
+    as f' d b %35
+    g es' c as
+    f g8 as b4 as
+    g b c2
+    r4 c d2
+    r4 d es2~ %40
+    es4 f8 es d4 c
+    h g g' f
+    es d c b
+    a2. a4
+    b2. as4 %45
+    g2 r4 g
+    as b c2~
+    c4 b8 c d4 c
+    b2 \ottava #0 r
+    R1*2 %51
+    r4 \ottava #1 d d2~
+    d4 e8 fis g4 f
+    es d c2~
+    c4 d8 e f4 es %55
+    d c b2~
+    b4 c8 d es4 des
+    c es f2
+    r4 des es2
+    r4 c des b %60
+    es des c b
+    as es f as
+    b f g b
+    c g as c~
+    c b8 as g4 f %65
+    e f g f8 g
+    as4 c des2
+    r4 b c2
+    r4 as b des~
+    des c8 b as4 g %70
+    f c' des f~
+    f es8 des c4 b
+    as2 \ottava #0 r
+    R1*2 %75
+    \ottava #1 g'2 g4 g
+    c,2 r
+    f f4 f
+    b,2 r4 es
+    c2 r4 d %80
+    b2 r4 c
+    as!2. b8 as
+    g4 g c2
+    r4 f, d'2
+    r4 es, es' es %85
+    es d8 es f4 es
+    d des des des
+    des c8 \hA des es4 \hA des
+    c c2 c4~
+    c des8 c b4 as %90
+    g2. g4
+    as2 \ottava #0 r
+    R1
+    r4 \ottava #1 es' f2
+    r4 des es2 %95
+    r4 c des c
+    b as g f
+    e2 r
+    c' c4 c
+    f,2 r %100
+    des' des4 des
+    g,2 r
+    es' es4 es
+    as,2 r4 des
+    b2 r4 c %105
+    as2 r4 b
+    g2. g4
+    as as g f
+    b2. b4
+    c \pa c b as \pd %110
+    d!2. d4
+    es \pa g\f f es
+    d \pd c h c
+    d2 \ottava #0 r
+    R1*6 %120
+    r4 \ottava #1 d\f d d
+    es,2 e'4.\fz e8
+    f2 fis4.\fz fis8
+    g4 h,\ff c d
+    es e f g %125
+    as1\fermata \ottava #0 \markCritnote
+    R1*5 %131
+    \ottava #1 e1~\fz
+    e2 e4. e8
+    f1~\fz
+    f2 f4. f8 %135
+    fis1\sfz
+    fis2. fis4
+    g g es c
+    g2 r
+    r4 g' es c %140
+    g2 r
+    r g\ff
+    es'1-!\fz
+    c-!\fz
+    g'\fz %145
+    g2 g
+    g1\fermata \ottava #0
+    R1*8 %155
+    r4 \ottava #1 es f g
+    as1~
+    as4 d, es f
+    g1~
+    g4 es-\critnote c es %160
+    f1~
+    f4 h, c d
+    es e f g
+    as2 ges
+    f es %165
+    des4 c b \pao as
+    es'2 \ottava #0 r
+    R1*5 %172
+    b1\ff
+    as!4 r r2
+    R1 %175
+    c1\ff
+    b4 r h2\fz
+    c\fz a\fz
+    b!4 \pa g\ff as b
+    c as \pd des es %180
+    f1\fermata
+    R1*12 %193
+    R1\fermata \bar "|." %194 finis
+  }
+}

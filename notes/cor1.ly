@@ -111,3 +111,107 @@ OverturaCornoI = {
     R2.\fermata \bar "||" %188 finis
   }
 }
+
+GroßIstCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 2/2 \tempoGroßIst
+    c'4..\f c16 c4 c
+    e4.. e16 e4 e
+    c2 r
+    e e4 e \noBreak
+    e1\fermata \bar "||" %5
+    \tempoGroßIstB R1*22 %27
+    r2 r4 e
+    c2 r
+    r4 e2 d4 %30
+    c \pa d e2
+    d \pd r
+    d d4 d
+    c2 r
+    R1*2 %36
+    d2. d4
+    e2 r
+    R1*6 %44
+    \pa g,2\f g4 g %45
+    c,2 \pd r
+    R1*6 %52
+    r2 e'4. e8
+    e2 r
+    R1*2 %56
+    r2 c4. c8
+    c2 r
+    R1*2 %60
+    \pa c2. c4
+    c2 \pd r
+    R1*5 %67
+    \pao c2 r
+    \pao b r
+    R1 %70
+    \pao b2 r
+    \pao c, r
+    R1
+    c'2 r
+    R1*10 %84
+    \pao c2 r %85
+    R1*2
+    c1~
+    c4 r r2
+    R1 %90
+    c2 c4 c
+    c2 r
+    R1*10 %102
+    \pa c2 c4 c
+    f2 \pd r
+    R1*2 %106
+    g,1
+    R
+    b
+    c4 r r2 %110
+    d1
+    c4 r r \pa c
+    d \pd e\f d c
+    e2 r
+    R1*9 %123
+    r4 e\ff e d
+    c r r2 %125
+    \pao b1\ff\fermata \markCritnote
+    R1*5 %131
+    \pa b1~\fz
+    b \pd
+    R1*2 %135
+    c1\fz
+    c2. c4
+    e r r2
+    r4 e e e
+    e2 r %140
+    r4 e e e
+    e2 r
+    c1\fz
+    c\fz
+    e\fz %145
+    e2 e
+    e1\fermata
+    R1*9 %156
+    r4 \pa d d d
+    d2 \pd r
+    r4 c c c
+    c2 r %160
+    R1
+    r4 e e e
+    e2 r
+    r \pa c
+    b c %165
+    d4 c \pd d d
+    c2 r
+    R1*5 %172
+    e1\ff
+    R1*4 %177
+    e2\fz r
+    r4 \pao g,\ff c c
+    c2 r %180
+    \pao b1\fermata
+    R1*12 %193
+    R1\fermata \bar "|." %194 finis
+  }
+}

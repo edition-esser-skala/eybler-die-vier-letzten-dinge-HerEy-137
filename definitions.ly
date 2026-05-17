@@ -44,6 +44,8 @@ mvD = #(define-music-function
 
 tempoOvertura = \tempoMarkup "Grave"
   tempoOverturaB = \tempoMarkup "Allegro assai"
+tempoGroßIst = \tempoMarkup "Adagio maestoso"
+  tempoGroßIstB = \tempoMarkup "Allegro"
 
 
 \include "notes/fl1.ly"

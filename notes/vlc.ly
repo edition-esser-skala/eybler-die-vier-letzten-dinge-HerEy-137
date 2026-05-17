@@ -193,3 +193,199 @@ OverturaCello = {
     R2.\fermata \bar "||" %188 finis
   }
 }
+
+GroßIstCello = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 2/2 \tempoGroßIst
+    c4~\f c16 \once \slurDashed d32( es f g a h) c8..[ c,32 c8.. c32]
+    b!4~ b16 c32( d e fis g a) b8..[ b,32 b8.. b32]
+    as!4~ as16 \once \slurDashed b32( c d es f g) as8..[ as,32 as8.. as32]
+    g4 r g'~ g16 fis32( e d c h a) \noBreak
+    g1\fermata \bar "||" %5
+    \tempoGroßIstB R1 \noBreak
+    \clef "treble_8" r4 es''8.\f d16 c8. b16 as8. g16
+    f4 d'8. c16 b8. as16 g8. f16
+    es4 c'8. b16 as8. g16 f8. es16
+    d4 es8 f g8. as16 f8. g16 %10
+    es4 c' es fis,
+    \clef bass g b8. a16 g8. f16 es8. d16
+    c4 a'8. g16 f8. es16 d8. c16
+    b4 g'8. f16 es8. d16 c8. b16
+    a4 b8 c d8. es16 c8. d16 %15
+    b4 g g' f
+    es2 \clef "treble_8" r4 f'
+    d2 r4 es
+    c2 r4 d
+    h2. h4 %20
+    \clef bass c2 c4 c
+    g d' es2
+    r4 c d2
+    r4 b c es~
+    es d8 c b4 a %25
+    g f! es d
+    es \clef "treble_8" es'8. d16 c8. b16 as8. g16
+    f4 d'8. c16 b8. as16 g8. f16
+    es4 c'8. b16 as8. g16 f8. es16
+    d4 es8 f g8. as16 f8. g16 %30
+    es8. f16 d8. es16 c4 r
+    r c'2 d8 es
+    f4 f8. es16 d8. es16 f8. d16
+    b4 \clef bass es, c'2
+    r4 d, b'2 %35
+    r4 c, as' f
+    b as g f
+    es \clef "treble_8" es'8. d16 c8. b16 as8. g16
+    f4 f'8. es16 d8. c16 b8. as16
+    g4 g'8. f16 es8. d16 c8. b16 %40
+    as2. as4
+    g2. a8 h
+    c4 d es2~
+    es4 d8. es16 f8. g16 es8. f16
+    d4 b c d %45
+    es des c b
+    as g f es
+    <d! d'!>2 d'4 d
+    g, d' es2
+    r4 c d2 %50
+    r4 b c es~
+    es d8 c b4 a
+    \clef bass g2. a8 h
+    c8. d16 b8. c16 a8. b16 g8. \hA a16
+    f2. g8 a %55
+    b8. c16 as8. b16 g8. as16 f8. g16
+    es2. f8 g
+    as2 \clef "treble_8" r4 des
+    b2 r4 c
+    as2 r4 b %60
+    g2. g4
+    as \clef bass as8. ges16 f8. es16 des8. c16
+    b4 b'8. as16 g!8. f16 es8. des16
+    c4 c'8. b16 as8. g16 f8. es16
+    des2. des4 %65
+    c d e d8 \hA e
+    f4 \clef "treble_8" as'8. g16 f8. es!16 des8. c16
+    b4 g'8. f16 es8. des16 c8. b16
+    as4 f'8. es16 des8. c16 b8. as16
+    g4 as8 b c4 b %70
+    as a b2~
+    b4 c8 des es4 \hA des
+    c b \clef bass as2~
+    as4 g b2~
+    b4 a c2~ %75
+    c4 h8 a g4 f
+    es d c b!
+    as!1\trill
+    g4 \clef "treble_8" g''8. f16 es8. d16 c8. b16
+    as4 f'8. es16 d8. c16 b8. as16 %80
+    g4 es'8. d16 c8. b16 as8. g16
+    \clef bass f8. f16 g8. as16 b4 b,
+    c8. es16 es8.\trill d32 es as4 c,
+    d8. f16 f8.\trill es32 f b4 d,
+    es8. g16 g8.\trill f32 g c4 es, %85
+    f f,2 f'4~
+    f b8. as!16 g8. \hA as16 f8. g16
+    es4 es,2 es'4~
+    es as8. g16 f8. g16 es8. f16
+    des4 des,2 \hA des'4~ %90
+    des es8. des16 c8. \hA des16 b8. c16
+    as2 r8. as'16 as8.\trill g32 as
+    b4 des, es8. g16 g8.\trill f32 g
+    as4 c, des8. f16 f8.\trill es32 f
+    g4 b, c8. es16 es8.\trill des?32 es %95
+    f4 as, b8. c16 c8.\trill b32 c
+    des4 des,2 \hA des'4
+    c2 r
+    \clef "treble_8" as' as4 as
+    des,2 r %100
+    b' b4 b
+    \clef bass g2 g4 g
+    c,2 r
+    r8. f16 f8.\trill es32 f des'4 des,
+    r8. es16 es8.\trill des?32 es c'4 c, %105
+    r8. des16 des8.\trill c32 \hA des b'4 b,~
+    b c8 des c4 b
+    as f' g as
+    es!2. es,4
+    as as' b c %110
+    g2. g,4
+    c b'!\f as! g
+    f es d c
+    g \clef "treble_8" g''\p g g
+    g g g g %115
+    g g g g
+    g g fis fis
+    g \clef bass g,\f g g
+    as,! f8 g as b c d
+    es4 c' g es %120
+    d h' f d
+    c2:16\fz b!:\fz
+    a:\fz c:\fz
+    h4 g'8.-!\ff g16-! es8.-! es16-! d8.-! d16-!
+    c8.-! c16-! c'8.-! c16-! as8.-! as16-! g8.-! g16-! %125
+    f1\fermata \markCritnote
+    r2 f,\p
+    g r
+    g r
+    c r %130
+    R1
+    c2:16\fz c:
+    c: c:
+    c:\sfp c:
+    c: c: %135
+    c:\sf c:
+    c: c:
+    g4 r r2
+    r4 g'\fE es c
+    g2 r %140
+    r4 g' es c
+    g2 g'-!\ff
+    c,1-!\fz
+    as'-!\fz
+    g2\fz r %145
+    g~\fz g8 fis16( e d_[ c h a])
+    g1\fermata
+    \clef "treble_8" r2 es''
+    \clef bass c2 c4 c
+    f,2 f' %150
+    d h4 f
+    es2 r8. c'16 c8.\trill b32 c
+    as4 as, r8. b'16 b8.\trill as32 b
+    g4 g, r8. as'16 as8.\trill g32 as
+    f4 f, r8. g'16 g8.\trill f32 g %155
+    es4 c d es
+    f1~
+    f4 b, c d
+    es1~
+    es4 c f es %160
+    d1~
+    d4 g, a h
+    c b! as! g
+    f2 as
+    des f %165
+    b,4 c des d
+    es \clef "treble_8" es'\p es es
+    es es es es
+    es es es es
+    es es d! d %170
+    es \clef bass es,\f g b
+    des, des' b g
+    c,2:\ff c:
+    f,4 f' as c
+    es,! es' c a %175
+    d,!2:\ff d:
+    g: f:\fz
+    e:\fz es:\fz
+    d4 des8.\ff-! des16-! c8.-! c16-! b8.-! b16-!
+    as8.-! as16-! ges'8.-! ges16-! f8.-! f16-! es8.-! es16-! %180
+    des1\fermata
+    R1*6 %187
+    c1~\pp
+    c~
+    c~ %190
+    c~
+    c~\perd
+    c~
+    c\!\fermata \bar "|." %194 finis
+  }
+}

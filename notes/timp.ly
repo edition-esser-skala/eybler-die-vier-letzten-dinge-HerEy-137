@@ -83,3 +83,88 @@ OverturaTimpani = {
     g8-!\stopTrillSpan r r4 r\fermata \bar "||" %188 finis
   }
 }
+
+GroßIstTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 2/2 \tempoGroßIst
+    c2.\f\trill r4
+    g2.\trill r4
+    c2.\trill r4
+    g2\trill g4 g \noBreak
+    g1\trill\fermata \bar "||" %5
+    \tempoGroßIstB R1*15 %20
+    c2 c4 c
+    g2 r
+    R1*3 %25
+    g2 g4 g
+    c2 r
+    R1*2
+    r4 g8 g g4 g %30
+    c r r2
+    R1*10 %41
+    g2 g4 g
+    c2 r
+    R1*5 %48
+    g2 r
+    R1*16 %65
+    c2 r
+    R1*3
+    c2 r %70
+    R1*5 %75
+    g2 g4 g
+    c2 r
+    R1*5 %82
+    c2 r
+    R1*4 %87
+    g1\trill
+    c4 r r2
+    R1*8 %97
+    c2 r
+    R1*3 %101
+    g2 g4 g
+    c2 r
+    R1*7 %110
+    g1\trill
+    c4 r r2
+    r4 g\f g g
+    g2 r
+    R1*7 %121
+    r2 c~\fz\startTrillSpan
+    c4\stopTrillSpan r c2\fz\trill
+    g4 g\ff g g
+    c2 r %125
+    R1\fermata \markCritnote
+    R1*3
+    c1~\p\startTrillSpan %130
+    c~\cresc
+    c~\sfp
+    c~
+    c~\sfp
+    c~ %135
+    c~\cresc
+    c\f
+    g4\stopTrillSpan r r2
+    R1*4 %142
+    c2.\fz \tuplet 3/2 { c8 c c }
+    c2.\fz \tuplet 3/2 { c8 c c }
+    g2.\fz \tuplet 3/2 { g8 g g } %145
+    g2 g
+    g1\trill\fermata
+    R1*15 %162
+    r4 g c c
+    c2 r
+    R1*8 %172
+    c1~\ff\startTrillSpan
+    c4\stopTrillSpan r r2
+    R1 %175
+    c1\ff\startTrillSpan
+    g4\stopTrillSpan r r2
+    c2~\fz\startTrillSpan c4\stopTrillSpan r
+    R1
+    c2 r %180
+    R1\fermata
+    R1*12 %193
+    R1\fermata \bar "|." %194 finis
+  }
+}

@@ -194,3 +194,195 @@ OverturaViolinoI = {
     R\fermata \bar "||" %188 finis
   }
 }
+
+GroßIstViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 2/2 \tempoGroßIst
+    c4~\f c16 d32( es f g a h) c8..[ es32 es8.. es32]
+    d,4~ d16 e32( fis g a b c) d8..[ g32 g8.. g32]
+    c,4~ c16 d32( es f g as! b!) c8..[ fis,32 fis8.. fis32]
+    g4~ g16 fis32( e d c h a) g4 g \noBreak
+    g1\fermata \bar "||" %5
+    \tempoGroßIstB g'2\f g4 g \noBreak
+    c,2 r4 f
+    d2 r4 es
+    c2 r4 d
+    h2. h4 %10
+    c es8. d16 c8. b16 a8. c16
+    b4 d es2
+    r4 c d2
+    r4 b c es~
+    es d8 c b4 a %15
+    g g a h
+    c es8. d16 c8. b16 as8. g16
+    f4 d'8. c16 b8. as16 g8. f16
+    es4 c'8. b16 as8. g16 f8. es16
+    d4 es8. f16 g8. as16 f8. g16 %20
+    es4 c'8. d16 es8. c16 a8. fis16
+    g2 r
+    R1*3 %25
+    g'2 g4 g
+    c,2 r4 f
+    d2 r4 es
+    c2 r4 d
+    h2. h4 %30
+    c d es2~
+    es4 d8 es f4 es
+    d2. d4
+    es g8. f16 es8. d16 c8. b16
+    as4 f'8. es16 d8. c16 b8. as16 %35
+    g4 es'8. d16 c8. b16 as8. g16
+    f4 g8 as b8. c16 as8. b16
+    g8. b16 b8.\trill as32 b c2
+    r8. c16 c8.\trill b32 c d2
+    r8. d16 d8.\trill c32 d es2~ %40
+    es4 f8 es d8. es16 c8. d16
+    h8. g16 \hA h8. d16 g8. as16 f8. g16
+    es8. f16 d8. es16 c8. d16 b8. c16
+    a2. a4
+    b8. d16 f8. es16 d8. c16 b8. as16 %45
+    g2 r4 g
+    as b c2~
+    c8. a16 b8. c16 d8. es16 c8. d16
+    b2 r
+    R1*2 %51
+    r4 d d2~
+    d4 e8 fis g8. as!16 f8. g16
+    es8. f16 d8. es16 c2~
+    c4 d8 e f8. g16 es8. f16 %55
+    d8. es16 c8. d16 b2~
+    b4 c8 d es8. f16 des8. es16
+    c8. es16 es8.\trill des32 es f2
+    r8. des16 des8.\trill c32 \hA des es2
+    r8. c16 c8.\trill b32 c des8. b16 b8.\trill as32 b %60
+    es8. f16 des8. es16 c8. \hA des16 b8. c16
+    as8. es16 es8.\trill des?32 es f8. ges16 as8. f16
+    b8. f16 f8.\trill es32 f g8. as16 b8. g16
+    c8. g16 g8.\trill f32 g as8. b16 c4~
+    c8. c16 b8. as16 g8. as16 f8. g16 %65
+    e8. f16 f8.\trill \hA e32 f g8. \hA e16 f8. g16
+    as8. c16 c8.\trill b32 c des2
+    r8. b16 b8.\trill as32 b c2
+    r8. as16 as8.\trill g32 as b4 des~
+    des8. des16 c8. b16 as8. b16 g8. as16 %70
+    f8. c'16 c8.\trill b32 c des4 f~
+    f8. f16 es8. des16 c8. \hA des16 b8. c16
+    as2 r
+    R1*2 %75
+    g'2 g4 g
+    c,2 r
+    f f4 f
+    b,2 r8. es16 es8.\trill d32 es
+    c2 r8. d16 d8.\trill c32 d %80
+    b2 r8. c16 c8.\trill b32 c
+    as!2~ as8. as16 b8. as16
+    g8. g16 g8.\trill f32 g c2
+    r8. as16 as8.\trill g32 as d2
+    r8. es,16 es8.\trill d32 es es'4 es~ %85
+    es8. es16 d8. es16 f8. g16 es8. f16
+    d4 des2 des4~
+    des8. des16 c8. \hA des16 es8. f16 \hA des8. es16
+    c4 c2 c4~
+    c8. c16 des8. c16 b8. c16 as8. b16 %90
+    g2. g4
+    as2 r
+    R1
+    r8. es'16 es8.\trill des?32 es f4 f,
+    r8. des'16 des8.\trill c32 \hA des es4 es, %95
+    r8. c'16 c8.\trill b32 c des8. es16 c8. \hA des16
+    b8. c16 as8. b16 g8. as16 f8. g16
+    e2 r
+    c' c4 c
+    f,2 r %100
+    des' des4 des
+    g,2 r
+    es' es4 es
+    as,2 r8. des16 des8.\trill c32 \hA des
+    b4 b' r8. c,16 c8.\trill  b32 c %105
+    as4 as' r8. b,16 b8.\trill as32 b
+    g4 g' r8. e,16 e8.\trill d32 \hA e
+    f4 as r8. f16 f8.\trill e32 f
+    g4 b r8. g16 g8.\trill f32 g
+    as4 c r8. as16 as8.\trill g32 as %110
+    f'4 h, r8. d!16 d8.\trill c32 d
+    es4 g8.\f as16 f8. g16 es8. f16
+    d8. es16 c8. d16 h8. g16 c8. g16
+    d'4 d\p d d
+    d d d d %115
+    es es es es
+    f f es es
+    d r r2
+    R1
+    r4 es\f es es %120
+    f, d8 es f g a h
+    c4. g32( f es d) c4. \tuplet 3/2 8 { c'16( d e) }
+    f4. a,32( g f e) d4. \tuplet 3/2 8 { d'16( e fis) }
+    g8. g,32(\ff a h8_[) \tuplet 3/2 8 { g16( \hA a \hA h] } c8.) h32( c d8.) c32( d
+    es8.) c32( d e8) \tuplet 3/2 8 { c16( d \hA e } f8.) e32( f g8.) f32( g) %125
+    as1\fermata \markCritnote
+    r2 f,\p
+    es r
+    d! r
+    c r %130
+    R1
+    e'2:16\fz e:
+    e: e:
+    f:\sfp f:
+    f: f: %135
+    fis:\sf fis:
+    fis: fis:
+    g4\f g es c
+    g2 r
+    r4 g' es c %140
+    g2 r
+    r g-!\ff
+    es'1-!\fz
+    c-!\fz
+    \grace { d,16[ h'] } g'2~\fz g8 fis16( e d[ c h a]) %145
+    g2 g
+    g1\fermata
+    g'2 g4 g
+    c,2 r
+    as' f4 d %150
+    h2 r
+    r8. g'16 g8.\trill f32 g es4 es,
+    r8. f'16 f8.\trill es32 f d4 d,
+    r8. es'16 es8.\trill d32 es c4 c,
+    r8. d'16 d8.\trill c32 d h4 g %155
+    r8. es'16 es8.\trill d32 es f4 g
+    r8. c,16 c8.\trill h32 c f4 es
+    r8. d16 d8.\trill c32 d es4 f
+    r8. b,!16 b8.\trill a32 b es4 d
+    r8. c16 c8.\trill h32 c as'4 g %160
+    r8. f16 f8.\trill e32 f as4 c,
+    r8. h16 h8.\trill a32 \hA h g'4 f
+    es8. g16 g8.\trill f32 g c4 b!
+    r8. as16 as8.\trill g32 as ges4 ges,
+    r8. f'16 f8.\trill es32 f es8. c16 c8.\trill b32 c %165
+    des8. es16 c8. \hA des16 b8. c16 as8. b16
+    g4 b\p b b
+    b b b b
+    ces ces ces ces
+    des des ces ces %170
+    b2 r
+    R1
+    e,2:\ff e:
+    f4 r r2
+    R1 %175
+    fis2:\ff fis:
+    g4 r8 d'32( es f! g as!4) r8 \tuplet 3/2 8 { f,16( es d) }
+    c4 r8 c'32( d es! f ges4) r8 \tuplet 3/2 8 { es,16( des c) }
+    b4 b'8.-!\ff b16-! es8.-! es16-! des8.-! des16-!
+    c8.-! c16-! es8.-! es16-! as8.-! as16-! ges8.-! ges16-! %180
+    f1\fermata
+    R1*6 %187
+    c,1~\pp
+    c~
+    c~ %190
+    c~
+    c~\perd
+    c~
+    c\!\fermata \bar "|." %194 finis
+  }
+}

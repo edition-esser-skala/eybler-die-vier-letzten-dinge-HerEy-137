@@ -194,3 +194,210 @@ OverturaViola = {
     R\fermata \bar "||" %188 finis
   }
 }
+
+GroßIstViola = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 2/2 \tempoGroßIst
+    <c c,>4~\f c16 d32( es f g a h) c8..[ g32 g8.. g32]
+    b,!4~ b16 c32( d e fis g a) b8..[ g32 g8.. g32]
+    as,!4~ as16 b32( c d es f g) as8..[ es32 d8.. c32]
+    h4 r <g g'>~ g'16 fis32( e d c h a) \noBreak
+    g1\fermata \bar "||" %5
+    \tempoGroßIstB R1*6 %11
+    r4 d'8.\f c16 b8. a16 g8. f16
+    es4 c'8. b16 a8. g16 f8. es16
+    d4 b'8. a16 g8. f16 es8. d16
+    c4 d8 es d4 d'~ %15
+    d d8. f16 c8. es16 h8. d16
+    g4 c, f as!
+    r b,! es g
+    r as,! d f~
+    f es8 d g4 g %20
+    c, es2 c8. a16
+    b!4 g c es
+    r f, b d
+    r es, a c~
+    c b8 a d4 d~ %25
+    d g, a h
+    c g'8. f16 es8. d16 c8. b16
+    as!4 f'8. es16 d8. c16 b8. as16
+    g4 es'8. d16 c8. b16 as8. g16
+    f4 es8 d g4 g~ %30
+    g8. as16 f8. g16 es8. f16 d8. es16
+    c8. es'16 f8. g16 as8. f16 g8. es16
+    b4 r r2
+    r r4 c
+    f as r b, %35
+    es g r c,
+    f, b2 b4
+    b8. g'16 g8.\trill  f32 g as2
+    r8. as16 as8.\trill g32 as b2
+    r8. b16 b8.\trill as32 b c2 %40
+    r r4 c,
+    d d c h
+    c r r2
+    r4 f2 f4~
+    f b,! c d %45
+    es des c b
+    as g f es
+    d!2 r
+    r4 g c es
+    r f, b d %50
+    r es, a c~
+    c b8 a d4 d
+    d8. c16 b8. a16 g4 g'
+    g2. c4~
+    c8. d16 b8. c16 a4 f %55
+    f2. b4~
+    b8. c16 as!8. b16 g4 b
+    as as, des f
+    g g, c es
+    f f, b des %60
+    g, r r2
+    r4 c des2~
+    des4 d es2~
+    es4 e f as
+    f, g8 as b4 h %65
+    c b8 as g4 c8 b
+    as4 f b des
+    r es, as c
+    r des, g b
+    c, r r2 %70
+    r4 f' des b
+    g' r r2
+    r r4 f
+    b,2 r4 g'
+    c,2 r4 es %75
+    d g,8. a16 h8. h16 c8. d16
+    g,4 g'8. f16 es8. f16 d8. es16
+    c4 f8. es16 d8. b!16 c8. d16
+    es4 r r es
+    as c r d, %80
+    g b r c,
+    f as r2
+    r r4 es
+    as,2 r4 f'
+    b,2 r4 g' %85
+    c, b a b8 c
+    f,2 r4 f
+    b as! g as8 b
+    es,2 r
+    des' des4 des %90
+    g,2 r
+    r8. es'16 es8.\trill d32 es c4 c'
+    r8. des,16 des8.\trill c32 \hA des b4 b'
+    r8. c,16 c8.\trill b32 c as4 as'
+    r8. b,16 b8.\trill as32 b g4 g' %95
+    r as, g e
+    f g8 as b4 h
+    c2 r
+    as as4 as
+    des,2 r %100
+    b' b4 b
+    es,2 r
+    c' c4 c
+    f,2 r8. b16 b8.\trill as32 b
+    g4 g' r8. as,16 as8.\trill g32 as %105
+    f4 f' r8. g,16 g8.\trill f32 g
+    b4 e, r des'
+    c c e f
+    r g, es'! des
+    c es g as %110
+    r d,! h h'
+    c d,\f c b!
+    as! g g' g
+    g g\p g g
+    g g g g %115
+    g g g g
+    d' d c c
+    g r r2
+    r4 f\f f f
+    g, es8 f g a h c %120
+    d4 d h f
+    g2:16\fz g:\fz
+    c:\fz a:\fz
+    d4 d8.\ff-! d16-! c8.-! c16-! f8.-! f16-!
+    es8.-! es16-! g8.-! g16-! f8.-! f16-! b8.-! b16-! %125
+    as1\fermata \markCritnote
+    r2 as,\p
+    g r
+    g r
+    c, r %130
+    R1
+    << {
+      b''2: b:
+      b: b:
+    } \\ {
+      g:\fz g: %132
+      g: g:
+    } >>
+    as!:\sfp as:
+    as: as: %135
+    << {
+      c: c:
+      c: c:
+    } \\ {
+      a:\sf a: %136
+      a: a:
+    } >>
+    h4 r r2
+    r4 <h d, g,>\f <c es, g,> q
+    <h d, g,>2 r %140
+    r4 q <c es, g,> q
+    <h d, g,>2 h,-!\ff
+    c1-!\fz
+    c'-!\fz
+    h2-!\fz r %145
+    g~\fz g8 fis16( e d_[ c h a)]
+    g1\fermata
+    r2 es'
+    es4 es as,!2
+    r f' %150
+    d4 h g2
+    r r8. es'16 es8.\trill d32 es
+    c4 c' r8. d,16 d8.\trill c32 d
+    b4 b' r8. c,16 c8.\trill b32 c
+    as4 as' r8. d,16 d8.\trill c32 d %155
+    g,4 c r c~
+    c as2 f4~~
+    f b r b~
+    b g2 es4~
+    es g r c~ %160
+    c as2 f4
+    d g r g~
+    g g' as e
+    f c2 es4
+    f des c f~ %165
+    f es des f
+    b, es\p es es
+    es es es es
+    es es es es
+    b' b as as %170
+    es2 r
+    R1
+    g,2:\ff g:
+    f4 r r2
+    R1 %175
+    a2:\ff a:
+    b: << {
+      as'!:
+      g: ges:
+      f4
+    } \\ {
+      d2:\fz %177
+      e:\fz c:\fz
+      d4
+    } >> fes8.\ff-! fes16-! es8.-! es16-! es8.-! es16-!
+    es8.-! es16-! c'8.-! c16-! des8.-! des16-! as8.-! as16-! %180
+    as1\fermata
+    R1*6 %187
+    c,,1\pp
+    g'~
+    g %190
+    f~
+    f\perd
+    e2 d
+    e1\!\fermata \bar "|." %194 finis
+  }
+}

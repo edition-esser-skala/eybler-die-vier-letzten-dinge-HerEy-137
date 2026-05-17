@@ -147,3 +147,171 @@ OverturaTromboneIII = {
     R2.\fermata \bar "||" %188 finis
   }
 }
+
+GroßIstTromboneIII = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 2/2 \tempoGroßIst
+    c2\f r
+    b r
+    as'! as4 as
+    g2 g4 g \noBreak
+    g1\fermata \bar "||" %5
+    \tempoGroßIstB R1*6 %11
+    r4 b\f g es
+    c a' f d
+    b g' es c
+    a b8 c d4 c %15
+    b g g' f
+    es2 r
+    R1*3 %20
+    c'2 c4 c
+    g2 r4 c
+    a2 r4 b
+    g2 r4 a
+    fis2. fis4 %25
+    g f es d
+    es g as!2
+    r4 f g2
+    r4 es f as~
+    as g8 f es4 d %30
+    c2 r4 c'
+    as!2. as4~
+    as g8 as b4 as
+    g es c'2
+    r4 d, b'2 %35
+    r4 c, as' f
+    b as g f
+    es2 r
+    R1*3 %41
+    g2 g4 g
+    c,2 r
+    R1
+    b'2 b4 b4 %45
+    es,2 r
+    R1
+    d'2 d4 d
+    g,2 r4 c
+    a2 r4 b %50
+    g2 r4 a
+    fis2. fis4
+    g2. a8 h
+    c4 b a g
+    f2. g8 a %55
+    b4 as g f
+    es2. f8 g
+    as2 r
+    R1*3 %61
+    r4 as f des
+    b b' g es
+    c c' as f
+    des2. des4 %65
+    c d e d8 \hA e
+    f2 r4 b,
+    es!2 r4 as,
+    des2 r4 g,
+    c2. c4 %70
+    des2 r4 \hA des
+    es2. es4
+    f g as2~
+    as4 g b2~
+    b4 a c2~ %75
+    c4 h8 a g4 f
+    es d c b!
+    as!1
+    g2 r
+    R1*2 %81
+    r2 r4 b
+    c es as c,
+    d f b d,
+    es g c es, %85
+    f1~
+    f4 b8 as! g4 f
+    es1~
+    es4 as8 g f4 es
+    des1~ %90
+    des4 es8 des c4 b
+    as2 r4 as'
+    b des, es g
+    as c, des f
+    g b, c es %95
+    f as, b c
+    des2. des4
+    c2 r
+    R1*3 %101
+    g'2 g4 g
+    c,2 r
+    r4 f des2
+    r4 es c2 %105
+    r4 des b2~
+    b4 c8 des c4 b
+    as f' g as
+    es!2. es4
+    as, as' b c %110
+    g2. g4
+    c, b'!\f as! g
+    f es d c
+    g'2 r
+    R1*3 %117
+    r4 g\f g g
+    as,1\sfz
+    r4 c' g es %120
+    d h' f d
+    c2 b'4.\sfz b8
+    a2 c4.\sfz c8
+    h4 g\ff es d
+    c c' as g %125
+    f1\fermata \markCritnote
+    R1*5 %131
+    b1\fz
+    R
+    as\fz
+    R %135
+    c\fz
+    c2. c4
+    g r r2
+    r4 g g g
+    g2 r %140
+    r4 g g g
+    g2 r
+    c,1\fz
+    as'!\fz
+    g\fz %145
+    g2 g
+    g1\fermata
+    R
+    c2 c4 c
+    f,2 r %150
+    d' h4 f
+    es2 r4 c'
+    as!2 r4 b!
+    g2 r4 as
+    f2 r4 g %155
+    es c d es
+    f1~
+    f4 b, c d
+    es1~
+    es4 c f es %160
+    d1~
+    d4 g, a h
+    c b'! as! g
+    f2 as
+    des, f %165
+    b,4 c des d
+    es2 r
+    R1*3 %170
+    r4 es\f g b
+    des,1\fz
+    c\ff
+    f4 f as c
+    es,!1\fz %175
+    d!\ff
+    g4 r f2\fz
+    e\fz es\fz
+    d4 des\ff c b
+    as ges' f es %180
+    des1\fermata
+    R1*12 %193
+    R1\fermata \bar "|." %194 finis
+  }
+}
