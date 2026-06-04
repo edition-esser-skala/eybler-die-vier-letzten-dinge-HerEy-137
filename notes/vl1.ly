@@ -386,3 +386,39 @@ GroßIstViolinoI = {
     c\!\fermata \bar "|." %194 finis
   }
 }
+
+AmZieleViolinoI = {
+  \relative c' {
+    \clef treble
+    \key as \major \time 4/4 \tempoAmZiele
+    c1~\p
+    c
+    es2. r4
+    r <ges as,>2\fz\fermata r4
+    r2 \tempoAmZieleB r16. f32\f f16. a32 a16. b32 b16. c32 %5
+    c1~\p
+    c2 es,~
+    es4 r r \tempoAmZieleC r8 des(\p
+    \time 6/8 \tempoAmZieleD ges4 f8 b4\cresc as8
+    des4 c8 f4)\f r8 %10
+    r4 r8 r h,,(\p c)
+    es4. g4 r8
+    \time 4/4 r2 b2:32\fp
+    b: b:
+    b4 r r2 %15
+    \tempoAmZieleE r8 f\p f f ges4 r
+    r2 r4 \tempoAmZieleF r8 ges-!
+    es'-! r r4 r2
+    \tempoAmZieleG r8 des,(\f ges f) b8.. as32 ges16. f32 es16. des32
+    c4 r r2 %20
+    R1
+    ges'2\fp r
+    f16.\f f32 a16. a32 b16. b32 c16. c32 des4 r
+    r2 r4 \tempoAmZieleH r8 es,16.\p es32
+    \tempoAmZieleI f8 r r g16.\cresc g32 as8 r r b16.\f b32 %25
+    c2\fermata r4\fermata r
+    des!\fz\ten e,\fz\ten f\fz\ten as\fz\ten
+    h,\pp c2 \hA h4
+    c2.\fermata \bar "||" %29 finis
+  }
+}

@@ -401,3 +401,45 @@ GroßIstViola = {
     e1\!\fermata \bar "|." %194 finis
   }
 }
+
+AmZieleViola = {
+  \relative c' {
+    \clef alto
+    \key as \major \time 4/4 \tempoAmZiele
+    es,1~\p
+    es
+    as2. r4
+    r \mvDll <as es'>2\fz\fermata r4
+    r2 \tempoAmZieleB r16. as32\f as16. es'32 es16. des32 des16. c32 %5
+    c1~\p
+    c2 a~
+    a4 r r \tempoAmZieleC r8 << {
+      b( %8
+      \time 6/8 \tempoAmZieleD c4 des8 e4 f8
+      g!4 as8 as4)
+    } \\ {
+      f,8\p %8
+      as4 as8 c4\cresc c8
+      es!4 es8 des4\f
+    } >> r8 %10
+    r4 r8 r d,(\p es)
+    fis4. g4 r8
+    \time 4/4 r2 <g g'>2:32\fp
+    q: q:
+    q4 r r2 %15
+    \tempoAmZieleE r8 as\p as as a4 r
+    r2 r4 \tempoAmZieleF r8 a-!
+    c-! r r4 r2
+    \tempoAmZieleG des,!4.\f des4 d8 es es
+    es4 r r2 %20
+    R1
+    as2\fp r
+    as16.\f as32 es'16. es32 des16. des32 c16. c32 b4 r
+    r2 r4 \tempoAmZieleH r8 as16.\p as32
+    \tempoAmZieleI as8 r r c16.\cresc c32 c8 r r es16.\f es32 %25
+    es2\fermata r4\fermata r
+    e4\fz\ten b\fz\ten as\fz\ten c\fz\ten
+    d,\pp es \hA d2
+    c2.\fermata \bar "||" %29 finis
+  }
+}

@@ -381,3 +381,39 @@ GroßIstViolone = {
     c\!\fermata \bar "|." %194 finis
   }
 }
+
+AmZieleViolone = {
+  \relative c {
+    \clef bass
+    \key as \major \time 4/4 \tempoAmZiele
+    as1~\p
+    as
+    ges2. r4
+    r c2\fz\fermata r4
+    r2 \tempoAmZieleB r16. des32\f des16. c32 c16. b32 b16. a32 %5
+    a1~\p
+    a2 f~
+    f4 r r \tempoAmZieleC r8 b(\p
+    \time 6/8 \tempoAmZieleD as4 des8 c4\cresc f8
+    es4 as8 des,4\f) r8 %10
+    r4 r8 r f(\p es)
+    as,4. g4 r8
+    \time 4/4 r2 e':32\fp
+    e: e:
+    e4 r r2 %15
+    \tempoAmZieleE r8 f\p f f es4 r
+    r2 r4 \tempoAmZieleF r8 c-!
+    a-! r r4 r2
+    \tempoAmZieleG b4.\f as8 ges b es ges
+    as,4 r r2 %20
+    R1
+    c2\fp r2
+    des8\f c b as g!4 r
+    r2 r4 \tempoAmZieleH r8 as16.\p as32
+    \tempoAmZieleI des8 r r c16.\cresc c32 f8 r r es16.\f es32 %25
+    as2\fermata r4\fermata r
+    g,4\sfz\ten g'\fz\ten as\fz\ten f,~\fz\ten
+    f\pp fis g2
+    c,2.\fermata \bar "||" %29 finis
+  }
+}
