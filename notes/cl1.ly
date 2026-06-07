@@ -335,3 +335,121 @@ GroßIstClarinettoI = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+WieSchrecklichClarinettoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \dorian \time 2/2 \tempoWieSchrecklich
+    \partial 8 r8 es'2.\fz c4
+    a r r2
+    g1\p
+    as2 a
+    b\cresc h %5
+    c cis
+    d8\f r r4 c2~\fz
+    c8 r r4 c2~\fz
+    c8 r r4 es4.\fz c8
+    b4 fis'\ff g cis, %10
+    d a b g
+    es8 r r4 r2
+    R1*3 %15
+    c'2\fz des\fz
+    es!\fz es\fz
+    d!\fz a'\fz
+    g4\ff es d f
+    es d \pao c es %20
+    d r d r
+    d r r2
+    R1*3 %25
+    R1\fermata
+    R1*2
+    es2.\fz r4
+    r a, a r %30
+    r b8.\f b16 es4 r
+    r c8. c16 f4 r
+    R1*5 %37
+    c2\sfp des
+    c\sfp des
+    c4\f f^\critnote r2\fermata %40
+    R1*2
+    f1(\<
+    ges2)(\fz f8) r r c
+    des2 r %45
+    R1*3
+    r2 c~\fz
+    c8 r r4 c2~\fz %50
+    c8 r r4 c2~\fz
+    c8 r r4 c2\ff
+    es4 r\fermata r\fermata r
+    d1
+    es2 c %55
+    f\f fis
+    \mvD -1 g\ff b
+    f!4 r r2
+    es4 r c r
+    b' r b r %60
+    b r b r
+    b r b r
+    h2\fz b4 a
+    es2\fz des4 es
+    f a, b e,! %65
+    f c' des b
+    ges r r2
+    R1*7 %74
+    r2 ges'\fz %75
+    r ges\fz
+    r f\fz
+    r f\fz
+    r \pao es\fz
+    r es~\fz %80
+    es \pao c
+    d4 h\ff c d
+    es8 r r4 r2
+    R1*4 %87
+    f1\fz
+    es
+    es4 r d r %90
+    \pao c8 r as4( g8) r as4(
+    g8) r as4( g8) r as4(
+    g8) r as4(\decresc g8) r f4(
+    es8) r f4( es8) r d4
+    c\p r c r %95
+    c2 r4\fermata r
+    r2 des'4.\ff des8
+    c2 r
+    r es4.\ff es8
+    d!2 r %100
+    R1*3
+    r2 r4\fermata r
+    R1*6 %110
+    r4 d8.\ff d16 d4 r
+    r d8. d16 d4 r
+    r d8. d16 d4 d
+    es c a' fis
+    es c a fis %115
+    g1\p
+    as2 a
+    b\cresc h
+    c cis
+    d8\f r r4 c2~\fz %120
+    c8 r r4 c2~\fz
+    c8 r r4 c2~\fz
+    c8 r r4 a2\ff
+    c4 r\fermata r\fermata r
+    b2\fz h\fz %125
+    c\fz d\fz
+    es4 es\f es r
+    r d d8 r\fermata r4
+    d r b r
+    es r a, r %130
+    g'1~
+    g~
+    g
+    as2\fz g4 fis
+    c2\fz b4 c %135
+    d fis g cis,
+    d a b g
+    d' r fis r
+    g r r r8\fermata \bar "|." %139 finis
+  }
+}

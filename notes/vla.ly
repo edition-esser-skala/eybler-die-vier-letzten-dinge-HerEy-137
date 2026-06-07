@@ -443,3 +443,155 @@ AmZieleViola = {
     c2.\fermata \bar "||" %29 finis
   }
 }
+
+WieSchrecklichViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key f \minor \time 2/2 \tempoWieSchrecklich
+    \partial 8 r8 e2:16\f e:
+    e8 g,4\p g g g8
+    as16 as as as as8 r f'16 f f f f8 r
+    f16 f f f f8 r f16 f f f f8 r
+    f16\cresc f f f f8 r c16 c c c c8 r %5
+    d16 d d d d8 r \hA d16 d d d d8 r
+    e2:\f f:
+    e: f:
+    e: b':\ff
+    f4 r r h,: %10
+    c: g: as: f:
+    << {
+      des8 f4 f f f8 %12
+      f4 \once \oneVoice r8 f f4 \once \oneVoice r8 f
+      f4
+    } \\ {
+      des8\p des4 des des des8 %12
+      des4 s8 des\pp des4 s8 des
+      des4
+    } >> r r2
+    << { f4^\pizz } \\ { des } >> r r2 %15
+    b'2:\fz^\arco f':\fz
+    des:\fz as':\fz
+    c,:\fz g':\fz
+    f4:\ff des': c: es,!:
+    des: f2: b4: %20
+    as r <g g, c,> r
+    <f c f,> r r2
+    c2\sfp b\fp
+    as\fp ges\fp
+    f8\p f4 f e f8 %25
+    g!2\fermata r4\fermata r
+    c2:\fp c:\fp
+    des:\fp es:\fp
+    f8\f f4 f f8( as,[ as)]
+    g4 <e' g, c,> q r %30
+    r <f as,>8.\f q16 q4 r
+    r <es! g,>8. q16 q4 r
+    des8\p des4 des des fes,8
+    es as4 as as c8
+    des des4 des8 es es4 es8 %35
+    f\cresc f4 f8 g g4 g8
+    as as4 as as as,8
+    b\f g4 es es' es8~
+    es g,4 es es' es8
+    es4 <g, es' b'> r2\fermata %40
+    es16\pp es es es es8 r es16 es es es es8 r
+    es16 es es es es8 r es16 es es es es8 r
+    es16 es es es es8 r es16 es es es es8 r
+    fes16 fes fes fes fes8 r es16 es es es es8 r
+    es16 es es es es8 r as'16 as as as as8 r %45
+    as16 as as as as8 r as16 as as as as8 r
+    as16\cresc as as as as8 r es16 es es es es8 r
+    f16 f f f f8 r f16 f f f f8 r
+    g!2:\f as:
+    g: as: %50
+    g: as:
+    g:\ff b4: des:
+    des,2\fermata r4\fermata r
+    c2:\fp c:\fp
+    f:\fp es:\fp %55
+    es:\f ges:
+    f:\ff f:
+    as4 r r2
+    <es g,>4 r <des es,> r
+    <c es,>8 as16 as g g a a as'8 b,16 b a a b b %60
+    as'8 ces,16 ces b b \hA ces ces as8 des16 des c c des des
+    as8 es'16 es d d es es fes8(\fz es) \hA fes(\fz es)
+    fes4:\fz des': ces: b:
+    b,:\fz b': ces: g:
+    as: g: as: d,: %65
+    es: b: ces: as:
+    fes8\p <fes as>4 q q q8
+    q4 r8 \hA q q4 r8 \hA q
+    q4 r r2
+    q4^\pizz r r2 %70
+    d'!2:\fp^\arco as:\fp
+    ges:\fp as:\fp
+    ges:\fp ges:\fp
+    b8\f b( a b) ces(\fz b) \hA ces(\fz b)
+    g!16( as b ces) des(\fz \hA ces b as) g( as b ces) des(\fz \hA ces b as) %75
+    g16( as b ces) des(\fz \hA ces b as) g( as b ces) des(\fz es fes g,)
+    a( b c des) es(\fz des c b) a( b c des) es(\fz des c b)
+    a( b c des) es(\fz des c b) a( b c des) es(\fz f ges a,)
+    b( c des es) f(\fz es des c) b( c des es) f(\fz es des c)
+    b( c des es) f(\fz ges f es) des( es des c) b( c b as!) %80
+    ges2:\fz des'4:\fz b:
+    f: a':\ff b: c:
+    f,8\p r es r f r d r
+    b r b r es, r f r
+    ges\fp ges4 ges8 ges\fp ges4 ges8 %85
+    g\fp g4 g8 g\fp g4 g8
+    f\fp f4 f8 f\fp f4 f8
+    a'2:\f a:
+    b:\fz b,:\fz
+    des4\f r <c es> r %90
+    des: es: des: es:
+    des: es: des: es:
+    des:\decresc a: b: \hA a:
+    b: ges: f: es:
+    des4\p r des r %95
+    des2 r4\fermata r
+    r2 as''4.\ff as8
+    ges2 r
+    r b4.\ff b8
+    as2 r %100
+    r4 as,2\p as4
+    r g2 f4
+    g1~
+    g2 r4\fermata r
+    g2:\fp e':\fp %105
+    e:\fp g:\fp
+    c,: c:
+    c: c:
+    des!4:\cresc c: des: a:
+    b2:\f as: %110
+    g4 <c, g' e'>\ff q r
+    r <c as' f'> q r
+    r <c g' e'> q c'':
+    des!: b: g: e:
+    des!: b: g: b: %115
+    as16\p as as as as8 r f'16 f f f f8 r
+    f16 f f f f8 r f16 f f f f8 r
+    f16\cresc f f f f8 r f16 f f f f8 r
+    f16 f f f f8 r d16 d d d d8 r
+    e2:\f f: %120
+    e: f:
+    e: f:
+    e:\ff g4: b:
+    b,2\fermata r4\fermata r
+    c2:\fz c:\fz %125
+    des:\fz es:\fz
+    f4 <des f>\f q r
+    r <e g, c,> q8 r\fermata r4
+    <f as, c,>4 r <f as,> r
+    <f des!> r <e g, c,> r %130
+    <f as,>8 f,16 f e e f f f'8 g,16 g f f g g
+    f'8 as,16 as g g as as f'8 b,16 b a a b b
+    f'8 c16 c h h c c des!8([\fz c)] des([\fz c)]
+    des4:\fz b': as: g!:
+    g,:\fz g': as: e: %135
+    f: e: f: h,:
+    c: g: as: f:
+    c' r <e c> r
+    <f c> r r r8\fermata \bar "|." %139 finis
+  }
+}

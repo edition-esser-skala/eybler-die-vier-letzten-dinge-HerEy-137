@@ -421,3 +421,149 @@ AmZieleViolinoII = {
     g2.\fermata \bar "||" %29 finis
   }
 }
+
+WieSchrecklichViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key f \minor \time 2/2 \tempoWieSchrecklich
+    \partial 8 r8 <g' b>2:16\f q:
+    q8 b,4\p b b b8
+    c16 c c c c8 r c16 c c c c8 r
+    des16 des des des des8 r d16 d d d d8 r
+    c16\cresc c c c c8 r f16 f f f f8 r %5
+    f16 f f f f8 r as16 as as as as8 r
+    g2:\f g:
+    g: g:
+    g: g':\ff
+    as4: e: f: h,: %10
+    c: g: as: f:
+    des8\p as4 as as as8
+    as4 r8 as\pp as4 r8 as
+    as4 r r2
+    as4^\pizz r r2 %15
+    des2:\fz^\arco d:\fz
+    e:\fz f:\fz
+    g!:\fz e':\fz
+    f4:\ff b,: as: ges:
+    f: es: des: f: %20
+    as r <g c e> r
+    <f c' f> r r2
+    f\sfp e\fp
+    f\fp c\fp
+    b8\p b4 b b b8 %25
+    g2\fermata r4\fermata r
+    f'2:\fp ges:\fp
+    f:\fp a:\fp
+    b8\f b4 b b8( d,[) d]
+    c4 <g g'> <g e' c'> r %30
+    r as'8.\f as16 as4 r
+    r <b es,!>8. <b es,>16 q4 r
+    b,8\p b4 b b b8
+    as c4 c c es8
+    f f4 f8 g g4 g8 %35
+    as\cresc as4 as8 b b4 b8
+    ces ces4 ces as as8
+    g\f <g b>4 q8 <as ces> q4 q8
+    <g b> q4 q8 <as ces> q4 q8
+    <g b>4 <g, es' es'> r2\fermata %40
+    as16\pp as as as as8 r as16 as as as as8 r
+    b16 b b b b8 r b16 b b b b8 r
+    as16 as as as as8 r as16 as as as as8 r
+    b16 b b b b8 r b16 b b b b8 r
+    as16 as as as as8 r es'16 es es es es8 r %45
+    fes16 fes fes fes fes8 r f16 f f f f8 r
+    ges16\cresc ges ges ges ges8 r as16 as as as as8 r
+    as16 as as as as8 r ces16 ces ces ces ces8 r
+    b2:\f b:
+    b: b: %50
+    b: b:
+    b:\ff des4: fes:
+    b,,2\fermata r4\fermata r
+    es2:\fp as:\fp
+    b:\fp g:\fp %55
+    as:\f as:
+    as:\ff ces:
+    c4 r r2
+    <b es, g,>4 r <g b,> r
+    as8 as,16 as g g as as as'8 b,16 b a a b b %60 %60
+    as'8 ces,16 ces b b \hA ces ces as'8 des,16 des c c des des
+    as'8 es16 es d d es es fes8(\fz es) \hA fes(\fz es)
+    a2:\fz as4: g:
+    fes'2:\fz es4: des:
+    ces: g: as: d,: %65
+    es: b': ces: as:
+    fes8\p ces4 ces ces ces8
+    ces4 r8 \hA ces ces4 r8 \hA ces
+    ces4 r r2
+    ces4^\pizz r r2 %70
+    as'2:\fp^\arco ces,:\fp
+    b:\fp b:\fp
+    b:\fp es:\fp
+    d!8\f b( a b) ces(\fz b) \hA ces(\fz b)
+    g!16( as b ces) des(\fz \hA ces b as) g( as b ces) des(\fz \hA ces b as) %75
+    g16( as b ces) des(\fz \hA ces b as) g( as b ces) des(\fz es fes g,)
+    a( b c des) es(\fz des c b) a( b c des) es(\fz des c b)
+    a( b c des) es(\fz des c b) a( b c des) es(\fz f ges a,)
+    b( c des es) f(\fz es des c) b( c des es) f(\fz es des c)
+    b( c des es) f(\fz es des c) b( a b c) des( es des c) %80
+    b2:\fz e:\fz
+    f4: es'!:\ff des!: c:
+    b8\p r a r b r f r
+    es r des r b r b r
+    b\fp b4 b8 b\fp b4 b8 %85
+    b\fp b4 b8 b\fp b4 b8
+    a\fp a4 a8 a\fp a4 a8
+    c'2:\f c:
+    b:\fz e,:\fz
+    f4\f r f r %90
+    f: ges: f: \hA ges:
+    f: ges: f: \hA ges:
+    f:\decresc es: des: c:
+    b: c: b a:
+    b4\p r b r %95
+    b2 r4\fermata r
+    r2 <d ces'>4.\ff q8
+    <es b'>2 r
+    r <e des'!>4.\ff q8
+    <f c'>2 r %100
+    r4 des2\p des4
+    r h2 h4
+    c1~
+    c2 r4\fermata r
+    des!2:\fp des:\fp %105
+    des:\fp b':\fp
+    g: g:
+    f: f:
+    f:\cresc f:
+    f:\f d: %110
+    c4 <g e' c'>\ff q r
+    r <as f' c'> q r
+    r <g e' c'> q c':
+    des!: b: g: e:
+    des!: b: g: des': %115
+    c16\p c c c c8 r c16 c c c c8 r
+    des16 des des des des8 r d16 d d d d8 r
+    es16\cresc es es es es8 r c16 c c c c8 r
+    d16 d d d d8 r as'!16 as as as as8 r
+    g2:\f g: %120
+    g: g:
+    g: g:
+    g:\ff b4: des:
+    g,,2\fermata r4\fermata r
+    f'2:\fz f:\fz %125
+    f:\fz a:\fz
+    b4 <b f>\f q r
+    r <e c g> q8 r\fermata r4
+    <c as>4 r f, r
+    b r b, r %130
+    as8 f'16 f e e f f f'8 g,16 g f f g g
+    f'8 as,16 as g g as as f'8 b,16 b a a b b
+    f'8 c16 c h h c c des!8([\fz c)] des([\fz c)]
+    ges2:\fz f4: e:
+    des'2:\fz c4: b: %135
+    as: e: f: h,:
+    c: g': as: f:
+    c' r <e c g> r
+    <f c f,> r r r8\fermata \bar "|." %139 finis
+  }
+}

@@ -252,8 +252,58 @@
   %     \midi { \tempo 4 = 85 } % 170
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Rezitativ. Am Ziele ſchweben die erschaffnen Dinge"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     systems-per-page = #4
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AmZieleViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AmZieleViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AmZieleViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Erſter" "Erzengel" }
+  %           \new Voice = "Soli" { \dynamicUp \AmZieleSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \AmZieleSoliLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "vlc" "cb" }
+  %           % \transpose c c,
+  %           \AmZieleViolone
+  %         }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "3" "Rezitativ. Am Ziele ſchweben die erschaffnen Dinge"
+    \section "4" "№ 3. Aria. Wie ſchrecklich iſt die Todestunde"
     \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
@@ -262,44 +312,73 @@
       top-markup-spacing.minimum-distance = #0
       markup-system-spacing.basic-distance = #10
       markup-system-spacing.minimum-distance = #10
-      systems-per-page = #4
+      systems-per-page = #2
     }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
+            \setSoloText "fl 1"
+            \partCombine #'(0 . 10) \WieSchrecklichFlautoI \WieSchrecklichFlautoII
+          }
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cl" "B" "flat" "1, 2" }
+            \setSoloText "cl 1"
+            % \transpose c b,
+            \partCombine #'(0 . 10) \WieSchrecklichClarinettoI \WieSchrecklichClarinettoII
+          }
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+            \setSoloText "fag 1"
+            \partCombine #'(0 . 10) \WieSchrecklichFagottoI \WieSchrecklichFagottoII
+          }
+        >>
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
+            % \transpose c f,
+            \partCombine #'(0 . 10) \WieSchrecklichCornoI \WieSchrecklichCornoII
+          >>
+        >>
+        \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \AmZieleViolinoI
+              \WieSchrecklichViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \AmZieleViolinoII
+              \WieSchrecklichViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \AmZieleViola
+            \WieSchrecklichViola
+          }
+          \new Staff {
+            \set Staff.instrumentName = "vlc"
+            \WieSchrecklichCello
           }
         >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Erſter" "Erzengel" }
-            \new Voice = "Soli" { \dynamicUp \AmZieleSoli }
+            \new Voice = "Soli" { \dynamicUp \WieSchrecklichSoli }
           }
-          \new Lyrics \lyricsto Soli \AmZieleSoliLyrics
+          \new Lyrics \lyricsto Soli \WieSchrecklichSoliLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vlc" "cb" }
+            \set Staff.instrumentName = "cb"
             % \transpose c c,
-            \AmZieleViolone
+            \WieSchrecklichViolone
           }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

@@ -55,6 +55,7 @@ tempoAmZiele = \tempoMarkup "Rezitativ"
   tempoAmZieleG = \tempoMarkup "Allegro"
   tempoAmZieleH = \tempoMarkup "Andante"
   tempoAmZieleI = \tempoMarkup "a tempo"
+tempoWieSchrecklich = \tempoMarkup "Allegro"
 
 
 \include "notes/fl1.ly"

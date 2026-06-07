@@ -422,3 +422,149 @@ AmZieleViolinoI = {
     c2.\fermata \bar "||" %29 finis
   }
 }
+
+WieSchrecklichViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key f \minor \time 2/2 \tempoWieSchrecklich
+    \partial 8 e'32(\f f g as) b4. g8-! e-! des!-! b-! g-!
+    e e4\p e e e8
+    f16 f f f f8 r f16 f f f f8 r
+    ges16 ges ges ges ges8 r g16 g g g g8 r
+    as16\cresc as as as as8 r a16 a a a a8 r %5
+    b16 b b b b8 r h16 h h h h8 r
+    c4\f r8 b( b'4.)\fz g8
+    e4 r8 b( b'4.)\fz g8
+    e4 r8 \hA e( des'!4.)\fz b8
+    as4:16 e: f: h,: %10
+    c: g: as: f:
+    des8\p des4 des des des8
+    des4 r8 des\pp des4 r8 des
+    des4 r r2
+    des4^\pizz r r2 %15
+    ges2:\fz^\arco ces:\fz
+    b:\fz des:\fz
+    c!:\fz b':\fz
+    as4:\ff e: f: c:
+    des: a: b: des: %20
+    c r <e c g> r
+    <f c f,> r r2
+    as,\fzp g\sfp
+    f\fp es!\fp
+    des8\p des4 des des des8 %25
+    b2\fermata r4\fermata r
+    as'2:\fp a:\fp
+    b:\fp c:\fp
+    des8\f des4 des4 f, f8
+    e8 c32( d \hA e f) g8 \tuplet 3/2 8 { g16( a h) } c4 r %30
+    r8 f,16(\f g as8) \tuplet 3/2 8 { as16( b c) } des!4 r
+    r8 g,16( as b8) \tuplet 3/2 8 { b16( c d) } es!4 r
+    fes,8\p fes4 fes fes des8
+    c as4 c es as8~
+    as f4 b g c8~ %35
+    c\cresc as4 des b es8
+    ces es4 as ces d,8
+    es\f fes es des ces b as \hA ces
+    es fes es des ces b as \hA ces
+    b4 <es es, g,> r2\fermata %40
+    c,!16\pp c c c c8 r c16 c c c c8 r
+    des16 des des des des8 r des16 des des des des8 r
+    ces16 ces ces ces ces8 r \hA ces16 ces ces ces ces8 r
+    des16 des des des des8 r des16 des des des des8 r
+    ces16 ces ces ces ces8 r as'16 as as as as8 r %45
+    heses16 heses heses heses heses8 r b16 b b b b8 r
+    ces16\cresc ces ces ces ces8 r c16 c c c c8 r
+    des16 des des des des8 r d16 d d d d8 r
+    es4\f r8 des( des'4.)\fz b8
+    g4 r8 des( des'4.)\fz b8 %50
+    g4 r8 des( des'4.)\fz b8
+    g b4\ff g fes des8
+    b2\fermata r4\fermata r
+    as2:\fp c:\fp
+    des:\fp b:\fp %55
+    es:\f e:
+    f:\ff as:
+    es!4 r r2
+    <des' es, g,>4 r <g,, b,> r
+    as8 as,16 as g g as as as'8 b,16 b a a b b %60
+    as'8 ces,16 ces b b \hA ces ces as'8 des,16 des c c des des
+    as'8 es16 es d d es es fes8(\fz es) \hA fes(\fz es)
+    <a a'>2:\fz as'4: g:
+    fes'2:\fz es4: des:
+    ces: g: as: d,: %65
+    es: b: ces: as:
+    fes8\p fes4 fes fes fes8
+    fes4 r8 \hA fes fes4 r8 \hA fes
+    fes4 r r2
+    fes4^\pizz r r2 %70
+    ces'2:\fp^\arco d,:\fp
+    es:\fp f:\fp
+    ges:\fp a:\fp
+    b8\f b,( a b) ces(\fz b) \hA ces(\fz b)
+    g!16( as b ces) des(\fz \hA ces b as) g( as b ces) des(\fz \hA ces b as) %75
+    g16( as b ces) des(\fz \hA ces b as) g( as b ces) des(\fz es fes g,)
+    a( b c des) es(\fz des c b) a( b c des) es(\fz des c b)
+    a( b c des) es(\fz des c b) a( b c des) es(\fz f ges a,)
+    b( c des es) f(\fz es des c) b( c des es) f(\fz es des c)
+    b( c des es) f(\fz ges f es) des( es des c) b( a b c) %80
+    des2:\fz b':\fz
+    a4: ges':\ff f: es:
+    des8\p r c r b r as r
+    ges r f r es r des r
+    c\fp c4 c8 c\fp c4 c8 %85
+    c\fp c4 c8 c\fp c4 c8
+    c\fp c4 c8 c\fp c4 c8
+    es'2:\f es:
+    des!:\fz b:\fz
+    f'4\f r a, r %90
+    b4: ces: b: a:
+    b: ces: b: a:
+    b:\decresc ges: f: es:
+    des: es: des: c:
+    b4\p r b r %95
+    b2 r4\fermata r
+    r2 <d d'>4.\ff q8
+    <es es'>2 r
+    r e'4.\ff e8
+    f2 r %100
+    r4 f,2\p f4
+    r f2 f4
+    e1~
+    e2 r4\fermata r
+    e2:\fp g:\fp %105
+    b:\fp des!:\fp
+    c4: e: g: b,:
+    as: f: g: a:
+    b:\cresc a: b: c:
+    des2:\f f,: %110
+    e8 c32([\ff d e f)] g8 \tuplet 3/2 8 { g16( a h) } c4 r
+    r8 f,32( g as b) c8 \tuplet 3/2 8 { c16( d e) } f4 r
+    r8 c32( d e f) g8 \tuplet 3/2 8 { g16( a h) } c8 r c4:
+    des!: b: g: e:
+    des!: b: g: e: %115
+    f16\p f f f f8 r f16 f f f f8 r
+    ges16 ges ges ges ges8 r g16 g g g g8 r
+    as16\cresc as as as as8 r a16 a a a a8 r
+    b16 b b b b8 r h16 h h h h8 r
+    c4\f r8 b( b'4.)\fz g8 %120
+    e4 r8 b( b'4.)\fz g8
+    e4 r8 b( b'4.)\fz g8
+    e\ff g4 e des! b8
+    g2\fermata r4\fermata r
+    as2:\fz a:\fz %125
+    b:\fz c:\fz
+    des8[ r16 b32(\f c] des8[) r16 des32( es] f4) r
+    r8. c32( d e8[) r16 \hA e32( f] g8) r\fermata r4
+    <f c f,> r as, r
+    des! r <e, g,> r %130
+    f'8 f,16 f e e f f f'8 g,16 g f f g g
+    f'8 as,16 as g g as as f'8 b,16 b a a b b
+    f'8 c16 c h h c c des!8([\fz c)] des([\fz c)]
+    <b ges'>2:\fz f'4: e:
+    des'!2:\fz c4: b: %135
+    as: e: f: h,:
+    c: g: as: f:
+    c' r <e c g> r
+    <f c f,> r r r8\fermata \bar "|." %139 finis
+  }
+}

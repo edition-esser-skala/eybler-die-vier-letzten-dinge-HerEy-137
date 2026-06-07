@@ -313,3 +313,107 @@ GroßIstFlautoI = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+WieSchrecklichFlautoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key f \minor \time 2/2 \tempoWieSchrecklich
+    \partial 8 r8 des''2\fz b4 g
+    \pao e r r2
+    R1*4 %6
+    r2 r4 r8 b(
+    b'2)(\fz g8) r r b,(
+    b'2)(\fz g8) r r c
+    \ottava #1 as'4\ff e f h, %10
+    c g as f
+    des8 \ottava #0 r r4 r2
+    R1*3 %15
+    ges2\fz ces\fz
+    b\fz des!\fz
+    \ottava #1 c\fz g'\fz
+    as4 e f c
+    des a b des %20
+    c r e r
+    f \ottava #0 r r2
+    R1*3 %25
+    R1\fermata
+    R1*12 %38
+    b,2\sfp ces
+    b4\f es r2\fermata %40
+    R1*4
+    as,,1 %45
+    heses2 b
+    ces\cresc c
+    des d
+    es4\fE r r r8 b(
+    des'2)(\fz b8) r r b,( %50
+    des'2)(\fz b8) r r \pa b,(
+    fes''2)\ff \pd des
+    b4 r\fermata r\fermata r
+    R1*2 %55
+    \ottava #1 es2\f e
+    f\ff as
+    es4 \ottava #0 r r2
+    des4 r g, r
+    as1~ %60
+    as~
+    as
+    R
+    \ottava #1 fes'2\fz es4 des
+    ces \ottava #0 g as d, %65
+    es b ces as
+    fes r r2
+    R1*7 %74
+    r2 b'\fz %75
+    r b\fz
+    r es\fz
+    r es\fz
+    r des\fz
+    r des\fz %80
+    \pa b e,
+    f4 \pd \ottava #1 ges'\ff f es
+    des8 \ottava #0 r r4 r2
+    R1*4 %87
+    \ottava #1 es1\fz
+    des2 b
+    f'4 r \pao a, r\ottava #0 %90
+    b8 r ces4( b8) r a4(
+    b8) r ces,4( b8) r a4(
+    b8) r r4 r2
+    R1*2 %95
+    r2 r4\fermata r
+    r2 \ottava #1 d'4.\ff d8
+    es2 \ottava #0 r
+    r \ottava #1 e4.\ff e8
+    f2 \ottava #0 r %100
+    R1*3
+    r2 r4\fermata r
+    R1*6 %110
+    r4 g,8.\ff g16 g4 r
+    r as8. as16 as4 r
+    r g8. g16 g4 c
+    des! b g e
+    des! b g e %115
+    f r r2
+    R1*3
+    r2 r4 r8 b( %120
+    b'2\fz)( g8) r r b,(
+    b'2\fz)( g8) r r \pa b,(
+    fes''2)\ff \pd des
+    g,4 r\fermata r\fermata r
+    R1*2 %126
+    r4 \ottava #1 des'\f des \ottava #0 r
+    r \ottava #1 e e8 \ottava #0 r\fermata r4
+    \ottava #1 f r as, r
+    des r \pao e, r \ottava #0 %130
+    f r f r
+    f r f r
+    f r f r
+    ges r r2
+    des'2\fz c4 b %135
+    as r r h
+    c g as f
+    c' r e r
+    f r r r8\fermata \bar "|." %139 finis
+  }
+}

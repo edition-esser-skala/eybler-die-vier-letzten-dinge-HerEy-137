@@ -334,3 +334,112 @@ GroßIstClarinettoII = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+WieSchrecklichClarinettoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \dorian \time 2/2 \tempoWieSchrecklich
+    \partial 8 r8 c'2.\fz a4
+    fis r r2
+    R1*4 %6
+    r2 c~\fz
+    c8 r r4 c2~\fz
+    c8 r r4 c'4.\fz a8
+    g4 fis'\ff g cis, %10
+    d a b g
+    es8 r r4 r2
+    R1*3 %15
+    as2\fz g\fz
+    c\fz b\fz
+    a!\fz c\fz
+    b4\ff c b as
+    g h c c %20
+    b r a r
+    g r r2
+    R1*3 %25
+    R1\fermata
+    R1*2
+    c2.\fz r4
+    r fis, fis r %30
+    r g8.\f g16 b4 r
+    r f8. f16 c'4 r
+    R1*5 %37
+    a2\sfp b
+    a\sfp b
+    a4\f a r2 %40
+    R1*8 %48
+    r2 b(\fz
+    a8) r r4 b2(\fz %50
+    a8) r r4 b2(\fz
+    a8) r r4 a2\ff
+    c4 r\fermata r\fermata r
+    b1
+    c2 a %55
+    b1~\f
+    b2\ff des
+    d4 r r2
+    c4 r a r
+    b r b r %60
+    b r b r
+    b r b r
+    h2\fz b4 a
+    c2\fz des4 es
+    f a, b e,! %65
+    f c' des b
+    ges r r2
+    R1*7 %74
+    r2 c\fz %75
+    r c\fz
+    r d\fz
+    r d\fz
+    r es\fz
+    r c~\fz %80
+    c c
+    h4 h\ff c d
+    c8 r r4 r2
+    R1*4 %87
+    d1\fz
+    c
+    c4 r h r %90
+    c8 r f,4( es8) r f4(
+    es8) r f4( es8) r f4(
+    es8) r f4(\decresc es8) r d4(
+    c8) r d4( c8) r h4
+    c\p r c r %95
+    c2 r4\fermata r
+    r2 b'4.\ff b8
+    as2 r
+    r c4.\ff c8
+    b2 r %100
+    R1*3
+    r2 r4\fermata r
+    R1*6 %110
+    r4 a8.\ff a16 a4 r
+    r b8. b16 b4 r
+    r a8. a16 a4 d
+    es c a' fis
+    es c a fis %115
+    g r r2
+    R1*3
+    r2 c,~\fz %120
+    c8 r r4 c2~\fz
+    c8 r r4 c2~\fz
+    c8 r r4 fis2\ff
+    a4 r\fermata r\fermata r
+    g2\fz g\fz %125
+    g\fz h\fz
+    c4 c\f c r
+    r a a8 r\fermata r4
+    b r g r
+    g r fis r %130
+    g1~
+    g~
+    g
+    as2\fz g4 fis
+    a2\fz b4 c %135
+    d fis g cis,
+    d a b g
+    d' r d r
+    g, r r r8\fermata \bar "|." %139 finis
+  }
+}

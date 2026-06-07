@@ -339,3 +339,115 @@ GroßIstFagottoII = {
     e1\!\fermata \bar "|." %194 finis
   }
 }
+
+WieSchrecklichFagottoII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key f \minor \time 2/2 \tempoWieSchrecklich
+    \partial 8 r8 e1\fz
+    g4 r r2
+    R1*4 %6
+    r2 des!(\fz
+    c8) r r4 des2(\fz
+    c8) r r4 e2\fz
+    f4 r r2 %10
+    r4 g, as f
+    des'8 r r4 r2
+    R1*3 %15
+    b2\fz as\fz
+    g!\fz f\fz
+    e\fz c\fz
+    f4\ff g as a
+    b c des b %20
+    c r c, r
+    f r r2
+    R1*3 %25
+    R1\fermata
+    R1*2
+    b,2.\fz r4
+    r c' c r %30
+    r f8.\f f16 f4 r
+    r g8. g16 g4 r
+    R1*5 %37
+    g2\sfp as
+    g\sfp as
+    g4\f es r2\fermata %40
+    R1*8 %48
+    r2 fes(\fz
+    es8) r r4 fes2(\fz %50
+    es8) r r4 fes2(\fz
+    es8) r r4 fes2\ff
+    g,!4 r\fermata r\fermata r
+    as'1
+    b2 g %55
+    \clef "treble_8" as1~\f
+    as~\ff
+    as4 r r2
+    \clef bass es,4 r es' r
+    as, r as r %60
+    as r as r
+    as r as r
+    \clef "treble_8" des'2\fz ces4 b
+    des2\fz ces4 b
+    as r r d %65
+    es b ces as
+    fes r r2
+    R1
+    as1~\p
+    as %70
+    R1*4 %74
+    r2 \clef bass g\fz %75
+    r g\fz
+    r \clef "treble_8" a\fz
+    r a\fz
+    r \clef bass b\fz
+    r b,\fz %80
+    ges1\fz
+    f4 f'\ff g a
+    b8 r r4 r2
+    R1*4 %87
+    f1\fz
+    ges
+    f4 r f r %90
+    b r r c(
+    des8) r r4 r es(
+    des8) r r4 r a(\decrescE
+    b8)\! r r4 r f,(
+    b)\p r b r %95
+    b2 r4\fermata r
+    r2 as'4.\ff as8
+    ges2 r
+    r b4.\ff b8
+    as2 r %100
+    R1*3
+    r2 r4\fermata r
+    R1*6 %110
+    r4 c,8.\ff c16 c4 r
+    r c8. c16 c4 r
+    r c8. c16 c4 r
+    r des'! b g
+    e des! b g %115
+    as r r2
+    R1*3
+    r2 des!(\fz %120
+    c8) r r4 des2(\fz
+    c8) r r4 des2(\fz
+    c8) r r4 des2\ff
+    e,4 r\fermata r\fermata r
+    f'2\fz es\fz %125
+    des!\fz c\fz
+    b4 b\f b r
+    r b b8 r\fermata r4
+    as r des r
+    b r c r %130
+    f, r f r
+    f r f r
+    f r f r
+    b'2\fz as4 g
+    b2\fz as4 g %135
+    f r r h
+    c g as f
+    c' r c, r
+    f, r r r8\fermata \bar "|." %139 finis
+  }
+}

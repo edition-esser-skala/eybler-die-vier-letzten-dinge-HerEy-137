@@ -304,3 +304,103 @@ GroßIstFlautoII = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+WieSchrecklichFlautoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key f \minor \time 2/2 \tempoWieSchrecklich
+    \partial 8 r8 b''2\fz g
+    e4 r r2
+    R1*4 %6
+    r2 r4 r8 b(
+    b'2)(\fz g8) r r b,(
+    b'2)(\fz g8) r r c
+    \ottava #1 as'4\ff e f h, %10
+    c g as f
+    des8 \ottava #0 r r4 r2
+    R1*3 %15
+    des2\fz d\fz
+    e\fz f\fz
+    \ottava #1 g\fz e'\fz
+    f4\ff b, as ges
+    f es des b' %20
+    as r g r
+    f \ottava #0 r r2
+    R1*3 %25
+    R1\fermata
+    R1*12 %38
+    g2\sfp as
+    g4\f g r2\fermata %40
+    R1*8 %48
+    r2 r4 r8 b,(
+    des'2\fz)( b8) r r b,( %50
+    des'2\fz)( b8) r r b,(
+    des'2)\ff b
+    des,4 r r\fermata r
+    R1*2 %55
+    \ottava #1 as'1~\f
+    as2\ff ces
+    c4 \ottava #0 r r2
+    g,4 r b r
+    as1~ %60
+    as~
+    as
+    R
+    \ottava #1 des'2\fz ces4 g
+    as \ottava #0 g as d, %65
+    es b ces as
+    fes r r2
+    R1*7 %74
+    r2 des'\fz %75
+    r des\fz
+    r ges\fz
+    r ges\fz
+    r f\fz
+    r f\fz %80
+    b e,
+    f4 \ottava #1 es'!\ff des! c
+    b8 \ottava #0 r r4 r2
+    R1*4 %87
+    \ottava #1 a1\fz
+    b
+    b4 r a r \ottava #0 %90
+    b,8 r ces4( b8) r a4(
+    b8) r ces4( b8) r a4(
+    b8) r r4 r2
+    R1*2 %95
+    r2 r4\fermata r
+    r2 \ottava #1 as'4.\ff as8
+    ges2 \ottava #0 r
+    r \ottava #1 b4.\ff b8
+    as2 \ottava #0 r %100
+    R1*3
+    r2 r4\fermata r
+    R1*6 %110
+    r4 e8.\ff e16 e4 r
+    r f8. f16 f4 r
+    r e8. e16 e4 c'
+    des! b g e
+    des! b g e %115
+    f r r2
+    R1*3
+    r2 r4 r8 b( %120
+    b'2\fz)( g8) r r b,(
+    b'2\fz)( g8) r r b,(
+    b'2\ff) g
+    b,4 r\fermata r\fermata r
+    R1*2 %126
+    r4 \ottava #1 b'\f b \ottava #0 r
+    r \ottava #1 g g8 \ottava #0 r\fermata r4
+    \ottava #1 as r f r
+    f r e r \ottava #0 %130
+    f r f r
+    f r f r
+    f r f r
+    ges r r2
+    b2\fz as4 e %135
+    f r r h
+    c g as f
+    c' r g r
+    f r r r8\fermata %139 finis
+  }
+}

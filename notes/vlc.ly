@@ -389,3 +389,149 @@ GroßIstCello = {
     c\!\fermata \bar "|." %194 finis
   }
 }
+
+WieSchrecklichCello = {
+  \relative c {
+    \clef bass
+    \twotwotime \key f \minor \time 2/2 \tempoWieSchrecklich
+    \partial 8 r8 c2:16\f c:
+    c4 \once \stemUp des(\p c b)
+    as4. as8-! a4. a8-!
+    b4. b8-! h4. h8-!
+    c4.\cresc c8-! es4. es8-! %5
+    d4. d8-! f4. f8-!
+    c4\f r g16( as b as g f e des!)
+    c4 r g'16( as b as g f e des!)
+    c4 r e16( f g as b c d e)
+    f4 r r h4:16 %10
+    c: g: as: f:
+    des\p as f as
+    des, r des\pp r
+    des r r2
+    des4^\pizz r r2 %15
+    b'2:16\fz^\arco as:\fz
+    g!:\fz f:\fz
+    e:\fz c':\fz
+    f4:\ff g: as: a:
+    b: c: des b, %20
+    c r c, r
+    f r r2
+    f'\sfp c\sfp
+    des\sfp a\sfp
+    b4\p as g f %25
+    e2\fermata r4\fermata r
+    f'2:\fp es!:\fp
+    des:\fp c:\fp
+    b4\f c des h
+    c c' c, r %30
+    r f8.\f f16 f4 r
+    r <g g,>8. q16 q4 r
+    g,\p b des g,
+    as es' c as
+    des b es c %35
+    f\cresc des g es
+    as as fes fes
+    es8\f g b g es as ces as
+    es g b g es as ces as
+    es4 es' r2\fermata %40
+    as,,4.\pp as8-! as4. as8-!
+    g4. g8-! g4. g8-!
+    as4. as8-! as4. as8-!
+    g4. g8-! g4. g8-!
+    as4. as8-! ces4. ces8-! %45
+    des4. des8-! d4. d8-!
+    es4.\cresc es8-! ges4. ges8-!
+    f4. f8-! as4. as8-!
+    es4\f r b16( ces des \hA ces b as g fes)
+    es4 r b'16( ces des \hA ces b as g fes)
+    es4 r b'16( ces des \hA ces b as g fes)
+    es(\ff f g as b c d es) \tuplet 3/2 4 { fes8 es des ces[ b as] }
+    g2\fermata r4\fermata r
+    as'2:\fp f!:\fp
+    des:\fp es:\fp %55
+    c:\f c':
+    des:\ff d:
+    es4 r r2
+    es,,4 r es' r
+    as, r8 g16( as b4) r8 a16( b %60
+    ces4) r8 b16( \hA ces \once \stemUp des4) r8 c16( des
+    es4) r8 d16( es) fes8(\fz es) \hA fes( es)
+    des2\fz es4 fes
+    g,2\fz as4 b
+    ces r r d' %65
+    es b ces as
+    fes\p ces as \hA ces
+    fes, r \hA fes r
+    fes r r2
+    fes4^\pizz r r2 %70
+    f2:\fp^\arco f':\fp
+    ges:\fp d:\fp
+    es:\fp ces:\fp
+    b8\f b( a b) ces(\fz b) \hA ces(\fz b)
+    g!16( as b ces des8) r g,16( as b ces des8) r %75
+    g,16( as b ces) des( es des \hA ces) b( \hA ces b as) g8 r
+    a16( b c des) es8 r a,16( b c des) es8 r
+    a,16( b c des) es( f es des) c( des c b) a8 r
+    b16( c des es) f8 r b,16( c des es) f8 r
+    b,16( c des es) f( ges f es) des( es des c) b( c b as!) %80
+    ges2:\fz ges:\fz
+    f4: f':\ff g!: a:
+    b8\p r c r des r b, r
+    es r f r ges r f r
+    es\fp f ges f es\fp f \hA ges f %85
+    e\fp f g f \hA e\fp f g \hA e
+    f\fp g a g f\fp g \hA a g
+    f\f g a b c des! es! f
+    ges2\fz ges,\fz
+    f4\f r f, r %90
+    b1
+    b
+    b\decresc
+    b
+    b4\p r b r %95
+    b2 r4\fermata r
+    r2 f'4.\ff f8
+    ges2 r
+    r g4.\ff g8
+    as2 r %100
+    f,\p f
+    des! des
+    c1~
+    c2 r4\fermata r
+    b''8\fp c des! c b c b as %105
+    g\fp as b as g as g f
+    e\fp f g f \hA e c d \hA e
+    f g as g f g f es
+    des!\cresc es f es des es des c
+    b\f c des c h c d \hA h %110
+    c4 c'\ff c, r
+    r c' c, r
+    r c' c, r
+    r des'! b g
+    e des! b g %115
+    as4.\p as8-! a4. a8-!
+    b4. b8-! h4. h8-!
+    c4.\cresc c8-! es4. es8-!
+    d4. d8-! f4. f8-!
+    c4\f r g16( as! b as g f e! des) %120
+    c4 r g'16( as b as g f e! des)
+    c4 r g'16( as b as g f e! des)
+    c(\ff d e f g a h c) \tuplet 3/2 4 { des8 c b as[ g f] }
+    e2\fermata r4\fermata r
+    f'2:\fz es!:\fz %125
+    des!:\fz c:\fz
+    b4 b'\f b, r
+    r b' b,8 r\fermata r4
+    as r des! r
+    b r c r %130
+    f, r8 e16( f g4) r8 f16( g
+    as4) r8 g16( as b4) r8 a16( b
+    c4) r8 h16( c) des!8(\fz c) des([\fz c)]
+    b!2\fz c4 des
+    e,2\fz f4 g %135
+    as r r h'
+    c g as f
+    c' r c, r
+    f, r r r8\fermata \bar "|." %139 finis
+  }
+}

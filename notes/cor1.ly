@@ -215,3 +215,107 @@ GroßIstCornoI = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+WieSchrecklichCornoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoWieSchrecklich
+    \partial 8 r8 d'1~\fz
+    d4 r r2
+    c1~\pp
+    c~
+    c~\cresc %5
+    c\!
+    \pao g8\f r r4 d'2~\fz
+    d8 r r4 d2~\fz
+    d8 r r4 r2
+    c4 r r2 %10
+    R1*7 %17
+    d1\f
+    c4 r r2
+    r4 c c c %20
+    c r d r
+    c r r2
+    R1*3 %25
+    R1\fermata
+    R1*2
+    c2.\fz r4
+    R1 %30
+    r4 \pa c8.\f c16 c4 \pd r
+    r \pa b8. b16 b4 \pd r
+    R1*5 %37
+    b1\sfp
+    b~\sfp
+    b4\f b r2\fermata %40
+    R1*8 %48
+    b4\f r r2
+    b4 r r2 %50
+    b4 r r2
+    b4 r r2
+    r\fermata r4\fermata r
+    R1*4 %57
+    b4 r r2
+    b4 r \hA b r
+    b r r2 %60
+    R1*2
+    e2\fz r
+    \pao d\fz r
+    R1*6 %70
+    c1\fz
+    \pao b4 r r2
+    R1*2
+    r2 \pao d\fz %75
+    r \pao d\fz
+    r e\fz
+    r e\fz
+    r \pao c\fz
+    r \pao c\fz %80
+    R1
+    r2 r4 c~
+    c8 r r4 r2
+    R1*4 %87
+    c1\fz
+    R
+    c4 r c r %90
+    c r r2
+    R1*4 %95
+    r2 r4\fermata r
+    r2 c4.\ff c8
+    f2-\critnote r
+    r d4.\ff d8
+    g,2 r %100
+    R1*3
+    r2 r4\fermata r
+    R1*3 %107
+    r4 c\p c c
+    c1~\cresc
+    c4 r r2 %110
+    r4 d\ff d r
+    r c c r
+    r d d r
+    R1*2 %115
+    c1~\pp
+    c~
+    c~\cresc
+    c\!
+    \pao g8\f r r4 d'2~\fz %120
+    d8 r r4 d2~\fz
+    d8 r r4 d2~\fz
+    d8 r r4 r2
+    r\fermata r4\fermata r
+    c2\fz c\fz %125
+    c\fz c\fz
+    c4 c\f c r
+    r d d8 r\fermata r4
+    c r r2
+    R1 %130
+    c4 r c r
+    c r c r
+    c r c r
+    R1
+    \pao d2\fz r %135
+    R1*2
+    r2 d4 r
+    c r r r8\fermata \bar "|." %139 finis
+  }
+}

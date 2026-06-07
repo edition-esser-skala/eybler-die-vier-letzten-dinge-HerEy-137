@@ -345,3 +345,120 @@ GroßIstFagottoI = {
     g\!\fermata \pd \bar "|." %194 finis
   }
 }
+
+WieSchrecklichFagottoI = {
+  \relative c {
+    \clef bass
+    \twotwotime \key f \minor \time 2/2 \tempoWieSchrecklich
+    \partial 8 r8 g'1\fz
+    b4 r r2
+    R1*4 %6
+    r2 des!(\fz
+    c8) r r4 des2(\fz
+    c8) r r4 g2\fz
+    as4 r \pa r h %10
+    c \pd g as f
+    \pao des8 r r4 r2
+    R1
+    des'1~\p
+    des %15
+    des2\fz f,\fz
+    g!\fz f\fz
+    e\fz c\fz
+    f4\ff g as a
+    b c des b %20
+    c r c, r
+    f r r2
+    R1*3 %25
+    R1\fermata
+    R1*2
+    b,2.\fz r4
+    r c' c r %30
+    r as8.\f as16 as4 r
+    r b8. b16 b4 r
+    R1*5 %37
+    b2\sfp ces
+    b\sfp ces
+    b4\f g r2\fermata %40
+    R1*2
+    \clef "treble_8" es'1(\<
+    fes2)\fz( es8) r r b
+    ces2 r %45
+    R1*3
+    \clef bass r2 fes(\fz
+    es8) r r4 fes2(\fz %50
+    es8) r r4 fes2(\fz
+    es8) r r4 fes2\ff
+    g,!4 r\fermata r\fermata r
+    c1
+    des2 b %55
+    \clef "treble_8" es\f ges
+    \mvD -1 f\ff ces
+    c4 r r2
+    \clef bass es,4 r es' r
+    as, r as r %60
+    as r as r
+    as r as r
+    \clef "treble_8" fes'2\fz es4 des
+    fes2\fz es4 des
+    ces r r d %65
+    es b ces as
+    fes r r2
+    R1
+    ces'1\p
+    R1*5 %74
+    r2 des\fz %75
+    r des\fz
+    r ges\fz
+    r ges\fz
+    r \clef bass \pao \mvD -1.5 b,\fz
+    r b\fz %80
+    ges1\fz
+    f4 a\ff b c
+    des8 r r4 r2
+    R1*4 %87
+    a1\fz
+    b2 des
+    f4 r es r %90
+    des r r \pa es(
+    des8) \pd r r4 r \pa es(
+    des8) \pd r a4(\decresc b8)\! r c4(
+    des8) r ges,4( f8) r es4(
+    des)\p r des r %95
+    des2 r4\fermata r
+    r2 ces'4.\ff ces8
+    b2 r
+    r des4.\ff des8
+    c2 r %100
+    R1*3
+    r2 r4\fermata r
+    R1*6 %110
+    r4 c8.\ff c16 c4 r
+    r c8. c16 c4 r
+    r c8. c16 c4 r
+    r des! b g
+    e des! b g %115
+    as r r2
+    R1*3
+    r2 des'!2(\fz %120
+    c8) r r4 des2(\fz
+    c8) r r4 des2(\fz
+    c8) r r4 des2\ff
+    e,4 r\fermata r\fermata r
+    c'2\fz c\fz %125
+    des!\fz es\fz
+    des4 b\f b r
+    r b b8 r\fermata r4
+    as r des r
+    b r c r %130
+    f, r f r
+    f r f r
+    f r f r
+    des'2\fz c4 b
+    des2\fz c4 b %135
+    as r r h
+    c g as f
+    c' r c r
+    f, r r r8\fermata \bar "|." %139 finis
+  }
+}
