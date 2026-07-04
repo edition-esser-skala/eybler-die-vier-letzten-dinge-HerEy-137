@@ -568,3 +568,107 @@ WieSchrecklichViolinoI = {
     <f c f,> r r r8\fermata \bar "|." %139 finis
   }
 }
+
+DochSanfterViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoDochSanfter
+    R1*14 %14
+    \key a \major a'1~\pE %15
+    a~
+    a4 r <cis e,>2\fp
+    <d d,> r
+    fis,2:32 e:
+    e: d4 r %20
+    c'1
+    \tempoDochSanfterC \grace s8 r8 ais16(\< h cis d e fis) g4(\> ais,8)\! r
+    r2 h
+    gis! r
+    e'4.\fp \tempoDochSanfterD r8 <g a,>4\fz r %25
+    \tempoDochSanfterE r8 a,,(\p c b d) f4 e16 d
+    d8( cis) r4 r2
+    a'4 r\fermata a\fermata r
+    d\fp fis\fp h,\fp r \bar "||" %29 finis
+  }
+}
+
+OWohlViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoOWohl
+    a4.\f^\conSord e'8(\p a cis)
+    e4(\fp d8) \brkBeam fis( e16 d cis h)
+    a4( gis8) h([\cresc d fis)]
+    e8.\fp d16 cis8 r h16(\p cis d h)
+    gis8.( a32 h a8) h16( cis d\cresc e fis d) %5
+    h8.( cis32 d cis8) \brkBeam cis'(\f h16 a gis fis)
+    e4(\fp dis8) \brkBeam fis~ fis16([ e)] e( d)
+    cis([ e] \grace e d32 cis d h) a8-! e~ e16( eis fis d)
+    d4( cis8) e([ a cis)]
+    e4( d8) \brkBeam fis( e16 d cis h) %10
+    % a8. h16 gis8 h([ d fis)] %for MIDI
+    \after 8 _\turn a8. h16 gis8 h([ d fis)]
+    e8. d16 cis8 r r h
+    gis4( a8) r r d
+    h4( cis8) cis16([\cresc d] e fis gis a)
+    a4.(\fp gis16 fis e d cis h) %15
+    a4( gis8) e([ dis e)]
+    f2.:16\fp
+    dis:\fp
+    e4 r8 cis'!( d! e)
+    fis16( cis d h) a8 a gis gis %20
+    h4(\sfp a8) \brkBeam cis'(\f h16 a gis fis)
+    e4( dis8) \brkBeam fis~\p fis16([ e)] e( d)
+    % cis8[ h] a a4 \grace cis16 h8 %for MIDI
+    cis8[ h] a \after 8 _\turn a4 \grace cis16 h8
+    a16( gis h a) cis(\cresc h d cis) fis( e a gis)
+    gis(\f fis e32 d cis h) a8 cis~\fz cis16( e d gis,) %25
+    h4(\p a8) e([ a cis)]
+    cis4( h8) \brkBeam gis'( fis16 e dis cis)
+    h8. a16 gis8 gis16([ a] ais h cis dis)
+    e4~ e16( gis fis e dis cis h ais)
+    ais4( h8) h,([\f ais a)] %30
+    g16\fp e' e e e2:
+    f2.:
+    e:\cresc
+    e:
+    dis4\! r8\fermata r h'4\p %35
+    r8 cis4 h32( a gis fis) e16( dis fis h)
+    a4( gis8) e'[\cresc e e]
+    <gis h, e,>4\fz r fis,8\p fis
+    e h'~ h16( cis) cis( dis) dis(\cresc e) e( eis)
+    eis( fis) fis( gis) gis( a) a(\f c) c(\decresc h) h( a) %40
+    a(\p gis) gis( fis) fis( e) e( d!) d( cis) cis( h)
+    h( a gis fis) e8 gis~\fp gis16( fis h dis,)
+    e( h gis h) e( gis h gis) e( a cis e)
+    e,( gis h d!) cis8 cis16([\cresc d] e fis gis a)
+    a4.\fp gis16( fis e d fis d) %45
+    cis4( h8) h16([\cresc cis] dis e fis gis)
+    a8.(\sfp fis16 dis8) r r4
+    r r8 e,(\p a cis)~
+    cis ais( h d cis e)~
+    e cis( d fis\cresc e g) %50
+    g4\! r\fermata fis\fermata
+    r r8 ais,(\p h cis)
+    % d[ h] a a4 \grace cis16 h8 %for MIDI
+    d[ h] a \after 8 _\turn a4 \grace cis16 h8
+    a fis'16(-\dolce e d cis h a) a( gis h e)
+    d( cis fis e d cis h a) a( gis h e) %55
+    d( cis fis e a\cresc gis cis h a gis fis e)
+    a8 r r4 r
+    r r a,8^\pizz r
+    r fis h r cis r
+    r a d r r4 %60
+    r h8\f r\fermata r4
+    a\p^\arco r\fermata gis\fermata
+    r r8 h( cis d)
+    e16( fis d h) a8 a gis gis
+    h4(\fp a8) \brkBeam cis'(\f h16 a gis fis) %65
+    e4( dis8) \brkBeam fis\p fis16([ e)] e( d)
+    % cis8[ h] a a4 \grace cis16 h8 %for MIDI
+    cis8[ h] a \after 8 _\turn a4 \grace cis16 h8
+    a16( gis h a) cis(\cresc h d cis) fis( e a gis)
+    gis([\f fis)] e32( d cis h) a8 cis~\fz cis16( e d gis,)
+    h4(\p a8) r r4\fermata \bar "|." %70 finis
+  }
+}

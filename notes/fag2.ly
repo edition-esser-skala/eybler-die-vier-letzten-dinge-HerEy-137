@@ -451,3 +451,76 @@ WieSchrecklichFagottoII = {
     f, r r r8\fermata \bar "|." %139 finis
   }
 }
+
+OWohlFagottoII = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \tempoOWohl
+    a4.\fE r8 r4
+    fis'4.\p \clef "treble_8" r8 r4
+    e'4. r8 r a,
+    gis4\fp a8 r r d,\p
+    d4 cis8 r r h'\cresc %5
+    gis4 a8 fis([\f gis a)]
+    h c~\pE c16([ h)] h( a) gis8 r
+    R2.*3 %10
+    r4 r8 h4\p a8
+    gis4 a8 r r4
+    r8 d, cis r r4
+    r8 gis' a r r4
+    \clef bass d,,4.\fz r8 r4 %15
+    R2.
+    f'4.\fp r8 r4
+    f4.\fp r8 r4
+    r r8 a, h cis
+    d r r4 r %20
+    r r8 fis\fE gis a
+    \clef "treble_8"h c~\pE c16([ h)] h( a) gis8 r
+    R2.
+    r4 a16(\cresc gis h a) d( cis fis e)
+    e[\f d] r8 r a4\fz h8 %25
+    h4\pE a8 r r4
+    \clef bass r r8 e4 e8
+    dis4 e8 e4 dis8
+    cis4. r8 \clef "treble_8" fis'16 e dis cis
+    cis4 h8 r r4 %30
+    e2.~
+    e2 d4~
+    d c h
+    ais r r
+    r r8\fermata r r4 %35
+    R2.
+    \clef bass r4 r8 d,!\cresc cis c
+    h4\fz r r
+    r8 e'4\p dis8 cis\cresc h
+    a gis fis e\f dis\decresc dis' %40
+    his\p gis cis gis a eis
+    fis r r4 r
+    r8 e4\< d8 cis a'\!
+    gis4 a8 r r4
+    d,,4.\fz r8 r4 %45
+    R2.
+    r8 h'4\fz h8 h h
+    h4\fz e8 r r4
+    R2.
+    r8 a fis d\cresc a cis\! %50
+    d4 r\fermata d,\p\fermata
+    R2.*2
+    r4 r r8 gis'(\p
+    h a) r4 r8 gis( %55
+    h a) r4 r
+    r8 h4\fz h,8 h h
+    h4(\fz e8) r r4
+    R2.
+    r4 r8 e\f d cis %60
+    h4\ten r\fermata r
+    r r\fermata r\fermata
+    R2.*2
+    r4 r8 fis'(\f gis a) %65
+    \clef "treble_8"h4. r8 r4
+    R2.
+    r4 a16(\cresc gis h a) d( cis fis e)
+    e[(\f d]) r8 r a4\fz h8
+    h4(\p a8) r r4\fermata \bar "|." %70 finis
+  }
+}

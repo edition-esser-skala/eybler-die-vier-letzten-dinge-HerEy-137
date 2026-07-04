@@ -595,3 +595,109 @@ WieSchrecklichViola = {
     <f c> r r r8\fermata \bar "|." %139 finis
   }
 }
+
+DochSanfterViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoDochSanfter
+    R1*14 %14
+    \key a \major a1~\pE %15
+    a~
+    a4 r a2\fp
+    a r
+    fis2:32 fis:
+    fis: fis4 r %20
+    c'1
+    \tempoDochSanfterC \grace s8 r8 <e cis!> q q q4. r8
+    r2 d
+    h r
+    e4.\fp \tempoDochSanfterD r8 <e a,>4\fz r %25
+    \tempoDochSanfterE r8 d,4\p d d e16 f
+    f8( e) r4 r2
+    a4 r\fermata a\fermata r
+    fis'\fp fis\fp e\fp r \bar "||" %29 finis
+  }
+}
+
+OWohlViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 3/4 \tempoOWohl
+    a4.\f^\conSord r8 r4
+    fis'4.\fp cis8 fis, fis'
+    cis4( h8) fis'([\cresc d cis)]
+    h(\fp e a,) r r << {
+      fis'8
+      \once \oneVoice r e4 \oneVoice r8 r \voiceOne fis %5
+      \once \oneVoice r h[ a]
+    } \\ {
+      d,8\pE
+      s h cis s s d\cresc %5
+      s e4\!
+    } >> a,8(\f h cis)
+    <a fis>4.\fp a8 h[ h']
+    e,16( cis a fis') e( cis a cis) h8 h
+    << { \once \slurDashed h4( a8) } \\ { e4. } >> r8 r4
+    fis'4. fis4 fis,8 %10
+    cis'4( h8) h([ fis' cis)]
+    e4~ e8 r r d
+    h4( cis8) r r h
+    d4( cis8) <cis a>16([\cresc <d h>] <e cis> <fis d> <gis e> <a fis>)
+    q4.\fp h,8(\p d fis) %15
+    e4. e8( dis e)
+    a,2.:16\fp
+    a:\fp
+    h4 r r8 a~
+    a16( ais h fis') e8 e d d %20
+    d4(\sfp cis8) a8([\f h cis)]
+    <a fis>4. a8\p h h'
+    e, d cis16( e a e) cis( e d gis)
+    a8 r <cis, a>16(\cresc <h gis> <d h> <cis a> <fis d> <e cis> <a fis> <gis e>)
+    q(\f <d fis> h fis') e( cis a cis) e( cis h d) %25
+    gis,4(\p a8) r r dis
+    e4. r8 r e
+    h[ dis] e r r h~
+    h16( ais cis h) \hA ais( e' dis gis) fis( e \hA dis cis)
+    cis4( h8) h([\f ais a)] %30
+    g2.:\fpE
+    a2: g4:
+    g2.:\cresc
+    e:
+    fis!4\! r8\fermata r h4\p %35
+    a fis fis8 h
+    \once \slurDashed dis4( e8) e[\cresc e e]
+    e4\fz r a,8\p a
+    gis gis'4 fis8 e[\cresc d!]
+    cis h a g\f fis\decresc fis' %40
+    dis\p his cis gis a eis
+    fis16( cis' h a) gis( h e h) dis( h fis a)
+    gis( h e gis) h( gis e gis) a( e cis a)
+    e'( h gis gis') a8 \brkBeam <cis, a>16(\cresc <d h> <e cis> <fis d> <gis e> <a fis>)
+    q4.\fp <gis e>16( <fis d> <e cis> <d h> <fis d> <d h>) %45
+    << { cis4( h8) h4 e8 } \\ { a,4( gis8) h4\cresc h8\! } >>
+    <dis h>8.(\sfp <fis dis>16 <a fis>8) r r4
+    r r8 e,4\p a8
+    fis( cis' d fis e g)
+    fis4. a4\cresc a8 %50
+    a4\! r\fermata a\fermata
+    r r8 e(\p d fis~)
+    fis d cis16( e a e) cis( e d gis)
+    a4 r8 e d gis,
+    a4 r8 e' d gis, %55
+    a4 r8 e\cresc cis' h
+    a r r4 r
+    r r a8^\pizz r
+    r d d r g r
+    r fis fis r r4 %60
+    r d8\f r\fermata r4
+    cis\p^\arco r\fermata h\fermata
+    r r8 e4 d8
+    cis d16 fis e8 e e e
+    d4(\fp cis8) a([\f h cis)] %65
+    <a fis>4. a8\p h h'
+    e, d cis16( e a e) cis( e d gis)
+    a8 r <cis, a>16(\cresc <h gis> <d h> <cis a> <fis d> <e cis> <a fis> <gis e>)
+    q(\f <fis d> h, fis') e( cis a cis) e( cis h d)
+    gis,4(\p a8) r r4\fermata \bar "|." %70 finis
+  }
+}

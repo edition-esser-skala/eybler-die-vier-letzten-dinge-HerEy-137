@@ -417,3 +417,63 @@ WieSchrecklichFlautoI = {
     f r r r8\fermata \bar "|." %139 finis
   }
 }
+
+OWohlFlauto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoOWohl
+    R2.*2
+    r4 r8 h'(\pE\crescE d fis)
+    e8.\fp d16 cis8 r r4
+    R2. %5
+    r4 r8 cis'(\f h16 a gis fis)
+    e4(\fp dis8) r r4
+    R2.*4 %11
+    r4 r h16( cis d h)
+    gis8.( a32 h a8) h16([ cis] d e fis d)
+    h8.( cis32 d cis8) cis16([\cresc d] e fis gis a)
+    a4.\fp gis16( fis e d cis h) %15
+    a4( gis8) r r4
+    R2.*4 %20
+    r4 r8 cis'(\f h16 a gis fis)
+    e4( dis8) r r4
+    R2.
+    a16( gis h a) cis(\cresc h d cis) fis( e a gis)
+    gis16(\f fis) e32( d cis h) a8 cis~\fz cis16( e d gis,) %25
+    h4(\pE a8) r r4
+    R2.*8 %34
+    r4 r8\fermata r r4 %35
+    R2.
+    r4 r8 e'\cresc e e
+    e4\fz r r
+    r8 h~\p h16( cis) cis( dis) dis(\cresc e) e( eis)
+    eis( fis) fis( gis) gis( a) a(\f c) c(\decresc h) h( a) %40
+    a(\pE gis) r8 r4 r
+    R2.*2
+    r4 r8 cis,16(\< d e fis gis a)
+    a8.\fz fis16 fis8 r r4 %45
+    R2.
+    r8 dis4\fz dis8 dis dis
+    fis4(\fz e8) r r4
+    R2.
+    r8 a,( d fis\cresc a g) %50
+    g4 r\fermata fis\p\fermata
+    R2.*2
+    r8 fis16(-\dolce e d cis h a) a( gis) r8
+    r8 fis'16( e d cis h a) a( gis) r8 %55
+    R2.
+    r8 fis'4\fz a,8 a a
+    a4(\fz gis8) r r4
+    R2.
+    r4 r8 fis'\f fis fis %60
+    fis4\ten r\fermata r
+    r r\fermata r\fermata
+    R2.*2
+    r4 r8 cis'(\f h16 a gis fis) %65
+    e4( dis8) r r4
+    R2.
+    a16( gis h a) cis(\cresc h d cis fis e a gis)
+    gis(\f fis) e32([ d cis h)] a8 cis~\fz cis16( e d gis,)
+    h4(\p a8) r r4\fermata \bar "|." %70 finis
+  }
+}

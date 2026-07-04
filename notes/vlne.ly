@@ -563,3 +563,132 @@ WieSchrecklichViolone = {
     f, r r r8\fermata \bar "|." %139 finis
   }
 }
+
+DochSanfterViolone = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoDochSanfter
+    fis2 r
+    R1
+    r2 r8 g e d
+    cis2 r
+    R1 %5
+    r8 d d4 r2
+    r r8 es e4
+    R1
+    r8 f cis2 r4
+    R1 %10
+    r2 d4 r
+    \tempoDochSanfterB d'8. c16 b8. a16 cis,8-! d-! r4
+    h!2 r \noBreak
+    r4 r8 c f,4 r
+    \key a \major cis'1~\pE \noBreak %15
+    \once \tieDashed cis~
+    cis4 r a2\fp
+    d r
+    ais2:32 ais:
+    ais: h4 r %20
+    e1
+    \tempoDochSanfterC \grace s8 r8 e e e e4. r8
+    r2 d
+    d' r
+    cis4.\fp \tempoDochSanfterD r8 a4\fz r %25
+    \tempoDochSanfterE r8 f,(\p\< fis g gis a b4)\!
+    a r r2
+    cis4 r\fermata d\fermata r
+    h!4\fp d\fp e\fp r \bar "||" %29 finis
+  }
+}
+
+DochSanfterBassFigures = \figuremode {
+  <6>1
+  r
+  r2 r8 <_-> <6\\ 5-> <6- 4>
+  <6>1
+  r %5
+  r8 <3> <6->2.
+  r2 r8 <3> <6>4
+  r1
+  r4 <7->2.
+  r1 %10
+  r
+  <6- 3>8. <6 \t>16 <10 5>8. <10 \t>16 <7->8 <5>4.
+  <7->1 %13 finis
+}
+
+OWohlViolone = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \tempoOWohl
+    a4.\f r8 r4
+    fis'4.\fp ais,8( h d)
+    e4. d'8(\cresc h a)
+    gis4(\fp a8) r r d,\p
+    r d( cis) r r h\cresc %5
+    r gis( a) fis([\f gis a)]
+    h c'~\p c16( h) h([ a)] gis8 gis,
+    a d e r e, e
+    a4. r8 r4
+    fis'4. ais,8( h d) %10
+    e4. d'8( h a)
+    gis4( a8) r r d,
+    d4( cis8) r r h'
+    gis4( a8) r r4
+    d,\fp d' r8 d %15
+    e4. e,8( dis e)
+    f2.:16\fp
+    f:\fp
+    e4 r8 a,( h cis)
+    d d' e e e, e %20
+    eis4(\sfp fis8) fis,([\f gis a)]
+    h c'~\p c16( h) h([ a)] gis8 gis,
+    a d e e e, e
+    a4 r r8 cis\f
+    d d' e e e, e %25
+    a,4.\pE e''8( cis a)
+    gis4. r8 r e
+    dis[ h] e r e' dis
+    cis cis,~ cis dis16 e fis8 fis,
+    h4. h8(\f ais a) %30
+    g2.:\fp
+    a2: h4:
+    c2.:\cresc
+    c:
+    h4\! r8\fermata r gis'!4\p %35
+    a a, h8 h
+    cis4. d'!8\cresc cis c
+    h4\fz r h,8\p h
+    e4 e'8 dis cis\cresc h
+    a gis fis e\f dis\decresc dis' %40
+    his\p gis cis e, a cis,
+    fis a h h h, h
+    e4. d!8 cis a
+    gis e a r r4
+    d\fp d' r8 d, %45
+    r e e, h''\cresc gis e
+    h h' r4 r
+    r r8 e,(\p cis a)
+    d( fis d h e cis)
+    fis( a fis d\cresc cis cis') %50
+    d4\! r\fermata d,\fermata
+    \clef "treble_8" << { r4 r8 e'([\p d)] } \\ { r4 r r8 } >> \clef bass ais,(
+    h d) e e e, e
+    a4 r8 cis' h e,
+    a a, r cis' h e, %55
+    a a, r a'4\cresc gis8
+    fis\! r r4 r
+    r r cis8^\pizz r
+    r d d' r e, r
+    r fis fis' r r4 %60
+    r d,8\f r\fermata r4
+    e\p^\arco r\fermata e\fermata
+    r r8 d'( cis h)
+    a d e e e, e
+    eis4(\fp fis8) fis,([\f gis a)] %65
+    h4. a8\p gis gis'
+    a d, e e e, e
+    a4 r r8 cis\f
+    d d' e e e, e
+    a,4.\p r8 r4\fermata \bar "|." %70 finis
+  }
+}

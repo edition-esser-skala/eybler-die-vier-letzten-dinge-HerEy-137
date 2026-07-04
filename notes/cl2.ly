@@ -443,3 +443,71 @@ WieSchrecklichClarinettoII = {
     g, r r r8\fermata \bar "|." %139 finis
   }
 }
+
+OWohlClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoOWohl
+    c4.\fE r8 r4
+    a'4.\fp r8 r f
+    e4( d8) r r4
+    g4.\fp r8 r a\p
+    g4. r8 r a\cresc %5
+    g4.\! r8 r4
+    a4.\fp r8 r4
+    R2.*3 %10
+    r4 r8 a4\p a8
+    d4 c8 r r4
+    r8 g4 r8 r4
+    r8 g c c,16[(\cresc d] e f g a)
+    a4.\fz r8 r4 %15
+    R2.
+    es4.\fp r8 r4
+    es4.\fp r8 r4
+    r r8 c'( h b)
+    a r r4 r %20
+    R2.
+    a4.\fz r8 r4
+    R2.
+    r4 c16(\cresc h d c) f( e a g)
+    g(\f f) a,[ f] e8 e4\fz g8 %25
+    g4.\p r8 r4
+    r r8 g4 g8
+    a4 g8 g4 a8
+    g4. r8 r4
+    R2.*5 %34
+    r4 r8\fermata r r4 %35
+    R2.
+    r4 r8 g\cresc g ais
+    h4\fz r r
+    r8 h4\p a8 g\cresc f!
+    e d c b\f a\decresc a' %40
+    fis\p dis e r r4
+    R2.
+    r8 d4\< g c8
+    d4\! c8 c,16[\< d] e f g a
+    a8.\fz f16 f8 r r4 %45
+    R2.
+    r8 a4\fz a8 a a
+    fis4(\fz g8) r r4
+    R2.
+    r8 c, f a\cresc c c\! %50
+    c4 r\fermata c\p\fermata
+    R2.*2
+    r4 r r8 h(\p
+    d c) r4 r8 h( %55
+    d c) r4 r
+    r8 fis,4\fz fis8 fis fis
+    fis4(\fz g8) r r4
+    R2.
+    r4 r8 a\f a g %60
+    f4\ten r\fermata r
+    r r\fermata r\fermata
+    R2.*3 %65
+    a4.\fz r8 r4
+    R2.
+    r4 c16(\cresc h d c) f( e a g)
+    g([\f f)] a, f e8 e4\fz g8
+    g4.\p r8 r4\fermata \bar "|." %70 finis
+  }
+}

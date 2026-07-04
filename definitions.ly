@@ -41,6 +41,7 @@ mvD = #(define-music-function
   #{
     \once \override DynamicText.X-offset = #offset
   #})
+brkBeam = #(make-music 'BeamForbidEvent)
 
 tempoOvertura = \tempoMarkup "Grave"
   tempoOverturaB = \tempoMarkup "Allegro assai"
@@ -56,6 +57,12 @@ tempoAmZiele = \tempoMarkup "Rezitativ"
   tempoAmZieleH = \tempoMarkup "Andante"
   tempoAmZieleI = \tempoMarkup "a tempo"
 tempoWieSchrecklich = \tempoMarkup "Allegro"
+tempoDochSanfter = \tempoMarkup "Rezitativ"
+  tempoDochSanfterB = \tempoMarkup "a tempo"
+  tempoDochSanfterC = \tempoMarkup "Adagio"
+  tempoDochSanfterD = \tempoMarkup "stringendo"
+  tempoDochSanfterE = \tempoMarkup "a tempo, Andante"
+tempoOWohl = \tempoMarkup "Adagio [ma non tanto]"
 
 
 \include "notes/fl1.ly"
