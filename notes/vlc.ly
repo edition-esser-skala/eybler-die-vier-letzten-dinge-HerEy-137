@@ -666,6 +666,77 @@ WieGroßCello = {
   \relative c {
     \clef bass
     \twotwotime \key c \minor \time 2/2 \tempoWieGroß
-    
+    c4~\f c16 d32( es f g a h) c8.[ g16 es8. c16]
+    d4 r r2
+    d4~ d16 es32( f g a h c) d8.[ h16 f8. d16]
+    es4 r r2
+    es4~ es16 f32( g a h c d) es8.[ c16 g8. es16] %5
+    f4 f, r8. f'16[ as8. f16]
+    es4 es, r8. es'16[ g8. es16]
+    d8.[ d'16 c8. c,16] h8.[ h'16 c8. c,16]
+    g8.[ h16 d8. g16] g,8.[ g'16 h8. g16]
+    c4 c, r8. f16[ as8. f16] %10
+    d'4 d, r8. g16[ b8. g16]
+    es8.[ g16 b8. b,16] c8.[ c'16 as8. f16]
+    b2 r
+    R1
+    r2 r4 b(\p %15
+    ces as f as)
+    d,2 r
+    as1
+    b2 r4 as'8.\ff as16
+    g8.[ g16 b8. b16] as8.[ as16 des8. des16] %20
+    c1\fz\fermata
+    r2 es,\pp
+    f ges4 as
+    b2 b,
+    es1( %25
+    des
+    ces
+    b)
+    as2:16-\markup \remark "tremolo" as:
+    as: as: %30
+    as: as:
+    as: as:\cresc
+    as: as:
+    g: g:
+    fis:\f fis: %35
+    f:\ff f:
+    es!4 c''~ c8.[ g16 es8. c16]
+    f4 f, r8. f'16[ as8. f16]
+    es4 es, r8. g'16[ es8. c16]
+    d8.[ d,16 es8. es'16] f8.[ f,16 as8. as'16] %40
+    g8.[ g16 d8. h16] g8.[ g'16 h8. g16]
+    c4 c, r8. c'16[ as8. f16]
+    b!4 b, r8. b'16[ g8. es16]
+    as8.[ as,16 as'8. g16] f8.[ as16 d,8. f16]
+    \clef "treble_8" g8.[ g16 h8. d16] g8.[ as16 f8. g16] %45
+    es8.[ f16 d8. es16] c8.[ d16 b8. c16]
+    as8.[ f16] f8.\trill e32 f \clef bass b8.[ c16 as8. b16]
+    g8.[ as16 f8. g16] es8.[ f16 d8. es16]
+    c8.[ d16 b8. c16] as8.[ g16 f8. f'16]
+    g4 g,2 g'4 %50
+    g g,2 g'4
+    g g,2 es'4
+    as2\fz f\fz
+    <g g,>\fz r
+    R1 %55
+    r2 r4 g(\p
+    as f d c)
+    h2 r
+    f1
+    g2 r4 g'8.\ff g16 %60
+    c8.[ c16 b!8. b16] as!8.[ as16 g8. g16]
+    f1\fz\fermata
+    r2 f\pp
+    d! es4 f
+    g2 g, %65
+    c1~
+    c~
+    c~
+    c~
+    c~\perd %70
+    c~
+    c2\! r\fermata \bar "|." %72 finis
   }
 }

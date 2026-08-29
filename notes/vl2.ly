@@ -799,6 +799,77 @@ WieGroßViolinoII = {
   \relative c' {
     \clef treble
     \twotwotime \key c \minor \time 2/2 \tempoWieGroß
-    
+    c4~\f c16 d32( es f g a h) c8.[ d16 es8. es,16]
+    f4 r r2
+    d4~ d16 es32( f g a h c) d8.[ es16 f8. f,16]
+    g4 r r2
+    es4~ es16 f32( g a h c d) es8.[ g16 es8. c16] %5
+    as8.[ c16 f8. as16] c8.[ as16 f8. c16]
+    g8.[ c16 es8. g16] c8.[ g16 es8. c16]
+    h8. c16 c8.\trill h32 c d8. c16 c8.\trill h32 c
+    h8.[ g16 d8. h16] g4 r
+    r8. es''16[ g8. es16] c4 as' %10
+    r8. f16[ as8. f16] d4 b'
+    r8. g16[ f8. d,16] c8.[ es16 f8. f'16]
+    <d f,>2 r
+    R1
+    r2 r4 b(\p %15
+    ces as f as)
+    d,2 r
+    ces1
+    as2 r4 b'8.\ff b16
+    b8.[ b16 c8. c16] c8.[ c16 <es es,>8. q16] %20
+    q1\fz\fermata
+    r2 es,\pp
+    d es~
+    es d
+    es1~ %25
+    es~
+    es~
+    es
+    ces2:16-\markup \remark "tremolo" ces:
+    ces: ces: %30
+    ces: ces:
+    ces: ces:\cresc
+    ces: ces:
+    d!: d:
+    d:\f d: %35
+    d:\ff g:
+    g8.[ c,16 es8. g16] c8.[ es16 g8. g,16]
+    as8.[ c16 f8. as16] c8.[ as16 f8. c16]
+    g8.[ c16 es8. g16] c8.[ es,16 g8. es16]
+    f8.[ g16 es8. f16] d8.[ es16 c8. d16] %40
+    h8.[ h,16 d8. g16] g,4 r
+    r8. es''16[ g8. es16] c4 as'
+    r8. d,16[ f8. d16] b4 g'
+    r8. c,16[ d8. es16] f8.[ g16 as8. f16]
+    d8.[ h16 d8. h16] g8. h16 h8.\trill a32 h %45
+    c8.[ d16 b8. c16] as8.[ b16 g8. as16]
+    f8.[ g16 es8. f16] d8. f16 f8.\trill e32 f
+    b8.[ c16 as8. b16] g8.[ as16 f8. g16]
+    es8.[ f16 d8. es16] c8. as'16 as8.\trill g32 as
+    g8.[ h,16 d8. g16] h8.[ d16 h8. g16] %50
+    fis8.[ es'16 es8. fis,16] fis8.[ g16 a8. fis16]
+    g8.[ d16 g8. a16] h8.[ d16 c8. g16]
+    as8.[ c,16 es8. as16] c8.[ as16 f8. f'16]
+    d2 r
+    R1 %55
+    r2 r4 g,(\p
+    as f d c)
+    h2 r
+    as!1
+    g2 r4 h'8.\ff h16 %60
+    c8.[ c16 c8. c16] c8.[ c16 e8. e16]
+    f1\fz\fermata
+    r2 des,\pp
+    h c~
+    c h %65
+    c1~
+    c~
+    c~
+    c~
+    c~\perd %70
+    c~
+    c2\! r\fermata \bar "|." %72 finis
   }
 }

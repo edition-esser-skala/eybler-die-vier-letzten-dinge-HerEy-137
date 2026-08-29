@@ -388,10 +388,136 @@ WieGroßBasso = {
   \relative c {
     \clef bass
     \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoWieGroß
-
+    r2 r4 c'\f
+    d,4. es8 f4 es
+    d2 r4 d'
+    es,4. f8 g4 f
+    es2 r4 es %5
+    f2 r4 f
+    es2 r4 es'
+    d c h c
+    g2 r
+    r4 c, f2 %10
+    r4 d g2
+    r4 b c f,
+    b2 r
+    r r4 r8 b\f
+    b2 r %15
+    R1
+    r2 r4 b\p
+    ces as f as
+    d,2 r
+    r4 b'\ff as des %20
+    \mvDll c1\fz\fermata
+    R1
+    r2 es,\pp
+    b2 r4 b
+    es1 %25
+    R1*4
+    r4 e\pp e2 %30
+    r4 e e2
+    r4 e e\cresc e
+    gis2 r4 gis
+    g2 r4 g
+    fis2\f r4 fis %35
+    f2.\ff f4
+    es!2 r4 es
+    f2 r4 f
+    es2 r4 c
+    d es f as %40
+    g2 r
+    r4 c as2
+    r4 b! g2
+    r4 as f d
+    g r r2 %45
+    R1
+    r4 f b as
+    g f es d
+    c b as f
+    g'2 r4 g %50
+    g4. g8 g4 g
+    g4. g8 g4 es
+    as2\fz f\fz
+    g\fz r
+    r r4 r8 g\f %55
+    g2 r
+    R1
+    r2 r4 g\p
+    as f d c
+    h2 r %60
+    r4\ff b'! as! g
+    \mvDll f1\fz\fermata
+    R1
+    r2 \mvDl c\pp
+    g2 r4 g %65
+    c1
+    R1*5 %71
+    R1\fermata \bar "|." %72 finis
   }
 }
 
 WieGroßBassoLyrics = \lyricmode {
+  Wie
+  groß iſt dei -- ne
+  Macht! wie
+  groß iſt dei -- ne
+  Macht die %5
+  einſt, o
+  Herr! den
+  We -- ſen Le -- ben
+  gab.
+  Wie groß %10
+  o Herr!
+  iſt dei -- ne
+  Macht!
+  Du
+  winkſt, %15
 
+  das
+  Le -- ben iſt nicht
+  mehr,
+  die wei -- te %20
+  Welt
+
+  iſt
+  nur ein
+  Grab. %25
+
+  Wie groß %30
+  o Herr!
+  iſt dei -- ne
+  Macht, wie
+  groß o
+  Herr! iſt %35
+  dei -- ne
+  Macht, die
+  einſt o
+  Herr den
+  We -- ſen Le -- ben %40
+  gab,
+  wie groß
+  o Herr
+  iſt dei -- ne
+  Macht! %45
+
+  die einſt den
+  We -- ſen Le -- ben
+  gab, das Le -- ben
+  gab, wie %50
+  groß iſt dei -- ne
+  Macht o Herr, wie
+  groß o
+  Herr!
+  Du %55
+  winkſt,
+
+  das
+  Le -- ben iſt nicht
+  mehr, %60
+  die wei -- te
+  Welt
+
+  iſt
+  nur ein %65
+  Grab. %66 finis
 }

@@ -442,6 +442,50 @@ WieGroßOboeII = {
   \relative c' {
     \clef treble
     \twotwotime \key c \minor \time 2/2 \tempoWieGroß
-    
+    c'4.\f c8 c4 c
+    h r r2
+    h4. h8 h4 h
+    c r r2
+    c4. c8 c4 c %5
+    c1~
+    c
+    h4 c d a
+    h h2\fz d4
+    c2 as! %10
+    d b
+    es4 d es f
+    d2 r
+    R1*5 %18
+    r2 r4 b~\ff
+    b c2 es4 %20
+    es1\fz\fermata
+    R1*12 %33
+    r4 h\p h h
+    d1\cresc %35
+    h\ff
+    c4 es2 c4
+    c1~
+    c2. es4
+    d c as' f %40
+    d d2\fz h4
+    c1
+    b!
+    as!
+    g4 r r g %45
+    c b! as! g
+    f c' d f
+    g as g f
+    es d c f
+    h, h2\fz g4 %50
+    fis2. fis4
+    g4. a8 h4 c
+    c2\fz c\fz
+    h\fz r
+    R1*5 %59
+    r2 r4 h\ff %60
+    c c2 e4
+    f1\fz\fermata
+    R1*9 %71
+    R1\fermata \bar "|." %72 finis
   }
 }

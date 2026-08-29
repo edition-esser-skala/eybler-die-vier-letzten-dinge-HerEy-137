@@ -242,6 +242,43 @@ WieGroßClarinoBII = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoWieGroß
-
+    R1
+    g'4\f r r2
+    g1
+    R1*2
+    g1
+    R1*3
+    r2 g~
+    g c,~
+    c r
+    r r4 r8 c\f
+    c2\ten r
+    R1*4
+    r2 r4 c8.\ff c16
+    c4 r r2
+    b'1\fz\fermata
+    R1*14
+    e,1\ff
+    R
+    g
+    R1*3
+    r2 c,4. c8
+    c2 r
+    r g'
+    e4 r r2
+    R1
+    r4 g g g
+    c, r r2
+    R1
+    e2 r
+    R1
+    e2 r
+    r g\fz
+    e\fz r
+    R1*6
+    r2 r4 c8.\ff c16
+    g'1\fermata
+    R1*9
+    R1\fermata \bar "|."
   }
 }

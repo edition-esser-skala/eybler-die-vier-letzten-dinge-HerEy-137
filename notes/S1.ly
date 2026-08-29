@@ -418,10 +418,138 @@ WieGroßSoprano = {
   \relative c' {
     \clef treble
     \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoWieGroß
-
+    r2 r4 c'\f
+    f4. es8 d4 c
+    h2 r4 h
+    g'4. f8 es4 d
+    c2 r4 c %5
+    as'2 r4 c,
+    g'2 r4 g
+    h, c d es
+    d2 r4 g,
+    es'2 r4 as,4 %10
+    f'2 r4 b,!
+    g' d es as
+    f2 r
+    r r4 r8 b,\f
+    b2 r %15
+    R1
+    r2 r4 b\p
+    ces as f as
+    d,2 r
+    r4 e'\ff f g %20
+    \mvDll as1\fz\fermata
+    R1
+    r2 ges,\pp
+    f r4 f
+    es1 %25
+    R1*3
+    r2 r4 h\pp
+    e2 r4 e %30
+    gis2 r4 gis
+    \after 2 \cresc h2. h4
+    e2 r4 e
+    f!2 r4 f
+    fis2\f r4 fis %35
+    g!2.\ff h,4
+    c2 r4 c
+    as'2 r4 c,
+    g'2 r4 g
+    f es d c %40
+    h2 r4 g'
+    es2 r4 f
+    d2 r4 es
+    c d8([ es)] d4 c
+    h r r2 %45
+    r r4 c
+    f es d c
+    b c8([ d)] es4 f
+    g as8([ g)] f([ es)] d([ c)]
+    h2 r4 g' %50
+    es4. es8 d4 c
+    h4. c8 d4 g
+    c,2\fz as'\fz
+    d,\fz r
+    r r4 r8 g,\f %55
+    g2 r
+    R1
+    r2 r4 g\p
+    as f d c
+    h2 r %60
+    r4 e'\ff f g
+    \mvDll as1\fz\fermata
+    R1
+    r2 es,\pp
+    d r4 d %65
+    c1
+    R1*5 %71
+    R1\fermata \bar "|." %72 finis
   }
 }
 
 WieGroßSopranoLyrics = \lyricmode {
+  Wie
+  groß iſt dei -- ne
+  Macht! wie
+  groß iſt dei -- ne
+  Macht die %5
+  einſt, o
+  Herr! den
+  We -- ſen Le -- ben
+  gab. Wie
+  groß o %10
+  Herr! wie
+  groß iſt dei -- ne
+  Macht!
+  Du
+  winkſt, %15
 
+  das
+  Le -- ben iſt nicht
+  mehr,
+  die wei -- te %20
+  Welt
+
+  iſt
+  nur ein
+  Grab. %25
+
+  Wie %29
+  groß o %30
+  Herr! iſt
+  dei -- ne
+  Macht, wie
+  groß o
+  Herr! iſt %35
+  dei -- ne
+  Macht, die
+  einſt o
+  Herr den
+  We -- ſen Le -- ben %40
+  gab, wie
+  groß o
+  Herr, wie
+  groß iſt dei -- ne
+  Macht! %45
+  die
+  einſt den We -- ſen
+  Le -- ben gab, den
+  We -- ſen Le -- ben
+  gab, wie %50
+  groß iſt dei -- ne
+  Macht o Herr, wie
+  groß o
+  Herr!
+  Du %55
+  winkſt,
+
+  das
+  Le -- ben iſt nicht
+  mehr, %60
+  die wei -- te
+  Welt
+
+  iſt
+  nur ein %65
+  Grab. %66 finis
 }

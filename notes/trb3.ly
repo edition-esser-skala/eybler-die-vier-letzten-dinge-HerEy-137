@@ -351,6 +351,48 @@ WieGroßTromboneIII = {
   \relative c {
     \clef bass
     \twotwotime \key c \minor \time 2/2 \tempoWieGroß
-
+    c2\f r4 c
+    d4. es8 f4 es
+    d2 r4 d
+    es4. f8 g4 f
+    es r r2 %5
+    r4 f8. f16 f2
+    r4 es8. es16 es2
+    d4 c h c
+    g g'2\fz g4
+    c,2 f %10
+    d g
+    es4 b' c f,
+    b2 r
+    R1*5 %18
+    r2 r4 as,\ff
+    g b as des %20
+    c1\fz\fermata
+    R1*14 %35
+    r4 g'\ff g g
+    g r r2
+    r4 f8. f16 f2
+    r4 es8. es16 es4 c
+    d es f as %40
+    g g2\fz g4
+    c,2 as'
+    b, g'
+    as,4 as' f d
+    g f es d %45
+    c r r2
+    r4 f b as
+    g f es d
+    c b as f
+    g g'2\fz g4 %50
+    a1
+    h4. a8 g4 es
+    as2\fz f\fz
+    g\fz r
+    R1*5 %59
+    r2 r4 g\ff %60
+    c b! as! g
+    f1\fz\fermata
+    R1*9 %71
+    R1\fermata \bar "|." %72 finis
   }
 }

@@ -354,6 +354,48 @@ WieGroßTromboneII = {
   \relative c' {
     \clef tenor
     \twotwotime \key c \minor \time 2/2 \tempoWieGroß
-    
+    g2\f r4 es
+    f4. g8 as4 g
+    f2 r4 f
+    g4. as8 g4 h
+    c r r2 %5
+    r4 c8. c16 c2
+    r4 c8. c16 c2
+    h4 c d c
+    h h2\fz h4
+    c2 as~ %10
+    as b!~
+    b4 d es f
+    d2 r
+    R1*5 %18
+    r2 r4 f,\ff
+    b g c b %20
+    es1\fz\fermata
+    R1*14 %35
+    r4 h\ff h h
+    c r r2
+    r4 c8. c16 c2
+    r4 c8. c16 c4 es
+    d c as f' %40
+    d h2\fz h4
+    c1
+    b!
+    as2 d
+    h4 d g f %45
+    es d c b
+    as c b d
+    es as,! b b
+    es, f8 g as4 f'
+    d h2\fz h4 %50
+    c2 d4 es
+    d4. c8 h4 c
+    c2\fz c\fz
+    h\fz r
+    R1*5 %59
+    r2 r4 h\ff %60
+    c g f b
+    as1\fz\fermata
+    R1*9 %71
+    R1\fermata \bar "|." %72 finis
   }
 }

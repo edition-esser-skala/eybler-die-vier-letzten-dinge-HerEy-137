@@ -643,6 +643,54 @@ WieGroßFagottoII = {
   \relative c {
     \clef bass
     \twotwotime \key c \minor \time 2/2 \tempoWieGroß
-    
+    c4.\f c8 c4 c
+    d r r2
+    d4. d8 d4 d
+    es r r2
+    es4. es8 es4 es %5
+    f1
+    es
+    d4 c h c
+    g g2\fz h4
+    c2 f %10
+    d g
+    es4 b c f,
+    b2 r
+    R1*5 %18
+    r2 r4 as\ff
+    g b as des %20
+    c1\fz\fermata
+    R1*11 %32
+    r4 gis'\p gis gis
+    g1\cresc
+    fis\f %35
+    f\ff
+    es4 c2 es4
+    f1
+    es2. c,4
+    d es f as %40
+    g h2\fz g4
+    c2 as!
+    b! g
+    as f
+    g4 r r2 %45
+    R1
+    r4 f' b as
+    g f es d
+    c b as f
+    g g2\fz g4 %50
+    g1~
+    g2. es4
+    as2\fz f\fz
+    g\fz r
+    R1*5 %59
+    r2 r4 g\ff %60
+    c b! as! g
+    f1\fz\fermata
+    R1*6 %68
+    f'1(\pp
+    e2) r %70
+    R1
+    R\fermata \bar "|." %72 finis
   }
 }

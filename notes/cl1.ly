@@ -645,6 +645,54 @@ WieGroßClarinettoI = {
   \relative c' {
     \clef treble
     \twotwotime \key d \minor \time 2/2 \tempoWieGroß
-
+    a'4.\f a8 a4 a
+    b r r2
+    b4. b8 b4 b
+    a r r2
+    \pa a4. a8 a4 a \pd %5
+    b1
+    \pao a
+    a4 b a gis
+    a a2\fz a4
+    a2 b %10
+    b c
+    c4 b a d
+    c2 r
+    R1*5 %18
+    r2 r4 g\ff
+    a a b c %20
+    b1\fz\fermata
+    R1*11 %32
+    r4 \pa fis\p fis fis \pd
+    g1\cresc
+    cis\f %35
+    e\ff
+    d4 a2 d4
+    b1
+    \pao a2. a4
+    cis d b! g %40
+    a a2\fz a4
+    a2 b!
+    g a
+    f b
+    a4 \pa e' a g %45
+    f g8 a d,4 e8 fis
+    g4 h, c e
+    f! b, c c
+    f, g8 a \pd b4 b
+    a a2\fz a4 %50
+    h2. h4
+    a2. a4
+    b!2\fz b\fz
+    a\fz r
+    R1*5 %59
+    r2 r4 \pa a\ff %60
+    a a \pd b c
+    b1\fz
+    R1*4 %66
+    b1(\pp
+    a2) r
+    R1*3 %71
+    R1\fermata \bar "|." %72 finis
   }
 }

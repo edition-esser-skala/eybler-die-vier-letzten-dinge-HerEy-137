@@ -407,10 +407,136 @@ WieGroßTenore = {
   \relative c' {
     \clef "treble_8"
     \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoWieGroß
-
+    r2 r4 es\f
+    h4. c8 d4 es
+    f2 r4 f
+    c4. d8 es4 h
+    c2 r4 c %5
+    c2 r4 c
+    c2 r4 g'
+    f es d c
+    h2 r4 g
+    c2 r4 f, %10
+    d'2 r4 g,
+    es' f es f
+    d2 r
+    r r4 r8 b\f
+    b2 r %15
+    R1
+    r2 r4 b\p
+    ces as f as
+    d,2 r
+    r4 c'\ff c es %20
+    \mvDll es1\fz\fermata
+    R1
+    r2 b\pp
+    b r4 b
+    es,1 %25
+    R1*4
+    r4 gis\pp gis2 %30
+    r4 gis h2
+    r4 h h\cresc h
+    h2 r4 h
+    d!2 r4 d
+    d2\f r4 d %35
+    d2.\ff g,4
+    c2 r4 c
+    c2 r4 c
+    c2 r4 es
+    d c f c %40
+    d2 r4 d
+    c2 r4 c
+    b!2 r4 b
+    as! as as as
+    g d' g f %45
+    es d c b
+    as! c b d
+    es r r b
+    es, f8([ g)] as4 f'
+    d2 r4 h %50
+    c4. c8 d4 es
+    d4. c8 h4 c
+    c2\fz f\fz
+    d\fz r
+    r r4 r8 g,\f %55
+    g2 r
+    R1
+    r2 r4 g\p
+    as f d c
+    h2 r %60
+    r4 c'\ff c e
+    \mvDll f1\fz\fermata
+    R1
+    r2 g,\pp
+    g2 r4 g %65
+    c,1
+    R1*5 %71
+    R1\fermata \bar "|." %72 finis
   }
 }
 
 WieGroßTenoreLyrics = \lyricmode {
+  Wie
+  groß iſt dei -- ne
+  Macht! wie
+  groß iſt dei -- ne
+  Macht die %5
+  einſt, o
+  Herr! den
+  We -- ſen Le -- ben
+  gab. Wie
+  groß o %10
+  Herr! wie
+  groß iſt dei -- ne
+  Macht!
+  Du
+  winkſt, %15
 
+  das
+  Le -- ben iſt nicht
+  mehr,
+  die wei -- te %20
+  Welt
+
+  iſt
+  nur ein
+  Grab. %25
+
+  Wie groß %30
+  o Herr!
+  iſt dei -- ne
+  Macht, wie
+  groß o
+  Herr! iſt %35
+  dei -- ne
+  Macht, die
+  einſt o
+  Herr den
+  We -- ſen Le -- ben %40
+  gab, wie
+  groß o
+  Herr, wie
+  groß iſt dei -- ne
+  Macht! die einſt den  %45
+  We -- ſen Le -- ben
+  gab, das Le -- ben
+  gab, den
+  We -- ſen Le -- ben
+  gab, wie %50
+  groß iſt dei -- ne
+  Macht o Herr, wie
+  groß o
+  Herr!
+  Du %55
+  winkſt,
+
+  das
+  Le -- ben iſt nicht
+  mehr, %60
+  die wei -- te
+  Welt
+
+  iſt
+  nur ein %65
+  Grab. %66 finis
 }

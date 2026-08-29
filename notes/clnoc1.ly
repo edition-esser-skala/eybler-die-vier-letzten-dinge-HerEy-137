@@ -237,6 +237,42 @@ WieGroßClarinoCI = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoWieGroß
-
+    \pao c1\f
+    R1*2
+    g'4 r r2
+    c2 c4 c %5
+    c r8 c c4 c
+    c r8 c c4 c
+    g c d c
+    g2 r
+    c2. r4 %10
+    r2 r4 \pa b
+    b b g c
+    b2 \pd r
+    R1*6 %19
+    r4 c8.\ff c16 c4 r %20
+    c1\fz\fermata
+    R1*14 %35
+    d1\ff
+    c4 c8. c16 c4 c
+    c r8 c c4 c
+    c r8 c c4 c
+    g r r2 %40
+    g r
+    R1*3
+    g4 r r g %45
+    c r r2
+    R1*3
+    g4. g8 g4 g %50
+    c2 r
+    g r
+    c r
+    r r4 r8 g\f
+    g2\ten r %55
+    R1*5 %60
+    r4 c8.\ff c16 c4 r
+    c1\fz\fermata
+    R1*9 %71
+    R1\fermata \bar "|." %72 finis
   }
 }

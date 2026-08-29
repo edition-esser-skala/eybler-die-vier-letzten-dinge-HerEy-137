@@ -752,7 +752,7 @@
   % }
   \bookpart {
     \section "10" "Coro. Wie groß iſt deine Macht!"
-    % \addTocEntry
+    \addTocEntry
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -770,18 +770,15 @@
           }
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            % \setSoloText "ob 1"
             \partCombine #'(0 . 10) \WieGroßOboeI \WieGroßOboeII
           }
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cl" "B" "flat" "1, 2" }
-            % \setSoloText "cl 1"
             % \transpose c b,
             \partCombine #'(0 . 10) \WieGroßClarinettoI \WieGroßClarinettoII
           }
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-            % \setSoloText "fag 1"
             \partCombine #'(0 . 10) \WieGroßFagottoI \WieGroßFagottoII
           }
           \new Staff {
@@ -793,7 +790,6 @@
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } <<
             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
-            % \setSoloText "cor 1"
             % \transpose c es,
             \partCombine #'(0 . 10) \WieGroßCornoI \WieGroßCornoII
           >>
@@ -884,7 +880,7 @@
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 120 } % 180 – 120 – 60
+      \midi { \tempo 2 = 60 }
     }
   }
 }

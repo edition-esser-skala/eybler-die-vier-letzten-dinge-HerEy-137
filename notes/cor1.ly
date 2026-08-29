@@ -416,6 +416,51 @@ WieGroßCornoI = {
   \relative c' {
     \clef treble
     \twotwotime \key c \major \time 2/2 \tempoWieGroß
-    
+    c'1\f
+    R1*2
+    c4 r r2
+    c1 %5
+    R
+    e4 r8 e e4 e
+    d c e c
+    e e2\fz d4
+    c2 r %10
+    r r4 \pao g
+    e' d \pao c f
+    d2 r
+    R1*6 %19
+    r2 r4 c8.\ff c16 %20
+    c1\fz\fermata
+    R1*3
+    c1~\pp %25
+    c~
+    c~
+    c
+    R1*7 %35
+    e1\ff
+    c4 c8. c16 c4 c
+    R1
+    e4 r8 e e4 e
+    e r r2 %40
+    r4 e2\fz e4
+    c r r2
+    r c4. c8
+    c2 r
+    r4 e2 d4 %45
+    c r r2
+    R1
+    r2 r4 \pao g
+    c r r2
+    r4 e2\fz e4 %50
+    c2 r
+    R1
+    c2\fz f\fz
+    e\fz r
+    R1*5 %59
+    r2 r4 e8.\ff e16 %60
+    e4 r r2
+    f1\fz\fermata
+    R1*9 %71
+    R1\fermata \bar "|." %72 finis
   }
 }

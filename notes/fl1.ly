@@ -516,6 +516,49 @@ WieGroßFlautoI = {
   \relative c' {
     \clef treble
     \twotwotime \key c \minor \time 2/2 \tempoWieGroß
-    
+    c''4.\f c8 c4 c
+    h r r2
+    d4. d8 d4 d
+    c r r2
+    \pa c4. c8 c4 c \pd %5
+    \ottava #1 as'1
+    g
+    h,4 \pa c d es8 c
+    h4 \ottava #0 r r g
+    es'2 r4 c %10
+    f2 r4 d
+    g \pd d es as
+    f2 r
+    R1*5 %18
+    r2 r4 \ottava #1 d\ff
+    es e f g %20
+    as1\fz\fermata \ottava #0
+    R1*13 %34
+    r4 h,\f d fis %35
+    \ottava #1 g2.\ff \pa h,4
+    c es2 c4 \pd
+    as'1
+    g2. g4
+    f es d c %40
+    h2 \ottava #0 \ottava #0 \pa r4 g'
+    es2 r4 f
+    d2 r4 es
+    c d8 es \pd d4 c
+    h r r2 %45
+    r r4 \ottava #1 c
+    f es d c
+    b c8 d es4 f
+    g as8 g f es d c
+    h4 \ottava #0 r r2 %50
+    R1
+    r2 r4 \ottava #1 g'\ff
+    \pao c,2\fz as'\fz
+    d,\fz \ottava #0 r
+    R1*5 %59
+    r2 r4 \ottava #1 d\ff %60
+    es e f g
+    as1\fz\fermata \ottava #0
+    R1*9 %71
+    R1\fermata \bar "|." %72 finis
   }
 }

@@ -352,6 +352,48 @@ WieGroßTromboneI = {
   \relative c' {
     \clef alto
     \twotwotime \key c \minor \time 2/2 \tempoWieGroß
-    
+    es2\f r4 c
+    h4. c8 d4 es
+    f2 r4 h,
+    c4. d8 es4 d
+    c r r2 %5
+    r4 as'8. as16 as2
+    r4 g8. g16 g2
+    f4 es d a'
+    d, d2\fz d4
+    es2 c %10
+    f d
+    g4 f es as
+    f2 r
+    R1*5 %18
+    r2 r4 d\ff
+    es e f g %20
+    as1\fz\fermata
+    R1*14 %35
+    r4 d,\ff d d
+    es r r2
+    r4 as8. as16 as2
+    r4 g8. g16 g4 g
+    f g as c, %40
+    h d2\fz d4
+    es2 f
+    d es
+    c f
+    d4 r r g %45
+    c b! as! g
+    f a b f
+    g as g f
+    es d c as'
+    g d2\fz g4 %50
+    fis1
+    g2. g4
+    es2\fz as\fz
+    d,\fz r
+    R1*5 %59
+    r2 r4 d\ff %60
+    es e f c
+    c1\fz\fermata
+    R1*9 %71
+    R1\fermata \bar "|." %72 finis
   }
 }

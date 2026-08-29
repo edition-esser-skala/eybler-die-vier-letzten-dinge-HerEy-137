@@ -406,10 +406,136 @@ WieGroßAlto = {
   \relative c' {
     \clef treble
     \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoWieGroß
-
+    r2 r4 g'\f
+    as4. g8 f4 g
+    as2 r4 as
+    g4. as8 g4 g
+    g2 r4 g %5
+    f2 r4 as
+    g2 r4 c
+    g as g fis
+    g2 r
+    r4 es as2 %10
+    r4 f b!2
+    r4 as g c
+    b2 r
+    r r4 r8 b\f
+    b2 r %15
+    R1
+    r2 r4 b\p
+    ces as f as
+    d,2 r
+    r4 g\ff as b %20
+    \mvDll c1\fz\fermata
+    R
+    r2 es,\pp
+    es r4 d
+    es1 %25
+    R1*4
+    r4 h\pp e2 %30
+    r4 e gis2
+    r4 gis gis\cresc gis
+    h2 r4 h
+    h2 r4 h
+    h2\f r4 h %35
+    h2.\ff d4
+    g,2 r4 g
+    f2 r4 as
+    g2 r4 c
+    h c as f %40
+    g2 r
+    r4 es c'2
+    r4 d, b'!2
+    r4 c, as' f
+    d r r g %45
+    c b! as! g
+    f a b f
+    g as g f
+    es d c as'
+    g2 r4 g %50
+    fis4. fis8 fis4 fis
+    g4. g8 g4 g
+    es2\fz c'\fz
+    h\fz r
+    r r4 r8 g\f %55
+    g2 r
+    R1
+    r2 r4 g\p
+    as f d c
+    h2 r %60
+    r4 g'\ff c c
+    \mvDll c1\fz\fermata
+    R1
+    r2 c,\pp
+    c r4 h %65
+    c1
+    R1*5 %71
+    R1\fermata \bar "|." %72 finis
   }
 }
 
 WieGroßAltoLyrics = \lyricmode {
+  Wie
+  groß iſt dei -- ne
+  Macht! wie
+  groß iſt dei -- ne
+  Macht die %5
+  einſt, o
+  Herr! den
+  We -- ſen Le -- ben
+  gab.
+  Wie groß %10
+  o Herr!
+  iſt dei -- ne
+  Macht!
+  Du
+  winkſt, %15
 
+  das
+  Le -- ben iſt nicht
+  mehr,
+  die wei -- te %20
+  Welt
+
+  iſt
+  nur ein
+  Grab. %25
+
+  Wie groß %30
+  o Herr!
+  iſt dei -- ne
+  Macht, wie
+  groß o
+  Herr! iſt %35
+  dei -- ne
+  Macht, die
+  einſt o
+  Herr den
+  We -- ſen Le -- ben %40
+  gab,
+  wie groß
+  o Herr
+  iſt dei -- ne
+  Macht! die %45
+  einſt den We -- ſen
+  Le -- ben gab, den
+  We -- ſen Le -- ben
+  gab, das Le -- ben
+  gab, wie %50
+  groß iſt dei -- ne
+  Macht o Herr, wie
+  groß o
+  Herr!
+  Du %55
+  winkſt,
+
+  das
+  Le -- ben iſt nicht
+  mehr, %60
+  die wei -- te
+  Welt
+
+  iſt
+  nur ein %65
+  Grab. %66 finis
 }

@@ -443,6 +443,49 @@ WieGroßFlautoII = {
   \relative c' {
     \clef treble
     \twotwotime \key c \minor \time 2/2 \tempoWieGroß
-    
+    es'4.\f es8 es4 es
+    d r r2
+    f4. f8 f4 f
+    es r r2
+    c'4. c8 c4 c %5
+    \ottava #1 c1
+    c
+    g4 as! g fis
+    g \ottava #0 r r2
+    r4 c, as'2 %10
+    r4 d, b'2
+    r4 as g f'
+    d2 r
+    R1*5 %18
+    r2 r4 \ottava #1 b~\ff
+    b c2 es4 %20
+    es1\fz\fermata \ottava #0
+    R1*13 %34
+    r4 d,\f h d' %35
+    \ottava #1 h2.\ff d4
+    c c2 c4
+    c1
+    c2. es4
+    h c as f %40
+    g2 \ottava #0 r
+    r4 es c'2
+    r4 d, b'2
+    r4 c, as' f
+    d r r2 %45
+    r r4 \ottava #1 c'
+    f es d c
+    b c8 d es4 f
+    g as8 g f es d c
+    h4 \ottava #0 r r2 %50
+    R1
+    r2 r4 \ottava #1 es\ff
+    c2\fz f\fz
+    h,\fz \ottava #0 r
+    R1*5 %59
+    r2 r4 \ottava #1 h\ff %60
+    c c2 e4
+    f1\fz\fermata \ottava #0
+    R1*9 %71
+    R1\fermata \bar "|." %72 finis
   }
 }

@@ -849,5 +849,76 @@ WieGroßViolone = {
     \clef bass
     \twotwotime \key c \minor \time 2/2 \tempoWieGroß
     c4~\f c16 d32( es f g a h) c4 c,
+    d r r2
+    d4~ d16 es32( f g a h c) d4 d,
+    es r r2
+    es4~ es16 f32( g a h c d) es8.[ c16 g8. es16] %5
+    f4 f, r8. f'16[ as8. f16]
+    es4 es' r8. es,16[ g8. es16]
+    d4 c h c
+    g g' r2
+    r8. c,16[ es8. c16] f4 f, %10
+    r8. d'16[ f8. d16] g4 g,
+    r8. es'16[ b'8. b,16] c8.[ c'16 as8. f16]
+    b2 r
+    R1
+    r2 r4 b(\p %15
+    ces as f as)
+    d,2 r
+    as1
+    b2 r4 as'\ff
+    g b as des %20
+    c1\fz\fermata
+    ces,1\pp
+    b
+    b
+    es( %25
+    des
+    ces
+    b)
+    as2:16-\markup \remark "tremolo" as:
+    as: as: %30
+    as: as:
+    as: as:\cresc
+    as: as:
+    g: g:
+    fis:\f fis: %35
+    f:\ff f:
+    es!4 c'' g es
+    f f, r f'
+    es es' r c,
+    d es f as %40
+    g g, r2
+    r8. c16[ es8. c16] as'4 f,
+    r8. b16[ d8. b16] g'4 es
+    r8. as,16[ as'8. g16] f8.[ as16 d,8. f16]
+    g4 f es d %45
+    c r r2
+    r4 f b as
+    g f es d
+    c b as f
+    g g'2 g,4 %50
+    g g'2 g,4
+    g g'2 es4
+    as2\fz f\fz
+    g\fz r
+    R1 %55
+    r2 r4 g(\p
+    as f d c)
+    h2 r
+    f1
+    g2 r4 g'\ff %60
+    c b! as! g
+    f1\fz\fermata
+    f,1\pp
+    g
+    g %65
+    c~
+    c~
+    c~
+    c~
+    c~\perd %70
+    c~
+    c2\! r\fermata \bar "|." %72 finis
   }
 }

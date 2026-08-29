@@ -804,6 +804,77 @@ WieGroßViolinoI = {
   \relative c' {
     \clef treble
     \twotwotime \key c \minor \time 2/2 \tempoWieGroß
-    
+    c4~\f c16 d32( es f g a h) c8.[ d16 es8. c16]
+    h4 r r2
+    d,4~ d16 es32( f g a h c) d8.[ es16 f8. d16]
+    c4 r r2
+    es,4~ es16 f32( g a h c d) es8.[ g16 es8. c16] %5
+    as'8.[ f16 c8. as16] f8.[ c'16 f8. as16]
+    g8.[ es16 c8. g16] es8.[ c'16 es8. g16]
+    h,8. c16 c8.\trill h32 c d8. es16 es8.\trill d32 es
+    d8.[ g,,16 h8. d16] g8.[ h16 d8. g16]
+    es4 c, r8. as'16[ c8. as16] %10
+    f'4 d, r8. b'16[ d8. b16]
+    g'8.[ es,16 d8. f'16] es8.[ es,16 c'8. as'16]
+    <f b,>2 r
+    R1
+    r2 r4 b,(\p %15
+    ces as f as)
+    d,2 r
+    f1
+    d2 r4 d'8.\ff d16
+    es8.[ es16 e8. e16] f8.[ f16 g8. g16] %20
+    as1\fz\fermata
+    r2 as,~\pp
+    as ges
+    f1
+    es~ %25
+    es~
+    es~
+    es
+    fes2:16-\markup \remark "tremolo" fes:
+    fes: fes: %30
+    fes: fes:
+    fes: fes:\cresc
+    fes: fes:
+    f: f:
+    fis:\f fis: %35
+    g:\ff h:
+    c8.[ c,16 es8. g16] c8.[ es16 g8. c16]
+    as8.[ f16 c8. as16] f8.[ c'16 f8. as16]
+    g8.[ es16 c8. g16] es8.[ c'16 es8. g16]
+    f8.[ g16 es8. f16] d8.[ es16 c8. d16] %40
+    h8.[ g,16 h8. d16] g8.[ h16 d8. g16]
+    es4 c, r8. as'16[ c8. as16]
+    d4 b, r8. g'16[ b8. g16]
+    es8.[ c'16 d8. es16] d8.[ es16 c8. d16]
+    h8.[ h16 d8. h16] g8. h16 h8.\trill a32 h %45
+    c8.[ d16 b8. c16] as8. c16 c8.\trill b32 c
+    f8.[ g16 es8. f16] d8. f,16 f8.\trill e32 f
+    b8.[ c16 as8. b16] g8. b16 b8.\trill a32 b
+    g'8.[ g16 as!8. g16] f8.[ es16 d8. c16]
+    h8.[ g,16 h8. d16] g8.[ h16 d8. g16] %50
+    es8.[ fis,16 fis8. es'16] d8.[ es16 c8. d16]
+    h8.[ g16 h8. c16] d8.[ h16 g'8. es16]
+    c8.[ as,16 c8. es16] as8.[ c16 f8. as16]
+    <h, d,>2 r
+    R1 %55
+    r2 r4 g(\p
+    as f d c)
+    h2 r
+    d1
+    h2 r4 d'8.\ff d16 %60
+    es8.[ es16 e8. e16] f8.[ f16 g8. g16]
+    as1\fz\fermata
+    r2 f,~\pp
+    f es
+    d!1 %65
+    c~
+    c~
+    c~
+    c~
+    c~\perd %70
+    c~
+    c2\! r\fermata \bar "|." %72 finis
   }
 }

@@ -206,6 +206,34 @@ WieGroßTimpani = {
   \relative c {
     \clef bass
     \twotwotime \key c \major \time 2/2 \tempoWieGroß
-    
+    c4.\f \tuplet 3/2 { c16 c c } c4 c
+    f, r r2
+    f4. \tuplet 3/2 { f16 f f } f4 f
+    c' r r2
+    c4. \tuplet 3/2 { c16 c c } c4 c %5
+    f,4 r8 \tuplet 3/2 { f16 f f } f4 f
+    c'4 r8 \tuplet 3/2 { c16 c c } c4 c
+    f, r r2
+    R1
+    r2 f~\startTrillSpan %10
+    f4\stopTrillSpan r r2
+    R1*9 %20
+    c'1\fz\fermata\trill
+    R1*14 %35
+    f,1\ff\startTrillSpan
+    c'4\stopTrillSpan c8. c16 c4 c
+    f, r8 \tuplet 3/2 { f16 f f } f4 f
+    c' r8 \tuplet 3/2 { c16 c c } c4 c
+    f, r r2 %40
+    R1
+    c'2\trill f,4 r
+    R1*3 %45
+    c'4 r r2
+    R1*4 %50
+    c2\trill r
+    R1*10 %61
+    f,1\fz\fermata\trill
+    R1*9 %71
+    R1\fermata \bar "|." %73 finis
   }
 }
