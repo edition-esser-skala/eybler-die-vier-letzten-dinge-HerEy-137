@@ -535,3 +535,137 @@ WieSchrecklichCello = {
     f, r r r8\fermata \bar "|." %139 finis
   }
 }
+
+OVaterCello = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \tempoOVater
+    \partial 4 r4 R2.*14 %14
+    f4^\pizz r es %15
+    d r f
+    es r r
+    R2.*3 %20
+    r4 c(\p^\arco b)
+    a( c ges)
+    f2 r4
+    r f'( fis)
+    r g( e) %25
+    f! r f,
+    b r r
+    R2.*5 %32
+    r4 fis'(\p g)
+    e r e,
+    f! r f %35
+    b r r
+    R2.*4 %40
+    r4 r r8 f'\p
+    es( des c b as ges)
+    f\fp f' f f f f
+    ges,\fp ges' ges ges ges ges
+    d! d d d es es %45
+    b b b b b b
+    b\> b b b b b\!
+    b b b b' b b
+    b2.:8^\fp
+    b:^\fp %50
+    as8 as as ges( f es)
+    b'4 r r
+    R2.*4 %56
+    r4 h,( c)
+    r as( as')
+    b2 b,4
+    es r r %60
+    R2.*3
+    r4 r d'8.\fz h16
+    g8 h(\p c f es g) %65
+    c,( e f f,\fz c' as!)
+    f a(\p b d es f)
+    b,( d es) r r4
+    r8 c,\sfp es c f f,
+    b4 b' r %70
+    r f(\p es)
+    r d\fermata r
+    b8\f b b b h h
+    c c g g as as
+    b!4 r b\p %75
+    es, r g'
+    as2 b4
+    ces8(\pp b as b as ces)
+    b4 r <b, es,>
+    q2.\fermata \bar "|." %80 finis
+  }
+}
+
+JehovahNahtCello = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoJehovahNaht
+    R1
+    g4(\pp b) g( b)
+    c( es) c( es)
+    d( f) d( f)
+    es( g) es( g) %5
+    h,( f') h,( f')
+    b,(\cresc g') b,( g')
+    a, a' a, a'
+    as, as' as, as'
+    g, g' g, g' %10
+    g, g' g, g'
+    g,\f g' g, g'
+    g, g\ff h d
+    g2\fermata r
+    R1*5 %19
+    \tempoJehovahNahtB as,4.\ff c16 es as4. es16 c \noBreak %20
+    as8 r r4 r2
+    R1*2
+    f''2\ff es4 des \noBreak
+    c b as ges %25
+    \tempoJehovahNahtC f r8. f,16\pp f4 r8. f16 \noBreak
+    heses4 r8. heses16 heses4 r8. heses16
+    as4 r8. as16 as4 r8. as16
+    des4 r8. des16 des4 r8. des16
+    c4 r8. c16 c4 r8. c16 %30
+    c,4 r8. c16 c4 r8. c16 \noBreak
+    f1\fermata-\smorz \bar "||"
+    \time 4/4 \tempoJehovahNahtD r2 g'\p \noBreak
+    fis2. g4
+    gis2 a^\espressivo
+    c4 r r2
+    r r4 r8 es,(
+    ges4^\espressivo es8 c) a4 r8 es'(
+    ges4^\espressivo  es8 c) a4\fz\ten r
+    R1 %40
+    b16\p r b r b r b r a r a r a r a r
+    b r b r b r b r a r a r a r a r
+    ges'2 r
+    R1
+    ges,2\fp f4 r8 f'(\p %45
+    ges4\fp f8 es) d!4.\fp ces8
+    b2 r
+    r d4\fz r
+    R1
+    r2 es4(\p des %50
+    ces b as ges)
+    f8.(\fz \tuplet 3/2 { ges32 as b } ces8) r f,8.(\fz \tuplet 3/2 { ges32 as b } ces8) r
+    f,8.(\fz \tuplet 3/2 { ges32 as b } ces8) r r2
+    \stemUp g8.(\fz \tuplet 3/2 { as32 b c } des8) r g,8.(\fz \tuplet 3/2 { as32 b c } des8) r
+    g,8.(\fz \tuplet 3/2 { as32 b c } des8) \stemNeutral r r e(\cresc f es) %55
+    \tempoJehovahNahtE des4\f r8. b16\cresc b4 r8. ges16\ff
+    ges4 r r2
+    \tempoJehovahNahtF b4(\pp h c g!)
+    as( ges f g) \noBreak
+    as8 r as r des,2\fermata \bar "||" %60
+    c'1\p \noBreak
+    d!
+    r4 r8 f,( fis4)\fermata r
+    r g\pp c, r\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßCello = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoWieGroß
+    
+  }
+}

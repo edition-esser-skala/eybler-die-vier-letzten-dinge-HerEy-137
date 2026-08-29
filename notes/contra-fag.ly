@@ -317,3 +317,100 @@ GroßIstContrafagotto = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+OVaterContrafagotto = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \tempoOVater
+    \partial 4 r4 es2\fz b'4
+    b,2\fz es4
+    R2.
+    r4 r g\f
+    f es8 d es as, %5
+    b2 r4
+    es2\p b'4
+    b,2\fp es4
+    R2.
+    r4 r g\f %10
+    f4.\fzE es8 d es
+    b2 r4
+    R2.*4 %16
+    es4\fz r r
+    r c\p b
+    a\fzE a'8 b(\pE g es)
+    f4 f, r %20
+    R2.*7 %27
+    r4 g\fp f
+    es\fz es'8\p f g g,
+    c2 es4 %30
+    d4.\fzE d'8\p c b
+    f2 r4
+    R2.*5 %37
+    r4 c' b
+    as!4.(\fz ges8\p f es)
+    des4 des'\cresc c %40
+    b4.\fzE as8(\pE ges f)
+    es r r4 r
+    R2.*10 %52
+    es4.\fzE h8(\pE c g)
+    as2 g4\cresc
+    f4.\fz g8(\p as a) %55
+    b2 r4
+    R2.*3
+    r4 g' es %60
+    b4.\fz as8( g es)
+    b'4 r c'8.\fz b16
+    as4. g8\p f es
+    b'4 r g,\fz
+    c r c\p %65
+    f r f,\fz
+    b r b\p
+    es r8 es4\cresc d8
+    c2\fzE f4
+    b,2 r4 %70
+    R2.
+    r4 r\fermata r
+    b2\f h4
+    c g as
+    b! r r %75
+    R2.*4
+    R2.\fermata \bar "|." %80 finis
+  }
+}
+
+JehovahNahtContrafagotto = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoJehovahNaht
+    R1*12 %12
+    r4 g\ffE g g
+    g2\fz\fermata r
+    R1*3 %17
+    c,1~\fz
+    c4 r r2
+    \tempoJehovahNahtB R1*6 %25
+    \tempoJehovahNahtC R1*6 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*19 %51
+    f4\fz r f\fz r
+    f\fz r r2
+    g!4\fz r g\fz r
+    g\fz r r2 %55
+    \tempoJehovahNahtE des'4\f r b\cresc r
+    ges\ff r r2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßContrafagotto = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoWieGroß
+
+  }
+}

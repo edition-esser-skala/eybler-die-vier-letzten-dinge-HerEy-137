@@ -319,3 +319,103 @@ WieSchrecklichCornoI = {
     c r r r8\fermata \bar "|." %139 finis
   }
 }
+
+OVaterCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoOVater
+    \partial 4 \pao g'4 c2\fz d4
+    d2\fz e4
+    \pa c2\p c4
+    g2 \pd g'4\f
+    g2~ g8 f %5
+    e4( d) \pao g,\p
+    c2 d4
+    d2\fp e4
+    \pa c2\p c4
+    g2 g4\f \pd %10
+    d'4.\fz c8 d e
+    e4( d) c\p
+    \pa d8\fp e f e( d e) \pd
+    e4( d) r
+    R2. %15
+    r4 r \pa e,
+    e'4.\fz d8\p c d
+    d4( c) e
+    d4.\fz d8\p e e
+    d2 \pd r4 %20
+    R2.*7 %27
+    \pa r4 g,2\fp
+    e'4.\fz d8(\p c d)
+    d4( c) \pd r %30
+    d4.\fz r8 r4
+    R2.*5 %36
+    g,4.\fz r8 r4
+    r \pa c c
+    c\fz d8 \pd r r4
+    \pa r d c \pd %40
+    b4.\fz r8 r4
+    R2.*10 %51
+    r4 r \pa g
+    c4.\fz f8(\p e d)
+    d4( c) e\cresc
+    f4.\fz g8(\p f e) \pd %55
+    e4 d r
+    R2.*3
+    r8 \pa g, e g c e \pd %60
+    d4.\fz d8( c e)
+    e4( d) r
+    R2.
+    r4 r e\fz
+    e4. r8 r4 %65
+    r r \pao d\fz
+    d4. r8 r4
+    R2.
+    e2\fz \pao d4
+    d4. r8 r4 %70
+    R2.
+    r4 r\fermata r
+    d2\f f4
+    e r r
+    R2.*5 %79
+    R2.\fermata \bar "|." %80 finis
+  }
+}
+
+JehovahNahtCornoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoJehovahNaht
+    R1*11 %11
+    e1~\p\cresc
+    e4 e\ff e e
+    e2\fz\fermata r
+    R1*5 %19
+    \tempoJehovahNahtB R1*6 %25
+    \tempoJehovahNahtC R1*6 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*3 %35
+    c'4\fz r r2
+    R1*15 %51
+    r4 r8 c4(\fz h8) r c~\fz
+    c( h) r2 r4
+    e,4\fz r e\fz r
+    e\fz r r2 %55
+    \tempoJehovahNahtE b'4\f r8. b16\cresc b4 r8. b16\ff
+    b4 r r2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßCornoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoWieGroß
+    
+  }
+}

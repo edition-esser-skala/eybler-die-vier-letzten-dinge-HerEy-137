@@ -511,3 +511,126 @@ OWohlClarinettoII = {
     g4.\p r8 r4\fermata \bar "|." %70 finis
   }
 }
+
+OVaterClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoOVater
+    \partial 4 c'4 a2\fz g4
+    b2\fz a4
+    d2\p c8 b
+    a8. g16 f4 f\f
+    e f8 g f d %5
+    c2 c'4\p
+    a2 g4
+    b2\fp a4
+    d2\p c8 b
+    a8. g16 f4 c\f %10
+    c'\fz b8 a g f
+    f4( e) c\p
+    c'4.\fp c8( b a)
+    a4( g) r
+    r d'( h) %15
+    r r e,
+    f4.\fz b!8(\p a a)
+    a2 fis4
+    d8(\fz g h g\p c a)
+    e4( d) r %20
+    R2.*6 %26
+    r4 e2\sfp
+    e4 c\sfp e
+    f4.\fz b8(\p a a)
+    a2 d,4 %30
+    e8\fz g c g\p g g
+    g2 r4
+    R2.*3 %35
+    r4 c,(\p e)
+    a4.\fz b!8(\p d, e)
+    f8. g16 a4\cresc a\!
+    b4.\fz c8([\p b as)]
+    \after 8 \turn g8. as16 b4\cresc h %40
+    c4.\fz g8(\p as es)
+    f r r4 r
+    R2.*3 %45
+    r4 g, g
+    as2.~\fz\>
+    as4\! g8 r r4
+    R2.*3 %51
+    r4 r c
+    a'4.\fz g8(\p f e)
+    cis4( d) fis\cresc
+    g\fz d'8( c\p b d) %55
+    f,!4 e r
+    R2.*3
+    r4 f f %60
+    g4.\fz e8( f a)
+    c2 f,8.\fz e16
+    d4. c8\p c c
+    dis4( e) e8.\fz a16
+    a4. g8(\p a d,) %65
+    d2 d8.\fz g16
+    g4. e8(\p f g)
+    c,4. f4\cresc g8
+    f2\fz d4
+    h c r %70
+    R2.
+    r4 r\fermata r
+    e2\f e4
+    f c d
+    c r r %75
+    R2.*4
+    R2.\fermata \bar "|." %80 finis
+  }
+}
+
+JehovahNahtClarinettoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoJehovahNaht
+    R1*5 %5
+    b1\pp
+    es
+    d
+    d\cresc
+    a'~ %10
+    a4.\! d,8~ d e4 cis8~
+    cis d4\f \once \tieDashed d8~ d e4 f8
+    e4 e\ff e e
+    e2\fz\fermata r
+    R1*5 %19
+    \tempoJehovahNahtB d2\ff d4 d %20
+    d8 r r4 r2
+    R1*2
+    b'2\ff as4 g
+    f es d c %25
+    \tempoJehovahNahtC b r r2
+    R1*5 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*3 %35
+    gis'4\fz r r2
+    R1
+    r4 r8 f( as4)(\fz f8 d)
+    h4 r r2
+    R1*12 %51
+    r8 b'4(\fz g8) r b4(\fz g8)
+    r b4(\fz g8) r2
+    r8 c4(\fz a8) r c4(\fz a8)
+    r c4(\fz a8) r a(\cresc b as)\! %55
+    \tempoJehovahNahtE g4\f r8. as16\cresc as4 r8. as16\ff
+    as4 r r2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßClarinettoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoWieGroß
+
+  }
+}

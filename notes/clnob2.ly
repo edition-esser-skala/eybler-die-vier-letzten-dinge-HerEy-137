@@ -211,3 +211,37 @@ GroßIstClarinoBII = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+JehovahNahtClarinoBII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoJehovahNaht
+    R1*12 %12
+    r4 e\ff e e
+    e2\fz\fermata r
+    R1*5 %19
+    \tempoJehovahNahtB R1*6 %25
+    \tempoJehovahNahtC R1*6 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*19 %51
+    r4 g,\fz r g\fz
+    r g\fz r2
+    R1*2 %55
+    \tempoJehovahNahtE c4\f r8. c16\cresc c4 r8. c16\ff
+    c4 r r2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßClarinoBII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoWieGroß
+
+  }
+}

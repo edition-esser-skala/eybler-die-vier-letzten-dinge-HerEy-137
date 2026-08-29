@@ -315,3 +315,42 @@ GroßIstTromboneIII = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+JehovahNahtTromboneIII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoJehovahNaht
+    R1*12 %12
+    r4 g'\ff g g
+    g2\fz\fermata r
+    R1*3 %17
+    c,1~\fz
+    c4 r r2
+    \tempoJehovahNahtB R1*6 %25
+    \tempoJehovahNahtC R1*6 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*3 %35
+    a4\fz r r2
+    R1*15 %51
+    as'4\fz r as\fz r
+    as\fz r r2
+    b4\fz r b\fz r
+    b\fz r r2 %55
+    \tempoJehovahNahtE des,4\f r b\cresc r
+    ges'\ff r r2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßTromboneIII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoWieGroß
+
+  }
+}

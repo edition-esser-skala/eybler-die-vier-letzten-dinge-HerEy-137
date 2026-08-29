@@ -404,3 +404,45 @@ WieSchrecklichFlautoII = {
     f r r r8\fermata %139 finis
   }
 }
+
+JehovahNahtFlautoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoJehovahNaht
+    R1*10 %10
+    g'4.\p\cresc c8~ c h4 d8~
+    d c4\f c d fis8
+    g4 h\ff h h
+    h2\fz\fermata r
+    R1*5 %19
+    \tempoJehovahNahtB as4.\ff as8 c4 es %20
+    as,8 r r4 r2
+    R1*2
+    des2\ff c4 b
+    as ges f es %25
+    \tempoJehovahNahtC des r r2
+    R1*5 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*19 %51
+    as'4(\fz f8) r as4(\fz f8) r
+    as4(\fz f8) r r2
+    b4(\fz g8) r b4(\fz g8) r
+    b4(\fz g8) r r g(\cresc as a) %55
+    \tempoJehovahNahtE b4\f r8. b16\cresc b4 r8. b16\ff
+    b4 r r2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßFlautoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoWieGroß
+    
+  }
+}

@@ -367,3 +367,50 @@ GroßIstTenoreLyrics = \lyricmode {
   mehr
   ſeyn! %188 finis
 }
+
+JehovahNahtTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoJehovahNaht
+    R1*8 %8
+    r2 r4 c\p
+    h4. h8 h2 %10
+    R1*3
+    r2\fermata r
+    R1*14 %28
+    r2 r4 r8 h,\pp
+    c2 r4 r8 c %30
+    c2 r4 r8 c \noBreak
+    c2 r\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD R1*26 %58
+    r2 r4 r8 b'\pp \noBreak
+    as8 r16 as as8 r16 as f4 r\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+JehovahNahtTenoreLyrics = \lyricmode {
+  Je -- %9
+  ho -- vah naht!
+
+  Der %29
+  Puls des Le -- bens
+  ſtockt.
+
+  Der %59
+  letz -- te Laut ver -- ſtummt. %60 finis
+}
+
+WieGroßTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoWieGroß
+
+  }
+}
+
+WieGroßTenoreLyrics = \lyricmode {
+
+}

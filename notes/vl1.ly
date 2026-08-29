@@ -672,3 +672,138 @@ OWohlViolinoI = {
     h4(\p a8) r r4\fermata \bar "|." %70 finis
   }
 }
+
+OVaterViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \tempoOVater
+    \partial 4 r4 R2.*14 %14
+    r8 c-\pizz f a c a, %15
+    r d f b d h,
+    c4 r r
+    R2.*3 %20
+    r4 es(\p^\arco ges)
+    f( es) b'~
+    b( a) c(
+    es) r a,(
+    b) r g %25
+    \after 4 ^\espressivo f2~ f8. es16
+    d4 r r
+    R2.*5 %32
+    r4 es(\p d
+    g) r g
+    \after 4 ^\espressivo f2~ f8. es16 %35
+    d4 r r
+    R2.*4 %40
+    r4 r r8 des'\p
+    c( b as ges f es)
+    d!(\fp ces') ces ces ces ces
+    ces(\fp b) b b b b
+    b b as as ges ges %45
+    ges ges f b, b b
+    ces\> ces ces ces b b\!
+    a a b f' f f
+    as!(\fp ges) ges ges ges ges
+    b(\fp as) as as as ges %50
+    f\fp f f( ges as a)
+    b( es d!\decresc c! b as)
+    g([ f] es) r r4
+    R2.*3 %56
+    r4 as(\p g)
+    r c( as)
+    g( b d,)
+    es r r %60
+    R2.*3
+    r4 r g'8.(\fz d16)
+    f4( es8) d([\p c b!)] %65
+    b4( as!) \once \slurDashed f'8.([\fz c16)]
+    es4( d8) c([\p b as)]
+    as4( g8) r r4
+    r8 g'4\sfp f16( es d c b a)
+    c4( b) r %70
+    r as!\p as
+    r as\fermata r
+    d16(\f f) as-! f-! as( f) d-! b-! as f d as
+    g d'' es d es g f es d c b as
+    g4 r f\p %75
+    es( g \stemUp b)~
+    b \stemNeutral as8( g f es)
+    d4\pp d d
+    es r b
+    b2.\fermata \bar "|." %80 finis
+  }
+}
+
+JehovahNahtViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoJehovahNaht
+    R1*2
+    a8\pp a4 a a a8
+    h h4 h h h8
+    c c4 c c c8 %5
+    d d4 d d d8
+    e\cresc e4 e e e8
+    e e4 e8 f f4 f8
+    fis fis4 fis fis fis8
+    g g4 g g g8~ %10
+    g g4 c h d8~
+    d c4\f es d c8
+    h f'4\ff d h f8
+    d2\fz\fermata r
+    R1*5 %19
+    \tempoJehovahNahtB as4~\ff as16 b32( c des es f g) as4~ as16 b32( c des es f g) %20
+    as8 r r4 r2
+    R1*2
+    r8. des16[\ff des8. c16] c8.[ b16 b8. as16]
+    as8.[ ges16 ges8. f16] f8.[ es16 es8. des16] %25
+    \tempoJehovahNahtC des4 r8. des,16\pp des4 r8. des16
+    des4 r8. des16 des4 r8. des16
+    c4 r8. c16 c4 r8. c16
+    f4 r8. f16 f4 r8. f16
+    e4 r8. e16 f4 r8. f16 %30
+    c4 r8. c16 c4 r8. c16 \noBreak
+    c1\fermata-\smorz \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1 \noBreak
+    r2 d'~\p
+    d4 e f4.^\espressivo e!8 %35
+    es4 r r2
+    a,16\p a a a a4:16 a2:
+    a: a:
+    a4: a: es\fz\ten r
+    R1 %40
+    r16 des\p r des r des r des r c r c r c r c
+    r des r des r des r des r c r c r c r c
+    des2 r
+    R1
+    e2\fp f4 r %45
+    r8 es(\p f ges) ges4(\fp f8) as
+    d,!2 r
+    r ces'4\fz r
+    R1
+    r2 r8 ces4(\p b8) %50
+    r as4( ges8) r f4( es8)
+    as2:\sfp as:\sfp
+    as4:\sfp as16 as ces ces b b b b b b b b
+    b2:\fz b:
+    b4: b16 b des des c\cresc c b b as as c c %55
+    \tempoJehovahNahtE b4\f r8. des16\cresc des4 r8. ges16\ff
+    ges4 r r2
+    \tempoJehovahNahtF r8 ges,4\pp f es d!8~
+    d c4 es des b8 \noBreak
+    as8 r as r as2\fermata \bar "||" %60
+    es'1\p \noBreak
+    f
+    r4 r8 d( es4)\fermata r
+    r h\pp c r\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoWieGroß
+    
+  }
+}

@@ -168,3 +168,44 @@ GroßIstTimpani = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+JehovahNahtTimpani = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoJehovahNaht
+    g1~\p\startTrillSpan
+    g4\stopTrillSpan r r2
+    R1*7 %9
+    g1~\pp\startTrillSpan %10
+    g~\cresc
+    g~\f
+    g\ff
+    g2\fz\fermata r\stopTrillSpan
+    R1*2 %16
+    c1~\p\startTrillSpan
+    c8\stopTrillSpan r r4 r2
+    c1~\p\startTrillSpan
+    \tempoJehovahNahtB c8\stopTrillSpan r r4 r2 %20
+    R1*5 %25
+    \tempoJehovahNahtC R1*6 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*21 %53
+    r4 g\fz\trill r g\fz\trill
+    r g\fz\trill r2 %55
+    \tempoJehovahNahtE R1*2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßTimpani = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoWieGroß
+    
+  }
+}

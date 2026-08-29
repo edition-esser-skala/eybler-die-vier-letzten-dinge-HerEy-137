@@ -317,3 +317,101 @@ WieSchrecklichCornoII = {
     c, r r r8\fermata \bar "|." %139 finis
   }
 }
+
+OVaterCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoOVater
+    \partial 4 g'4 e2\fz g4
+    g2\fz c4
+    r c,\p c
+    g' c, g'\f
+    g2~ g8 d' %5
+    c4( g) g\p
+    e2 g4
+    g2\fp c4
+    R2.
+    r4 r g\f %10
+    g4.\fz e8 g c
+    c4( g) e\p
+    g4.\fp c8( d c)
+    c4( g) r
+    R2. %15
+    r4 r e
+    e\fz r e\p
+    e2 r4
+    d'4.\fz d8\p c c
+    d2 r4 %20
+    R2.*7 %27
+    R2.
+    c,4\fz r e\p
+    e2 r4 %30
+    g4.\fz r8 r4
+    R2.*5 %36
+    e4.\fz r8 r4
+    r c' c
+    c\fz d8 r r4
+    R2. %40
+    g,4.\fz r8 r4
+    R2.*10 %51
+    r4 r g
+    e4.\fz r8 r4
+    r r g\cresc
+    d'4\fz r d8(\p c) %55
+    c4 g r
+    R2.*3
+    r8 g c g e c %60
+    g'4.\fz g8( c, c')
+    c4( g) r
+    R2.
+    r4 r e\fz
+    e4. r8 r4 %65
+    r r d'\fz
+    g,4. r8 r4
+    R2.
+    c2\fz d4
+    c g8 r r4
+    R2.
+    r4 r\fermata r
+    g2\f d'4
+    c r r
+    R2.*5
+    R2.\fermata \bar "|."
+  }
+}
+
+JehovahNahtCornoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoJehovahNaht
+    R1*11 %11
+    e1~\p\cresc
+    e4 e\ff e e
+    e2\fz\fermata r
+    R1*5 %19
+    \tempoJehovahNahtB R1*6 %25
+    \tempoJehovahNahtC R1*6 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*3 %35
+    c4\fz r r2
+    R1*17 %53
+    e,4\fz r e\fz r
+    e\fz r r2 %55
+    \tempoJehovahNahtE g'4\f r8. g16\cresc g4 r8. g16\ff
+    g4 r r2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßCornoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoWieGroß
+    
+  }
+}

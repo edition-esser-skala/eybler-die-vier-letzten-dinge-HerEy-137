@@ -524,3 +524,125 @@ OWohlFagottoII = {
     h4(\p a8) r r4\fermata \bar "|." %70 finis
   }
 }
+
+OVaterFagottoII = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \tempoOVater
+    \partial 4 r4 es,2\fz b'4
+    b,2\fzE es4
+    r as\p as
+    b es g,\f
+    f es8 d es as %5
+    b,2 r4
+    es2\p b'4
+    b,2\fp es4
+    r as\p as
+    b es g,\f %10
+    f4.\fz es8 d es
+    b2 g'4\p
+    f4.\fp es8 as a
+    b2 r4
+    R2.*2 %16
+    es,4\fz es'8\p f g g,
+    c2 b4
+    a\fz a'8 b\p g es
+    f4 f, r %20
+    R2.*7 %27
+    r4 g\sfp f
+    es\fz es'8\p f g g,
+    c2 es,4 %30
+    d4.\fz d'8\p c b
+    f2 r4
+    R2.*3 %35
+    r4 b'(\p a)
+    g4.\fz f8(\p es d)
+    c4 c'\cresc b
+    as4.\fz ges8(\p f es)
+    des4 des'\cresc c %40
+    b4.\fz as8(\p ges f)
+    es r r4 r
+    R2.*3 %45
+    r4 b b
+    b2.~\fz\>
+    b2\! r4
+    R2.*4 %52
+    es,4\fz es'8 h(\p c g)
+    as4 as' g\cresc
+    f\fz f,8 g(\p as a) %55
+    b2 r4
+    R2.*3
+    r4 g es %60
+    b4.\fz as'8( g es)
+    b'2 c8.\fz b16
+    as4. g8\p f es
+    b'2 h4\fz
+    c c,8 d(\p es e) %65
+    f2 as4\fz
+    b!4. b,8(\p c d)
+    es4. es'4\cresc d8
+    c4\fz c, f
+    b,2 r4 %70
+    R2.
+    r4 r\fermata r
+    b'2\f h4
+    c g as
+    b! r r %75
+    R2.*2
+    as'2.\p
+    g4 r r
+    R2.\fermata \bar "|." %80 finis
+  }
+}
+
+JehovahNahtFagottoII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoJehovahNaht
+    R1*4
+    es1\pp %5
+    h
+    b
+    a
+    as\cresc
+    g~ %10
+    g~
+    g~\f
+    g4 g\ff g g
+    g2\fz\fermata r
+    R1*3 %17
+    c,1~\fz
+    c4 r r2
+    \tempoJehovahNahtB as'2\ff as4 as %20
+    as8 r r4 r2
+    R1*2
+    f'2\ff es4 des
+    c b as ges %25
+    \tempoJehovahNahtC f r r2
+    R1*5 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*3 %35
+    a4\fz r r2
+    R1*15 %51
+    \clef "treble_8" r8 as'4(\fz f8) r as4(\fz f8)
+    r as4(\fz f8) r2
+    r8 b4(\fz g8) r b4(\fz g8)
+    r b4(\fz g8) \clef bass r e(\cresc f es) %55
+    \tempoJehovahNahtE des4\f r8. b16\cresc b4 r8. ges16\ff
+    ges4 r r2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßFagottoII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoWieGroß
+    
+  }
+}

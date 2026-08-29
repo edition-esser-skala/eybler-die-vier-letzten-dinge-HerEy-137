@@ -481,3 +481,438 @@ OWohlSoliLyrics = \lyricmode {
   lie -- be -- voll ver --
   traut. %68 finis
 }
+
+JehovahsSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoJehovahs
+    r8^\markup \remark "Erſter Erzengel" c c c f f a c
+    f,4 r r8 f f g
+    a4 a8 c c8. es,16 f8 c
+    d8. d16 \tempoJehovahsB d4 r2
+    r4 d' r fis,16 fis fis g %5
+    a4 r16 a b c b8 b r4
+    es c8 a fis4 r
+    r8 fis fis g d4 r
+    \tempoJehovahsC R1
+    \clef treble r8^\markup \remark "Zweyter Erzengel" e' a gis h!8. a16 a4 %10
+    r8 cis e4. e,8 e f
+    \appoggiatura a4 g2 r8 g g a
+    b4. e,8 f f r4
+    r r8. f16 b4 r8 d
+    f4~ f16 d b f g4 r %15
+    r r8 c as'4.\fermata d,8
+    es4.\fermata c8 c b r4
+    R1\fermata \bar "|." %18 finis
+  }
+}
+
+JehovahsSoliLyrics = \lyricmode {
+  Je -- ho -- vahs Don -- ner rollt ſchon
+  fern, die Fir -- ma --
+  men -- te ses Welt -- ge -- bäu -- des
+  wan -- ken ſchon,
+  bald tren -- net ſich der %5
+  Bund der E -- le -- men -- te;
+  All -- va -- ter ſteigt
+  von ſei -- nem Thron.
+
+  Ihr Men -- ſchen be -- bet nicht! %10
+  Je -- ho -- vah nimmt euch
+  auf in ſei -- nen
+  Va -- ter -- ar -- men;
+  ge -- recht und
+  ſtreng iſt ſein Ge -- richt, %15
+  un -- end -- lich
+  ſein Er -- bar -- men. %17 finis
+}
+
+OVaterSoliA = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \autoBeamOff \tempoOVater
+    \partial 4 r4 R2.*5 %5
+    r4 r b'
+    es2 d4
+    as'2 g4
+    es2 d8([ c)]
+    b8.([ as16)] g4 r %10
+    R2.
+    r4 r b
+    d4. es8 f g
+    g4( f) r
+    r r f, %15
+    f'8.([ d16)] b4 r
+    g'4. f8 es d
+    d4( es) e
+    f4. d8 es c
+    b4 a c8.([\p es,16)] %20
+    es2 ges4
+    f8. es16 es4 r
+    r r c'8.([ es16)]
+    es2 a,4
+    b4.( a8) b([ g)] %25
+    f2~ f8. es16
+    d4 r r
+    r r b'\f
+    g'4. f8 es d
+    d8.([ es16)] es4 r %30
+    f4. b,8 es d
+    h4 c c8.([\p es,16)]
+    es2 d4
+    g( a) b
+    d,!( es4.) c8 %35
+    b4 r r
+    R2.*6 %42
+    r4 d! ces'8. ces16
+    ces8.([ b16)] b4 r8 b
+    b4( as) ges %45
+    ges f r8 b,
+    ces2\> b4\!
+    a b r
+    R2.*3 %51
+    r4 r b'
+    g'4. f8 es d
+    d4( c) c
+    as'4. g8 f es %55
+    es4 d f8.([ as,16)]
+    as2 g8.([ es'16)]
+    es4.( c8) as([ f)]
+    es2 \appoggiatura g8 f4
+    es r r %60
+    r r b'8([ es)]
+    es4 d r
+    g( f8) es d es
+    e8.([ f16)] f4 g8.([\fz d16)]
+    f4( es8) d c b %65
+    b4( as!8) f f'8. es16
+    es4( d8) c b as
+    as4( g8) b c d
+    es4~ es16[ g] f([ es)] d([ c)] b([ a)]
+    c4 b r8 f' %70
+    f8.([ as,!16)] as4 r
+    r r\fermata f'8.([\f as16)]
+    as2 d,4
+    es~ es16[ g f es] d[ c] b([ as)]
+    g4~ g8[ b] as([ f)] %75
+    es4 r r
+    R2.*3
+    R2.\fermata \bar "|." %80 finis
+  }
+}
+
+OVaterSoliALyrics = \lyricmode {
+  O %6
+  Va -- ter
+  Va -- ter
+  Quell’ der
+  Gü -- te! %10
+
+  O
+  hö -- re un -- ſer
+  Flehn,
+  O %15
+  Va -- ter!
+  hö -- re un -- ſer
+  Flehn, und
+  ſtär -- ke das Ge --
+  mü -- the der %20
+  ſchwa -- chen
+  Sterb -- li -- chen,
+  der
+  ſchwa -- chen,
+  ſchwa -- chen %25
+  Sterb -- li --
+  chen.
+  O
+  Va -- ter Quell’ der
+  Gü -- te! %30
+  ſtär -- ke das Ge --
+  mü -- the der
+  ſchwa -- chen,
+  ſchwa -- chen
+  Sterb -- li -- %35
+  chen.
+
+  Wann ſich die %43
+  Ban -- de, die
+  Ban -- de %45
+  lö -- ſen, die
+  Ban -- de
+  lö -- ſen,
+
+  ſtröhm’ %52
+  Hoff -- nung ih -- nen
+  ein, und
+  laß des Heils die %55
+  Bö -- ſen durch
+  Reu -- e,
+  Reu -- e
+  wür -- dig
+  ſeyn. %60
+  O
+  Va -- ter
+  Va -- ter Quell’ der
+  Gü -- te! ſtröhm’
+  Hoff -- nung ih -- nen %65
+  ein, __ o ſtröh -- me
+  Hoff -- nung ih -- nen
+  ein, __ und laß des
+  Heils, des Heils die
+  Bö -- ſen durch %70
+  Reu -- e,
+  durch
+  Reu’, durch
+  Reu -- _ e
+  wür -- dig %75
+  ſeyn. %76 finis
+}
+
+OVaterSoliB = {
+  \relative c {
+    \clef bass
+    \key es \major \time 3/4 \autoBeamOff \tempoOVater
+    \partial 4 r4 R2.*5 %5
+    r4 r b
+    g'2 f4
+    d'2 es4
+    c2 b8([ as)]
+    g8.([ f16)] es4 r %10
+    R2.
+    r4 r b
+    as'4. g8 f es
+    b'2 f4
+    es'8.([ c16)] a4 r %15
+    R2.
+    es'4. d8 c h
+    h4( c) b
+    a4. b8 g es
+    f4 f r %20
+    r r es8.([\p c'16)]
+    c2 b4
+    b8. a16 a4 r
+    r r fis8.([ g16)]
+    g2 e4 %25
+    f!2 a,4
+    b r d\f
+    b'8.([ g16)] g4 r
+    es'4. d8 c h
+    h8.([ c16)] c4 r %30
+    f,4. d'8 c b
+    gis4 a r
+    r r g8.([\p b16)]
+    des4.( c8) des([ b)]
+    f2 f4 %35
+    b,4 r r
+    R2.*6 %42
+    r4 f' as8. as16
+    as8.([ ges16)] ges4 r8 ges
+    ges4( f) es %45
+    es d r8 b
+    ces2\> b4\!
+    a b r
+    R2.*3 %51
+    r4 r b
+    b'4. as8 g f
+    f4( es) g
+    c4. b8 as g %55
+    g4 f r
+    r r es8.([ c'16)]
+    c4.( as8) f([ as)]
+    g4( b) d,
+    es r r %60
+    r r b'8([ g)]
+    g4 f r
+    c'4. b8 as g
+    g8.([ f16)] f4 d'8.([\fz h16)]
+    g4. f8 es g %65
+    g4( f8) as c8. as16
+    f4. as8 g f
+    f4( es8) g es d
+    c4. d16[( es]) f8 f
+    f4 b, r %70
+    r r r8 ces'
+    ces8.([ d,16)] d4\fermata d'8.([\f <f f,>16)]
+    q2 as,4
+    g~ g16[ es' d c] b[ as] g([ f)]
+    es4~ es8[ g] f([ d)] %75
+    es4 r r
+    R2.*3
+    R2.\fermata \bar "|." %80 finis
+  }
+}
+
+OVaterSoliBLyrics = \lyricmode {
+  O %6
+  Va -- ter
+  Va -- ter
+  Quell’ der
+  Gü -- te! %10
+
+  O
+  hö -- re un -- ſer
+  Flehn, O
+  Va -- ter! %15
+
+  hö -- re un -- ſer
+  Flehn, und
+  ſtär -- ke das Ge --
+  mü -- the %20
+  der
+  ſchwa -- chen
+  Sterb -- li -- chen,
+  der
+  ſchwa -- chen %25
+  Sterb -- li --
+  chen. O
+  Va -- ter
+  Va -- ter Quell’ der
+  Gü -- te! %30
+  ſtär -- ke das Ge --
+  mü -- the
+  der
+  ſchwa -- chen
+  Sterb -- li -- %35
+  chen.
+
+  Wann ſich die %43
+  Ban -- de, die
+  Ban -- de %45
+  lö -- ſen, die
+  Ban -- de
+  lö -- ſen,
+
+  ſtröhm’ %52
+  Hoff -- nung ih -- nen
+  ein, und
+  laß des Heils die %55
+  Bö -- ſen
+  durch
+  Reu -- e
+  wür -- dig
+  ſeyn. %60
+  O
+  Va -- ter
+  Va -- ter Quell’ der
+  Gü -- te! ſtröhm’
+  Hoff -- nung ih -- nen %65
+  ein, __ o ſtröh -- me
+  Hoff -- nung ih -- nen
+  ein, __ und laß des
+  Heils, des Heils die
+  Bö -- ſen %70
+  durch
+  Reu -- e, durch
+  Reu’, durch
+  Reu -- _ e
+  wür -- dig %75
+  ſeyn. %76 finis
+}
+
+JehovahNahtSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoJehovahNaht
+    R1*6 %6
+    r2^\critnote r4 g
+    c2.. d8
+    es2 r
+    R1*4 %13
+    r2\fermata r8 g, h d
+    f2 r4 d,4 %15
+    f4.\fz es8 es2
+    R1*3 %19
+    \tempoJehovahNahtB R1 \noBreak %20
+    r4 r8 es\f as as as b
+    c4 r8 c es4 r8 as,
+    c es as4. es8 c as
+    f'2 r \noBreak
+    R1 %25
+    \tempoJehovahNahtC r2 r4 r8 as,\p \noBreak
+    g2 r4 r8 g
+    as2 r4 r8 as
+    as2 r
+    R1*2 %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD R1*3 %35
+    r8 c c d es8. es16 c8 a
+    fis4 r r2
+    r4 r8 es' ges8. ges16 es8 c
+    a16 a a8 r16 a a c c4. es,8
+    ges4. f8 des des r4 %40
+    r2 r4 r8 c'
+    es8. des16 des4 r2
+    r4 r8 des des4. c8
+    c8. b16 b4 r b8 b
+    des4. e,8 f16 f f8 r4 %45
+    R1
+    r4 r8 as\p as4. f8
+    \appoggiatura es d!4 r8 d'\f f8. f,16 f f f f
+    f ges as8 r16 as as b ces4. f,8
+    as8.([ ges16)] ges4 r2 %50
+    R1
+    r16 as\f ces8~ ces16 b as ges f4 r8 f'
+    f8. as,16 as4 r2
+    r16 b\f des8~ des16 c b as g!4 r8 g'
+    g8. b,16 b4 r2 %55
+    \tempoJehovahNahtE r4 b\f r des
+    r8 ges4 des16 des b b ces des ges,4
+    \tempoJehovahNahtF r r8 as\pp g r16 g g8 r16 g
+    es4 r r2 \noBreak
+    R1\fermata \bar "||" %60
+    r4 r8 c' es8. es16 c8 a \noBreak
+    h4 r as'! f8 d
+    h8 h r4 es\fermata r8 h!16\pp c
+    g4 r r2\fermata \bar "|." %64 finis
+  }
+}
+
+JehovahNahtSoliLyrics = \lyricmode {
+  Je -- %7
+  ho -- vah
+  naht!
+
+  Er ſpricht das %14
+  Wort des
+  To -- des aus.
+
+  Es bli -- tzet ſein Be -- %21
+  fehl hi -- naus bis
+  an das Ziel des Rau -- mes
+  fort.
+
+  Der %26
+  Puls des
+  Le -- bens
+  ſtockt.
+
+  Es weht des To -- des Hauch um -- %36
+  her.
+  Ver -- ge -- bens fleht der
+  Ster -- ben -- de, der ſchon den letz -- ten
+  A -- them trin -- ket. %40
+  Die
+  Mut -- ter ächzt,
+  ver -- ge -- hend
+  ſin -- ket ſie zum er --
+  ſtarr -- ten Säug -- ling hin. %45
+
+  Der Greis er --
+  bleicht, und feſt um -- gür -- tet ihn der
+  Arm des Sohns, der ne -- ben ihm er --
+  kal -- tet. %50
+
+  Zer -- ſtö -- rend eilt der Tod durch
+  Völ -- ker hin,
+  zer -- ſtö -- rend eilt der Tod durch
+  Völ -- ker hin. %55
+  Nichts, nichts,
+  nichts, was da le -- bet, kann ent -- fliehn!
+  Der lez -- te Laut ver --
+  ſtummt.
+  %60
+  Die Welt iſt öd’ und
+  leer, nichts, was da
+  leb -- te, nichts le -- bet
+  mehr. %64 finis
+}

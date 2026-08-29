@@ -338,3 +338,127 @@ GroßIstOboeI = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+OVaterOboeI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \tempoOVater
+    \partial 4 r4 r r \pao b'
+    as'2\fz g4
+    R2.
+    r4 r b\f
+    d, es8 f g as %5
+    g4( f) r
+    r r \pao b,
+    as'2\fp g4
+    R2.
+    r4 r \pao b,\f %10
+    d4.\fz es8 f g
+    g4( f) \pa b,\p
+    d4.\fp es8( c) c
+    b2 \pd r4
+    R2. %15
+    r4 f'( d)
+    g4.\fz f8( es d)
+    d4( es) e
+    f4.\fz \pa d8(\p es c)
+    b4( a) \pd r %20
+    R2.*7 %27
+    r4 b'4.\sfp as!8
+    g4.\fz f8(\p es d)
+    d4( es) c %30
+    f4.\fz \pa b,8(\p es d) \pd
+    h4( c) r
+    R2.*3 %35
+    r4 \pa d\p d
+    f(\fz es8) d([\p c h)] \pd
+    \after 8 \turn c8. d16 es4\cresc des
+    c4.\fz \pa b8(\p as ges)
+    f4 \pd f'\cresc f\! %40
+    as!4(\fz ges8) f([\p es des)]
+    c r r4 r
+    R2.*5 %47
+    r4 r8 b16(\< c d es e f)
+    f4(\fz ges8) b,16([\< d] es e f fis)
+    g4(\fz as8) d,16([\< es] f ges as b) %50
+    ces4.\fz b8( as ges)
+    f r r4 \pao b,
+    g'!4.\fz f8(\p es d)
+    \pa d4( c) \pd c\cresc
+    as'4.\fz g8(\p f es) %55
+    es4 d r
+    R2.*3
+    r4 \pa b es %60
+    es4(\fz d8) b([ es g)] \pd
+    g4( f) as8.\fz g16
+    g4( f8) es[\p d es]
+    \pa e4( f) g\fz
+    f( es8) d([\p c b!)] \pd %65
+    b4( as!) f'8.\fz es16
+    es4( d8) c([\p b as!)]
+    as4 g8 \pa b([\cresc c d)]
+    es2\fz a,4
+    c b \pd r %70
+    R2.
+    r4 r\fermata r
+    as'2\f d,4
+    \pa es2 d16 c b as \pd
+    g4 r r %75
+    R2.*4
+    R2.\fermata \bar "|." %80 finis
+  }
+}
+
+JehovahNahtOboeI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoJehovahNaht
+    R1*7 %7
+    c'2..\pp d8
+    es1~\cresc
+    es4. d8 d4.\! f8~ %10
+    f es4 g f f8~
+    f es4\f g8 fis2
+    g4 d\ff d d
+    f!2\fz\fermata r
+    R1*5 %19
+    \tempoJehovahNahtB c2\ff es4 c %20
+    as8 r r4 r2
+    R1*2
+    des2\ff c4 b
+    as ges f es %25
+    \tempoJehovahNahtC as r r2
+    R1*5 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*3 %35
+    es'4\fz r r2
+    R1
+    r4 r8 es( ges4)(\fz es8 c)
+    a4 r r2
+    R1 %40
+    r16 e'8(\fz f16) r ges8(\fz f16) r e!8(\fz f16) r ges!8(\fz f16)
+    r e8(\fz f16) r ges8(\fz f16) r e!8(\fz f16) r ges!8(\fz f16)
+    e2 r
+    R1*8 %51
+    r4 r8 es4(\fz d8) r es~\fz
+    \once \slurDashed es( d) \pa r d(\p es f ges f)
+    e r \pd r f4(\fz e8) r f~\fz
+    f( e) r e( f g\cresc as a)\! %55
+    \tempoJehovahNahtE b4\f r8. b16\cresc b4 r8. b16\ff
+    b4 r r2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßOboeI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoWieGroß
+    
+  }
+}

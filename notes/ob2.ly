@@ -330,3 +330,118 @@ GroßIstOboeII = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+OVaterOboeII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/4 \tempoOVater
+    \partial 4 r4 r r b'
+    d\fz f es
+    R2.
+    r4 r b\f
+    as g8 b es f %5
+    es4( d) r
+    r r b
+    d\fp f es
+    R2.
+    r4 r b\f %10
+    as4.\fz g8 b es
+    es4( d) b\p
+    d,8\fp es f g as es
+    b'2 r4
+    R2. %15
+    r4 d( h)
+    es4.\fz d8(\p c h)
+    h4( c) c
+    c4.\fz b!8(\p b c)
+    b4( a) r %20
+    R2.*6 %26
+    r4 f(\sfp fis
+    g) b\sfp d
+    es4.\fz d8(\p c h)
+    h4( c) a %30
+    b!4.\fz b8(\p a b)
+    gis4( a) r
+    R2.*3 %35
+    r4 f(\p fis)
+    g4.\fz d8(\p g g)
+    \after 8 \turn g8. f16 es4\cresc g
+    as4.\fz es8(\p as as)
+    as4 as\cresc a\! %40
+    b4.\fz c8([\p es, f)]
+    ges r r4 r
+    R2.*9 %51
+    r4 r b
+    es4.\fz d8(\p c h)
+    h4( c) b\cresc
+    as4.\fz b8( c c) %55
+    b2 r4
+    R2.*3
+    r4 b b %60
+    b4.\fz b8([ b es)]
+    es4( d) as8.\fz g16
+    g4( f8) es[\p b' b]
+    b2 d4~\fz
+    d( c8) h([\p c g)] %65
+    g4( f) c'~\fz
+    c( b8) as([\p g f)]
+    f4 es8 g4\cresc h8
+    c2\fz a4
+    a b r %70
+    R2.
+    r4 r\fermata r
+    d2\f f,4
+    es b'~ b16 as g f
+    es4 r r %75
+    R2.*4
+    R2.\fermata \bar "|." %80 finis
+  }
+}
+
+JehovahNahtOboeII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoJehovahNaht
+    R1*6 %6
+    g'1~\pp
+    g2 f
+    c'1\cresc
+    h2..\! d8~ %10
+    d c4 es d h8~
+    h c4\f es8 a,2
+    h4 h\ff h h
+    d2\fz\fermata r
+    R1*5 %19
+    \tempoJehovahNahtB as2\ff c4 es %20
+    as8 r r4 r2
+    R1*2
+    des,2\ff c4 b
+    as ges f es %25
+    \tempoJehovahNahtC as r r2
+    R1*5 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*3 %35
+    c4\fz r r2
+    R1*15 %51
+    r4 r8 es4(\fz d8) r es~\fz
+    \once \slurDashed es( d) r4 r2
+    r4 r8 f,4(\fz e8) r f~\fz
+    f( e) r4 r8 des'(\cresc c c)\! %55
+    \tempoJehovahNahtE f4\f r8. ges16\cresc ges4 r8. ges16\ff
+    ges4 r r2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßOboeII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoWieGroß
+    
+  }
+}

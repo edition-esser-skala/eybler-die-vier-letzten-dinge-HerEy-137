@@ -701,3 +701,140 @@ OWohlViola = {
     gis,4(\p a8) r r4\fermata \bar "|." %70 finis
   }
 }
+
+OVaterViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 3/4 \tempoOVater
+    \partial 4 r4 R2.*14 %14
+    r8 f,-\pizz a c f, f' %15
+    r f, b d h g
+    g'4 r r
+    R2.*3 %20
+    r4 g,(\p^\arco es)
+    c2 es'4
+    es2 r4
+    r a,( es'
+    d) r b~ %25
+    b( c^\espressivo a)
+    b r r
+    R2.*5 %32
+    r4 a(\p b)
+    b r b~
+    b( c^\espressivo a) %35
+    b r r
+    R2.*4 %40
+    r4 r r8 f\p
+    ges( b es, ges as b)
+    ces(\fp d!) d d d d
+    d(\fp es) es es es es
+    b b b b ces ces %45
+    a a b <f d> q q
+    <es ges>\> q q q q q\!
+    q q <f d> b b b
+    b\fp b b b b b
+    cis(\fp d) d b b b %50
+    as\fp as as( b ces c)
+    f, r r4 r
+    R2.*4 %56
+    r4 f(\p es)
+    r as( c)
+    b( g as)
+    g r r %60
+    R2.*3
+    r4 r d'8(\fz h)
+    g( h c f\p es g) %65
+    c,( e f f, c'\fz as)
+    f( a b d\p es f)
+    b,( d es) r r4
+    r8 es4\sfp f16( g f es d c)
+    a4( b) r %70
+    r c(\p ces)
+    r b\fermata r
+    f'16\f d f as f d f as d, f as f
+    es8 es b b c c
+    b4 r as\p %75
+    g( b g)
+    es r es
+    f8(\pp g as g as f)
+    g4 r es
+    es2.\fermata \bar "|." %80 finis
+  }
+}
+
+JehovahNahtViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \minor \time 2/2 \tempoJehovahNaht
+    R1*3
+    f,8\pp f4 f f f8
+    c es4 es es es8 f f4 f f f8 %5
+    g\cresc g4 g g g8
+    g g4 g8 f f4 f8
+    c' c4 c c c8
+    h h4 h h d8~
+    d c4 es d f8~ %10
+    f es4\f c a' a8
+    d, h4\ff f' d h8
+    f2\fz\fermata r
+    R1*5 %19
+    \tempoJehovahNahtB as4~\ff as16 b32( c des es f g) as4~ as16 g32( f es des c b) %20
+    as8 r r4 r2
+    R1*2
+    r8. as'16[\ff as8. ges16] ges8.[ f16 f8. es16]
+    es8.[ des16 des8. c16] c8.[ b16 b8. as16] %25
+    \tempoJehovahNahtC as4 r8. f16\pp f4 r8. f16
+    e4 r8. e16 e4 r8. e16
+    f4 r8. f16 f4 r8. f16
+    f4 r8. f16 f4 r8. f16
+    g4 r8. g16 f4 r8. f16 %30
+    f4 r8. f16 e4 r8. e16 \noBreak
+    f1\fermata-\smorz \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      r4 f'2\p e4 \noBreak
+    es2 d4. e8
+    \afterGrace f4 { g16[ f] } e8 d cis2^\espressivo %35
+    c4 r r2
+    c16\p c c c c4:16 c2:
+    c: c:
+    c4: c: ges4\fz\ten r
+    R1 %40
+    b16\p r b r b r b r a r a r a r a r
+    b r b r b r b r a r a r a r a r
+    b2 r
+    R1
+    b2\fp a4 r %45
+    r8 a4\p a8 as4.\fp es8
+    f2 r
+    r <as! as'!>4\fz r
+    R1
+    r2 es'4(\p des %50
+    ces b as ges)
+    as2:\sfp as:\sfp
+    as4:\sfp as16 as f' f ges ges d! d! es es des des
+    b2:\fz b:
+    b4: b16 b g' g as\cresc as des, des c c ges' ges %55
+    \tempoJehovahNahtE f4\f r8. ges16\cresc ges4 r8. b16\ff
+    b4 r r2
+    \tempoJehovahNahtF b,4\pp as g! f
+    es << {
+      es f fes \noBreak
+      f8 \once \oneVoice r es \once \oneVoice r f2\fermata
+    } \\ {
+      c4 f des
+      des8 s c s des2
+    } >> \bar "||" %60
+    ges1\p \noBreak
+    <f as!>
+    r4 r8 as!( a4)\fermata r
+    r d,\pp c r\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \minor \time 2/2 \tempoWieGroß
+    
+  }
+}

@@ -206,3 +206,37 @@ GroßIstClarinoCI = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+JehovahNahtClarinoCI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoJehovahNaht
+    R1*12 %12
+    r4 d'\ff d d
+    d2\fz\fermata r
+    R1*3 %17
+    c,1~\fz
+    c4 r r2
+    \tempoJehovahNahtB R1*6 %25
+    \tempoJehovahNahtC R1*6 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*21 %53
+    r4 g'\fz r g\fz
+    r g\fz r2 %55
+    \tempoJehovahNahtE R1*2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßClarinoCI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoWieGroß
+
+  }
+}

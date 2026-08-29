@@ -477,3 +477,45 @@ OWohlFlauto = {
     h4(\p a8) r r4\fermata \bar "|." %70 finis
   }
 }
+
+JehovahNahtFlautoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoJehovahNaht
+    R1*10 %10
+    g''4.\p\cresc c8~ c h4 d8~
+    d c4\f es d c8
+    h4 d\ff d d
+    f2\fz\fermata r
+    R1*5 %19
+    \tempoJehovahNahtB \pa as,4.\ff as8 c4 es \pd %20
+    as8 r r4 r2
+    R1*2
+    des,2\ff c4 b
+    as ges f es %25
+    \tempoJehovahNahtC des r r2
+    R1*5 \noBreak %31
+    R1\fermata \bar "||"
+    \time 4/4 \tempoJehovahNahtD
+      R1*19 %51
+    as'4(\fz f8) r as4(\fz f8) r
+    as4(\fz f8) \brkBeam \pa d(\p es f ges f)
+    e4(\fz g8) \pd r b4(\fz g8) r
+    b4(\fz g8) r r g(\cresc as a) %55
+    \tempoJehovahNahtE b4\f r8. des16\cresc des4 r8. ges16\ff
+    ges4 r r2
+    \tempoJehovahNahtF R1*2 \noBreak
+    R1\fermata \bar "||" %60
+    R1*2
+    r2 r4\fermata r
+    R1\fermata \bar "|." %64 finis
+  }
+}
+
+WieGroßFlautoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoWieGroß
+    
+  }
+}

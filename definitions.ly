@@ -31,7 +31,12 @@
             (padding . 0.50))
           default-script-alist))
   }
+  \context {
+    \Staff
+    \accidentalStyle modern
+  }
 }
+
 ten = #(make-articulation 'ten)
 tenE = #(make-articulation 'tenE)
 pco = \once \partCombineChords
@@ -42,6 +47,7 @@ mvD = #(define-music-function
     \once \override DynamicText.X-offset = #offset
   #})
 brkBeam = #(make-music 'BeamForbidEvent)
+smorz = \markup \remark "smorzando"
 
 tempoOvertura = \tempoMarkup "Grave"
   tempoOverturaB = \tempoMarkup "Allegro assai"
@@ -63,6 +69,18 @@ tempoDochSanfter = \tempoMarkup "Rezitativ"
   tempoDochSanfterD = \tempoMarkup "stringendo"
   tempoDochSanfterE = \tempoMarkup "a tempo, Andante"
 tempoOWohl = \tempoMarkup "Adagio [ma non tanto]"
+tempoJehovahs = \tempoMarkup "Rezitativ"
+  tempoJehovahsB = \tempoMarkup "Allegro"
+  tempoJehovahsC = \tempoMarkup "Adagio"
+  tempoJehovahsD = \tempoMarkup "Allegro"
+tempoOVater = \tempoMarkup "Larghetto"
+tempoJehovahNaht = \tempoMarkup "Largo"
+  tempoJehovahNahtB = \tempoMarkup "Presto"
+  tempoJehovahNahtC = \tempoMarkup "Largo"
+  tempoJehovahNahtD = \tempoMarkup "Largo"
+  tempoJehovahNahtE = \tempoMarkup "Più stretto"
+  tempoJehovahNahtF = \tempoMarkup "Più largo"
+tempoWieGroß = \tempoMarkup "Andante maestoso"
 
 
 \include "notes/fl1.ly"
