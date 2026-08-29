@@ -1,7 +1,24 @@
-\documentclass{ees}
+\documentclass[shorttitlesize=55]{ees}
 
-\usepackage[style=apa]{biblatex}
-\addbibresource{references.bib}
+\newlist{lyricslist}{description}{1}
+\setlist[lyricslist]{
+  partopsep=0pt,
+  labelindent=0em,
+  labelwidth=4.5em,
+  leftmargin=4.5em,
+  labelsep=0pt,
+  first=\ltseries,
+  font=\normalfont\itshape\ltseries,
+  style=multiline
+}
+
+\newenvironment{lyrics}[1]{%
+  \subsection{#1}\nopagebreak%
+  \begin{lyricslist}%
+  \let\voice\item%
+}{%
+  \end{lyricslist}%
+}
 
 \def\eesCommentaryAfterToe{
 
@@ -18,7 +35,7 @@
   \label{tab:parts}
   \begin{minipage}[t]{210mm}
   \small
-  \hspace*{-2cm}\begin{tabular}{rllr}
+  \begin{tabular}{rllr}
     \toprule
     \itshape no. & \itshape voice & \itshape title & \itshape fol. \\
     \midrule
@@ -128,7 +145,7 @@
     83 & trb 3      & Trombone 3|z|o         & 2633–2646 \\
     84 & timp       & Tympani                & 2647–2656 \\
     \bottomrule
-  \end{tabular}
+  \end{tabular}\hspace*{-2cm}
   \end{minipage}
 \end{table}
 
@@ -139,9 +156,6 @@
 \C1 and \C2 are printed libretti (Degensche Buchdruckerey, Wien, 16 p., and J.B.Wallishausser, Wien, 16 p., respectively).
 
 \D1 consists of a full score (23.5 × 32 cm, 12 fol.) and 18 parts (same size) in modern binding. Hand-ruled paper, 10 staves per page (8 mm) in brown ink and music in black ink. A clean ink fair copy by two unidentified scribes, comprising the recitativo “Ihr Glücklichen” (no. X) followed by the chorus “O Heil euch, Heil” (no. Y). Score (first scribe), fol. 1r: title (“Die vier letzten Dinge | Coro | /: O Heil euch Heil :/ | Vom H. Joſ. Eybler.”); 1v–12r: music; 12v: empty. Parts by first scribe: S 1 solo and coro (2 fol.), S 1 coro (1), S 2 coro (2x; 1, 1), A 1 coro (2x; 1, 1), A 2 coro (2x; 2, 2); parts by second scribe: S 1 coro (3x; 1, 1, 1), S 2 coro (3x; 1, 1, 1), A 1 coro (2x; 1, 1), and A 2 coro (2x; 1, 1).
-
-\nocite{*}
-\printbibliography[heading=subbibintoc]
 
 % \clearscrheadfoot
 
@@ -187,6 +201,7 @@
   Umſchließt des Tods und der Vernichtung Grab.
 \end{lyrics}
 
+\clearpage
 \begin{lyrics}{[4] Arie}
   \voice[Erſter Erzengel]
   Wie ſchrecklich iſt die Todesſtunde\\
@@ -254,9 +269,7 @@
   Ströhm’ ihnen Hoffnung ein;\\
   Und laß des Heils die Böſen\\
   Durch Reue würdig ſeyn.
-\end{lyrics}
 
-\begin{lyrics}{}
   \voice[]
   Ein kurzes Largo, das zum folgenden vorbereitet.\\\relax
   [sentence missing in \C1/\C2]
@@ -299,6 +312,7 @@
   Nichts, was da lebte, lebet mehr.
 \end{lyrics}
 
+\clearpage
 \begin{lyrics}{[10] Chor}
   \voice[Chor]
   Wie groß iſt deine Macht, o Herr,\\
