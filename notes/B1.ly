@@ -521,3 +521,63 @@ WieGroßBassoLyrics = \lyricmode {
   nur ein %65
   Grab. %66 finis
 }
+
+WerRuftBassoI = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoWerRuft
+    r2 r4 c\pp
+    c c c c
+    c4. c8 c4 r
+    c2 r
+    c r4 c %5
+    c c c c
+    c4. c8 c4 r
+    c2 r
+    c r4 c
+    c c c c %10
+    des4. des8 des4 des
+    d d d d
+    es2 r4 es
+    e\cresc e e e
+    f4. f8 f4 f %15
+    f f f f
+    ges2 r
+    g\f r4 g
+    as as a a
+    b2 r %20
+    c1\ff
+    c,2 r4 as'
+    f2 g
+    c, r
+    R1*5 %29
+    R1\fermata \bar "|." %30 finis
+  }
+}
+
+WerRuftBassoILyrics = \lyricmode {
+  Wer
+  ruft uns aus der
+  Grä -- ber Nacht?
+  wer?
+  wer? Wer %5
+  ruft uns aus der
+  Grä -- ber Nacht?
+  wer?
+  wer? Vom
+  To -- de ſind wir %10
+  auf -- er -- wacht, wer
+  rief uns mäch -- tig
+  zu? vom
+  To -- de ſind wir
+  auf -- er -- wacht, wer %15
+  rief uns mäch -- tig
+  zu?
+  wer? wer
+  rief uns mäch -- tig
+  zu? %20
+  Du
+  rufſt, Je --
+  ho -- vah,
+  Du! %24 finis
+}

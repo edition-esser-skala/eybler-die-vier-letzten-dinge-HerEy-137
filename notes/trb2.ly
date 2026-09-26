@@ -399,3 +399,55 @@ WieGroßTromboneII = {
     R1\fermata \bar "|." %72 finis
   }
 }
+
+EsHerrschetTromboneII = {
+  \relative c' {
+    \clef tenor
+    \twotwotime \key g \minor \time 2/2 \tempoEsHerrschet
+    R1
+    R\fermata
+    R
+    R\fermata
+    R1*77 %81
+    \tempoEsHerrschetB R1*5 %86
+    R1\fermata
+    R
+    r2 r4\fermata r
+    R1*18 %107
+    \time 4/4 \tempoEsHerrschetC R1*14 %121
+    \time 2/2 \tempoEsHerrschetD R1*26 %147
+    \time 4/4 \tempoEsHerrschetE
+      \mvTr g2~\p-\critnote g8-! r r4 \noBreak
+    g2~\f g8-! r r4
+    g2~\ffz g8-! r r4 %150
+    R1*4
+    \key h \minor \tempoEsHerrschetF R1*6 %160
+    \tempoEsHerrschetG \grace s8 R1
+    \tempoEsHerrschetH R1*15 %176
+    \key c \minor \time 2/2 \tempoEsHerrschetI R1*3
+    \time 4/4 R1 %180
+    \tempoEsHerrschetJ R1*4
+    \tempoEsHerrschetK R1*18 %202
+    \time 2/2 \tempoEsHerrschetL \grace s4 R1*9 %211
+    \time 4/4 R1*6 %217
+    R1\fermata \bar "||" %218 finis
+  }
+}
+
+WerRuftTromboneII = {
+  \relative c' {
+    \clef tenor
+    \twotwotime \key c \minor \time 2/2 \tempoWerRuft
+    R1*20 %20
+    g1\ff
+    c,2 r
+    R1
+    g'\fz
+    g\fz %25
+    g\fz
+    g4 r r2
+    c2\ff g4 es
+    c r c r
+    c r r2\fermata \bar "|." %30 finis
+  }
+}

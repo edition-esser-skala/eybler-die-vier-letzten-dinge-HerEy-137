@@ -682,3 +682,116 @@ WieGroßClarinettoII = {
     R1\fermata \bar "|." %72 finis
   }
 }
+
+EsHerrschetClarinettoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key a \minor \time 2/2 \tempoEsHerrschet
+    R1
+    R\fermata
+    R
+    R\fermata
+    R1*20 \markCritnote %24
+    R1*20 %44
+    \once \slurDashed g'2(\f c,4 as') %45
+    g2 r
+    R1*4 %50
+    r2 r4 b~\p
+    b a r2
+    R1*2
+    r2 r4 c~ %55
+    c h! r2
+    R1*2
+    f2( e4 d)
+    g2 r %60
+    R1*2 \markCritnote
+    R1*8 %70
+    a2\f\< h4 c~
+    c\> h4 d gis,\!
+    a-! r a-! r
+    a-! r d,-! r
+    R1*7 %81
+    \tempoEsHerrschetB R1*5 %86
+    R1\fermata
+    R1
+    r2 r4\fermata r
+    R1*18 %107
+    \time 4/4 \tempoEsHerrschetC R1*4 %111
+    r4 f2\pE f4
+    f1~\cresc
+    f2\! r
+    R1 %115
+    es\fz
+    d\fz
+    a'4 e2 e4
+    f2 d
+    e4 r r2 \noBreak %120
+    R1
+    \time 2/2 \tempoEsHerrschetD R1*22 %143
+    a2(\f g)
+    e r %145
+    R1*2
+    \time 4/4 \tempoEsHerrschetE R1*7 %154
+    \tempoEsHerrschetF R1*6 \noBreak %160
+    \tempoEsHerrschetG \grace s8 R1
+    \tempoEsHerrschetH e4\f r8 e e4 r8 e \noBreak
+    e4 d a' a~
+    a a2 a4
+    h r8. fis16 fis2 %165
+    R1
+    g2\fz gis\fz
+    a\fz h\fz
+    e,4 r r2
+    R1 %170
+    r4 r8 h'([\f c)] r r cis(
+    d) r r dis([ e)] r r e(
+    f) r r a,([ b)] r r4
+    R1
+    as2\fz-\critnote r \noBreak %175
+    R1
+    \time 2/2 \tempoEsHerrschetI R1*3
+    \time 4/4 R1 %180
+    \tempoEsHerrschetJ R1*4
+    \tempoEsHerrschetK a2\f h! \noBreak %185
+    c h!
+    c r
+    c, d
+    e d
+    b' a %190
+    g4 b a c
+    b c g a
+    c, d es g
+    a r r2
+    R1*8 %202
+    \time 2/2 \tempoEsHerrschetL \grace s4 R1*9 %211
+    \time 4/4 R1*6 %217
+    R1\fermata \bar "||" %218 finis
+  }
+}
+
+WerRuftClarinettoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoWerRuft
+    R1*11 %11
+    c1~\p
+    c
+    d~
+    d %15
+    es~\cresc
+    es
+    f~
+    f2\f g~
+    g a %20
+    a4 r r2
+    r f\ff
+    g e
+    f1\fz
+    f\fz %25
+    f\fz
+    f4 r r2
+    d'\ff a4 f
+    d r d r
+    d r r2\fermata \bar "|." %30 finis
+  }
+}

@@ -696,3 +696,132 @@ WieGroßClarinettoI = {
     R1\fermata \bar "|." %72 finis
   }
 }
+
+EsHerrschetClarinettoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key a \minor \time 2/2 \tempoEsHerrschet
+    R1
+    R\fermata
+    R
+    R\fermata
+    R1*20 \markCritnote %24
+    R1*5 %29
+    a'2(\p gis4 a) %30
+    b2 r
+    R1*2
+    c2(\cresc d4 a)
+    b2\! r %35
+    R1*9 %44
+    \once \slurDashed c2(\f as4 f) %45
+    d2 r
+    R1*4 %50
+    f'2(\p es4 b)
+    c2 r
+    R1*2
+    g'2( f4 c) %55
+    d2 r
+    R1*2
+    a2( g4 f)
+    b2 r %60
+    R1*2 \markCritnote
+    R1*5 %67
+    a2(\p gis4 a)
+    e2 r
+    a(\cresc gis4 a) %70
+    c2\f\< h4 a
+    f'2\> d4 h\!
+    c-! r c-! r
+    h-! r e,-! r
+    R1*7 %81
+    \tempoEsHerrschetB R1*5 %86
+    R1\fermata
+    R1
+    r2 r4\fermata r
+    R1*18 %107
+    \time 4/4 \tempoEsHerrschetC R1*4 %111
+    r4 as2\pE as4
+    as1~\cresc
+    as2\! r
+    R1 %115
+    g\fz
+    f\fz
+    e4 a2 a4
+    a2 f
+    \pao e4 r r2 \noBreak %120
+    R1
+    \time 2/2 \tempoEsHerrschetD R1*5 %126
+    a2(\ppE gis4 a)
+    b2 r
+    h( ais4 h)
+    c2 r %130
+    d\>( e4\! h)
+    c2 r
+    R1*11 %143
+    \pa d2(\f b4 g)
+    e2 \pd r %145
+    R1*2
+    \time 4/4 \tempoEsHerrschetE R1*7 %154
+    \tempoEsHerrschetF R1*6 \noBreak %160
+    \tempoEsHerrschetG \grace s8 R1
+    \tempoEsHerrschetH e4\f r8 e e4 r8 e \noBreak
+    e4 d a' a~
+    a a2 a4
+    h r8. fis16 fis2 %165
+    R1
+    h2\fz h\fz
+    c\fz d\fz
+    c4 r r2
+    R1 %170
+    r4 r8 h([\f c)] r r cis(
+    d) r r dis([ e)] r r e(
+    f) r r a,([ b)] r r4
+    R1
+    h!2\fz r \noBreak %175
+    R1
+    \time 2/2 \tempoEsHerrschetI R1*3
+    \time 4/4 R1 %180
+    \tempoEsHerrschetJ R1*4
+    \tempoEsHerrschetK c2\f d \noBreak %185
+    e f
+    e r
+    e, f
+    \pao e d'
+    e4 cis d2 %190
+    b4 g' f a
+    g f es d
+    c b a b
+    c r r2
+    R1*8 %202
+    \time 2/2 \tempoEsHerrschetL \grace s4 R1*9 %211
+    \time 4/4 R1*6 %217
+    R1\fermata \bar "||" %218 finis
+  }
+}
+
+WerRuftClarinettoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoWerRuft
+    R1*11 %11
+    \pa g'1\p
+    a~
+    a
+    b~ %15
+    b\cresc
+    c~
+    c
+    d\f
+    e!2 a, %20
+    a4 \pd r r2
+    r b\ff
+    b a
+    a1\fz
+    a\fz %25
+    a\fz
+    a4 r r2
+    d\ff a4 f
+    d r d r
+    d r r2\fermata \bar "|." %30 finis
+  }
+}

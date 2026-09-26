@@ -694,3 +694,132 @@ WieGroßFagottoII = {
     R\fermata \bar "|." %72 finis
   }
 }
+
+EsHerrschetFagottoII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \minor \time 2/2 \tempoEsHerrschet
+    R1
+    R\fermata
+    R
+    R\fermata
+    R1*20 \markCritnote %24
+    R1*10 %34
+    \clef "treble_8" as'2\p f %35
+    c' r
+    R1*8 %44
+    \clef bass des,2\f es %45
+    f r
+    R1*4 %50
+    \clef "treble_8" ces'2(\p b4 fes')
+    g,!1
+    as4 r r2
+    R1
+    des2( c4 ges') %55
+    a,!1
+    b4 r r2
+    R1
+    \clef bass r4 c,( d es)
+    f2 r %60
+    R1*2 \markCritnote
+    R1*5 %67
+    g2(\p fis4 g)
+    d2 r
+    g(\cresc fis4 g) %70
+    b!2\f\< a4 g
+    fis2\> a4 c\!
+    b-! r es,-! r
+    c-! r d-! r
+    R1*7 %81
+    \tempoEsHerrschetB R1*5 %86
+    R1\fermata
+    R1
+    r2 r4\fermata r
+    R1*18 %107
+    \time 4/4 \tempoEsHerrschetC R1*3 %110
+    r4 as'2\pE as4
+    as1~\cresc
+    as~
+    as2\! r
+    R1 %115
+    f\fz
+    fis\fz
+    g4 g2 g4
+    g1
+    g4 r r2 \noBreak %120
+    R1
+    \time 2/2 \tempoEsHerrschetD R1*8 %129
+    \clef "treble_8" b2\ppE \cresc( c4 b) %130
+    a2\> r\!
+    b\p g
+    d'2 r
+    R1*10 %143
+    \clef bass es,2\f f
+    g r %145
+    R1*2
+    \time 4/4 \tempoEsHerrschetE R1*7 %154
+    \key h \minor \tempoEsHerrschetF R1*6 \noBreak %160
+    \tempoEsHerrschetG \grace s8 R1
+    \tempoEsHerrschetH g,4\f r8 d' g,4 r8 d' \noBreak
+    g,4 a h! c
+    d8 c h a g f' e d
+    cis!4 r8. cis16 cis2 %165
+    R1
+    d2\fz c\fz
+    b\fz a\fz
+    g4 r r2
+    R1 %170
+    r4 r8 fis!([\f g)] r r gis(
+    a) r r a([ b)] r r h(
+    c) r r e([ f)] r r4
+    R1
+    es2\fz r \noBreak %175
+    R1
+    \key c \minor \time 2/2 \tempoEsHerrschetI R1*3
+    \time 4/4 R1 %180
+    \tempoEsHerrschetJ R1*4
+    \tempoEsHerrschetK R1 %185
+    \clef "treble_8" g2\f f
+    b c
+    d r
+    \clef bass g,,\f a
+    h4 d es c %190
+    f d g es
+    as! g f es
+    des c b as
+    g r r2
+    R1*8 %202
+    \time 2/2 \tempoEsHerrschetL \grace s4 R1*9 %211
+    \time 4/4 R1*6 %217
+    R1\fermata \bar "||" %218 finis
+  }
+}
+
+WerRuftFagottoII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoWerRuft
+    R1*9 %9
+    g'1\p %10
+    f
+    d!
+    es
+    e
+    f %15
+    f\cresc
+    ges
+    g
+    as2\f a
+    b h %20
+    c4 r r2
+    r as,\ff
+    f g
+    c1\fz
+    c\fz %25
+    c\fz
+    c4 r r2
+    c\ff g4 es
+    c r c r
+    c r r2\fermata \bar "|." %30 finis
+  }
+}

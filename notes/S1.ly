@@ -553,3 +553,63 @@ WieGroßSopranoLyrics = \lyricmode {
   nur ein %65
   Grab. %66 finis
 }
+
+WerRuftSopranoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoWerRuft
+    r2 r4 c\pp
+    c c c c
+    h4. c8 d4 r
+    f2 r
+    as r4 d, %5
+    d d d d
+    c4. d8 e4 r
+    g2 r
+    b r4 e,
+    e e e e %10
+    f4. f8 f4  f
+    b b b b
+    g2 r4 g
+    g\cresc g g g
+    as4. as8 as4 as %15
+    des des des des
+    b2 r
+    es\f r4 es
+    c c f f
+    d!2 r %20
+    g1\ff
+    es2 r4 c
+    as'2 h,
+    c r
+    R1*5 %29
+    R1\fermata \bar "|." %30 finis
+  }
+}
+
+WerRuftSopranoILyrics = \lyricmode {
+  Wer
+  ruft uns aus der
+  Grä -- ber Nacht?
+  wer?
+  wer? Wer %5
+  ruft uns aus der
+  Grä -- ber Nacht?
+  wer?
+  wer? Vom
+  To -- de ſind wir %10
+  auf -- er -- wacht, wer
+  rief uns mäch -- tig
+  zu? vom
+  To -- de ſind wir
+  auf -- er -- wacht, wer %15
+  rief uns mäch -- tig
+  zu?
+  wer? wer
+  rief uns mäch -- tig
+  zu? %20
+  Du
+  rufſt, Je --
+  ho -- vah,
+  Du! %24 finis
+}

@@ -540,3 +540,63 @@ WieGroßTenoreLyrics = \lyricmode {
   nur ein %65
   Grab. %66 finis
 }
+
+WerRuftTenoreI = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoWerRuft
+    r2 r4 es,\pp
+    es es es es
+    f4. f8 f4 r
+    d'2 r
+    h r4 f %5
+    f f f f
+    e4. f8 g4 r
+    e'2 r
+    c r4 g
+    g g g g %10
+    f4. des'8 des4 des
+    b b b b
+    b2 r4 es
+    c\cresc c c c
+    f4. c8 c4 c %15
+    des des des des
+    des2 r
+    b\f r4 es
+    es es f f
+    f2 r %20
+    es1\ff
+    es2 r4 es
+    f2 d
+    c r
+    R1*5 %29
+    R1\fermata \bar "|." %30 finis
+  }
+}
+
+WerRuftTenoreILyrics = \lyricmode {
+  Wer
+  ruft uns aus der
+  Grä -- ber Nacht?
+  wer?
+  wer? Wer %5
+  ruft uns aus der
+  Grä -- ber Nacht?
+  wer?
+  wer? Vom
+  To -- de ſind wir %10
+  auf -- er -- wacht, wer
+  rief uns mäch -- tig
+  zu? vom
+  To -- de ſind wir
+  auf -- er -- wacht, wer %15
+  rief uns mäch -- tig
+  zu?
+  wer? wer
+  rief uns mäch -- tig
+  zu? %20
+  Du
+  rufſt, Je --
+  ho -- vah,
+  Du! %24 finis
+}

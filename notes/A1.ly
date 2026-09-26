@@ -539,3 +539,63 @@ WieGroßAltoLyrics = \lyricmode {
   nur ein %65
   Grab. %66 finis
 }
+
+WerRuftAltoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoWerRuft
+    r2 r4 c\pp
+    c c c c
+    as4. as8 as4 r
+    as2 r
+    f' r4 h, %5
+    h h h h
+    b4. b8 b4 r
+    b2 r
+    g' r4 b,
+    b b b b %10
+    f'4. f8 f4 f
+    f f f f
+    es2 r4 g
+    g\cresc g g g
+    c,4. f8 f4 f %15
+    as as as as
+    ges2 r
+    es\f r4 b'
+    as as c c
+    f,2 r %20
+    c'1\ff
+    c2 r4 c
+    c2 g
+    g r
+    R1*5 %29
+    R1\fermata \bar "|." %30 finis
+  }
+}
+
+WerRuftAltoILyrics = \lyricmode {
+  Wer
+  ruft uns aus der
+  Grä -- ber Nacht?
+  wer?
+  wer? Wer %5
+  ruft uns aus der
+  Grä -- ber Nacht?
+  wer?
+  wer? Vom
+  To -- de ſind wir %10
+  auf -- er -- wacht, wer
+  rief uns mäch -- tig
+  zu? vom
+  To -- de ſind wir
+  auf -- er -- wacht, wer %15
+  rief uns mäch -- tig
+  zu?
+  wer? wer
+  rief uns mäch -- tig
+  zu? %20
+  Du
+  rufſt, Je --
+  ho -- vah,
+  Du! %24 finis
+}

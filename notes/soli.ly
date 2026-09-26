@@ -916,3 +916,178 @@ JehovahNahtSoliLyrics = \lyricmode {
   leb -- te, nichts le -- bet
   mehr. %64 finis
 }
+
+EsHerrschetSoli = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoEsHerrschet
+    R1*81 %81
+    \tempoEsHerrschetB r2 r4 a' \noBreak
+    fis4. fis8 fis4 r8 d
+    es2.^\espressivo d4
+    c b r2 %85
+    R1
+    R\fermata
+    R
+    r2 r4\fermata d
+    es4. d8 d4 r %90
+    r8 d g fis g4 g8 a
+    c4 b r2
+    R1*8 %100
+    r2 g4 r8 g
+    e e r4 e8 e e f
+    g g r4 r g8 b
+    des4.^\fermata c8 b as as4
+    R1*3 %107
+    \time 4/4 \tempoEsHerrschetC R1*6 %113
+    r4 r8 es as4. g8
+    as4 as r as8 es %115
+    f4 f r2
+    R1*3
+    r8 d g g g a! h h \noBreak %120
+    r4 d8 g, c4 r
+    \time 2/2 \tempoEsHerrschetD R1*2
+    r4 f, as4. f16([ d)]
+    h4 h h8 h c d %125
+    es es r4 r2
+    R1*6 %132
+    r2 r4 a
+    \grace g fis2 r8 d cis d
+    es!4. d8 c b a4 %135
+    R1*11 \noBreak %146
+    r4 g' g8 g g g
+    \time 4/4 \tempoEsHerrschetE c2 r
+    R1*2 %150
+    r2 r4 es,
+    as2~ as8 es c as
+    f'4 r r8 des f as \noBreak
+    as4. ces,8 ces4 r8 des
+    \tempoEsHerrschetF ces b b4 r2 \noBreak %155
+    \key h \minor r8 ais ais h cis2
+    r r4 r8 cis
+    cis cis cis d e8. e16 e4
+    r2 r4 r8 e
+    e4 e8 fis g g fis e \noBreak %160
+    \tempoEsHerrschetG \grace h' ais4 r r r8 d,
+    \tempoEsHerrschetH d'1\f \noBreak
+    h4 r r2
+    R1*2 %165
+    r8 a a h cis cis h a
+    d4 r r2
+    R1
+    r2 r8 d, g fis!
+    g g r4 g8 g g a %170
+    b4 r r2
+    R1*3
+    r8 ges f ges es es r4 \noBreak %175
+    es8 es f ges a,!4 b8 c
+    \key c \minor \time 2/2 \tempoEsHerrschetI
+      des des r4 r2 \noBreak
+    R1*2
+    \time 4/4 r2 f8 f g as %180
+    \tempoEsHerrschetJ as h, r f' as as g d
+    es4 r8 g c c d es
+    es fis, r fis a a a4 \noBreak
+    r8 a c b a g r4
+    \tempoEsHerrschetK R1*11 %195
+    r2 b,
+    b des
+    b4. b8 b4 r
+    R1
+    r2 es %200
+    es f \noBreak
+    ges2. c,4
+    \time 2/2 \tempoEsHerrschetL \grace es des2 r \noBreak
+    R1*8 %211
+    \time 4/4 r4 e e e8 f \noBreak
+    g4 g8 as! b4. c8
+    as as as4 r f
+    as2 r8 as f d %215
+    h h h4 r c
+    c'2. fis,4
+    g8 g g4 r2\fermata \bar "||" %218 finis
+  }
+}
+
+EsHerrschetSoliLyrics = \lyricmode {
+  Es %82
+  herr -- ſchet noch des
+  To -- des
+  Stil -- le. %85
+
+  Es %89
+  ſchlum -- mert noch %90
+  die ſtar -- re Hül -- le des
+  Le -- bens;
+
+  bald er -- %101
+  wacht ſie, das Ge -- richt zu
+  hö -- ren, das ein
+  ew’ -- ges Ur -- theil "ſpricht. –"
+
+  Der Glanz Je -- %114
+  ho -- vahs ſtröh -- met %115
+  nie -- "der –"
+
+  Der Bo -- the des Ge -- rich -- tes %120
+  ſchwebt da -- her.
+
+  Der Schmerz um -- %124
+  däm -- mert ſei -- ne Au -- gen -- %125
+  lie -- "der –"
+
+  Er %133
+  ſieht das ö -- de
+  Lei -- chen -- feld um -- her %135
+
+  Und die Po -- ſau -- ne %147
+  tönt.
+
+  Des %151
+  Erd -- balls Fe -- ſte
+  drönt. Im Schoos der
+  Gra -- bes -- nacht be --
+  wegt es "ſich –" %155
+  der Staub er -- wacht.
+  Der
+  Mo -- der von Jahr -- tau -- ſen -- den
+  er --
+  he -- bet ſich wie -- der als Ge -- %160
+  ſtalt, und
+  le --
+  bet.
+
+  Die Sar -- ko -- pha -- ge bre -- chen %166
+  auf.
+
+  Ver -- ſunk -- ne
+  Städ -- te wäl -- zen ſich her -- %170
+  auf,
+
+  und die da ſchlie -- fen, %175
+  ſtei -- gen aus den Grüf -- ten des
+  Schut -- tes.
+
+  Aus der Er -- de %180
+  Klüf -- ten, und aus des Mee -- res
+  Schoos, und aus der Ber -- ge
+  Schach -- ten ver -- ſam -- meln ſich
+  die Auf -- er -- wach -- ten.
+
+  Er -- %196
+  ſtau -- nen
+  feſ -- ſelt "ſie –"
+
+  ſie %200
+  ſchrei -- ten
+  bang her --
+  vor.
+
+  Sie wiſ -- ſen noch %212
+  nicht, was ihr Ohr er --
+  ſchüt -- ter -- te, den
+  Leib, der in der %215
+  Er -- de ſchlief, in
+  neu -- es
+  Le -- ben rief. %218 finis
+}

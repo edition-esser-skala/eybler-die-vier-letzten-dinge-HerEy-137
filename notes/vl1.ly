@@ -878,3 +878,257 @@ WieGroßViolinoI = {
     c2\! r\fermata \bar "|." %72 finis
   }
 }
+
+EsHerrschetViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \minor \time 2/2 \tempoEsHerrschet
+    \once \stemUp b'2(\p^\conSord a4 fis)
+    d1\fermata
+    es2( d4 b)
+    g1\fermata
+    b2( a4 es') %5
+    d2 r
+    d'( c4 g)
+    a2 r
+    R1
+    d2( b4 a) %10
+    g2 c
+    a1
+    R
+    r2 c~\>
+    c4 b( a g)\! %15
+    fis2 r
+    R1
+    r2 f'!~\>
+    f4 es( d c)\!
+    h2 r %20
+    g'(\sfp\< fis4 g
+    b!\> as g f)\!
+    es( h c d)
+    es2(\> d4\!) r \markCritnote
+    f2(\p des4 c) %25
+    h2 r
+    as'(\sfp f4 des)
+    h2 r
+    g4\pp g g g
+    g g fis( g) %30
+    as as as as
+    b b b b
+    as\cresc as( b c)
+    des des( c b)
+    as\p as b b %35
+    g2 r
+    R1
+    r2 b!~\>
+    b4 as( g f)\!
+    e2 r %40
+    R1
+    r2 es'!~\>
+    es4 des( c b)\!
+    a!2 r
+    f'(\f es4 c) %45
+    a!2 r
+    ges(\pp f4 des)
+    b2 r
+    r des(
+    c4 des) fes2(\> %50
+    es4)\! r r2
+    R1
+    r2 es(
+    d!4 es) ges2(\>
+    f4)\! r r2 %55
+    R1
+    r2 f(
+    e4 f) as2(\>
+    g4)\! r r es'~
+    es d( des c) %60
+    b( fis g a!)
+    b2\> a4\! r \markCritnote
+    c2(\p as4 g)
+    fis2 r
+    es'(\sfp c4 as) %65
+    fis2 r
+    d4\p d d d
+    es es es es
+    f!\cresc f f f
+    g g g g %70
+    g\f g(\< a b)~
+    b\> a( c fis,)\!
+    g-! r b-! r
+    es-! r fis,-! r
+    g2(\p f4 es %75
+    d2) r
+    d'( c4 g)
+    a2 r
+    R1
+    d2( b4 a) \noBreak %80
+    g2 c
+    \tempoEsHerrschetB a r \noBreak
+    R1*3 %85
+    \once \stemUp b2(\p a4 fis)
+    d1\fermata
+    es2( d4 b)
+    g2.\fermata r4
+    R1*3 %92
+    b2(\p a4 es')
+    d2 r
+    d'( c4 g) %95
+    a2 r
+    R1
+    d2( es4 h)
+    c( g as e)
+    f2 des4.\> c8\! %100
+    c2 r
+    R1*3
+    c'2(\f\< h4 c %105
+    es\> des c b)\! \noBreak
+    as( e f g)
+    \time 4/4 \tempoEsHerrschetC
+      as2(\> g4)\! r \noBreak
+    R1*2 %110
+    as8\p as4 as as as8
+    c\cresc c4 c8 es es4 es8
+    as as4 as8 c\f c4 c8
+    es2\! r
+    R1 %115
+    r8 des4\f as f des8
+    r c'4 a es c8
+    h g'4 fis as g8~
+    g f4 es d! c8
+    h4 r r2 \noBreak %120
+    R1
+    \time 2/2 \tempoEsHerrschetD
+      r8 c'\p c([ h)] r as as([ g)] \noBreak
+    r f f([ es!)] r des des([ c)]
+    h2 r
+    R1 %125
+    g4\pp g g g
+    g g fis( g)
+    as as as as
+    a a gis( a)
+    b(\cresc d c b) %130
+    a( es' d c)
+    b\pp b c c
+    a2 r
+    R1*3 %136
+    r2 c~\pE\>
+    c4 b( a g)\!
+    fis2 r
+    R1 %140
+    r2 f'!~\>
+    f4 es( d c)\!
+    h2 r
+    g'(\f f4 d)
+    h2 r %145
+    as(\pp g4 es) \noBreak
+    c2 r
+    \time 4/4 \tempoEsHerrschetE
+      R1*3 %150
+    as2:32\pp^\markup \remark "tremolo" as:
+    as: as:
+    as4 r^\markup \remark "Si levano i Sordini" r2 \noBreak
+    R1
+    \key h \minor \tempoEsHerrschetF
+      r4 r8 ais( h-> ais h-> ais) \noBreak %155
+    R1
+    ais4(\p h cis2)
+    R1
+    cis4(\cresc d e2)
+    R1 \noBreak %160
+    \tempoEsHerrschetG \grace s8 \once \slurDashed e4(\piucresc fis g a!)
+    \tempoEsHerrschetH h16\f g h c? d h c! a h g h c d h c a \noBreak
+    h g a h c a h c d h c d e c d e
+    f g e f d e c d h c a h g a f g
+    e4 r8. <e' a,>16 q2 %165
+    R1
+    r4 <f a, d,>\f r <fis a, d,>
+    r <g b, d,> r <a c, d,>
+    <b b, d, g,> r r2
+    R1 %170
+    r4 r8 a,(\f b) fis!( g) h(
+    c) gis( a) cis( d) a( b) d(
+    es) h( c) g( as) a-! b-! c-!
+    des[ r16 d] d8[ r16 es] es8[ r16 f] f8[ r16 ges]
+    <ges a,!>2\fz r \noBreak %175
+    R1
+    \key c \minor \time 2/2 \tempoEsHerrschetI
+      r2 des,\pp \noBreak
+    c4( des fes2)~
+    fes4\cresc es ges2
+    \time 4/4 f r \noBreak %180
+    \tempoEsHerrschetJ r8. d'16\f d4 r2
+    r8. es16 es4 r2
+    r8. <fis a,>16 q4 r2 \noBreak
+    R1
+    \tempoEsHerrschetK R1*2 %186
+    r8 f16(\f es d f es d) c( d es d) c( es d c)
+    b( c d c) b( d c b) a( b c b) a( c b a)
+    g( a b a) g( b a g) fis8 fis' r fis,
+    f as'!4 h,8 c c, r4 %190
+    r8 c''16( b as! c b as) g( as b as) g( b as g)
+    f( as g f) es( g f es) des( f es des) c( es des c)
+    b( des c b) as( c b as) g( b as g) f( as g f)
+    e4 r r r8. e16\pp
+    e4 r r r8. e16 %195
+    e4 r r r8. e16
+    e4 r r r8. f16
+    f4 r r r8. f16
+    f4 r r r8. ges16
+    ges1\ten %200
+    R1*2
+    \time 2/2 \tempoEsHerrschetL \grace s4 r2 b,~\p \noBreak
+    b a
+    r des~ %205
+    des c
+    r f~
+    f e
+    r as~
+    as ges~ %210
+    ges f
+    \time 4/4 e r
+    R1
+    r4 r8. as!16\f as2
+    R1 %215
+    r4 h( c2)
+    R1
+    r4 r8. <g' h,>16\f q2\fermata \bar "||" %218 finis
+  }
+}
+
+WerRuftViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoWerRuft
+    c8(\pp g) c( g) c( g) c( g)
+    c( g) c( g) c( g) c( g)
+    d'( h) d( h) d( h) d( h)
+    d( h) d( h) d( h) d( h)
+    f'( as,) f'( as,) f'( as,) f'( as,) %5
+    d( h) d( h) d( h) d( h)
+    e( b) e( b) e( b) e( b)
+    e( b) e( b) e( b) e( b)
+    g'( b,) g'( b,) g'( b,) g'( b,)
+    e( b) e( b) e( b) e( b) %10
+    f'( as,!) f'( as,) f'( as,) f'( as,)
+    f'( b,) f'( b,) f'( b,) f'( b,)
+    g'( b,) g'( b,) g'( b,) g'( b,)
+    g'(\cresc c,) g'( c,) g'( c,) g'( c,)
+    as'( c,) as'( c,) as'( c,) as'( c,) %15
+    as'( des,) as'( des,) as'( des,) as'( des,)
+    b'( des,) b'( des,) b'( des,) b'( des,)
+    b'(\f es,) b'( es,) b'( es,) b'( es,)
+    c'( es,) c'( es,) c'( f,) c'( f,)
+    d'!( f,) d'( f,) d'( g,) d'( g,) %20
+    es'4 r r2
+    r <c es, as,>4\ff r
+    <as' c, f,> r <h, f g,> r
+    <c es, g,> r r r8 g32( a h c64 d)
+    es2 r4 r8 c32( d es f) %25
+    g2 r4 r8 \ptn \tuplet 7/8 { c,64( d es f g a h) }
+    c2\ff g4 es
+    c2 g4 es
+    c4 r \grace { g32[ a h] } c4 r
+    \grace { g32[ a h] } c4 r r2\fermata \bar "|." %30 finis
+  }
+}

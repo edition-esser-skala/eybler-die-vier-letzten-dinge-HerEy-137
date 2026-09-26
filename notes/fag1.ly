@@ -715,3 +715,138 @@ WieGroßFagottoI = {
     R\fermata \bar "|." %72 finis
   }
 }
+
+EsHerrschetFagottoI = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \minor \time 2/2 \tempoEsHerrschet
+    R1
+    R\fermata
+    R
+    R\fermata
+    R1*20 \markCritnote %24
+    R1*7 %31
+    \clef "treble_8" e'2(\pE dis4 e)
+    f2 r
+    R1
+    c2\p f %35
+    e r
+    R1*8 %44
+    \clef bass \pa b2.\f c4 %45
+    f,2 \pd r
+    R1*5 %51
+    \clef "treble_8" des'2(\p es4 fes)
+    es r r2
+    R1*2 %55
+    es2( f4 ges)
+    f r r2
+    R1
+    \clef bass r4 es,( f g)
+    as2 r %60
+    R1*2 \markCritnote
+    R1*4 %66
+    g2(\p fis4 g)
+    b2(\> a4)\! r
+    h2(\cresc ais4 h)
+    d2(\> c4)\! r %70
+    cis1\f\<
+    c2.\> es!4\!
+    d-! r es-! r
+    c-! r a-! r
+    R1*7 %81
+    \tempoEsHerrschetB R1*5 %86
+    R1\fermata
+    R1
+    r2 r4\fermata r
+    R1*18 %107
+    \time 4/4 \tempoEsHerrschetC R1*3 %110
+    r4 c2\pE c4
+    c1~\cresc
+    c~
+    c2\! r
+    R1 %115
+    as\fz
+    a\fz
+    h4 h2 h4
+    c1
+    h4 r r2 \noBreak %120
+    R1
+    \time 2/2 \tempoEsHerrschetD R1*4 %125
+    \clef "treble_8" c2(\ppE h4 c)
+    des2(\> c4)\! r
+    c2( h4 c)
+    es2(\> d!4)\! r
+    \pa d2(\cresc c4 d) \pd %130
+    es2\> r\!
+    d\p g
+    fis2 r
+    R1*10 %143
+    \clef bass \pa c2.\f d4
+    g,2 \pd r %145
+    R1*2
+    \time 4/4 \tempoEsHerrschetE R1*7 %154
+    \key h \minor \tempoEsHerrschetF R1*6 \noBreak %160
+    \tempoEsHerrschetG \grace s8 R1
+    \tempoEsHerrschetH g4\f r8 fis g4 r8 fis \noBreak
+    g4 a h! c
+    d8 c h a \pa g f e d
+    cis!4 \pd r8. cis'16 cis2 %165
+    R1
+    d2\fz c\fz
+    b\fz a\fz
+    g4 r r2
+    R1 %170
+    \pa r2 r8 d(\f es) r
+    r e( f) r r fis( g) r
+    r d( es) e([ f)] \pd r r4
+    R1
+    es'2\fz r \noBreak %175
+    R1
+    \key c \minor \time 2/2 \tempoEsHerrschetI R1*3
+    \time 4/4 R1 %180
+    \tempoEsHerrschetJ R1*4
+    \tempoEsHerrschetK R1 %185
+    \clef "treble_8" b2\f c
+    d es
+    f r
+    \clef bass g,\f a
+    h4 d es es, %190
+    as! f b g
+    c b as g
+    f es des' c
+    b r r2
+    R1*8 %202
+    \time 2/2 \tempoEsHerrschetL \grace s4 R1*9 %211
+    \time 4/4 R1*6 %217
+    R1\fermata \bar "||" %218 finis
+  }
+}
+
+WerRuftFagottoI = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoWerRuft
+    R1*9 %9
+    b'1\p %10
+    as
+    f
+    es
+    e
+    f %15
+    f\cresc
+    ges
+    g
+    as2\f a
+    b h %20
+    c4 r r2
+    r as\ff
+    f g
+    g1\fz
+    g\fz %25
+    g\fz
+    g4 r r2
+    c\ff g4 es
+    c r c r
+    c r r2\fermata \bar "|." %30 finis
+  }
+}

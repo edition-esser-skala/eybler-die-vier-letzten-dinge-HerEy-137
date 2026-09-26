@@ -740,3 +740,247 @@ WieGroßCello = {
     c2\! r\fermata \bar "|." %72 finis
   }
 }
+
+EsHerrschetCello = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \minor \time 2/2 \tempoEsHerrschet
+    b'2(\p^\conSord a4 fis)
+    d1\fermata
+    es2( d4 b)
+    g1\fermata
+    R %5
+    fis2( g4 a)
+    b2 r
+    fis'( g4 a)
+    b2 r
+    r g4 a %10
+    b2 a4 g
+    fis1
+    R1*2
+    d2.\< es4~ %15
+    es\>( d des c)\!
+    h2 r
+    R1
+    g'2.\< as4~
+    as\>( g ges f)\! %20
+    es\sfp c'2 c4~
+    c c2 c4~
+    c( d es c)
+    \after 2 \! h2.\> r4 \markCritnote
+    R1 %25
+    g2(\p as4 g)
+    f2\sfp r
+    g( as4 f)
+    es\pp es es es
+    e e e e %30
+    f f f f
+    g g g g
+    as\cresc as( g f)
+    e e e e
+    f\p f des des %35
+    c2 r
+    g'2.(\< f4
+    e2)\! r
+    R1*2 %40
+    c'2.(\< b4
+    a!2)\! r
+    R1*2
+    b2.\f c4 %45
+    f,2 r
+    ges(\pp f4 des)
+    b2 r
+    ges( f4 ges)
+    g2(\> as4)\! r %50
+    R1*2
+    as2( g4 as)
+    a2(\> b4)\! r
+    R1*2 %56
+    b2( a4 b)
+    h2(\> c4)\! r
+    R1
+    f,2( g4 a!) %60
+    b( d es cis)
+    d2. r4 \markCritnote
+    R1
+    d2(\p es4 d)
+    <c c,>2\sfp r %65
+    d( es4 c)
+    b\p b b b
+    c c c c
+    d\cresc d d d
+    es es es es %70
+    e\f\< e e e
+    fis\> fis( a c)\!
+    b-! r es,-! r
+    c-! r d-! r
+    R1 %75
+    fis,2(\p g4 a)
+    b2 r
+    fis'( g4 a)
+    b2 r
+    r g4( a \noBreak %80
+    b2 a4 g)
+    \tempoEsHerrschetB fis2 r \noBreak
+    R1*3 %85
+    b2(\p a4 fis)
+    d1\fermata
+    es2( d4 b)
+    g2.\fermata r4
+    R1*4 %93
+    fis2(\p g4 a)
+    b2 r %95
+    fis'( g4 a)
+    b2 r
+    R1
+    g2( f4 b)
+    as( c, f f,) %100
+    c'2 r
+    R1*3
+    r4 f2\f\< f4 %105
+    a!(\> b c des)\! \noBreak
+    f,( g as des,)
+    \time 4/4 \tempoEsHerrschetC c\p c c c \noBreak
+    c c c c
+    c c c c %110
+    c c c c
+    c\cresc c c c
+    c c c\f c
+    c2 r
+    R1 %115
+    f,4\f f' f f
+    fis, fis' fis fis
+    g, g' g g
+    g, g' g g
+    g, r r2 \noBreak %120
+    R1
+    \time 2/2 \tempoEsHerrschetD R \noBreak
+    as'4(\p g f es)
+    d!2 r
+    R1 %125
+    es4\pp es es es
+    e e e e
+    f f f f
+    fis fis fis fis
+    g(\cresc b a g) %130
+    fis fis fis fis
+    g\pp g es es
+    d r r2
+    R1*4 %136
+    d2.\< es4~
+    es(\> d des c)\!
+    h2 r
+    R1 %140
+    g'2.\< as4~
+    as\>( g ges f)\!
+    es2\f f
+    g r %145
+    as(\pp g4 es) \noBreak
+    c2 r
+    \time 4/4 \tempoEsHerrschetE R1*3 %150
+    c2:32\pp^\markup \remark "tremolo" c:
+    c: c:
+    des4 r^\markup \remark "Si levano i Sordini" r2 \noBreak
+    R1
+    \key h \minor \tempoEsHerrschetF
+      r4 r8 cis( h^> cis h^> cis) \noBreak %155
+    R1
+    cis4(\p h ais2)
+    R1
+    e'4(\cresc d cis2) \noBreak
+    R1 %160
+    \tempoEsHerrschetG \grace s8 e4(\piucresc d g fis)
+    \tempoEsHerrschetH g8\f d' h fis g d' h fis \noBreak
+    g g, a a' h h, c c'
+    d c h a g f e d
+    cis!4 r8. cis'16 cis2 %165
+    R1
+    d,8\f r d'4\fz c,8 r c'4\fz
+    b,8 r b'4\fz a,8 r a'4\fz
+    g r r2
+    R1 %170
+    r4 r8 fis,!(\f g) d'( es) gis,(
+    a) e'( f) a,( b) fis'( g) h,(
+    c) d( es) e( f) es'-! des-! c-!
+    b[ r16 as] as8[ r16 ges] ges8[ r16 f] f8[ r16 es]
+    es2\fz r \noBreak %175
+    R1
+    \key c \minor \time 2/2 \tempoEsHerrschetI
+      ges,2(\pp f4 ges) \noBreak
+    g2. as4\cresc
+    a2. b4
+    \time 4/4 h2\! r %180
+    \tempoEsHerrschetJ r8. h16\f h4 r2 \noBreak
+    r8. c16 c4 r2
+    r8. c16 c4 r2 \noBreak
+    R1
+    \tempoEsHerrschetK R1*3 %187
+    \clef "treble_8" r8 f'16(\f es d f es d) c( d es d) c( es d c)
+    b( c d c) b( d c b) a( b c b) a( c b a)
+    d8 \clef bass h,16( c d h c d) es( d c d) es( c d es) %190
+    f( es d es) f( d es f) g( f es f) g( es f g)
+    as( c b as) g( b as g) \once \slurDashed f( as g f) es( g f es)
+    des( f es des) c( es des c) b( des c b) as( c b as)
+    g4 r r r8. g'16\pp
+    g4 r r r8. ges16 %195
+    ges4 r r r8. ges16
+    ges4 r r r8. f16
+    f4 r r r8. f16
+    f4 r r r8. es16
+    es1\ten %200
+    R1*2
+    \time 2/2 \tempoEsHerrschetL \grace s4 b1(\p \noBreak
+    c
+    des %205
+    es
+    f
+    g!
+    as
+    b \noBreak %210
+    h)
+    \time 4/4 c2 r \noBreak
+    R1
+    r4 r8. f,16\f f2
+    R1 %215
+    r4 f( fis2)
+    R1
+    r4 r8. g16\f g2\fermata \bar "||" %218 finis
+  }
+}
+
+WerRuftCello = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoWerRuft
+    c4\pp c c c
+    c c c c
+    c c c c
+    c c c c
+    c c c c %5
+    c c c c
+    c c c c
+    c c c c
+    c c c c
+    c c c c %10
+    des des des des
+    d d d d
+    es es es es
+    e\cresc e e e
+    f f f f %15
+    f f f f
+    ges ges ges ges
+    g\f g g g
+    as as a a
+    b b h h %20
+    c r r2
+    r as4\ff r
+    f r g r
+    c,8\fz c c c c c c c
+    c\fz c c c c c c c %25
+    c\fz c c c c c c c
+    c4\fz r r2
+    \grace { g'32[ a h] } c2\ff g4 es
+    c4 r \grace { g32[ a h] } c4 r
+    \grace { g32[ a h] } c4 r r2\fermata \bar "|." %30 finis
+  }
+}

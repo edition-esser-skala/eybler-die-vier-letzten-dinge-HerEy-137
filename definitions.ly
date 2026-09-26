@@ -49,6 +49,19 @@ mvD = #(define-music-function
 brkBeam = #(make-music 'BeamForbidEvent)
 smorz = \markup \remark "smorzando"
 
+
+#(define-public (tuplet-number::parenthesize grob)
+  (let ((ev (event-cause grob)))
+    (format #f "[~a]"
+            (ly:event-property ev 'denominator))))
+ptn = \once \override TupletNumber.text = #tuplet-number::parenthesize
+
+piucresc = #(make-music
+  'CrescendoEvent
+  'span-direction START
+  'span-type 'text
+  'span-text (markup (#:normal-text #:small "più cresc.")))
+
 tempoOvertura = \tempoMarkup "Grave"
   tempoOverturaB = \tempoMarkup "Allegro assai"
 tempoGroßIst = \tempoMarkup "Adagio maestoso"
@@ -81,6 +94,20 @@ tempoJehovahNaht = \tempoMarkup "Largo"
   tempoJehovahNahtE = \tempoMarkup "Più stretto"
   tempoJehovahNahtF = \tempoMarkup "Più largo"
 tempoWieGroß = \tempoMarkup "Andante maestoso"
+
+tempoEsHerrschet = \tempoMarkup "Largo"
+  tempoEsHerrschetB = \tempoMarkup "Recitativo"
+  tempoEsHerrschetC = \tempoMarkup "Poco andante" %150
+  tempoEsHerrschetD = \tempoMarkup "Tempo primo [Adagio]" %100
+  tempoEsHerrschetE = \tempoMarkup "Andante" %70
+  tempoEsHerrschetF = \tempoMarkup "Poco più mosso" %100
+  tempoEsHerrschetG = \tempoMarkup "Stringendo il tempo"
+  tempoEsHerrschetH = \tempoMarkup "Allegro con moto" %120
+  tempoEsHerrschetI = \tempoMarkup "Adagio" %100
+  tempoEsHerrschetJ = \tempoMarkup "Con moto" %120
+  tempoEsHerrschetK = \tempoMarkup "Allegro con moto"
+  tempoEsHerrschetL = \tempoMarkup "Adagio" %160
+tempoWerRuft = \tempoMarkup "Andante sostenuto"
 
 
 \include "notes/fl1.ly"

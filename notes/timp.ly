@@ -237,3 +237,46 @@ WieGroßTimpani = {
     R1\fermata \bar "|." %73 finis
   }
 }
+
+EsHerrschetTimpani = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoEsHerrschet
+    R1
+    R\fermata
+    R
+    R\fermata
+    R1*77 %81
+    \tempoEsHerrschetB R1*5 %86
+    R1\fermata
+    R
+    r2 r4\fermata r
+    R1*18 %107
+    \time 4/4 \tempoEsHerrschetC c1~\pp\startTrillSpan \noBreak
+    c~
+    c~ %110
+    c~\cresc
+    c~
+    c~\f
+    c4\stopTrillSpan r r2
+    R1*2 %116
+    c1\fz\startTrillSpan
+    g4\stopTrillSpan r r2
+    g1~\startTrillSpan
+    g4\stopTrillSpan r r2 %120
+    R1
+    \time 2/2 \tempoEsHerrschetD R1*26 %147
+    \time 4/4 \tempoEsHerrschetE
+    R1*7
+    \tempoEsHerrschetF R1*6 %160
+    \tempoEsHerrschetG \grace s8 R1
+    \tempoEsHerrschetH R1*15 %176
+    \time 2/2 \tempoEsHerrschetI R1*3
+    \time 4/4 R1 %180
+    \tempoEsHerrschetJ R1*4
+    \tempoEsHerrschetK R1*18 %202
+    \time 2/2 \tempoEsHerrschetL \grace s4 R1*9 %211
+    \time 4/4 R1*6 %217
+    R1\fermata \bar "||" %218 finis
+  }
+}

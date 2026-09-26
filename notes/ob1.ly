@@ -506,3 +506,134 @@ WieGroßOboeI = {
     R1\fermata \bar "|." %72 finis
   }
 }
+
+EsHerrschetOboeI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \minor \time 2/2 \tempoEsHerrschet
+    R1
+    R\fermata
+    R
+    R\fermata
+    R1*20 \markCritnote %24
+    R1*4 %28
+    c'2(\p h4 c)
+    des2(\> c4)\! r %30
+    c2( h4 c)
+    des2(\> c4)\! r
+    f2(\cresc e4 as)
+    g2 r
+    c,(\p b4 f) %35
+    g2 r
+    R1*8 %44
+    f'2(\f es4 c) %45
+    a!2 r
+    R1*5 %51
+    fes'2(\p es4 des
+    c!) r r2
+    R1*2 %55
+    ges'2( f4 es
+    d!) r r2
+    R1
+    g2( f4 es)~
+    es d r2 %60
+    R1*2 \markCritnote
+    R1*4 %66
+    g,2(\p fis4 g)
+    b2(\> a4)\! r
+    h2(\cresc ais4 h)
+    d2(\> c4)\! r %70
+    g'2(\f\< a4 b!)~
+    b(\> a c fis,)\!
+    g-! r g,-! r
+    es'-! r \pao fis,-! r
+    R1*7 %81
+    \tempoEsHerrschetB R1*5 %86
+    R1\fermata
+    R1
+    r2 r4\fermata r
+    R1*18 %107
+    \time 4/4 \tempoEsHerrschetC R1*5 %112
+    r4 es'2\f es4
+    as2 r
+    R1 %115
+    des,1\fz-\critnote
+    c\fz
+    h
+    c2 fis,
+    \pao g4 r r2 \noBreak %120
+    R1
+    \time 2/2 \tempoEsHerrschetD R1*4 %125
+    c2(\ppE h4 c)
+    des2(\> c4)\! r
+    c2( h4 c)
+    es2(\> d!4)\! r
+    g2(\cresc fis4 b!) %130
+    \once \hairpinDashed a2\> r\!
+    d,(\p c4 g)
+    a2 r
+    R1*10 %143
+    g'2(\f f4 d)
+    h2 r %145
+    R1*2
+    \time 4/4 \tempoEsHerrschetE R1*7 %154
+    \key h \minor \tempoEsHerrschetF R1*6 \noBreak %160
+    \tempoEsHerrschetG \grace s8 R1
+    \tempoEsHerrschetH h4\f r8 c h4 r8 c \noBreak
+    h4 c d e!
+    \pa f8 e d c h a g f
+    e4 \pd r8. e'16 e2 %165
+    R1
+    f2\fz fis\fz
+    g\fz a\fz
+    b!4 r r2
+    R1 %170
+    r2 r8 fis,!(\f g) r
+    r gis( a) r r a( b) r
+    r h( c) r r2
+    R1
+    ges'2\fz r \noBreak %175
+    R1
+    \key c \minor \time 2/2 \tempoEsHerrschetI R1*3
+    \time 4/4 R1 %180
+    \tempoEsHerrschetJ R1*4
+    \tempoEsHerrschetK R1*2 %186
+    f2\f es
+    d c
+    b es
+    d c4 g' %190
+    as!2 g
+    f4 es des c
+    b as' g f
+    e r r2
+    R1*8 %202
+    \time 2/2 \tempoEsHerrschetL \grace s4 R1*9 %211
+    \time 4/4 R1*6 %217
+    R1\fermata \bar "||" %218 finis
+  }
+}
+
+WerRuftOboeI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoWerRuft
+    R1*13 %13
+    c'1\p
+    as %15
+    des\cresc
+    b
+    es
+    c2\f f
+    d! g %20
+    es4 r r2
+    r \pao c\ff
+    as' \pa h,
+    c1\fz \pd
+    es\fz %25
+    g\fz
+    c2\ff g4 es
+    c2 \pa g4 es
+    c \pd r \pao c r
+    \pao c r r2\fermata \bar "|." %30 finis
+  }
+}
