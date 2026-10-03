@@ -562,3 +562,153 @@ WieGroßFlautoI = {
     R1\fermata \bar "|." %72 finis
   }
 }
+
+GottDerFlautoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoGottDer
+    \partial 4 r4 R2.*7 %7
+    gis'''4~\fz gis16 fis( e dis cis h a gis)
+    \once \slurDashed \pa h( a cis, fis) \pd fis8 e4 dis8
+    e4 r \pa dis8.\fz fis16 %10
+    e( h gis h) e( gis h gis) a4(\fz
+    gis8) \pd r e\p r e r
+    e4 r r
+    R2.*3 %16
+    r4 r8 r\fermata r4
+    R2.*3 %20
+    r4 r r8 \pa h'~\f
+    h a gis fis e a \pd
+    gis4 fis8 r r4
+    R2.*3 %26
+    r4 r8 r\fermata r4
+    R2.*9 %36
+    r8 e'~\sf e g16( fis e d cis h)
+    ais4 r r
+    R2.*4 %42
+    r4 r \ottava #1 h16(\f cis dis e)
+    e4~ e16 dis( cis h) a( gis h a)
+    gis4 fis8 \ottava #0 r r4 %45
+    R2.
+    r4 r r8 a,16( h
+    cis dis e fis) gis4\fz r
+    R2.*4 %52
+    gis'4~\sfp gis16 fis( e dis cis h a gis)
+    \pa h( a cis, fis) \pd fis8 e4 dis8
+    e4 r \pa dis8.\fz fis16 %55
+    e( h gis h) e( gis h gis) a4(\fz
+    gis8) \pd r e\p r e r \noBreak
+    e4 r r
+    \key e \minor \tempoGottDerB R2.*15 %73
+    r4 r8 h(\p d h)
+    a4( gis8) f'([ e h)] %75
+    d4( c8) a([ c e)]
+    e4. d16([ c)] c([ h)] h([ a)]
+    ais8. h16 h8 h( g'4)
+    r r8 a,( fis'!4)
+    R2. %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \key e \major \tempoGottDerC
+      \grace s8 \ottava #1 e'4.\fz r8 r4 \noBreak
+    gis4.\fz\ten \ottava #0  r8 r4
+    R2.*5 %89
+    r4 r dis,16\f e fis gis %90
+    h4~ h16 a fis dis fis e gis cis
+    h8. a16 gis8 r r4
+    R2.*3 %95
+    r4 r fis16(-\dolce e dis cis)
+    cis4( h8) r dis16( cis h a)
+    a4( gis8) r r4
+    R2.
+    gis''4~\sfp gis16 fis( e dis cis h a gis) %100
+    \pa h( a cis, fis) \pd fis8 e4 dis8
+    e r r4 r
+    r r a(\fz
+    gis8) r r4 r
+    R2. %105
+    r4 r8 \once \slurDashed gis16(\< a h cis dis e)
+    \once \slurDashed e8.(\fz cis16) cis8 r r4
+    R2.*11 %118
+    r8 \pa h~\sfp h16 a cis, fis fis([ e)] e( dis)
+    e4 \pd r \pa dis8.\fz fis16 %120
+    e( h gis h) e( gis h gis) a4(\fz
+    gis8) \pd r e\p r e r
+    e2 r4\fermata \bar "|." %123 finis
+  }
+}
+
+GottDerAltFlautoI = \transpose e es {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoGottDerAlt
+    \partial 4 r4 R2.*7 %7
+    gis'''4~\fz gis16 fis( e dis cis h a gis)
+    \once \slurDashed \pa h( a cis, fis) \pd fis8 e4 dis8
+    e4 r \pa dis8.\fz fis16 %10
+    e( h gis h) e( gis h gis) a4(\fz
+    gis8) \pd r e\p r e r
+    e4 r r
+    R2.*3 %16
+    r4 r8 r\fermata r4
+    R2.*3 %20
+    r4 r r8 \pa h'~\f
+    h a gis fis e a \pd
+    gis4 fis8 r r4
+    R2.*3 %26
+    r4 r8 r\fermata r4
+    R2.*9 %36
+    r8 e'~\fz e g16( fis e d cis h)
+    ais4 r r
+    R2.*4 %42
+    r4 r \ottava #1 h16(\f cis dis e)
+    e4~ e16 dis( cis h) a( gis h a)
+    gis4( fis8) \ottava #0 r r4 %45
+    R2.
+    r4 r r8 a,16( h
+    cis dis e fis) gis4\fz r
+    R2.*4 %52
+    gis'4~\fzp gis16 fis( e dis cis h a gis)
+    \pa h( a cis, fis) \pd fis8 e4 dis8
+    e4 r \pa dis8.\fz fis16 %55
+    e( h gis h) e( gis h gis) a4(\fz
+    gis8) \pd r e\p r e r \noBreak
+    e4 r r
+    \key e \minor \tempoGottDerAltB R2.*15 %73
+    r4 r8 h(\pE d h)
+    a4( gis8) f'([ e h)] %75
+    d4( c8) r r4
+    R2.
+    r4 r8 h( g'4)
+    r r8 a,( fis'!4)
+    R2. %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \key e \major \tempoGottDerAltC
+      \grace s8 \ottava #1 e'4.\fz r8 r4 \noBreak
+    gis4.\fz\ten \ottava #0  r8 r4
+    R2.*5 %89
+    r4 r dis,16\f e fis gis %90
+    h4~ h16 a fis dis fis e gis cis
+    h8. a16 gis8 r r4
+    R2.*3 %95
+    r4 r fis16(-\dolce e dis cis)
+    cis4( h8) r dis16( cis h a)
+    a4( gis8) r r4
+    R2.
+    gis''4~\fzp gis16 fis( e dis cis h a gis) %100
+    \pa h( a cis, fis) \pd fis8 e4 dis8
+    e r r4 r
+    r r a(\fz
+    gis8) r r4 r
+    R2. %105
+    r4 r8 gis16(\< a h cis dis e)
+    \once \slurDashed e8.(\fz cis16) cis8 r r4
+    R2.*11 %118
+    r8 \pa h~\sfp h16 a cis, fis fis([ e)] e( dis)
+    e4 \pd r \pa dis8.\fz fis16 %120
+    e( h gis h) e( gis h gis) a4(\fz
+    gis8) \pd r e\p r e r
+    e2 r4\fermata \bar "|." %123 finis
+  }
+}

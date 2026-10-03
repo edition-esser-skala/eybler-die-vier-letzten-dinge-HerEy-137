@@ -825,3 +825,221 @@ WerRuftClarinettoI = {
     d r r2\fermata \bar "|." %30 finis
   }
 }
+
+GottDerClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoGottDer
+    \partial 4 r4 R2.
+    r4 r8 h'\pE\< c d
+    e4.\> c8 e c\!
+    h4 a r
+    R2.*3 %7
+    fis'4(\fz g8) r r4
+    r8 c,4 h a8
+    \pa g16( d h d) g( h d h) fis4(\fz %10
+    g16)( d h d) g( h d h) c4(\fz
+    h8) \pd r h\p r h r
+    h4 r r
+    R2.
+    r4 r8 h(\< c d) %15
+    e2\fz r4
+    r r8 r\fermata r4
+    r8 e4\sfp c8 g r
+    r g'4\sfp \pa d8 h \pd r
+    \pa R2. %20
+    r4 r r8 d~\f
+    d c h d4 c8 \pd
+    h4 a8 r r4
+    R2.
+    r4 r8 h\< c d %25
+    e2\fz r4
+    r r8 r\fermata r4
+    r8 e4\sfp c8 g r
+    r g'4\sfp \pa d8 h \pd r
+    R2.*2 %31
+    r8 d~\fz d f16( e d c h a)
+    gis4 r r
+    r r8 f'(\p e d
+    c[ h)] \pao a8 r r4 %35
+    R2.
+    g4.\fz r8 r4
+    R2.
+    r4 r8 a'(\p g f
+    e d c) r r4 %40
+    r r8 d4 c8
+    \pa h a g \pd r r4
+    r r d'16(\f e fis g)
+    g4~ g16 fis( e d) c( h d c)
+    h4 a8 r r4 %45
+    R2.
+    r4 r8 fis16( g a h c d
+    e fis g a) h4\fz r
+    R2.*4 %52
+    fis4(\fz g8) r r4
+    r8 c,4\p h a8
+    \pa g16( d h d) g( h d h) fis4(\fz %55
+    g16)( d h d) g( h d h) c4(\fz
+    h8) \pd r h\p r h r \noBreak
+    h4 r r
+    \key g \minor \tempoGottDerB
+      R2.*8 %66
+    r4 h\sfp c
+    % d2 es!8. c16 %for MIDI
+    \after 4 \turn d2 es!8. c16
+    h4 r r
+    R2. %70
+    r4 r r8 g'
+    f4. es!8 d h
+    h4(\> c8)\! r r4
+    R2.*7 %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \key g \major \tempoGottDerC
+      \grace s8 g'4.\fz r8 r4 \noBreak
+    g4.\fz\ten r8 r4
+    r8 a,4(\p e'8 d c) %85
+    ais4( h) r
+    R2.
+    r4 r8 h\< d g
+    h4\sfz\ten r r
+    r r g,8\f h %90
+    \pa d8. a16 fis8 a d h
+    d8. c16 h8 \pd r r4
+    R2.
+    r4 r8 h\pE\< c d\!
+    e r r4 r %95
+    R2.*4
+    fis4(\sfz g8) r r4 %100
+    r8 c,4\p h a8
+    \pao g r r4 fis'(\fz
+    g8) r r4 c,(\fz
+    h8) r r4 r8 e
+    d4( c8) r r d %105
+    c4( h8) h16(\< c d e fis g)
+    g8.(\sfz e16) e8 r r4
+    R2.
+    c\pE
+    h %110
+    c
+    h4 r r
+    R2.*4 %116
+    r4 r8 a( h c)
+    c4. fis,8(\mf g16 a h c)
+    d8 f~\sfp f16 e( d c) c([ h)] h([ a)]
+    \pa g( d h d) g( h d h) fis4(\sfz %120
+    g16)( d h d) g( h d h) c4(\sfz
+    h8) \pd r h\p r h r
+    h2 r4\fermata \bar "|." %123 finis
+  }
+}
+
+GottDerAltClarinettoI = \transpose g f {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoGottDerAlt
+    \partial 4 r4 R2.
+    r4 r8 h'\pE\< c d
+    e4.\> c8 e c\!
+    h4 a r
+    R2.*3 %7
+    fis'4(\fz g8) r r4
+    r8 c,4 h a8
+    \pa g16( d h d) g( h d h) fis4(\fz %10
+    g16)( d h d) g( h d h) c4(\fz
+    h8) \pd r h\p r h r
+    h4 r r
+    R2.
+    r4 r8 h(\< c d) %15
+    e2\fz r4
+    r r8 r\fermata r4
+    r8 e4\sfp c8 g r
+    r g'4\sfp \pa d8 h \pd r
+    \pa R2. %20
+    r4 r r8 d~\f
+    d c h d4 c8 \pd
+    h4 a8 r r4
+    R2.
+    r4 r8 h\< c d %25
+    e2\fz r4
+    r r8 r\fermata r4
+    r8 e4\sfp c8 g r
+    r g'4\sfp \pa d8 h \pd r
+    R2.*2 %31
+    r8 d~\fz d f16( e d c h a)
+    gis4 r r
+    r r8 f'(\p e d
+    c[ h)] \pao a8 r r4 %35
+    R2.
+    g4.\fz r8 r4
+    R2.
+    r4 r8 a'(\p g f
+    e d c) r r4 %40
+    r r8 d4 c8
+    \pa h a g \pd r r4
+    r r d'16(\f e fis g)
+    g4~ g16 fis( e d) c( h d c)
+    h4( a8) r r4 %45
+    R2.
+    r4 r8 fis16( g a h c d
+    e fis g a) h4\fz r
+    R2.*4 %52
+    fis4(\fz g8) r r4
+    r8 c,4\p h a8
+    \pa g16( d h d) g( h d h) fis4(\fz %55
+    g16)( d h d) g( h d h) c4(\fz
+    h8) \pd r h\p r h r \noBreak
+    h4 r r
+    \tempoGottDerAltB R2.*8 %66
+    r4 h\sfp c
+    d2 es!8. c16 %for MIDI
+    h4 r r
+    R2. %70
+    r4 r r8 g'
+    f4. es!8 d h
+    h4(\> c8)\! r r4
+    R2.*2 %75
+    r4 r8 c(\pE es g)
+    g4. f16([ es)] es([ d)] d([ c)]
+    cis8.([ d16)] d8 r r4
+    R2.*2 %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \tempoGottDerAltC
+      \grace s8 g4.\fz r8 r4 \noBreak
+    g4.\fz\ten r8 r4
+    r8 a,4(\p e'8 d c) %85
+    ais4( h) r
+    R2.
+    r4 r8 h\< d g
+    h4\sfz\ten r r
+    r r g,8\f h %90
+    \pa d8. a16 fis8 a d h
+    d8. c16 h8 \pd r r4
+    R2.
+    r4 r8 h\pE\< c d\!
+    e r r4 r %95
+    R2.*4
+    fis4(\fz g8) r r4 %100
+    r8 c,4\p h a8
+    \pao g r r4 fis'(\fz
+    g8) r r4 c,(\fz
+    h8) r r4 r8 e
+    d4( c8) r r d %105
+    c4( h8) h16(\< c d e fis g)
+    g8.(\fz e16) e8 r r4
+    R2.
+    c\pE
+    h %110
+    c
+    h4 r r
+    R2.*4 %116
+    r4 r8 a( h c)
+    c4. fis,8(\mf g16 a h c)
+    d8 f~\sfp f16 e( d c) c([ h)] h([ a)]
+    \pa g( d h d) g( h d h) fis4(\fz %120
+    g16)( d h d) g( h d h) c4(\fz
+    h8) \pd r h\p r h r
+    h2 r4\fermata \bar "|." %123 finis
+  }
+}

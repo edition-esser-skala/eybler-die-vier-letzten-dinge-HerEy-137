@@ -823,3 +823,237 @@ WerRuftFagottoII = {
     c r r2\fermata \bar "|." %30 finis
   }
 }
+
+GottDerFagottoII = {
+  \relative c {
+    \clef bass
+    \key e \major \time 3/4 \tempoGottDer
+    \partial 4 r4 R2.
+    r4 r8 e4\pE\< e8~
+    e\> eis fis cis' a cis\!
+    h4 h, r
+    R2.*3 %7
+    \once \slurDashed his4(\fz cis8) r r cis'~
+    cis[ cis] h h4 a8
+    gis4 r h,(\fz %10
+    e8) r r4 h(\sfz
+    e,8) r e\p r e r
+    e4 r r
+    R2.
+    r4 r8 e'4\< e8 %15
+    a,2\fz r4
+    r r8 r\fermata r4
+    r8 a'4\sfp cis8 e r
+    r gis,4\sfp h8 e r
+    R2.*2 %21
+    r8 h4\f a8 gis a
+    h4 h,8 r r4
+    R2.
+    r4 r8 e4\< e8 %25
+    a,2\fz r4
+    r r8 r\fermata r4
+    r8 a'4\sfp cis8 e r
+    r gis,4\sfp h8 e r
+    R2.*4 %33
+    r4 r8 gis,(\p a eis
+    fis[ cis]) d r r4 %35
+    R2.*3
+    r4 r8 d'(\p cis h
+    a gis fis) r r4 %40
+    r r8 gis a h
+    cis dis e cis fis16 e dis cis
+    cis4( h8) r h\f h
+    h4. h8 h cis
+    h4. r8 r4 %45
+    R2.*2
+    r4 cis\fz r
+    r r h~
+    h8 gis a2~ %50
+    a8 fis gis2
+    a8 r r4 r
+    his,(\fz cis8) r r cis'~\pE
+    cis[ cis] h h4 a8
+    gis4 r h,(\fz %55
+    e8) r r4 h(\fz
+    e,8) r e\p r e r \noBreak
+    e4 r r
+    \key e \minor \tempoGottDerB
+      g'2.\p \noBreak
+    a %60
+    a2 fis4
+    fis8. e16 dis8 h4 dis8
+    e2~ e8 g
+    d!4. g8( fis a)
+    g fis g4. a8 %65
+    g4 fis r
+    r d'\sfp c
+    h2 a4
+    h4. e,4 e8
+    h'8. a16 a4 r %70
+    r r r8 g
+    a fis4\cresc a8 g d'\!
+    d4(\> c8)\! r r4
+    R2.
+    r4 r r8 h\pE %75
+    gis4( a8) r r c
+    c4. h16([ a)] a([ g)] g([ fis!)]
+    fis8. g16 g8 g( h4)
+    r r8 fis!( a4)
+    R2. %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \key e \major \tempoGottDerC \grace s8
+      e4.\fz r8 r4 \noBreak
+    e,4.\fz\ten r8 e\pE gis
+    h4 r r %85
+    r r h'8 gis
+    gis4( fis8) gis16([ fis] a gis h a)
+    gis8. fis16 e4 r
+    cis\fz\ten r r
+    r r8 h'\f gis e %90
+    dis fis h, a' gis e
+    dis[ h] e r r4
+    R2.
+    r4 r8 e4\pE\< e8\!
+    a, r r4 r %95
+    R2.*4
+    his4(\sfz cis8) r r cis'~\p %100
+    cis[ cis] h h4 a8
+    gis r r4 h,(\fz
+    e8) r r4 h(\fz
+    e8) r r4 r
+    R2. %105
+    r4 r8 e16(\< fis gis a h cis)
+    \once \slurDashed cis8.(\sfz a16) a8 r r4
+    R2.*4 %111
+    r8 gis4\pE e8 gis h~
+    h gis a2~
+    a8 fis gis2~
+    gis8 e fis2 %115
+    e8. fis16 gis8 r r4
+    r r8 a( gis fis)
+    h,4. r8 r4
+    r8 h'~\sfp h16 a( gis fis) fis([ e)] e([ fis)]
+    e4 r \once \slurDashed h(\sfz %120
+    e8) r r4 h(\sfz
+    e,8) r e\p r e r
+    e2 r4\fermata \bar "|." %123 finis
+  }
+}
+
+GottDerAltFagottoII = \transpose e es {
+  \relative c {
+    \clef bass
+    \key e \major \time 3/4 \tempoGottDerAlt
+    \partial 4 r4 R2.
+    r4 r8 e4\pE\< e8~
+    e\> eis fis cis' a cis\!
+    h4 h, r
+    R2.*3 %7
+    his4(\fz cis8) r r cis'~
+    cis[ cis] h h4 a8
+    gis4 r h,(\fz %10
+    e8) r r4 h(\sfz
+    e,8) r e\p r e r
+    e4 r r
+    R2.
+    r4 r8 e'4\< e8 %15
+    a,2\fz r4
+    r r8 r\fermata r4
+    r8 a'4\sfp cis8 e r
+    r gis,4\sfp h8 e r
+    R2.*2 %21
+    r8 h4\f a8 gis a
+    h4 h,8 r r4
+    R2.
+    r4 r8 e4\< e8 %25
+    a,2\fz r4
+    r r8 r\fermata r4
+    r8 a'4\sfp cis8 e r
+    r gis,4\sfp h8 e r
+    R2.*4 %33
+    r4 r8 gis,(\p a eis
+    fis[ cis]) d r r4 %35
+    R2.*3
+    r4 r8 d'(\p cis h
+    a gis fis) r r4 %40
+    r r8 gis a h
+    cis dis e cis fis16 e dis cis
+    cis4( h8) r h\f h
+    h4. h8 h cis
+    h4. r8 r4 %45
+    R2.*2
+    r4 cis\fz r
+    r r h~
+    h8 gis a2~ %50
+    a8 fis gis2
+    a8 r r4 r
+    his,(\fz cis8) r r cis'~\pE
+    cis[ cis] h h4 a8
+    gis4 r h,(\fz %55
+    e8) r r4 h(\fz
+    e,8) r e\p r e r \noBreak
+    e4 r r
+    \key e \minor \tempoGottDerAltB
+      g'2.\p \noBreak
+    a %60
+    a2 fis4
+    fis8. e16 dis8 h4 dis8
+    e2~ e8 g
+    d!4. g8( fis a)
+    g fis g4. a8 %65
+    g4 fis r
+    r d'\sfp c
+    h2 a4
+    h4. e,4 e8
+    h'8. a16 a4 r %70
+    r r r8 g
+    a fis4\cresc a8 g d'\!
+    d4(\> c8)\! r r4
+    R2.
+    r4 r r8 h\pE %75
+    gis4( a8) r r c
+    c4. h16([ a)] a([ g)] g([ fis!)]
+    fis8.( g16) g8 g( h4)
+    r r8 fis!( a4)
+    R2. %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \key e \major \tempoGottDerAltC \grace s8
+      e4.\fz r8 r4 \noBreak
+    e,4.\fz\ten r8 e\pE gis
+    h4 r r %85
+    r r h'8 gis
+    gis4( fis8) gis16([ fis] a gis h a)
+    gis8. fis16 e4 r
+    cis,\fz\ten r r
+    r r8 h''\f gis e %90
+    dis fis h, a' gis e
+    dis[ h] e r r4
+    R2.
+    r4 r8 e4\pE\< e8\!
+    a, r r4 r %95
+    R2.*4
+    his4(\fz cis8) r r cis'~\p %100
+    cis[ cis] h h4 a8
+    gis r r4 h,(\fz
+    e8) r r4 h(\fz
+    e8) r r4 r
+    R2. %105
+    r4 r8 \once \slurDashed e16(\< fis gis a h cis)
+    \once \slurDashed cis8.(\fz a16) a8 r r4
+    R2.*4 %111
+    r8 gis4\pE e8 gis h~
+    h gis a2~
+    a8 fis gis2~
+    gis8 e fis2 %115
+    e8. fis16 gis8 r r4
+    r r8 a( gis fis)
+    h,4. r8 r4
+    r8 h'~\sfp h16 a( gis fis) fis([ e)] e([ fis)]
+    e4 r \once \slurDashed h(\fz %120
+    e8) r r4 h(\fz
+    e,8) r e\p r e r
+    e2 r4\fermata \bar "|." %123 finis
+  }
+}

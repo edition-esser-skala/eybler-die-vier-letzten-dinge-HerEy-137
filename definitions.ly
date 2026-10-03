@@ -108,6 +108,14 @@ tempoEsHerrschet = \tempoMarkup "Largo"
   tempoEsHerrschetK = \tempoMarkup "Allegro con moto"
   tempoEsHerrschetL = \tempoMarkup "Adagio" %160
 tempoWerRuft = \tempoMarkup "Andante sostenuto"
+tempoEsNahet = \tempoMarkup "Rezitativ"
+tempoGottDer = \tempoMarkup "Larghetto"
+  tempoGottDerB = \tempoTitle "Minore"
+  tempoGottDerC = \tempoTitleMarkup "Maggiore" "Andante [con moto]"
+tempoEsNahetAlt = \tempoMarkup "Rezitativ"
+tempoGottDerAlt = \tempoMarkup "Larghetto"
+  tempoGottDerAltB = \tempoTitle "Minore"
+  tempoGottDerAltC = \tempoTitleMarkup "Maggiore" "Andante con moto"
 
 
 \include "notes/fl1.ly"

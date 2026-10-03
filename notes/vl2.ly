@@ -1121,3 +1121,313 @@ WerRuftViolinoII = {
     \grace { g32[ a h] } c4 r r2\fermata \bar "|." %30 finis
   }
 }
+
+EsNahetViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoEsNahet
+    e1~\pE
+    e
+    g\fp
+    fis~
+    fis %5
+    fis\fp
+    e~
+    e
+    e
+    e2 r4 r8. f!16\f %10
+    f1~
+    f2 r
+    cis\fz r
+    r4 r8. dis16 dis4 r8. h16
+    h2.\fermata \bar "||" %15 finis
+  }
+}
+
+GottDerViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoGottDer
+    \partial 4 r4 r8\pE gis(^\conSord h e fis dis)
+    his4(\> cis8)\! e4\< d8
+    cis4~\> cis16 eis( fis gis) h( a cis, a')\!
+    gis4( fis) r
+    r8 fis\p fis fis fis fis %5
+    r dis dis dis e\cresc d
+    cis( fis16 a) a8 gis4 fis8
+    gis4~\fz gis16 fis( e dis cis h a gis)
+    h( a cis a) a8 gis4 a8
+    gis16( h gis h) e( gis h gis) a( fis dis a) %10
+    gis( e' gis h) e( gis h gis) a( fis dis a)
+    gis8 r <gis h,>\p r q r
+    q4 r r
+    r8 gis,( h e fis dis)
+    \once \slurDashed his4( cis8) e4\< d8 %15
+    cis2\fz r4
+    a8\p r gis r\fermata r4
+    r8 cis\fp cis cis cis cis
+    r h\fp h h e( gis)
+    fis4. e8 cis ais %20
+    e'4( dis8) h[-!\f e-! gis]-!
+    cis,-! dis-! e-! fis-! gis16( e cis fis)
+    e4( dis8) r16. h32(\p cis16 dis e fis)
+    gis8( gis, h e fis dis)
+    his4( cis8) e4(\< d8) %25
+    cis2\fz r4
+    a8\p r gis r\fermata r4
+    r8 a-!\fp cis-! e-! a-! cis-!
+    r e,-!\fp h-! e-! gis-! h-!
+    fis4. e8 cis ais %30
+    e'4( dis8) ais([\f h d)]
+    gis,\fz gis\p h h d d
+    h( cis d cis eis fis)
+    a8. gis16 fis8( eis fis gis)
+    fis h, a( h16 cis) \grace e d8( cis16 h) %35
+    a4( gis8) d'([\f cis h)]
+    ais\fz e''\p e( cis) cis( g)
+    e( fis g fis ais h)
+    d8.( cis16 h8) h([ cis gis)]
+    a( eis fis e) cis16( d e fis) %40
+    cis4( h8) h'4\cresc a8
+    gis fis e gis fis16(\p e dis cis)
+    cis4( h8) r h'\f gis
+    gis4( fis8) dis h16( e cis fis)
+    e4( dis8) \brkBeam h'\p a16( gis fis e) %45
+    gis4( fis8) fis[ e fis]
+    e4( dis8) h4 a'8\cresc
+    gis fis e16( e' cis gis) fis(\p e dis cis)
+    cis4( h16) ais( h ais) h( ais h d)
+    r cis( eis gis) fis( a cis h) a( gis fis e) %50
+    r h( dis fis) e( dis e fis) gis( a fis gis)
+    e( a cis h) a( h cis a) a( gis) gis( fis)
+    dis8\sfp gis~ gis16 fis( e dis cis h a gis)
+    h( a cis a) a8 gis4 a8
+    gis16( h gis h) e( gis h gis) a( fis dis a) %55
+    gis( e' gis h) e( gis h gis) a( fis dis a)
+    gis8 r <gis h,>\p r q r \noBreak
+    q4 r r
+    \key e \minor \tempoGottDerB
+      r16 e8( g!16) r e8( g16) r e8( g16) \noBreak
+    r e8( a16) r e8( a16) r e8( a16) %60
+    r fis8( a16) r fis8( a16) r fis8( dis16)
+    r fis8( e16) r dis8( fis16) r dis8( h16)
+    r h8( g'16) r h,8( a16) r g8( g'16)
+    r d8( a'16) r d,8( g16) r fis8( a16)
+    r h,8( h'16) r h,8( g'16) r c,8( a'16) %65
+    r g8( d16) r fis8( d16) r fis8( d16)
+    r f8(\mf d16) r f8( d16) r c8( f16)
+    r h,8(\p e16) r e8( h'16) r c8( dis,16)
+    r e8( h16) r gis'8( h16) r e,8( d'16)
+    r h8( e,16) r a8( e16) r a8( c16) %70
+    r fis,8( h16) r dis,8( fis16) r h,8( h'16)
+    r a8( d!16) r fis,8(\cresc a16) r d,8( f16)
+    r f8(\> d'16)\! r c8( e,16) r fis8( a16)
+    r d,8( g16) r h8( g16) r h,8( d16)
+    r h8( d16) r d8( f'16) r e8( gis,16) %75
+    r h8( e,16) r a8( e16) r a8( c,16)
+    r c8( a16) r a'8( c,16) r fis!8( a16)
+    r fis8( g16) r g8( h16) r h8( g16)
+    r fis8( h16) r fis8( a16) r a8( h,16)
+    r e8( fis16) r g8( e16) r h8( fis'16) %80
+    e4.\fz\fermata r8 r4 \noBreak
+    dis2\fermata r4
+    \key e \major \tempoGottDerC
+      \grace s8 \mvDll <h' gis h,>4.\fp^\markup \remark "Si levano i Sordini" e,8(\< gis h)\! \noBreak
+    <e h e,>4.\sfp h8(\> gis e)\!
+    dis4. a'8( gis fis) %85
+    dis8.( e16) e4 e16( h' a gis)
+    gis8. fis16 fis8 gis16( fis a gis h a)
+    \once \slurDashed gis8.( fis16 e8) h16([\< e)] e( gis) gis([ h)]
+    e(\sfp cis gis e) cis8 dis16 e fis( e dis cis)
+    cis4( h8) r dis16(\f e fis gis) %90
+    h4~ h16 a( fis dis) h( e) e( gis)
+    fis( h, dis fis e8) gis,16([\p h] e h' gis e)
+    h( cis dis e) fis( dis fis h)~ h h,( e gis)
+    fis( h, dis fis) e8 e4(\cresc d8)
+    cis16( a' gis\p eis) a( fis cis h') a( h cis a) %95
+    gis4( fis8) r r4
+    r8 fis fis fis fis fis
+    r dis dis dis e\cresc d
+    cis( fis16 a) a8 gis4 fis8
+    gis4~\sfp gis16 fis( e dis cis h a gis) %100
+    h( a cis a) a8 gis4 a8
+    gis4 r h16(\sfp dis fis a)
+    gis8 r r4 dis16(\sfp fis h dis)
+    e8 r r16 gis,( e' dis cis h a gis)
+    gis( eis cis h') a( fis dis'! cis) h( a gis fis) %105
+    fis( dis fis a) gis(\< fis e fis) gis( a h cis)
+    cis4.\sfp h16( a gis fis a fis)
+    e4( dis8) r r4
+    r8 fis r fis r fis
+    r e r e r e %110
+    r dis r dis r dis
+    r e4 e e8
+    r16 h'( gis eis) cis( a' cis h) a( gis fis cis')
+    r a( fis dis) h( gis' h a) gis( fis e h')
+    r gis( e cis) a( fis' a gis) h( a gis fis) %115
+    % e8. fis16 gis8 h([ a gis)] %for MIDI
+    \after 8 _\turn e8. fis16 gis8 h([ a gis)]
+    gis4( a8) fis16([\mf eis] gis fis a cis)
+    fis,4. dis8(\mf e16 fis gis a)
+    h8 d~\sfp d16 cis( h a) a( gis) gis( fis)
+    e( h gis h) e( gis h gis) a( fis dis a) %120
+    gis( e' gis h) e( gis h gis) a( fis dis a)
+    gis8 r <gis h,>\p r q r
+    q2 r4\fermata \bar "|." %123 finis
+  }
+}
+
+EsNahetAltViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoEsNahetAlt
+    e1~\pE
+    e
+    g\fp
+    fis~
+    fis %5
+    fis\fp
+    e~
+    e
+    e
+    e2 r4 r8. f!16\f %10
+    f1~
+    f2 r
+    es\fz r
+    r4 r8. d16 d4 r8. b16
+    b2.\fermata \bar "||" %15 finis
+  }
+}
+
+GottDerAltViolinoII = \transpose e es {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoGottDerAlt
+    \partial 4 r4 r8\pE gis(^\conSord h e fis dis)
+    his4(\> cis8)\! e4\< d8
+    cis4~\> cis16 eis( fis gis) h( a cis, a')\!
+    gis4( fis) r
+    r8 fis\p fis fis fis fis %5
+    r dis dis dis e\cresc d
+    cis( fis16 a) a8 gis4 fis8
+    gis4~\fz gis16 fis( e dis cis h a gis)
+    h( a cis a) a8 gis4 a8
+    gis16( h gis h) e( gis h gis) a( fis dis a) %10
+    gis( e' gis h) e( gis h gis) a( fis dis a)
+    gis8 r <gis h,>\p r q r
+    q4 r r
+    r8 gis,( h e fis dis)
+    his4( cis8) e4\< d8 %15
+    cis2\fz r4
+    a8\p r gis r\fermata r4
+    r8 cis\fp cis cis cis cis
+    r h\fp h h( e gis)
+    fis4. e8( cis ais) %20
+    e'4( dis8) h[-!\f e-! gis]-!
+    cis,-! dis-! e-! fis-! gis16( e cis fis)
+    e4( dis8) r16. h32(\p cis16 dis e fis)
+    gis8( gis, h e fis dis)
+    his4( cis8) e4(\< d8) %25
+    cis2\fz r4
+    a8\p r gis r\fermata r4
+    r8 a-!\fp cis-! e-! a-! cis-!
+    r e,-!\fp h-! e-! gis-! h-!
+    fis4. e8( cis ais) %30
+    e'4( dis8) ais([\f h d)]
+    gis,\fz gis\p h h d d
+    h( cis d cis eis fis)
+    a8.( gis16 fis8) eis( fis gis)
+    fis( h,) \slurDashed a( h16 cis) \grace e d8( cis16 h) \slurSolid %35
+    a4( gis8) d'([\f cis h)]
+    ais\fz e''\p e( cis) cis( g)
+    e( fis g fis ais h)
+    d8.( cis16 h8) h([ cis gis)]
+    a( eis fis e) cis16( d e fis) %40
+    cis4( h8) h'4\cresc a8
+    gis fis e gis fis16(\p e dis cis)
+    cis4( h8) r h'\f gis
+    gis4( fis8) dis h16( e cis fis)
+    e4( dis8) \brkBeam h'\p a16( gis fis e) %45
+    gis4( fis8) fis[ e fis]
+    e4( dis8) h4 a'8\cresc
+    gis fis e16( e' cis gis) fis(\p e dis cis)
+    cis4( h16) ais( h ais) h( ais h d)
+    r cis( eis gis) fis( a cis h) a( gis fis e) %50
+    r h( dis fis) e( dis e fis) gis( a fis gis)
+    e( a cis h) a( h cis a) a( gis) gis( fis)
+    dis8\sfp gis~ gis16 fis( e dis cis h a gis)
+    h( a cis a) a8 gis4 a8
+    gis16( h gis h) e( gis h gis) a( fis dis a) %55
+    gis( e' gis h) e( gis h gis) a( fis dis a)
+    gis8 r <gis h,>\p r q r \noBreak
+    q4 r r
+    \key e \minor \tempoGottDerAltB
+      r16 e8( g!16) r e8( g16) r e8( g16) \noBreak
+    r e8( a16) r e8( a16) r e8( a16) %60
+    r fis8( a16) r fis8( a16) r fis8( dis16)
+    r fis8( e16) r dis8( fis16) r dis8( h16)
+    r h8( g'16) r h,8( a16) r g8( g'16)
+    r d8( a'16) r d,8( g16) r fis8( a16)
+    r h,8( h'16) r h,8( g'16) r c,8( a'16) %65
+    r g8( d16) r fis8( d16) r fis8( d16)
+    r f8(\mf d16) r f8( d16) r c8( f16)
+    r h,8(\p e16) r e8( h'16) r c8( dis,16)
+    r e8( h16) r gis'8( h16) r e,8( d'16)
+    r h8( e,16) r a8( e16) r a8( c16) %70
+    r fis,8( h16) r dis,8( fis16) r h,8( h'16)
+    r a8( d!16) r fis,8(\cresc a16) r d,8( f16)
+    r f8(\> d'16)\! r c8( e,16) r fis8( a16)
+    r d,8( g16) r h8( g16) r h,8( d16)
+    r h8( d16) r d8( f'16) r e8( gis,16) %75
+    r h8( e,16) r a8( e16) r a8( c,16)
+    r c8( a16) r a'8( c,16) r fis!8( a16)
+    r fis8( g16) r g8( h16) r h8( g16)
+    r fis8( h16) r fis8( a16) r a8( h,16)
+    r e8( fis16) r g8( e16) r h8( fis'16) %80
+    e4.\fz\fermata r8 r4 \noBreak
+    dis2\fermata r4
+    \key e \major \tempoGottDerAltC
+      \grace s8 \mvDll <h' gis h,>4.\sfp^\markup \remark "Si levano i Sordini" e,8(\< gis h)\! \noBreak
+    <e h e,>4.\sfp h8(\> gis e)\!
+    dis4. a'8( gis fis) %85
+    dis8.( e16) e4 e16( h' a gis)
+    gis8. fis16 fis8 gis16( fis a gis h a)
+    gis8.( fis16 e8) h16([\< e)] e( gis) gis([ h)]
+    e(\sfp cis gis e) cis8 dis16 e fis( e dis cis)
+    cis4( h8) r dis16(\f e fis gis) %90
+    h4~ h16 a( fis dis) h( e) e( gis)
+    fis( h, dis fis e8) gis,16([\p h] e h' gis e)
+    h( cis dis e) fis( dis fis h)~ h h,( e gis)
+    fis( h, dis fis) e8 e4(\cresc d8)
+    cis16( a' gis\p eis) a( fis cis h') a( h cis a) %95
+    gis4( fis8) r r4
+    r8 fis fis fis fis fis
+    r dis dis dis e\cresc d
+    cis( fis16 a) a8 gis4 fis8
+    gis4~\sfp gis16 fis( e dis cis h a gis) %100
+    h( a cis a) a8 gis4 a8
+    gis4 r h16(\sfp dis fis a)
+    gis8 r r4 dis16(\sfp fis h dis)
+    e8 r r16 gis,( e' dis cis h a gis)
+    gis( eis cis h') a( fis dis'! cis) h( a gis fis) %105
+    fis( dis fis a) gis(\< fis e fis) gis( a h cis)
+    cis4.\sfp h16( a gis fis a fis)
+    e4( dis8) r r4
+    r8 fis r fis r fis
+    r e r e r e %110
+    r dis r dis r dis
+    r e4 e e8
+    r16 h'( gis eis) cis( a' cis h) a( gis fis cis')
+    r a( fis dis) h( gis' h a) gis( fis e h')
+    r gis( e cis) a( fis' a gis) h( a gis fis) %115
+    e8. fis16 gis8 h([ a gis)] %for MIDI
+    % \after 8 _\turn e8. fis16 gis8 h([ a gis)]
+    gis4( a8) fis16([\mf eis] gis fis a cis)
+    fis,4. dis8(\mf e16 fis gis a)
+    h8 d~\sfp d16 cis( h a) a( gis) gis( fis)
+    e( h gis h) e( gis h gis) a( fis dis a) %120
+    gis( e' gis h) e( gis h gis) a( fis dis a)
+    gis8 r <gis h,>\p r q r
+    q2 r4\fermata \bar "|." %123 finis
+  }
+}

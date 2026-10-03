@@ -984,3 +984,267 @@ WerRuftCello = {
     \grace { g32[ a h] } c4 r r2\fermata \bar "|." %30 finis
   }
 }
+
+GottDerCello = {
+  \relative c {
+    \clef bass
+    \key e \major \time 3/4 \tempoGottDer
+    \partial 4 r4 e\pE gis, h
+    \after 4 \! cis4.\> d8(\< cis h)
+    a4\> a' fis\!
+    h h, r
+    \clef "treble_8" r8 dis'\p dis dis dis dis %5
+    r his his his cis\cresc h
+    a \clef bass fis[ h h h, h]
+    his\fz his cis dis e eis
+    fis a h h h, h
+    e4 r h'(\fz %10
+    e,8) r r4 h(\fz
+    e8) r e\p r e r
+    e4 r r
+    e gis, h
+    cis4. d8(\< cis h) %15
+    a4\fz a' r
+    h,8\p r e, r\fermata r4
+    r8 a'\fp a a a a
+    r gis\fp gis gis e e
+    dis4. e8 a, cis %20
+    h4. h'8\f gis e
+    a fis gis dis e a,
+    h4. r8 r4
+    e,\p gis h
+    cis4. d8(\< cis h) %25
+    a4\fz a' r
+    h,8\p r e r\fermata r4
+    a,8\fp a' a a a a
+    gis,\fp gis' gis gis e e
+    dis4. e8 a, cis %30
+    h4. ais8(\f h d)
+    eis,\fz eis gis\p gis h h
+    d( cis h a gis fis)
+    eis eis' fis gis a eis
+    fis cis d cis h h' %35
+    cis cis,4 d8(\f cis h)
+    ais\fzE ais cis\p cis e! e
+    g( fis e d cis h)
+    ais ais'( h gis a eis)
+    fis( cis d cis h d) %40
+    e e, e' gis,(\cresc a h)
+    cis( dis! e cis) fis\p fis,
+    h4. h'8\f gis e
+    h h' h, dis e a,
+    h h' h, dis\p e gis, %45
+    h h' h, dis e a,
+    h h' h, a' gis\cresc fis
+    e dis cis e fis,\p fis'
+    h,4. h'8 gis fis
+    eis h' a fis gis a %50
+    dis,! a' gis h gis e
+    a gis a fis h h,
+    his\sfp his cis dis e eis
+    fis a h! h h, h
+    e4 r h'(\fz %55
+    e,8) r r4 h(\fz
+    e8) r e\p r e r \noBreak
+    e( h) e( h) fis'( h,)
+    \key e \minor \tempoGottDerB
+      g'( e) g( e) g( e) \noBreak
+    a( e) a( e) a( e) %60
+    a( dis,) a'( fis dis h')
+    e,( ais, h dis fis h)
+    e, e, e' fis g e
+    fis fis, fis' g a fis
+    g dis e h c a %65
+    d d, d' e d c
+    h\cresc d h d a a'
+    gis,\p gis' gis, gis' f, f'
+    e gis h d c gis!
+    a a, a' c a fis! %70
+    dis fis h, dis e g
+    fis a d,\cresc fis g h,
+    c_[\> h' c\! c, d d,]
+    g h d g f, f'
+    e, e' e, gis h e %75
+    a, a' a, a' g, g'
+    fis,! a d, fis a d
+    g, d' g g, e e'
+    fis fis, fis' dis h dis
+    e e, e' e' d! d, %80
+    c4.\fz\fermata r8 r4 \noBreak
+    h2\fermata r4
+    \key e \major \tempoGottDerC
+      \grace s8 e4\sfp e' r \noBreak
+    e,\sfp e' r
+    r h h, %85
+    e e,8 h'' gis e
+    h4 h' r8 cis,
+    dis[ h] e r r4
+    cis\sfp cis' fis,8 fis,
+    h4. h'8\f gis e %90
+    dis fis h, a' gis e
+    dis h e h'\p gis e
+    dis fis h, a' gis e
+    dis h e d\cresc cis h
+    a h\p a gis a fis %95
+    h( ais' h) r r4
+    \clef "treble_8" r8 dis dis dis dis dis
+    r his his \clef bass his[ cis\cresc h]
+    a fis h h h, h
+    his\sfp his cis dis e eis %100
+    fis a h! h h, h
+    e4 r h(\sfp
+    e8) r r4 h(\sfpE
+    e8) r r4 r8 eis,
+    fis cis' fis r r dis,! %105
+    e! h' e r r4
+    a,\sfp a' r8 fis
+    h4 h,8 r r4
+    r8 h r h r h
+    r h r h r h %110
+    r h r h r h
+    e4 gis h
+    eis,8 h' a fis gis a
+    dis, a' gis e fis gis
+    cis, gis' fis dis h dis %115
+    e e, e' gis( fis e)
+    r a a, a'\mf gis fis
+    h4 h,8 \brkBeam h'(\mf ais16 a gis fis)
+    e8 eis\sfp fis a h h,
+    e4 r h'(\sfz %120
+    e,8) r r4 h(\sfz
+    e,8) r e\p r e r
+    e2 r4\fermata \bar "|." %123 finis
+  }
+}
+
+GottDerAltCello = \transpose e es {
+  \relative c {
+    \clef bass
+    \key e \major \time 3/4 \tempoGottDerAlt
+    \partial 4 r4 e\p gis, h
+    \after 4 \! cis4.\> d8(\< cis h)
+    a4\> a' fis\!
+    h h, r
+    \clef "treble_8" r8 dis'\p dis dis dis dis %5
+    r his his his cis\cresc h
+    a \clef bass fis[ h h h, h]
+    his\fz his cis dis e eis
+    fis a h h h, h
+    e4 r h'(\fz %10
+    e,8) r r4 h(\fz
+    e8) r e\p r e r
+    e4 r r
+    e gis, h
+    cis4. d8(\< cis h) %15
+    a4\fz a' r
+    h,8\p r e, r\fermata r4
+    r8 a'\fp a a a a
+    r gis\fp gis gis e e
+    dis4. e8 a, cis %20
+    h4. h'8\f gis e
+    a fis gis dis e a,
+    h4. r8 r4
+    e,\p gis h
+    cis4. d8(\< cis h) %25
+    a4\sfp a' r
+    h,8\p r e r\fermata r4
+    a,8\fp a' a a a a
+    gis,\fp gis' gis gis e e
+    dis4. e8 a, cis %30
+    h4. ais8(\f h d)
+    eis,\fz eis gis\p gis h h
+    d( cis h a gis fis)
+    eis eis'( fis gis a eis)
+    fis cis d cis h h' %35
+    cis cis,4 d8(\f cis h)
+    ais\fzE ais\p cis cis e! e
+    g( fis e d cis h)
+    ais ais'( h gis a eis)
+    fis cis d cis h d %40
+    e e, e' gis,(\cresc a h)
+    cis dis! e cis fis\p fis,
+    h4. h'8\f gis e
+    h h' h, dis e a,
+    h h' h, dis\p e gis, %45
+    h h' h, dis e a,
+    h h' h, a' gis\cresc fis
+    e dis cis e fis,\p fis'
+    h,4. h'8 gis fis
+    eis h' a fis gis a %50
+    dis,! a' gis h gis e
+    a gis a fis h h,
+    his\sfp his cis dis e eis
+    fis a h! h h, h
+    e4 r h'(\fz %55
+    e,8) r r4 h(\fz
+    e8) r e\p r e r \noBreak
+    e( h) e( h) fis'( h,)
+    \key e \minor \tempoGottDerAltB
+      g'( e) g( e) g( e) \noBreak
+    a( e) a( e) a( e) %60
+    a( dis,) a'( fis dis h')
+    e,( ais, h dis fis h)
+    e, e, e' fis g e
+    fis fis, fis' g a fis
+    g dis e h c a %65
+    d d, d' e d c
+    h\cresc d h d a a'
+    gis,\p gis' gis, gis' f, f'
+    e gis h d c gis!
+    a a, a' c a fis! %70
+    dis fis h, dis e g
+    fis a d,\cresc fis g h,
+    c_[\> h' c\! c, d d,]
+    g h d g f, f'
+    e, e' e, gis h e %75
+    a, a' a, a' g, g'
+    fis,! a d, fis a d
+    g, d' g g, e e'
+    fis fis, fis' dis h dis
+    e e, e' e' d! d, %80
+    c4.\fz\fermata r8 r4 \noBreak
+    h2\fermata r4
+    \key e \major \tempoGottDerAltC
+      \grace s8 e4\sfp e' r \noBreak
+    e,\sfp e' r
+    r h h, %85
+    e e,8 h'' gis e
+    h4 h' r8 cis,
+    dis[ h] e r r4
+    cis\sfp cis' fis,8 fis,
+    h4. h'8\f gis e %90
+    dis fis h, a' gis e
+    dis h e h'\p gis e
+    dis fis h, a' gis e
+    dis h e d\cresc cis h
+    a h\p a gis a fis %95
+    h( ais' h) r r4
+    \clef "treble_8" r8 dis dis dis dis dis
+    r his his \clef bass his[ cis\cresc h]
+    a fis h h h, h
+    his\sfp his cis dis e eis %100
+    fis a h! h h, h
+    e4 r h(\sfp
+    e8) r r4 h(\sfp
+    e8) r r4 r8 eis,
+    fis cis' fis r r dis,! %105
+    e! h' e r r4
+    a,\sfp a' r8 fis
+    h4 h,8 r r4
+    r8 h r h r h
+    r h r h r h %110
+    r h r h r h
+    e4 gis h
+    eis,8 h' a fis gis a
+    dis, a' gis e fis gis
+    cis, gis' fis dis h dis %115
+    e e, e' gis( fis e)
+    r a a, a'\mf gis fis
+    h4 h,8 \brkBeam h'(\mf ais16 a gis fis)
+    e8 eis\sfp fis a h h,
+    e4 r h'(\fz %120
+    e,8) r r4 h(\fz
+    e,8) r e\p r e r
+    e2 r4\fermata \bar "|." %123 finis
+  }
+}

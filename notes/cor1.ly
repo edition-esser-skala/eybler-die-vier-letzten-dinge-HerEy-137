@@ -464,3 +464,153 @@ WieGroßCornoI = {
     R1\fermata \bar "|." %72 finis
   }
 }
+
+GottDerCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoGottDer
+    \partial 4 r4 R2.*7 %7
+    e'4.\fz r8 r4
+    r r8 e4 d8
+    c4 r r %10
+    r r d(\fz
+    c8) r c\p r c r
+    c4 r r
+    R2.*3 %16
+    r4 r8 r\fermata r4
+    R2.*2
+    d4.\p r8 r4 %20
+    r r8 g,\f g g
+    r4 r8 d' e f
+    e4( d8) r r4
+    R2.*3 %26
+    r4 r8 r\fermata r4
+    R2.*2
+    d4\p r r %30
+    R2.
+    b4.\fz r8 r4
+    R2.*10 %42
+    r4 r8 g\f g g
+    g4. r8 r f'
+    e4( d8) r c\pp e %45
+    e4( d8) r r f
+    e4( d8) r r4
+    r e\fz r
+    R2.*4 %52
+    e4.\fz r8 r4
+    r r8 e4\p d8
+    c4 r r %55
+    r r d(\fz
+    c8) r c\p r c r \noBreak
+    c4 r r
+    \tempoGottDerB R2.*22 %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \tempoGottDerC
+      \grace s8 g4.\fz r8 r4 \noBreak
+    c4.\fz\ten r8 r4
+    R2.*3 %87
+    r4 r8 e,\< g c
+    e4\sfz\ten r r
+    r r8 g,\f g g %90
+    g4. d'8 c e
+    d4 e8 r r4
+    R2.
+    d4(\p e8) r r4
+    r r r8 f %95
+    e4 d8 r r4
+    R2.*3
+    e4.\sfz r8 r4 %100
+    r r8 e4\p d8
+    c g' e c d4(\fz
+    e8) g\p e c d4(\fz
+    e8) r r4 r
+    R2.*2 %106
+    c4.\fz r8 r f\p
+    e4 d8 r r4
+    R2.*2 %110
+    d2.\p
+    \pao c4 r r
+    R2.*6 %118
+    r4 r8 f~\sfp f16([ e)] e([ d)]
+    c4 r r %120
+    r r d(\sfz
+    c8) r c\p r c r
+    c2 r4\fermata \bar "|." %123 finis
+  }
+}
+
+GottDerAltCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoGottDerAlt
+    \partial 4 r4 R2.*7 %7
+    e'4.\fz r8 r4
+    r r8 e4 d8
+    c4 r r %10
+    r r d(\fz
+    c8) r c\p r c r
+    c4 r r
+    R2.*3 %16
+    r4 r8 r\fermata r4
+    R2.*2
+    d4.\p r8 r4 %20
+    r r8 g,\f g g
+    r4 r8 d' e f
+    \once \slurDashed e4( d8) r r4
+    R2.*3 %26
+    r4 r8 r\fermata r4
+    R2.*2
+    d4\p r r %30
+    R2.
+    b4.\fz r8 r4
+    R2.*10 %42
+    r4 r8 g\f g g
+    g4. r8 r f'
+    e4( d8) r c\pp e %45
+    \once \slurDashed e4( d8) r r f
+    \once \slurDashed e4( d8) r r4
+    r e\fz r
+    R2.*4 %52
+    e4.\fz r8 r4
+    r r8 e4\p d8
+    c4 r r %55
+    r r d(\fz
+    c8) r c\p r c r \noBreak
+    c4 r r
+    \tempoGottDerAltB R2.*22 %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \tempoGottDerAltC
+      \grace s8 g4.\fz r8 r4 \noBreak
+    c4.\fz\ten r8 r4
+    R2.*3 %87
+    r4 r8 e,\< g c
+    e4\fz\ten r r
+    r r8 g,\f g g %90
+    g4. d'8 c e
+    d4 e8 r r4
+    R2.
+    d4(\p e8) r r4
+    r r r8 f %95
+    e4 d8 r r4
+    R2.*3
+    e4.\fz r8 r4 %100
+    r r8 e4\p d8
+    c g' e c d4(\fz
+    e8) g\p e c d4(\fz
+    e8) r r4 r
+    R2.*2 %106
+    c4.\fz r8 r f\p
+    e4 d8 r r4
+    R2.*2 %110
+    d2.\p
+    \pao c4 r r
+    R2.*6 %118
+    r4 r8 f~\sfp f16([ e)] e([ d)]
+    c4 r r %120
+    r r d(\fz
+    c8) r c\p r c r
+    c2 r4\fermata \bar "|." %123 finis
+  }
+}

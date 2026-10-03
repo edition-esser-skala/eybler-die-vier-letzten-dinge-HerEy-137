@@ -795,3 +795,198 @@ WerRuftClarinettoII = {
     d r r2\fermata \bar "|." %30 finis
   }
 }
+
+GottDerClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoGottDer
+    \partial 4 r4 R2.
+    r4 r8 g'4\pE\< h8
+    c4.\> a8 c a\!
+    g4 fis r
+    R2.*3 %7
+    fis4(\fz g8) r r4
+    r8 a4 g fis8
+    g r r4 c(\fz %10
+    h8) r r4 fis'(\fz
+    g8) r d,\p r d r
+    d4 r r
+    R2.
+    r4 r8 g4\< h8 %15
+    c2\fz r4
+    r r8 r\fermata r4
+    r8 c4\sfp g8 e r
+    r g4\sfp h8 d r
+    R2.*2 %21
+    r8 d4\f c8 h a
+    g4 fis8 r r4
+    R2.
+    r4 r8 g4\< h8 %25
+    c2\fz r4
+    r r8 r\fermata r4
+    r8 c4\sfp g8 e r
+    r g4\sfp h8 d r
+    R2.*4 %33
+    r4 r8 d(\p c h
+    a[ gis)] a r r4 %35
+    R2.
+    e4.\fz r8 r4
+    R2.
+    r4 r8 f'(\p e d
+    c h a) r r4 %40
+    r r8 h4 a8
+    g c h r r4
+    r r d8\f h
+    h4( a8) a[ g a]
+    g4 fis8 r r4 %45
+    R2.
+    r4 r8 d4 c8
+    h r e'4\fz r
+    R2.*4 %52
+    fis,4(\fz g8) r r4
+    r8 a4\p g fis8
+    g r r4 c(\fz %55
+    h8) r r4 fis'(\fz
+    g8) r d,\p r d r \noBreak
+    d4 r r
+    \key g \minor \tempoGottDerB
+      R2.*22 %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \key g \major \tempoGottDerC \grace s8
+      h'4.\fz r8 r4 \noBreak
+    h4.\fz\ten r8 r4
+    r8 fis4(\p c'8 h a) %85
+    fis4( g) r
+    R2.
+    r4 r8 g\< h d
+    g4\sfz\ten r r
+    r r d,8\f g %90
+    a fis a fis d g
+    a[ fis] g r r4
+    R2.
+    r4 r8 g4\pE\< h8\!
+    c r r4 r %95
+    R2.*4
+    fis,4(\sfz g8) r r4 %100
+    r8 a4\p g fis8
+    g r r4 c(\fz
+    h8) r r4 fis(\fz
+    g8) r r4 r8 e
+    h'4( a8) r r d, %105
+    a'4( g8) g16(\< a h c d e)
+    e8.(\sfz c16) c8 r r4
+    R2.
+    a\pE
+    g %110
+    fis
+    g4 r r
+    R2.*4 %116
+    r4 r8 e( gis a)
+    a4. d,8(\mf e16 fis g a)
+    h8 d~\sfp d16 c( h a) a([ g)] g([ fis)]
+    g8 r r4 c(\sfz %120
+    h8) r r4 fis'(\sfz
+    g8) r d,\p r d r
+    d2 r4\fermata \bar "|." %123 finis
+  }
+}
+
+GottDerAltClarinettoII = \transpose g f {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoGottDerAlt
+    \partial 4 r4 R2.
+    r4 r8 g'4\pE\< h8
+    c4.\> a8 c a\!
+    g4 fis r
+    R2.*3 %7
+    fis4(\fz g8) r r4
+    r8 a4 g fis8
+    g r r4 c(\fz %10
+    h8) r r4 fis'(\fz
+    g8) r d,\p r d r
+    d4 r r
+    R2.
+    r4 r8 g4\< h8 %15
+    c2\fz r4
+    r r8 r\fermata r4
+    r8 c4\sfp g8 e r
+    r g4\sfp h8 d r
+    R2.*2 %21
+    r8 d4\f c8 h a
+    g4 fis8 r r4
+    R2.
+    r4 r8 g4\< h8 %25
+    c2\fz r4
+    r r8 r\fermata r4
+    r8 c4\sfp g8 e r
+    r g4\sfp h8 d r
+    R2.*4 %33
+    r4 r8 d(\p c h
+    a[ gis)] a r r4 %35
+    R2.
+    e4.\fz r8 r4
+    R2.
+    r4 r8 f'(\p e d
+    c h a) r r4 %40
+    r r8 h4 a8
+    g c h r r4
+    r r d8\f h
+    h4( a8) a[ g a]
+    g4( fis8) r r4 %45
+    R2.
+    r4 r8 d4 c8
+    h r e'4\fz r
+    R2.*4 %52
+    fis,4(\fz g8) r r4
+    r8 a4\p g fis8
+    g r r4 c(\fz %55
+    h8) r r4 fis'(\fz
+    g8) r d,\p r d r \noBreak
+    d4 r r
+    \tempoGottDerAltB R2.*17 %75
+    r4 r r8 es'\pE
+    es4. d16([ c)] c([ b)] b([ a)]
+    a8.( b16) b8 r r4
+    R2.*2 %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \tempoGottDerAltC
+      \grace s8 h4.\fz r8 r4 \noBreak
+    h4.\fz\ten r8 r4
+    r8 fis4(\p c'8 h a) %85
+    fis4( g) r
+    R2.
+    r4 r8 g\< h d
+    g4\sfz\ten r r
+    r r d,8\f g %90
+    a fis a fis d g
+    a[ fis] g r r4
+    R2.
+    r4 r8 g4\pE\< h8\!
+    c r r4 r %95
+    R2.*4
+    fis,4(\fz g8) r r4 %100
+    r8 a4\p g fis8
+    g r r4 c(\fz
+    h8) r r4 fis(\fz
+    g8) r r4 r8 e
+    h'4( a8) r r d, %105
+    a'4( g8) g16(\< a h c d e)
+    e8.(\fz c16) c8 r r4
+    R2.
+    a\pE
+    g %110
+    fis
+    g4 r r
+    R2.*4 %116
+    r4 r8 e( gis a)
+    a4. d,8(\mf e16 fis g a)
+    h8 d~\sfp d16 c( h a) a([ g)] g([ fis)]
+    g8 r r4 c(\fz %120
+    h8) r r4 fis'(\fz
+    g8) r d,\p r d r
+    d2 r4\fermata \bar "|." %123 finis
+  }
+}

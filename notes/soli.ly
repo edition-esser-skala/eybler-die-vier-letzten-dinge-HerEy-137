@@ -1091,3 +1091,811 @@ EsHerrschetSoliLyrics = \lyricmode {
   neu -- es
   Le -- ben rief. %218 finis
 }
+
+EsNahetSoli = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoEsNahet
+    r2 r4 e
+    a8 a a4 r a
+    b2~ b8 b a g
+    fis2 r
+    r8 fis fis g a4 a %5
+    c2~ c8 c a fis
+    g2 r4 h
+    h4. e,8 e4. fis8
+    gis2 r4 e
+    a a r2 %10
+    r4 c, f! a
+    c4. a8 f4 r
+    r2 e4. dis8
+    fis4 fis r2
+    r r4\fermata \bar "||" %15 finis
+  }
+}
+
+EsNahetSoliLyrics = \lyricmode {
+  Es
+  na -- het ſich das
+  un -- glück -- ſeel’ -- ge
+  Paar,
+  das ſei -- ner En -- kel %5
+  en -- de -- lo -- ſer
+  Schaar, zum
+  Er -- den -- glück be --
+  ſtimmt, das
+  Le -- ben %10
+  und durch die
+  Sün -- _ de
+  Tod ge --
+  ge -- ben. %14 finis
+}
+
+GottDerSoliA = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \autoBeamOff \tempoGottDer
+    \partial 4 r4 R2.*16 %16
+    r4 r8 r\fermata r4
+    R2.*5 %22
+    r4 r r8 e
+    h'4.( e8) dis([ a)]
+    a4( gis) r8 e %25
+    cis'2 a8([ fis)]
+    dis8.([ e32 fis)] e8 r\fermata e([ cis')]
+    cis8. a16 a4 r
+    e'8. h16 h4 gis'8([ e)]
+    \once \stemUp h4( a8[ gis)] fis e %30
+    gis4( fis8) r r4
+    R2.*4 %35
+    r4 r r8 cis'
+    e4. g16([ fis)] e([ d)] cis([ h)]
+    ais4. h8 cis d
+    fis8.([ e16)] d8 r r d
+    cis h a! h16([ cis)] \appoggiatura e d8 cis16([ h)] %40
+    a4( gis8) r r dis'
+    e fis a16([ gis)] fis([ e)] dis([ cis)] fis([ ais,)]
+    cis4( h8) r r4
+    R2.
+    r4 r8 h h16([ cis)] dis([ e)] %45
+    e4~ e16[ dis] cis([ h)] a([ gis)] h([ a)]
+    gis4 fis8 dis16([ e)] fis([ gis)] a([ h)]
+    cis([ dis)] e([ fis)] gis8. e16 dis([ cis)] h([ ais)]
+    ais4( h8) h h d
+    cis4. a'16([ gis)] fis([ e)] dis([ cis)] %50
+    h8.([ cis16)] h8 r r h
+    \appoggiatura his16 cis8 dis16([ eis)] fis([ gis)] a([ fis)] fis([ e)] e([ dis)]
+    gis4~ gis16[ fis] e([ dis)] cis([ h)] a([ gis)]
+    h([ a)] cis,([ fis)] fis8( e4) dis8
+    e4 r r %55
+    R2.*3
+    \key e \minor \tempoGottDerB R2.*15 %73
+    r4 r r8 h'
+    a4( gis8) f'! e h %75
+    d8. c16 c4 r8 e
+    e4. d16 c c([ h)] h a
+    ais8.([ h16)] h4 r8 g'16([ h,)]
+    h4( a8) fis'16([ dis)] a'([ fis)] dis a
+    g8.([ a16)] h8 r h h %80
+    g'4.\fermata fis16 e d!([ c)] h([ ais)] \noBreak
+    h2\fermata h4
+    \key e \major \tempoGottDerC
+      \grace s8 e4. gis,16([ h)] h([ e)] e([ gis)] \noBreak
+    gis4. e8 h gis
+    fis4.( cis'8) h([ a)] %85
+    fisis8.([ gis16)] gis4 h16([ cis)] dis([ e)]
+    e8.([ dis16)] dis8 e16([ dis)] fis([ e)] dis([ cis)]
+    h8.[( a16)] gis8 r e16([ gis)] h([ e)]
+    gis4. fis16([ e)] dis([ cis)] h([ ais)]
+    cis8.([ h16)] h4 r %90
+    R2.
+    r4 r8 h h h
+    fis'4. dis8 fis16([ e)] gis,([ cis)]
+    h8.([ a16)] gis8 r r h
+    cis4~ cis8 dis16([ eis)] fis([ gis)] a([ fis)] %95
+    e4 dis r
+    r r8 h dis16([ cis)] h([ a)]
+    a4( gis8) gis fisis16([ gis)] a([ h)]
+    his([ cis)] a'([ fis)] fis8([ e)] e([ dis)]
+    gis4~\fz gis16[ fis] e([ dis)] cis([ h)] a([ gis)] %100
+    h([ a)] cis,([ fis)] fis8([ e)] e([ dis)]
+    e4 r dis'
+    e8.([ h16)] h8 r a'8. dis,16
+    e8.([ h16)] h8 gis'16([ fis)] e([ dis)] cis([ h)]
+    h8.([ gis16)] a8 fis'16([ e)] dis([ cis)] h([ a)] %105
+    a8.([ fisis16)] gis8 r h16([ cis)] dis([ e)]
+    e4. dis16([ cis)] h([ a)] cis([ a)]
+    gis4 fis8 h h h
+    dis4~ dis16[ e] gis([ fis)] e([ dis)] cis([ h)]
+    e8.([ h16)] h8 h h h %110
+    a'4~ a16[ gis] fis([ e]) dis([ cis)] h([ a)]
+    gis4 r8 h h d
+    cis4. a'16([ gis)] fis([ e)] dis([ cis)]
+    h4.( gis'16[ fis)] e([ dis)] cis([ h)]
+    a4. fis'16([ e)] dis([ cis)] h([ a)] %115
+    gis8.([ a16)] h8 e16([ dis)] fis([ e)] gis([ e)]
+    his4( cis8) r r a'16([ fis)]
+    e4( dis8) h\f cis16([ dis)] e([ fis)]
+    gis4~ gis16[ a] cis,([ fis)] fis([ e)] e([ dis)]
+    e4 r h8.([ a16)] %120
+    gis4 r a'8.([\f dis,16)]
+    e4 r r
+    R2.\fermata \bar "|." %123 finis
+  }
+}
+
+GottDerSoliALyrics = \lyricmode {
+  Du %23
+  zürn -- teſt
+  lang, ver -- %25
+  zei -- he
+  wie -- "der –" O __
+  zür -- ne nicht,
+  Gü -- ti -- ger! O __
+  zür -- ne nicht %30
+  mehr.
+
+  Laß %36
+  mich, laß mich auch
+  ih -- re Straf’ um --
+  ſchlieſ -- ſen, wie
+  ih -- ren Wil -- len ich um -- %40
+  fieng, wie
+  ih -- ren Wil -- len ich um --
+  fieng.
+
+  Laß uns, o %45
+  Herr, __ die Sün -- de
+  büſ -- ſen, die dieß Ge --
+  ſchlecht in uns, in uns be --
+  gieng, laß uns auch
+  ih -- re Straf’ um -- %50
+  ſchlieſ -- ſen, wie
+  un -- ſer Wil -- len ſie um --
+  fieng, __ wie un -- ſer
+  Wil -- len ſie um --
+  fieng. %55
+
+  Durch %74
+  uns, __ durch uns ver -- %75
+  loh -- ren ſie die
+  Freu -- den, die Freu -- den des
+  Le -- bens, durch
+  uns __ die Freu -- den des
+  Le -- bens, und Je -- %80
+  ho -- vahs, Je -- ho -- vahs
+  Huld. Doch
+  gött -- lich, un -- er --
+  meß -- lich war o
+  Quell’ __ der %85
+  Gü -- te, dein Er --
+  bar -- men, o Quell’ der
+  Gü -- te, un -- er --
+  meß -- lich dein Er --
+  bar -- men; %90
+
+  du ſtiegſt aus
+  dei -- nes Va -- ters
+  Ar -- men, aus
+  dei -- nes Va -- ters %95
+  Ar -- men
+  und bothſt dich
+  ſelbſt, __ und bothſt dich
+  ſelbſt zum Mitt -- ler
+  dar, __ und bothſt dich %100
+  ſelbſt zum Mitt -- ler
+  dar. Doch
+  gött -- lich, un -- er --
+  meß -- lich war dein Er --
+  bar -- men, o Quell’ der %105
+  Gü -- te! un -- er --
+  meß -- lich dein Er --
+  bar -- men, du ſtiegſt aus
+  dei -- nes Va -- ters
+  Ar -- men und bothſt dich %110
+  ſelbſt __ zum Mitt -- ler
+  dar, du ſtiegſt aus
+  dei -- nes Va -- ters
+  Ar -- men, aus
+  dei -- nes Va -- ters %115
+  Ar -- men und bothſt dich
+  ſelbſt, __ dich
+  ſelbſt, __ und bothſt dich
+  ſelbſt __ zum Mitt -- ler
+  dar, dich %120
+  ſelbſt, dich
+  ſelbſt. %122 finis
+}
+
+GottDerSoliB = {
+  \relative c {
+    \clef bass
+    \key e \major \time 3/4 \autoBeamOff \tempoGottDer
+    \partial 4 r4 R2.*12 %12
+    r4 r e
+    h'2 a4
+    a gis r %15
+    cis2 a8([ fis)]
+    dis8.([ e32 fis)] e8 r\fermata e8.([ cis'16)]
+    cis4 r a8.([ e'16)]
+    e4 r8 e, gis h
+    h4( a8) gis fis e %20
+    gis4( fis8) r r4
+    R2.*5 %26
+    r4 r8 r\fermata r4
+    R2.*4 %31
+    r4 d'\fz h8 gis
+    eis4. fis8 gis a
+    cis8.([ h16)] a8 r r gis
+    a eis fis gis16([ a)] \appoggiatura cis h8 a16([ gis)] %35
+    fis4( eis8) r r4
+    R2.*8 %44
+    r4 r8 h' a16([ gis)] fis([ e)] %45
+    gis4( fis8) dis h16([ e)] cis([ fis)]
+    e4 dis8 r r a'
+    gis fis e8. gis16 fis([ e')] dis([ cis)]
+    cis4( h8) r r h
+    gis eis fis cis'16([ h)] a([ gis)] fis([ e?)] %50
+    dis!4 e16([ fis)] gis([ a]) h([ cis)] dis([ e)]
+    \appoggiatura e8 cis4. cis8 h a
+    gis4. his8 cis h
+    gis16([ a)] cis([ a)] a8( gis4) fis8
+    e4 r r %55
+    R2.*3
+    \key e \minor \tempoGottDerB
+      r4 h'4. r8 \noBreak
+    d8.([ c16)] c4 r %60
+    c4. c8 h fis
+    a8.([ g16)] fis4 r8 fis
+    g4.( a8) h([ c)]
+    a4. h8 c d
+    h4. g8 e c' %65
+    h4( a) r
+    d2 r4
+    f,8.([ e16)] e4 r
+    e'4. gis,8 a h
+    d8.([ c16)] c4 r8 c %70
+    h4. a8 g e'
+    d4. c8 h d
+    d4~ d16[ c] h([ a)] g([ fis)] a([ fis)]
+    \appoggiatura fis8 g4 r r
+    R2.*6 %80
+    r4\fermata r8 r r4 \noBreak
+    r\fermata r h,
+    \key e \major \tempoGottDerC
+      \grace s8 gis'4. e16([ gis)] gis([ h)] h([ e)] \noBreak
+    e4. h8 gis e
+    dis4.( a'8) gis([ fis)] %85
+    dis8.([ e16)] e4 h'8 gis
+    gis8.([ fis16)] fis8 gis16([ fis)] a([ gis)] h([ a)]
+    gis8.([ fis16)] e8 r r4
+    e'4. gis,8 fis16([ e')] dis([ cis)]
+    ais8.([ h16)] h4 r %90
+    R2.
+    r4 r r8 h
+    h, dis fis a gis e
+    dis8.([ fis16)] e8 r r4
+    r8 cis cis' h a16([ h)] cis([ a)] %95
+    gis4 fis r
+    R2.
+    r4 r8 dis' e gis,
+    gis16([ a)] cis([ a)] a8([ gis)] gis([ fis)]
+    dis'4(\fz e8) e,16([ fis)] gis([ a)] h([ cis)] %100
+    gis([ a)] cis([ a)] a8([ gis)] gis([ fis)]
+    e4 r a
+    gis8.([ h16)] h8 r fis8. a16
+    gis8.([ h16)] h8 e16([ dis)] cis([ h)] a([ gis)]
+    gis8.([ eis16)] fis8 dis'16([ cis)] h([ a)] gis([ fis)] %105
+    fis8.([ dis16)] e!8 r gis16([ a)] h([ cis)]
+    cis4. h16([ a)] gis([ fis)] a([ fis)]
+    e4 dis8 r r4
+    r r8 a' a a
+    gis4~ gis16[ h] e([ dis)] cis([ h)] a([ gis)] %110
+    fis8.([ h16)] h8 h, h h
+    h'4~ h16[ a] gis([ fis)] e([ gis)] a([ h)]
+    cis8 eis, fis2~
+    fis8 dis e2~
+    e8 cis dis4. fis8 %115
+    e8.([ fis16)] gis8 gis16([ fis)] a([ gis)] h([ gis)]
+    e4. r8 r cis'16([ a)]
+    fis4. dis8\f e16([ fis)] gis([ a)]
+    h8[ d]~ d16[ cis] h([ a)] a([ gis)] gis([ fis)]
+    e4 r dis8.([ fis16)] %120
+    e4 r fis8.([\f a16)]
+    gis4 r r
+    R2.\fermata \bar "|." %123 finis
+  }
+}
+
+GottDerSoliBLyrics = \lyricmode {
+  O %13
+  Gott der
+  Güt -- te %15
+  ſieh her --
+  nie -- der! Wie
+  groß, wie
+  groß iſt unſ -- re
+  Schuld, wie groß, o %20
+  Herr!
+
+  Laß mich al -- %32
+  lein die Sün -- de
+  büſ -- ſen, die
+  dieß Ge -- ſchlecht in mir be -- %35
+  gieng.
+
+  Laß uns, o %45
+  Herr, __ die Sün -- de
+  büſ -- ſen, die
+  dieß Ge -- ſchlecht in uns be --
+  gieng, laß
+  uns auch ih -- re Straf’ um -- %50
+  ſchlieſ -- ſen, wie un -- ſer
+  Wil -- len ſie um --
+  fieng, wie un -- ſer
+  Wil -- len ſie um --
+  fieng. %55
+
+  Schmerz, %59
+  Krank -- heit, %60
+  al -- le Er -- den --
+  lei -- den er --
+  tru -- gen
+  ſie, er -- tru -- gen
+  ſie durch un -- ſre %65
+  Schuld,
+  Schmerz,
+  Krank -- heit,
+  al -- le Er -- den --
+  lei -- den er -- %70
+  tru -- gen ſie, er --
+  tru -- gen ſie durch
+  un -- ſre, un -- ſre
+  Schuld.
+
+  Doch %82
+  gött -- lich, un -- er --
+  meß -- lich war o
+  Quell’ __ der %85
+  Gü -- te, dein Er --
+  bar -- men, o Quell’ der
+  Gü -- te,
+  gött -- lich dein Er --
+  bar -- men; %90
+
+  du
+  ſtiegſt aus dei -- nes Va -- ters
+  Ar -- men,
+  aus dei -- nes Va -- ters %95
+  Ar -- men
+
+  und bothſt dich
+  ſelbſt zum Mitt -- ler
+  dar, __ und bothſt dich %100
+  ſelbſt zum Mitt -- ler
+  dar. Doch
+  gött -- lich, un -- er --
+  meß -- lich war dein Er --
+  bar -- men, o Quell’ der %105
+  Gü -- te! un -- er --
+  meß -- lich dein Er --
+  bar -- men,
+  du ſtiegſt aus
+  dei -- nes Va -- ters %110
+  Ar -- men und bothſt dich
+  ſelbſt __ zum Mitt -- ler
+  dar, du ſtiegſt __
+  aus dei --
+  nes Va -- ters %115
+  Ar -- men und bothſt dich
+  ſelbſt, dich
+  ſelbſt, und bothſt dich
+  ſelbſt __ zum Mitt -- ler
+  dar, dich %120
+  ſelbſt, dich
+  ſelbſt. %122 finis
+}
+
+EsNahetAltSoli = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoEsNahetAlt
+    r2 r4 e
+    a8 a a4 r a
+    b2~ b8 b a g
+    fis2 r
+    r8 fis fis g a4 a %5
+    c2~ c8 c a fis
+    g2 r4 h
+    h4. e,8 e4. fis8
+    gis2 r4 e
+    a a r2 %10
+    r4 c, f! a
+    c4. a8 f4 r
+    r2 ges4. es8
+    d4 f r2
+    r r4\fermata \bar "||" %15 finis
+  }
+}
+
+EsNahetAltSoliLyrics = \lyricmode {
+  Es
+  na -- het ſich das
+  un -- glück -- ſeel’ -- ge
+  Paar,
+  das ſei -- ner En -- kel %5
+  en -- de -- lo -- ſer
+  Schaar, zum
+  Er -- den -- glück be --
+  ſtimmt, das
+  Le -- ben %10
+  und durch die
+  Sün -- _ de
+  Tod ge --
+  ge -- ben. %14 finis
+}
+
+GottDerAltSoliA = \transpose e es {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \autoBeamOff \tempoGottDerAlt
+    \partial 4 r4 R2.*16 %16
+    r4 r8 r\fermata r4
+    R2.*5 %22
+    r4 r r8 e
+    h'4.( e8) dis([ a)]
+    a4( gis) r8 e %25
+    cis'2 a8([ fis)]
+    dis8.([ e32 fis)] e8 r\fermata e([ cis')]
+    cis8. a16 a4 r
+    e'8. h16 h4 gis'8([ e)]
+    \once \stemUp h4( a8[ gis)] fis e %30
+    gis4( fis8) r r4
+    R2.*4 %35
+    r4 r r8 cis'
+    e4. g16([ fis)] e([ d)] cis([ h)]
+    ais4. h8 cis d
+    fis8.([ e16)] d8 r r d
+    cis h a! h16([ cis)] \appoggiatura e d8 cis16([ h)] %40
+    a4( gis8) r r dis'
+    e fis a16([ gis)] fis([ e)] dis([ cis)] fis([ ais,)]
+    cis4( h8) r r4
+    R2.
+    r4 r8 h h16([ cis)] dis([ e)] %45
+    e4~ e16[ dis] cis([ h)] a([ gis)] h([ a)]
+    gis4 fis8 dis16([ e)] fis([ gis)] a([ h)]
+    cis([ dis)] e([ fis)] gis8. e16 dis([ cis)] h([ ais)]
+    ais4( h8) h h d
+    cis4. a'16([ gis)] fis([ e)] dis([ cis)] %50
+    h8.([ cis16)] h8 r r h
+    \appoggiatura his16 cis8 dis16([ eis)] fis([ gis)] a([ fis)] fis([ e)] e([ dis)]
+    gis4~ gis16[ fis] e([ dis)] cis([ h)] a([ gis)]
+    h([ a)] cis,([ fis)] fis8( e4) dis8
+    e4 r r %55
+    R2.*3
+    \key e \minor \tempoGottDerAltB R2.*15 %73
+    r4 r r8 h'
+    a4( gis8) f'! e h %75
+    d8. c16 c4 r8 e
+    e4. d16 c c([ h)] h a
+    ais8.([ h16)] h4 r8 g'16([ h,)]
+    h4( a8) fis'16([ dis)] a'([ fis)] dis a
+    g8.([ a16)] h8 r h h %80
+    g'4.\fermata fis16 e d!([ c)] h([ ais)] \noBreak
+    h2\fermata h4
+    \key e \major \tempoGottDerAltC
+      \grace s8 e4. gis,16([ h)] h([ e)] e([ gis)] \noBreak
+    gis4. e8 h gis
+    fis4.( cis'8) h([ a)] %85
+    fisis8.([ gis16)] gis4 h16([ cis)] dis([ e)]
+    e8.([ dis16)] dis8 e16([ dis)] fis([ e)] dis([ cis)]
+    h8.[( a16)] gis8 r e16([ gis)] h([ e)]
+    gis4. fis16([ e)] dis([ cis)] h([ ais)]
+    cis8.([ h16)] h4 r %90
+    R2.
+    r4 r8 h h h
+    fis'4. dis8 fis16([ e)] gis,([ cis)]
+    h8.([ a16)] gis8 r r h
+    cis4~ cis8 dis16([ eis)] fis([ gis)] a([ fis)] %95
+    e4 dis r
+    r r8 h dis16([ cis)] h([ a)]
+    a4( gis8) gis fisis16([ gis)] a([ h)]
+    his([ cis)] a'([ fis)] fis8([ e)] e([ dis)]
+    gis4~\fz gis16[ fis] e([ dis)] cis([ h)] a([ gis)] %100
+    h([ a)] cis,([ fis)] fis8([ e)] e([ dis)]
+    e4 r dis'
+    e8.([ h16)] h8 r a'8. dis,16
+    e8.([ h16)] h8 gis'16([ fis)] e([ dis)] cis([ h)]
+    h8.([ gis16)] a8 fis'16([ e)] dis([ cis)] h([ a)] %105
+    a8.([ fisis16)] gis8 r h16([ cis)] dis([ e)]
+    e4. dis16([ cis)] h([ a)] cis([ a)]
+    gis4 fis8 h h h
+    dis4~ dis16[ e] gis([ fis)] e([ dis)] cis([ h)]
+    e8.([ h16)] h8 h h h %110
+    a'4~ a16[ gis] fis([ e]) dis([ cis)] h([ a)]
+    gis4 r8 h h d
+    cis4. a'16([ gis)] fis([ e)] dis([ cis)]
+    h4.( gis'16[ fis)] e([ dis)] cis([ h)]
+    a4. fis'16([ e)] dis([ cis)] h([ a)] %115
+    gis8.([ a16)] h8 e16([ dis)] fis([ e)] gis([ e)]
+    his4( cis8) r r a'16([ fis)]
+    e4( dis8) h\f cis16([ dis)] e([ fis)]
+    gis4~ gis16[ a] cis,([ fis)] fis([ e)] e([ dis)]
+    e4 r h8.([ a16)] %120
+    gis4 r a'8.([\f dis,16)]
+    e4 r r
+    R2.\fermata \bar "|." %123 finis
+  }
+}
+
+GottDerAltSoliALyrics = \lyricmode {
+  Du %23
+  zürn -- teſt
+  lang, ver -- %25
+  zei -- he
+  wie -- "der –" O __
+  zür -- ne nicht,
+  Gü -- ti -- ger! O __
+  zür -- ne nicht %30
+  mehr.
+
+  Laß %36
+  mich, laß mich auch
+  ih -- re Straf’ um --
+  ſchlieſ -- ſen, wie
+  ih -- ren Wil -- len ich um -- %40
+  fieng, wie
+  ih -- ren Wil -- len ich um --
+  fieng.
+
+  Laß uns, o %45
+  Herr, __ die Sün -- de
+  büſ -- ſen, die dieß Ge --
+  ſchlecht in uns, in uns be --
+  gieng, laß uns auch
+  ih -- re Straf’ um -- %50
+  ſchlieſ -- ſen, wie
+  un -- ſer Wil -- len ſie um --
+  fieng, __ wie un -- ſer
+  Wil -- len ſie um --
+  fieng. %55
+
+  Durch %74
+  uns, __ durch uns ver -- %75
+  loh -- ren ſie die
+  Freu -- den, die Freu -- den des
+  Le -- bens, durch
+  uns __ die Freu -- den des
+  Le -- bens, und Je -- %80
+  ho -- vahs, Je -- ho -- vahs
+  Huld. Doch
+  gött -- lich, un -- er --
+  meß -- lich war o
+  Quell’ __ der %85
+  Gü -- te, dein Er --
+  bar -- men, o Quell’ der
+  Gü -- te, un -- er --
+  meß -- lich dein Er --
+  bar -- men; %90
+
+  du ſtiegſt aus
+  dei -- nes Va -- ters
+  Ar -- men, aus
+  dei -- nes Va -- ters %95
+  Ar -- men
+  und bothſt dich
+  ſelbſt, __ und bothſt dich
+  ſelbſt zum Mitt -- ler
+  dar, __ und bothſt dich %100
+  ſelbſt zum Mitt -- ler
+  dar. Doch
+  gött -- lich, un -- er --
+  meß -- lich war dein Er --
+  bar -- men, o Quell’ der %105
+  Gü -- te! un -- er --
+  meß -- lich dein Er --
+  bar -- men, du ſtiegſt aus
+  dei -- nes Va -- ters
+  Ar -- men und bothſt dich %110
+  ſelbſt __ zum Mitt -- ler
+  dar, du ſtiegſt aus
+  dei -- nes Va -- ters
+  Ar -- men, aus
+  dei -- nes Va -- ters %115
+  Ar -- men und bothſt dich
+  ſelbſt, __ dich
+  ſelbſt, __ und bothſt dich
+  ſelbſt __ zum Mitt -- ler
+  dar, dich %120
+  ſelbſt, dich
+  ſelbſt. %122 finis
+}
+
+GottDerAltSoliB = \transpose e es {
+  \relative c {
+    \clef bass
+    \key e \major \time 3/4 \autoBeamOff \tempoGottDerAlt
+    \partial 4 r4 R2.*12 %12
+    r4 r e
+    h'2 a4
+    \grace { gis16[ h] } a4 gis r %15
+    cis2 a8([ fis)]
+    dis8.([ e32 fis)] e8 r\fermata e8.([ cis'16)]
+    cis4 r a8.([ e'16)]
+    e4 r8 e, gis h
+    h4( a8) gis fis e %20
+    gis4( fis8) r r4
+    R2.*5 %26
+    r4 r8 r\fermata r4
+    R2.*4 %31
+    r4 d'\fz h8 gis
+    eis4. fis8 gis a
+    cis8.([ h16)] a8 r r gis
+    a eis fis gis16([ a)] \appoggiatura cis h8 a16([ gis)] %35
+    fis4( eis8) r r4
+    R2.*8 %44
+    r4 r8 h' a16([ gis)] fis([ e)] %45
+    gis4( fis8) dis h16([ e)] cis([ fis)]
+    e4 dis8 r r a'
+    gis fis e8. gis16 fis([ e')] dis([ cis)]
+    cis4( h8) r r h
+    gis eis fis cis'16([ h)] a([ gis)] fis([ e?)] %50
+    dis!4 e16([ fis)] gis([ a]) h([ cis)] dis([ e)]
+    \appoggiatura e8 cis4. cis8 h a
+    gis4. his8 cis h
+    gis16([ a)] cis([ a)] a8( gis4) fis8
+    e4 r r %55
+    R2.*3
+    \key e \minor \tempoGottDerAltB
+      r4 h'4. r8 \noBreak
+    d8.([ c16)] c4 r %60
+    c4. c8 h fis
+    a8.([ g16)] fis4 r8 fis
+    g4.( a8) h([ c)]
+    a4. h8 c d
+    h4. g8 e c' %65
+    h4( a) r
+    d2 r4
+    f,8.([ e16)] e4 r
+    e'4. gis,8 a h
+    d8.([ c16)] c4 r8 c %70
+    h4. a8 g e'
+    d4. c8 h d
+    d4~ d16[ c] h([ a)] g([ fis)] a([ fis)]
+    \appoggiatura fis8 g4 r r
+    R2.*6 %80
+    r4\fermata r8 r r4 \noBreak
+    r\fermata r h,
+    \key e \major \tempoGottDerAltC
+      \grace s8 gis'4. e16([ gis)] gis([ h)] h([ e)] \noBreak
+    e4. h8 gis e
+    dis4.( a'8) gis([ fis)] %85
+    dis8.([ e16)] e4 h'8 gis
+    gis8.([ fis16)] fis8 gis16([ fis)] a([ gis)] h([ a)]
+    gis8.([ fis16)] e8 r r4
+    e'4. gis,8 fis16([ e')] dis([ cis)]
+    ais8.([ h16)] h4 r %90
+    R2.
+    r4 r r8 h
+    h, dis fis a gis e
+    dis8.([ fis16)] e8 r r4
+    r8 cis cis' h a16([ h)] cis([ a)] %95
+    gis4 fis r
+    R2.
+    r4 r8 dis' e gis,
+    gis16([ a)] cis([ a)] a8([ gis)] gis([ fis)]
+    dis'4(\fz e8) e,16([ fis)] gis([ a)] h([ cis)] %100
+    gis([ a)] cis([ a)] a8([ gis)] gis([ fis)]
+    e4 r a
+    gis8.([ h16)] h8 r fis8. a16
+    gis8.([ h16)] h8 e16([ dis)] cis([ h)] a([ gis)]
+    gis8.([ eis16)] fis8 dis'16([ cis)] h([ a)] gis([ fis)] %105
+    fis8.([ dis16)] e!8 r gis16([ a)] h([ cis)]
+    cis4. h16([ a)] gis([ fis)] a([ fis)]
+    e4 dis8 r r4
+    r r8 a' a a
+    gis4~ gis16[ h] e([ dis)] cis([ h)] a([ gis)] %110
+    fis8.([ h16)] h8 h, h h
+    h'4~ h16[ a] gis([ fis)] e([ gis)] a([ h)]
+    cis8 eis, fis2~
+    fis8 dis e2~
+    e8 cis dis4. fis8 %115
+    e8.([ fis16)] gis8 gis16([ fis)] a([ gis)] h([ gis)]
+    e4. r8 r cis'16([ a)]
+    fis4. dis8\f e16([ fis)] gis([ a)]
+    h8[ d]~ d16[ cis] h([ a)] a([ gis)] gis([ fis)]
+    e4 r dis8.([ fis16)] %120
+    e4 r fis8.([\f a16)]
+    gis4 r r
+    R2.\fermata \bar "|." %123 finis
+  }
+}
+
+GottDerAltSoliBLyrics = \lyricmode {
+  O %13
+  Gott der
+  Güt -- te %15
+  ſieh her --
+  nie -- der! Wie
+  groß, wie
+  groß iſt unſ -- re
+  Schuld, wie groß, o %20
+  Herr!
+
+  Laß mich al -- %32
+  lein die Sün -- de
+  büſ -- ſen, die
+  dieß Ge -- ſchlecht in mir be -- %35
+  gieng.
+
+  Laß uns, o %45
+  Herr, __ die Sün -- de
+  büſ -- ſen, die
+  dieß Ge -- ſchlecht in uns be --
+  gieng, laß
+  uns auch ih -- re Straf’ um -- %50
+  ſchlieſ -- ſen, wie un -- ſer
+  Wil -- len ſie um --
+  fieng, wie un -- ſer
+  Wil -- len ſie um --
+  fieng. %55
+
+  Schmerz, %59
+  Krank -- heit, %60
+  al -- le Er -- den --
+  lei -- den er --
+  tru -- gen
+  ſie, er -- tru -- gen
+  ſie durch un -- ſre %65
+  Schuld,
+  Schmerz,
+  Krank -- heit,
+  al -- le Er -- den --
+  lei -- den er -- %70
+  tru -- gen ſie, er --
+  tru -- gen ſie durch
+  un -- ſre, un -- ſre
+  Schuld.
+
+  Doch %82
+  gött -- lich, un -- er --
+  meß -- lich war o
+  Quell’ __ der %85
+  Gü -- te, dein Er --
+  bar -- men, o Quell’ der
+  Gü -- te,
+  gött -- lich dein Er --
+  bar -- men; %90
+
+  du
+  ſtiegſt aus dei -- nes Va -- ters
+  Ar -- men,
+  aus dei -- nes Va -- ters %95
+  Ar -- men
+
+  und bothſt dich
+  ſelbſt zum Mitt -- ler
+  dar, __ und bothſt dich %100
+  ſelbſt zum Mitt -- ler
+  dar. Doch
+  gött -- lich, un -- er --
+  meß -- lich war dein Er --
+  bar -- men, o Quell’ der %105
+  Gü -- te! un -- er --
+  meß -- lich dein Er --
+  bar -- men,
+  du ſtiegſt aus
+  dei -- nes Va -- ters %110
+  Ar -- men und bothſt dich
+  ſelbſt __ zum Mitt -- ler
+  dar, du ſtiegſt __
+  aus dei --
+  nes Va -- ters %115
+  Ar -- men und bothſt dich
+  ſelbſt, dich
+  ſelbſt, und bothſt dich
+  ſelbſt __ zum Mitt -- ler
+  dar, dich %120
+  ſelbſt, dich
+  ſelbſt. %122 finis
+}

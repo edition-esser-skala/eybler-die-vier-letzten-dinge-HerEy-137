@@ -489,3 +489,135 @@ WieGroßFlautoII = {
     R1\fermata \bar "|." %72 finis
   }
 }
+
+GottDerFlautoII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoGottDer
+    \partial 4 r4 R2.*7 %7
+    gis''4~\fz gis16 fis( e dis cis h a gis)
+    \once \slurDashed h( a cis a) a8 gis4 a8
+    gis4 r h~\fz %10
+    h8 r r4 dis'8.\fz fis16
+    e8 r h,\p r h r
+    h4 r r
+    R2.*3 %16
+    r4 r8 r\fermata r4
+    R2.*3 %20
+    r4 r r8 h\f
+    cis dis e fis gis fis
+    e4 dis8 r r4
+    R2.*3 %26
+    r4 r8 r\fermata r4
+    R2.*15 %42
+    r4 r \ottava #1 h'8\f gis
+    gis4( fis8) fis[ e fis]
+    e4 dis8 \ottava #0 r r4
+    R2.*2 %47
+    r8 cis16 dis e4\fz r
+    R2.*4 %52
+    gis4~\sfp gis16 fis( e dis cis h a gis)
+    h( a cis a) a8 gis4 a8
+    gis4 r h~\fz %55
+    h8 r r4 dis'8.\fz fis16
+    e8 r h,\p r h r \noBreak
+    h4 r r
+    \key e \minor \tempoGottDerB R2.*16 %74
+    r4 r r8 gis!\pE %75
+    h4( a8) r r c
+    c4. h16([ a)] a([ g)] g([ fis)]
+    fis8. g16 g8 g( h4)
+    r4 r8 fis!( a4)
+    R2. %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \key e \major \tempoGottDerC
+      \grace s8 \ottava #1 h'4.\fz r8 r4 \noBreak
+    h4.\fz\ten \ottava #0 r8 r4
+    R2.*5 %89
+    r4 r dis,16\f e fis gis %90
+    h4~ h16 a fis dis fis e gis cis
+    h8. a16 gis8 r r4
+    R2.*7 %99
+    gis4~\sfp gis16 fis( e dis cis h a gis) %100
+    h( a cis a) a8 gis4 a8
+    gis8 r r4 r
+    r r dis'(\fz
+    e8) r r4 r
+    R2. %105
+    r4 r8 \once \slurDashed e16(\< fis gis a h cis)
+    \once \slurDashed cis8.(\fz a16) a8 r r4
+    R2.*11 %118
+    r8 gis~\sfp gis16 a cis, fis fis([ e)] e([ dis)]
+    e4 r \once \tieDashed h\fz~ %120
+    h8 r r4 dis'8.\fz fis16
+    e8 r h,\p r h r
+    h2 r4\fermata \bar "|." %123 finis
+  }
+}
+
+GottDerAltFlautoII = \transpose e es {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoGottDerAlt
+    \partial 4 r4 R2.*7 %7
+    gis''4~\fz gis16 fis( e dis cis h a gis)
+    \once \slurDashed h( a cis a) a8 gis4 a8
+    gis4 r h~\fz %10
+    h8 r r4 dis'8.\fz fis16
+    e8 r h,\p r h r
+    h4 r r
+    R2.*3 %16
+    r4 r8 r\fermata r4
+    R2.*3 %20
+    r4 r r8 h\f
+    cis dis e fis gis fis
+    e4 dis8 r r4
+    R2.*3 %26
+    r4 r8 r\fermata r4
+    R2.*15 %42
+    r4 r \ottava #1 h'8\f gis
+    gis4( fis8) fis[ e fis]
+    e4( dis8) \ottava #0 r r4
+    R2.*2 %47
+    r8 cis16 dis e4\fz r
+    R2.*4 %52
+    gis4~\fzp gis16 fis( e dis cis h a gis)
+    h( a cis a) a8 gis4 a8
+    gis4 r h~\fz %55
+    h8 r r4 dis'8.\fz fis16
+    e8 r h,\p r h r \noBreak
+    h4 r r
+    \key e \minor \tempoGottDerAltB R2.*16 %74
+    r4 r r8 gis!\pE %75
+    h4( a8) r r4
+    R2.
+    r4 r8 g( h4)
+    r4 r8 fis!( a4)
+    R2. %80
+    r4 r8\fermata r r4 \noBreak
+    r2\fermata r4
+    \key e \major \tempoGottDerAltC
+      \grace s8 \ottava #1 h'4.\fz r8 r4 \noBreak
+    h4.\fz\ten \ottava #0 r8 r4
+    R2.*5 %89
+    r4 r dis,16\f e fis gis %90
+    h4~ h16 a fis dis fis e gis cis
+    h8. a16 gis8 r r4
+    R2.*7 %99
+    gis4~\fzp gis16 fis( e dis cis h a gis) %100
+    h( a cis a) a8 gis4 a8
+    gis8 r r4 r
+    r r dis'(\fz
+    e8) r r4 r
+    R2. %105
+    r4 r8 e16(\< fis gis a h cis)
+    \once \slurDashed cis8.(\fz a16) a8 r r4
+    R2.*11 %118
+    r8 gis~\sfp gis16 a cis, fis fis([ e)] e([ dis)]
+    e4 r \once \tieDashed h\fz~ %120
+    h8 r r4 dis'8.\fz fis16
+    e8 r h,\p r h r
+    h2 r4\fermata \bar "|." %123 finis
+  }
+}
