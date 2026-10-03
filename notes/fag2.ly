@@ -1057,3 +1057,133 @@ GottDerAltFagottoII = \transpose e es {
     e2 r4\fermata \bar "|." %123 finis
   }
 }
+
+OSehtFagottoII = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoOSeht
+    r8 b4\f b8 r c4 c8
+    r d4 d8 es4 c\p
+    f4. r8 as,2\f
+    g8-! es-! r4 r2
+    R1 %5
+    \clef "treble_8" a'4\p b2 a4
+    b8 r r4 r a(\fz
+    b8) r r4 r2
+    R1
+    r2 \clef bass as,4.\sfp as8 %10
+    g r r4 ges4.\sfp es8
+    f r r4 r8 b(\p c es)
+    r des( d f) es4\fp r
+    R1
+    r8 f'~\sfp f16 des c b es,4. e8 %15
+    f r r4 r2
+    r as,\sfp
+    ges8-! ges'-! r4 r2
+    r2 \clef "treble_8" des'\p
+    c4 r \clef bass r8 b,( es ges) %20
+    f4 r8 b( f4) r8 b(
+    f) r r4 es,\sfz r
+    r2 b'4\sfz r
+    r8 a'!(\p b b,) r2
+    r r8 es\sfp des des' %25
+    \parOn a-\parenthesize-! \parOff b-\parenthesize-! r4 r2
+    c,4\sfp des\sfp ges,2\sfp
+    f4 r8 b'( a4) r8 b(\decresc \noBreak
+    a8..) b32 a16.( b32 a16. b32) a2\!\fermata \bar "||"
+    \tempoOSehtB \clef "treble_8" r2 r4 r8 d,(\p %30
+    f as h d) f4 r8 d,(
+    f as h d) f4 f,
+    es c' des, b'
+    \clef bass c, as' b, ges'
+    as, f' ges, es' %35
+    \clef "treble_8" r8 c'4\sfp b8 r c4\sfp b8
+    r c4\sfp b8 c a( b c)
+    d! as4\sfp as8 r as4\sfp as8
+    r as4\sfp as8 as8 d, f as
+    \clef bass ges2\p d! %40
+    es\cresc des
+    ges4 ges,2 ges4
+    f2\f f
+    f f
+    f4 f f f %45
+    f r r2\fermata
+    R1*12 %58
+    f'1\p
+    g %60
+    a\cresc
+    b4\! r a2\fz
+    b4 r a2\fz
+    b4 r r2
+    R1*4 %68
+    b,1\ff
+    h4 h2\decresc d4 %70
+    f\! r r2
+    R1*8 %79
+    r8 d g g, r c f f, %80
+    r b es es, r a d d,
+    es4 es'2\fz es4
+    d\f d d d
+    d r r2
+    c2\fz b\p %85
+    a! r
+    des\fz c\p
+    h r
+    R1*7 %95
+    ges'4.\< f8 es des c b\!
+    a2\fz r
+    ges'4.\< f8 es des c b\!
+    a2\fz r
+    ges'4. f8 es des c b %100
+    a! r \clef "treble_8" a'2 c4
+    r b2 des4
+    r2 r4 r8 f~
+    f d! b f ges4 r8 es'~
+    es c! as es f4 r8 b~ %105
+    b ges es b ces2\sfp
+    \clef bass b\sfp a!\sfp
+    b\f b
+    b b
+    b4 b b b %110
+    b r r2\fermata
+    R1*2
+    r2 r4 \clef "treble_8" ces'(\pE
+    b8) r ces4( b8) r ces4( %115
+    b8) r r4 r2
+    R1*3
+    r2 r4 des(\pE %120
+    ces8) r des4( ces8) r des4(
+    ces8) r r4 r2
+    R1
+    \clef bass b,1\p
+    c! %125
+    d\cresc
+    es4\! r es,2~\fz
+    es4 r es2~\fz
+    es4 b'\ff es b
+    ges'4.\fz f8 es des c! b %130
+    f4 r \clef "treble_8" a'!2(\p
+    b4) r h2(
+    c4) r c2(
+    des4) r a!2(
+    b4) r h2\cresc %135
+    c b
+    a!1~\fz
+    a4 f2\fz f4
+    b c\p b c
+    b f' es r %140
+    \clef bass c,\f r f r
+    b, r r2
+    R1*2
+    b'2~\cresc b4\! r %145
+    a1\ff
+    b4 r as2\fz
+    ges\fz f\fz
+    es\fz ges4\p r
+    es r c r %150
+    d!4.\decresc es8 d( es d es)
+    d4.\pp es8 d( es d es)
+    d4 r r2
+    R1\fermata \bar "|." %154 finis
+  }
+}

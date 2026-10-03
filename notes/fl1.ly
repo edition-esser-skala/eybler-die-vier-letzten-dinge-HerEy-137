@@ -712,3 +712,116 @@ GottDerAltFlautoI = \transpose e es {
     e2 r4\fermata \bar "|." %123 finis
   }
 }
+
+OSehtFlautoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoOSeht
+    r4 r8 f'16.\f b32 b8( a) r f16. c'32
+    c8( b) r d16. b32 \pa g8.. h,32\p c16. d32 es16. c32
+    b4 a8 \pd r b'8..\f d,32 d8..\trill c64 d
+    es8-! g-! r4 r2
+    R1*9 %13
+    r2 r8 heses4\sfp as16 ges
+    ges8( f) r4 r2 %15
+    R1
+    r2 as4.\sfp \pa d,8
+    es \pd r r4 r2
+    r heses'4\p as8 g
+    ges4 r r8 des'( c b) %20
+    a!4 r8 b( a4) r8 des(
+    c) r r4 r2
+    r8 ges\pE f4 r2
+    r4 r8 b,\pE ces( c des\cresc d)
+    es4 f ges\! r %25
+    R1
+    r4 des( es e)
+    f4. e8 f4.\decresc e8 \noBreak
+    f4 f8 f f2\!\fermata \bar "||"
+    \tempoOSehtB \pa r4 f'2\sfp d4 \noBreak %30
+    h8 r f'2\sfp d4
+    h8 r f'2\sfpE h,!4
+    c \pd r8 c( f des) b4
+    r r8 as( des b) ges4
+    r r8 f( b ges) es4 %35
+    r8 a!16( c es8) r r a,16( c es8) r
+    r a,16( c es8) r r a,16( c f8) r
+    r d16( f as8) r r d,16( f as8) r
+    r d,16( f as8) r r d,16( f as8) r
+    r es4\sfp \pao b8 r f'4\sfp \pao b,8 %40
+    r ges'4\sfp \pao es8 r as4\sfp ces,8
+    b\cresc a! b c des d es e
+    f2\f f
+    f f
+    f4 f f f %45
+    f r r2\fermata
+    R1*15 %61
+    r2 \ottava #1 ges\fz
+    f4 r ges2\fz
+    f4 \ottava #0 r r2
+    R1*4 %68
+    r4 \ottava #1 as2\ff f4
+    d f2 d4\decresc %70
+    h\! \ottava #0 r r f'8(\pE d)
+    \appoggiatura c4 h2 r8 d( f d)
+    \appoggiatura c4 h2 r8 f'( d h)
+    c4 r r2
+    r r8 es,( g c) %75
+    es2 d!
+    cis4.\trill d8 e4 r8 a,(
+    f'8 d) a4 r r8 g(
+    es'! c!) g4 r2
+    r8 b16( a g8) es'16( d c8) a16( g f8) d'16( c %80
+    b8) g16( f es8) c'16( b a8) f16( es d8) b'16( a
+    g8) fis\cresc g a b h c cis
+    d4\f d d d
+    d r r2
+    R1 %85
+    r4 c~\pE c8(\< des es e)\!
+    f4\fzE r r2
+    r4 d~\pE d8(\< es f fis)\!
+    g4 r r2
+    r r4 d, %90
+    d'2~ d8( h g d)
+    f4( es) r2
+    R1*4 %96
+    \ottava #1 ges'2\fz r
+    R1
+    ges2\fz \ottava #0 r
+    R1 %100
+    r4 c,~ c8( a f c)
+    es4( des) r2
+    r4 \pa ces'2 as'4~
+    as b,2 ges'4~
+    ges as,2 f'4~ %105
+    f \pd ges,2 es'4~
+    es ges,2 es'4
+    d2\f es
+    d es
+    d4 ges f ges %110
+    f r r2\fermata
+    R1*14 %125
+    as,1\crescE
+    ges4 r ces2\fz
+    b4 r ces2\fz
+    b4 b\ff es b
+    ges'4. f8 es des c! b %130
+    f4 r r2
+    R1*3
+    r2 d'!\p %135
+    es\cresc f
+    ges2.\fz es4
+    c f, \pao a! c
+    f c\p des a!
+    b f ges r %140
+    ges'\f r a,! r
+    b r r2
+    R1*3 %145
+    ges'2.\ff a,!4
+    b r ces2\sfz
+    b\fz as\fz
+    ges\fz r
+    R1*4 %153
+    R1\fermata \bar "|." %154 finis
+  }
+}

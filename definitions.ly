@@ -40,6 +40,12 @@
 ten = #(make-articulation 'ten)
 tenE = #(make-articulation 'tenE)
 pco = \once \partCombineChords
+mvT = #(define-music-function
+  (parser location offset)
+  (number?)
+  #{
+    \once \override TextScript.X-offset = #offset
+  #})
 mvD = #(define-music-function
   (parser location offset)
   (number?)
@@ -116,6 +122,9 @@ tempoEsNahetAlt = \tempoMarkup "Rezitativ"
 tempoGottDerAlt = \tempoMarkup "Larghetto"
   tempoGottDerAltB = \tempoTitle "Minore"
   tempoGottDerAltC = \tempoTitleMarkup "Maggiore" "Andante con moto"
+tempoSchonSchweben = \tempoMarkup "Rezitativ"
+tempoOSeht = \tempoMarkup "Adagio"
+  tempoOSehtB = \tempoMarkup "Allegro"
 
 
 \include "notes/fl1.ly"

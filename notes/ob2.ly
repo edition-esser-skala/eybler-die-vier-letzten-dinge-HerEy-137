@@ -598,3 +598,121 @@ WerRuftOboeII = {
     c r r2\fermata \bar "|." %30 finis
   }
 }
+
+OSehtOboeII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoOSeht
+    r8 d4\f d8 r es4 es8
+    r f4 f8 g4. g8\p
+    f4. r8 f2\f
+    g8-! es'-! r4 r2
+    R1 %5
+    r4 b2\p a4
+    b8 r r4 r c(\fz
+    b8) r r4 r2
+    R1
+    r2 f4.\sfp b8 %10
+    b r r4 b4.\sfp es8
+    a,! r r4 r2
+    r8 b4 as8 ges4\fp r
+    R1
+    r8 f~\sfp f16 des' c b ges4. g8 %15
+    f r r4 r2
+    r f\sfp
+    ges8-! b-! r4 r2
+    R1
+    r8 es(\p des c) b4 ges8 e %20
+    f4 r8 b( a4) r8 b(
+    a) r r4 es'\sfz r
+    r2 des4\sfz r
+    R1
+    r2 r8 a!\sfp b des %25
+    c-! b-! r4 r2
+    a!4\sfp b\sfp es, e
+    f r8 b( a4) r8 b(\decresc \noBreak
+    a8..) b32 a16.( b32 a16. b32) a2\!\fermata \bar "||"
+    \tempoOSehtB r2 r4 r8 \mvDl d,(\p \noBreak %30
+    f as h! d) f4 r8 \once \slurDashed d,(
+    f as h! d) f4 r8 d(
+    g es) c4 r r8 f(
+    as es) c4 r r8 \once \slurDashed des(
+    f c) as4 r r8 b %35
+    a c4\sfp b8 r c4\sfp b8
+    r c4\sfp b8 a!4 r
+    r8 f'4\sfp es8 r f4\sfp es8
+    r f4\sfp es8 d4 r
+    es2\p f %40
+    es\cresc f
+    ges4 b,2 b4
+    c2\f des
+    c des
+    c4 des c des %45
+    c r r2\fermata
+    R1*12 %58
+    a!1\p
+    g %60
+    c\cresc
+    f,4 r es'2\fz
+    des4 r es2\fz
+    des4 r r2
+    R1 %65
+    r2 f,\p
+    ges\cresc b
+    b b\f
+    d!1~\ff
+    d4 as2\decresc f4 %70
+    d\! r r2
+    R1*10 %81
+    r4 g2\fz g4
+    a\f b a b
+    a r r2
+    as\fz ges\p %85
+    es r
+    b'\fz as\p
+    f r
+    R1*7 %95
+    a4.\< b8 a b c des
+    es4\fz r r2
+    a,4.\< b8 a b c des
+    es4\fz r r2
+    a,4. b8 a( b a b) %100
+    c r c2 a4
+    R1
+    r8 ges'( es ces) as4 r
+    r8 f' d! b ges4 r
+    r8 es' c! as f4 r %105
+    r8 b ges b es2\sfp
+    es\sfp es\sfp
+    d\f es
+    d es
+    d4 es d es %110
+    d r r2\fermata
+    R1*13 %124
+    ges,1\p %125
+    b~\cresc
+    b4\! r d2\fz
+    es4 r d2\fz
+    es4 b\ff es b
+    ges'4.\fz f8 es des c! b %130
+    f4 r r2
+    R1*2
+    r2 a!(
+    b4) r h2\cresc %135
+    c des
+    es2.\fz c4
+    a c2\fz a4
+    b c\p des a!
+    b f ges r %140
+    es'\f r c r
+    b r r2
+    R1*2
+    ges2( f4) r %145
+    es'2.\ff c4
+    b r as2\fz
+    b\fz f\fz
+    ges\fz r
+    R1*4 %153
+    R1\fermata \bar "|." %154 finis
+  }
+}

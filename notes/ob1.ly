@@ -637,3 +637,143 @@ WerRuftOboeI = {
     \pao c r r2\fermata \bar "|." %30 finis
   }
 }
+
+OSehtOboeI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoOSeht
+    r8 f4\f b8 r a4 c8
+    r b4 d8 \pa g,4. g8\p
+    f4. \pd r8 d'2\f
+    es8-! g-! r4 r2
+    R1 %5
+    es4(\p d8 des) c4 f
+    \pao b,8 r r4 r es(\fz
+    d8) r r4 r2
+    R1
+    r2 b4.\sfp d8 %10
+    es r r4 es4.\sfp ges8
+    \pao a,! r r4 r2
+    r8 f'( as d,!) es4\fp r
+    R1
+    r8 \pa f4\sfp es16 des c( es ges f) es des c b \pd %15
+    a!8 r r4 r2
+    r d\sfp
+    es8-! b'-! r4 r2
+    R1
+    r8 ges(\p f es) d!( des c b) %20
+    a!4 r8 des( c4) r8 des(
+    c) r r4 ges'\sfz r
+    r2 es4\sfz r
+    R1
+    r2 r8 ges4\sfp f8 %25
+    \grace f16 es8-! des-! r4 r2
+    ges4\sfp f\sfp es8 des c b
+    \pao f4 r8 des'( c4) r8 des(\decresc \noBreak
+    c8..) des32 c16.( des32 c16. des32) c2\!\fermata \bar "||"
+    \tempoOSehtB \pa r4 f2\sfp d4 \noBreak %30
+    h8 r f'2\sfpE d4
+    h8 r f'2\sfpE d4
+    g8( es) c4 \pd r r8 f(
+    as es) c4 r r8 \once \slurDashed des(
+    f c) as4 r r8 b %35
+    a es'4\sfp es8 r es4\sfp es8
+    r es4\sfp es8 es4 r
+    r8 as4\sfp as8 r as4\sfp as8
+    r as4\sfp as8 as4 r
+    \pa es2\p f \pd %40
+    ges\cresc as
+    b4 b2 b4
+    a!2\f b
+    a b
+    a4 b a b %45
+    a r r2\fermata
+    R1*12 %58
+    f1\p
+    e %60
+    es\cresc
+    des4 r ges2\fz
+    f4 r ges2\fz
+    f4 r r2
+    R1 %65
+    r2 d!\p
+    es\cresc f
+    ges g\f
+    as2.\ff f4
+    d f2\decresc d4 %70
+    h\! r r f'8(\pE d)
+    \appoggiatura c4 h2 r8 d( f d)
+    \appoggiatura c4 h2 r8 f'( d h!)
+    c4 r r2
+    r r8 es,( g c) %75
+    es2 d!
+    cis4.\trill d8 e4 r8 a,(
+    f' d) a4 r r8 g(
+    es'! c!) g4 r r8 c
+    d8.\trill c32 d es8 b c8.\trill b32 c d8 a %80
+    b8.\trill a32 b c8 g a8.\trill g32 a b8 f
+    g r g'2\fz g4
+    fis\f g fis g
+    fis r r2
+    es\fz ges\p %85
+    c, r
+    f\fz as\p
+    d,! r4 g,
+    g'2 f8( es d c)
+    \appoggiatura c4 h2~ h8( d f as) %90
+    as2( g4) r8 f
+    d4( es) r2
+    R1*3 %95
+    \pa a,4.\< b8 c des es f
+    ges4.\fz f8(\> es des c b)
+    a4.\< b8 c des es f
+    ges4.\fz f8(\> es des c b)\!
+    a4. b8 \pd c( des es des) %100
+    \pao c r es2 c4
+    \pa r f~ f8( des b f)
+    ges4 r r f'~
+    f8 d! b f ges4 r8 es'~
+    es c! as es f4 r8 b~ %105
+    b ges b es \pd ges2\sfp
+    ges\sfp ges\sfp
+    f\f ges
+    f ges
+    f4 ges f ges %110
+    f r r2\fermata
+    R1*2
+    r2 r4 f,(\pE
+    ges8) r f4( ges8) r f4( %115
+    ges8) r r4 r2
+    R1*3
+    r2 r4 g!(\pE %120
+    as8) r g4( as8) r g4(
+    as8) r r4 r2
+    R1*2
+    es'1\p %125
+    b~\cresc
+    b4\! r f'2\fz
+    ges4 r f2\fz
+    ges4 b,\ff es b
+    ges'4.\fz f8 es des c! b %130
+    f4 r r2
+    R1
+    r2 a!(\p
+    b4) r c2(
+    des4) r d2\cresc %135
+    es f
+    ges2.\fz es4
+    c es2\fz c4
+    des c\p des a!
+    b f ges r %140
+    ges'\f r es r
+    d! r r2
+    R1*2
+    es2( d4) r %145
+    ges2.\ff es4
+    d! r f2\fz
+    ges\fz d!\fz
+    es\fz r
+    R1*4 %153
+    R1\fermata \bar "|." %154 finis
+  }
+}

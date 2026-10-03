@@ -610,3 +610,100 @@ GottDerAltCornoII = {
     c2 r4\fermata \bar "|." %123 finis
   }
 }
+
+OSehtCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOSeht
+    c'2\f d
+    e c8 r r d\p
+    g,4. r8 c,2~\f
+    c8 r r4 r2
+    R1 %5
+    r2 g'\pp
+    e8 r r4 r2
+    R1*2
+    r2 c4.\sfp r8 %10
+    r2 c4.\sfp r8
+    R1*5 %16
+    r2 e'\sfp
+    f8 r r4 r2
+    R1*3 %21
+    r2 c,4\fz r
+    r2 c4\fz r
+    R1*3 %26
+    r2 c\sfp
+    g' g\decresc \noBreak
+    g4 g8 g g2\!\fermata \bar "||"
+    % \transpose c f' { %for MIDI
+    \tempoOSehtB \mvT #4 d'1\sfp-\markup \remark "in E♭" \noBreak %30
+    d\sfp
+    d\sfp
+    c4 r r2
+    R1*8 %41
+    r4 g2\cresc g4
+    d'2\f d
+    d d
+    d4 d d d %45
+    d r r2\fermata
+    b1~\sfp
+    b4 r r2
+    R1*4 %52
+    c,1~\sfp
+    c4 r r2
+    R1*7 %61
+    r2 c\fz
+    g'4 r c,2\fz
+    g'4 r r2
+    R1*2 %66
+    g,1~\p
+    g\cresc
+    g'\ff
+    d'4 r r2 %70
+    R1*11 %81
+    c,1\fz
+    R1*2
+    c2\fz r %85
+    R1
+    g'2\fz r
+    R1*9 %96
+    c,2\fz r
+    R1
+    c2\fz r
+    R1*6 %105
+    r2 c\sfp
+    c\sfp c\sfp
+    g\f g
+    g g
+    g4 g g g %110
+    g r r2\fermata
+    b'1~\sfp
+    b4 r r2
+    R1*4 %117
+    c1~\sfp
+    c4 r r2
+    R1*7 %126
+    c,4 r c2~\fz
+    c4 r c2~\fz
+    c4 g'\ff c g
+    c r r2 %130
+    R1*6 %136
+    c,1~\fz
+    c4 r r2
+    r r4 c'\p
+    g r r2 %140
+    c,4\f r r2
+    g'4 r r2
+    R1*3 %145
+    c,1\ff
+    g'4 r g r
+    g r g r
+    g r r2
+    R1 %150
+    g,4\p r r2
+    g4\pp r r2
+    g4 r r2
+    R1\fermata \bar "|." %154 finis
+    % } %for MIDI
+  }
+}

@@ -280,3 +280,74 @@ EsHerrschetTimpani = {
     R1\fermata \bar "||" %218 finis
   }
 }
+
+OSehtTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoOSeht
+    R1*28 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoOSehtB g2~\p\startTrillSpan g8\stopTrillSpan r r4 \noBreak %30
+    g2~\p\startTrillSpan g8\stopTrillSpan r r4
+    g2~\p\startTrillSpan g8\stopTrillSpan r r4
+    R1*3 %35
+    g4 r g r
+    g r r2
+    c4 r c r
+    c r r2
+    R1*3 %42
+    g4\f r g r
+    g r g r
+    g g g g %45
+    g r r2\fermata
+    R1*12 %58
+    g1~\p\startTrillSpan
+    g~\cresc %60
+    g
+    c4\fE\stopTrillSpan r c2\fz\startTrillSpan
+    c4\stopTrillSpan r c2\fz\startTrillSpan
+    c4\stopTrillSpan r r2
+    R1*2 %66
+    c1~\p\startTrillSpan
+    \after 2 \f c~\cresc
+    c\ff
+    g4\stopTrillSpan r r2 %70
+    R1*37 %107
+    c4\f r c r
+    c r c r
+    c c c c %110
+    c r r2\fermata
+    R1*12 %123
+    c1~\p\startTrillSpan
+    c~\cresc %125
+    c
+    c4\f\stopTrillSpan r r2
+    c4 r r2
+    c4 r r2
+    R1 %130
+    g2~\p\startTrillSpan g8\stopTrillSpan r r4
+    g2~\startTrillSpan g8\stopTrillSpan r r4
+    g2~\startTrillSpan g8\stopTrillSpan r r4
+    g2~\cresc\startTrillSpan g8\stopTrillSpan r r4
+    g2~\startTrillSpan g8\stopTrillSpan r r4 %135
+    g1~\f\startTrillSpan
+    g\ff
+    g8\stopTrillSpan g16 g g8 g g g g g
+    g8 r g16\p g g g g8 r r4
+    r c16 c c c c8 r r4 %140
+    R1
+    c1~\sfp\startTrillSpan
+    c~
+    c~
+    c~\cresc %145
+    c\ff
+    c4\stopTrillSpan r c r
+    c r c r
+    c r c\p r
+    c r c r %150
+    c r r2
+    c4\pp r r2
+    c4 r r2
+    R1\fermata \bar "|." %154 finis
+  }
+}

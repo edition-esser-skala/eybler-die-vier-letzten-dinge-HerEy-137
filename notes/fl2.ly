@@ -621,3 +621,92 @@ GottDerAltFlautoII = \transpose e es {
     h2 r4\fermata \bar "|." %123 finis
   }
 }
+
+OSehtFlautoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoOSeht
+    r4 r8 d'16.\f b32 es4 r8 es16. c32
+    f4 r8 f16. d32 b8.. h32\p c16. d32 es16. c32
+    b4 a8 r b8..\f d32 d8..\trill c64 d
+    es8-! g-! r4 r2
+    R1*12 %16
+    r2 f4.\sfp d8
+    es r r4 r2
+    R1
+    r2 r8 f( es e) %20
+    f4 r8 des( c4) r8 b'(
+    a) r r4 r2
+    r8 es4\pE des8 r2
+    R1*3 %26
+    r4 des( es e)
+    f4. e8 f4.\decresc e8 \noBreak
+    f4 f8 f f2\!\fermata \bar "||"
+    \tempoOSehtB r2 r4 r8 d(\p \noBreak %30
+    f as h! d) f4 r8 d,(
+    f as h! d f4) h,!
+    c r8 c( f des) b4
+    r r8 as( des b) ges4
+    r r8 f( b ges) es4 %35
+    r8 a!16( c es8) r r a,16( c es8) r
+    r a,16( c es8) r r a,16( c f8) r
+    r d16( f as8) r r d,16( f as8) r
+    r d,16( f as8) r r d,16( f as8) r
+    r es,4\sfp b'8 r f4\sfp b8 %40
+    r ges4\sfp es'8 r f,4\sfp ces'8
+    b\cresc a b c des d es e
+    f2\f f
+    f f
+    f4 f f f %45
+    f r r2\fermata
+    R1*15 %61
+    r2 \ottava #1 es\fz
+    des4 r es2\fz
+    des4 \ottava #0 r r2
+    R1*4 %68
+    r4 \ottava #1 as'2\ff f4
+    d f2 d4\decresc %70
+    h\! \ottava #0 r r2
+    R1*10 %81
+    r8 fis\cresc g a b h c cis
+    d4\f d d d
+    d r r2
+    R1*12 %96
+    \ottava #1 es2\fz r
+    R1
+    es2\fz\ottava #0 r
+    R1*3 %102
+    r4 r8 ces~ ces as f ces
+    b4 r8 b'~ b ges es b
+    as4 r8 as'~ as f d as %105
+    ges4 es'2 ges4~
+    ges es'2 ges,4
+    f2\f ges
+    f ges
+    f4 es' d es %110
+    d r r2\fermata
+    R1*14 %125
+    f,1\crescE
+    es4 r as2\fz
+    ges4 r as2\fz
+    ges4 b\ff es b
+    ges'4.\fz f8 es des c! b %130
+    f4 r r2
+    R1*3
+    r2 h\p %135
+    c\cresc des
+    a2.\fz c4
+    es c a f
+    f' c\p des a
+    b f ges r %140
+    es'\f r es, r
+    d! r r2
+    R1*3 %145
+    es'2.\ff es,4
+    d! r as'2\sfz
+    ges\fz f\fz
+    es\fz r
+    R1*4 %153
+    R1\fermata \bar "|." %154 finis
+  }
+}

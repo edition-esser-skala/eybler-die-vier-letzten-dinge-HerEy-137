@@ -1899,3 +1899,279 @@ GottDerAltSoliBLyrics = \lyricmode {
   ſelbſt, dich
   ſelbſt. %122 finis
 }
+
+SchonSchwebenSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoSchonSchweben
+    r4 r8 g c c c d
+    e2 r4 e
+    g2~ g8 b, c g
+    a2 r4 r8 c
+    c4 f, r a8 c %5
+    es2~ es8 c a es
+    d2 r4 r8 f
+    b b b c d4 r
+    d c8 b e!4 r8 f
+    f4. c8 c4 r %10
+    R1\fermata \bar "|." %11 finis
+  }
+}
+
+SchonSchwebenSoliLyrics = \lyricmode {
+  Schon ſchwe -- ben ſie ver --
+  "klärt –" in
+  en -- de -- lo -- ſer
+  Zahl hin --
+  un -- ter in das %5
+  fürch -- ter -- li -- che
+  Thal, zu
+  hö -- ren das Ge -- richt,
+  das ü -- ber ſie Je --
+  ho -- vah ſpricht. %10 finis
+}
+
+OSehtSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 4/4 \autoBeamOff \tempoOSeht
+    R1*7 %7
+    r4 r8 b es8. c16 a8 r
+    f'8. d16 b4 r8 g g' es16([ c)]
+    a8 b r4 f'8 d16. b32 f8.. d32 %10
+    es16. f32 g8 r4 es'8 es16. f32 ges8.. b,32
+    a!16. b32 c8 r c es16 des des8 r c
+    f16 des b8 r b ges'8. f16 \appoggiatura f8 es8. des!16
+    \appoggiatura des8 c4 r8 c16 es es4.. ges,16
+    ges8 f f' es16 des c([ es)] ges([ f)] es([ des)] c([ b)] %15
+    a8 c r r16 f, b8. a16 b c des e,
+    f4 r as'8\f f16 d! ces8.. f,32
+    as16. ges32 ges8 r4 r r8 d'
+    f8. es16 es4 r2
+    r8 ges f es d! des c r16 b %20
+    a8 c r des c16 a f8 r16 f' des! b
+    a8 c r4 ges'8 ges16 ges ges8.. heses,32
+    heses16. as32 as8 r4 es'8 es16 es es8.. ges,32
+    ges16. f32 f8 r b ces c des d
+    es4 f8. f16 \appoggiatura as8 ges4. f8 %25
+    \appoggiatura f16 es8 des r4 r r8 b
+    ges'4 f es8 des c b
+    f4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \tempoOSehtB r2 r4 f' \noBreak %30
+    f4.( d!8) h4 r
+    r h~ h8[ d] f([ as)]
+    g4 c, r des8 f
+    es4 as, r b8 des
+    c4 f, r r8 b %35
+    a!4. b8 a4. b8
+    a4. c8 es4 r8 es
+    d!4. es8 d4. es8
+    d4. f8 as4 r
+    es2 r4 f %40
+    ges ges r2
+    r4 b,8 c des d es e
+    f1~
+    f2. des8([ b)]
+    f4 r r2 %45
+    r r\fermata
+    r r4 des
+    f as des f
+    ges4. es8 c4 r
+    R1*3 %52
+    r2 r4 es,
+    ges b es ges
+    as4. f8 d4 r %55
+    R1*3
+    r2 r8 f, g a!
+    b2 r8 g a\cresc b %60
+    c2 r8 a b c
+    des2 r4 c\f
+    des b es c
+    f4. des8 b4 r
+    R1*6 %70
+    r2 r4 f'8([ d!)]
+    c h h4 r8 d f d
+    c4 h r2
+    c r4 des
+    \appoggiatura c h2 c4 r %75
+    es2 r4 d!
+    cis cis r e8 a,
+    f'4 d r g8 d
+    es!4 c! r f8 c
+    d4 es c d %80
+    b c a b
+    g4. a8 b([ h)] c([ cis)]
+    d2. b8([ g)]
+    d'4 r r2
+    es4\fp es8 es es4. ges,8 %85
+    ges f f4 r2
+    f'4 f8 f f4. as,8
+    as g! g4 r g
+    g'4. g8 f([ es)] d([ c)]
+    \appoggiatura c4 h2 h8([ d)] f([ as)] %90
+    as2( g4) r8 d
+    f4 es r r8 c
+    des2 b!
+    es c
+    f2. des8([ b)] %95
+    a!2 r4 es'
+    ges4. f8 es des c b
+    a4 c r es
+    ges4. f8 es des c b
+    a4 c r ges' %100
+    ges( f) r c
+    es( des) r2
+    ces r4 as'
+    as b, r2
+    as r4 f %105
+    ges b r es8 es
+    ges4 es ges es
+    b1~
+    b4 c8[ d!] es[ f] ges([ es)]
+    b4 r r2 %110
+    r r\fermata
+    r r4 des
+    ges des b ges
+    ces4. as8 f4 r
+    R1*3 %117
+    r2 r4 es'
+    as es ces as
+    des4. b8 g!4 r %120
+    R1*3
+    r2 r8 b c! d!
+    es2 r8 c\cresc d es %125
+    f2 r8 d\cresc es f
+    ges2\! r
+    r r4 d\f
+    es b es b
+    ges'4. f8 es4 r %130
+    R1*7 %137
+    r2 r4 f,
+    f' c des a!
+    b f ges es %140
+    ges'2 a,!
+    b r
+    R1*11 %153
+    R1\fermata \bar "|." %154 finis
+  }
+}
+
+OSehtSoliLyrics = \lyricmode {
+  O ſeht ihr ſie, %8
+  ſeht ihr ſie, die Auf -- er --
+  wach -- ten! O bärg’ euch noch der %10
+  Er -- de "Schoos! –" O bärg’ euch noch der
+  Er -- de Schoos! O ſeht ihr ſie, o
+  ſeht ihr ſie, wer kann ſie oh -- ne
+  Schmerz, oh -- ne Schmerz be --
+  trach -- ten, wer kann ſie oh -- ne Schmerz be -- %15
+  trach -- ten, ent -- ge -- gen be -- bend ih -- rem
+  Loos? O bärg’ euch noch der
+  Er -- de Schoos! O
+  ſeht ihr ſie,
+  wer kann ſie oh -- ne Schmerz be -- %20
+  trach -- ten, O ſeht ihr ſie, die Auf -- er --
+  wach -- ten! O bärg’ euch noch der
+  Er -- de Schoos! O bärg’ euch noch der
+  Er -- de Schoos! Wer kann ſie oh -- ne
+  Schmerz, oh -- ne Schmerz %25
+  be -- trach -- ten, ent --
+  ge -- gen be -- bend ih -- rem
+  Loos?
+
+  O %30
+  ſeht __ "ihr –"
+  Angſt __ und
+  Hoff -- nung fliehn wie
+  Bli -- tze durch die
+  Rei -- hen, wie %35
+  Bli -- tze durch die
+  Rei -- hen hin, wie
+  Bli -- tze durch die
+  Rei -- hen hin,
+  Angſt und %40
+  Hoff -- nung
+  fliehn wie Bli -- tze durch die
+  Rei --
+  hen
+  hin! %45
+
+  Des
+  Schre -- ckens Sitz iſt
+  Jo -- ſa -- phat!
+
+  Des %53
+  Schre -- ckens Sitz iſt
+  Jo -- ſa -- phat!
+
+  Der Don -- ner %59
+  "rollt –" Je -- ho -- vah %60
+  naht! Der Don -- ner
+  rollt, des
+  Schre -- ckens Sitz iſt
+  Jo -- ſa -- phat!
+
+  O %71
+  ſeht ihr ſie, die Auf -- er --
+  wach -- ten!
+  Angſt und
+  Hoff -- nung, %75
+  Angſt und
+  Hoff -- nung fliehn wie
+  Bli -- tze durch die
+  Rei -- hen, fliehn wie
+  Bli -- tze durch die %80
+  Rei -- hen hin, wie
+  Bli -- tze durch die
+  Rei -- hen
+  hin!
+  O bärg’ euch noch der %85
+  Er -- de Schoos!
+  O bärg’ euch noch der
+  Er -- de Schoos! Wer
+  kann ſie oh -- ne
+  Schmerz, oh -- ne %90
+  Schmerz __ be --
+  trach -- ten? ent --
+  ge -- gen
+  be -- bend
+  ih -- rem %95
+  Loos? O
+  ſeht, o ſeht die Auf -- er --
+  wach -- ten! Wer
+  kann ſie oh -- ne Schmerz be --
+  trach -- ten? O %100
+  ſeht! __ O
+  ſeht! __
+  Angſt und
+  Hoff -- nung,
+  Angſt und %105
+  Hoff -- nung fliehn wie
+  Bli -- tze durch die
+  Rei --
+  _ _ hen
+  hin! %110
+
+  Des
+  Schre -- ckens Sitz iſt
+  Jo -- ſa -- phat!
+
+  Des %118
+  Schre -- ckens Sitz iſt
+  Jo -- ſa -- phat! %120
+
+  Der Don -- ner %124
+  rollt, Je -- ho -- vah %125
+  naht, der Don -- ner
+  rollt,
+  des
+  Schre -- ckens Sitz iſt
+  Jo -- ſa -- phat! %139
+
+  Der %138
+  Don -- ner rollt, der
+  Don -- ner rollt, Je -- %140
+  ho -- vah
+  naht! %142 finis
+}

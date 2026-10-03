@@ -1096,3 +1096,156 @@ GottDerAltFagottoI = \transpose e es {
     e2 r4\fermata \bar "|." %123 finis
   }
 }
+
+OSehtFagottoI = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoOSeht
+    \pa r4 r8 f16.\f b32 b8( a) r f16. c'32
+    c8( b) r d16. b32 g16. fis'32\p g16. d32 es16. fis,32 g16. es32
+    f4. \pd r8 as2\f
+    g8-! es-! r4 r2
+    r \clef "treble_8" ges'4(\p f8 e) %5
+    es4( d8 des) c4 f
+    d8 r a4(\fz b8) r c4(\fz
+    d8) r r f,16.\pE b32 b8( a) r f16. c'32
+    c8( b) r d16. b32 g8 g'4 es16 c
+    es8-! d-! r4 \clef bass as4.\sfp as8 %10
+    g r r4 ges4.\sfp es8
+    f r r4 r8 b(\p a c)
+    r f,( f' b,) es4\fp r
+    \pa r8 c( es c) heses4.\sfp as16 ges
+    ges8 f~ f16 f' es des c_( es ges f) es( des c b) \pd %15
+    a!8 r r4 r2
+    r as2\sfp
+    ges8-! es'-! r4 r2
+    r \clef "treble_8" fes2\p
+    es4 r \clef bass r8 \partCombineChords f( es b) \pd %20
+    c4 r8 des( c4) r8 des(
+    c) r r4 es,\sfz r
+    \pa r8 c'(\p des des,) \pd ges4\sfz r
+    r8 f'4\p f8 r2
+    \pa r8 ces4\sfp b16 as ges8 es' des4 %25
+    \parOn a8-\parenthesize-! \parOff b-\parenthesize-! \pd r4 r2
+    \pa c4\sfp des(\sfp es e)
+    f \pd r8 des( c4) r8 des(\decresc \noBreak
+    c8..) des32 c16.( des32 c16. des32) c2\!\fermata \bar "||"
+    \tempoOSehtB \clef "treble_8" r4 r8 as'(\p f d! h as) \noBreak %30
+    f4 r8 as'( f d h as)
+    f4 r8 as'( f d h as)
+    g4 es' f, des'
+    \clef bass es, c' des, b'
+    c, as' b, ges' %35
+    \clef "treble_8" r8 es'4\sfp es8 r es4\sfp es8
+    r es4\sfp es8 es c( des es)
+    f d!4\sfp es8 r d4\sfp es8
+    r d4\sfp es8 \pa d f d as
+    \clef bass ges2\p \pd b %40
+    b\cresc des
+    des4 ges,2 ges4
+    f2\f f
+    f f
+    f4 f f f %45
+    f r r2\fermata
+    R1*2
+    r2 r4 c'(\pE
+    des8) r c4( des8) r c4( %50
+    des8) r r4 r2
+    R1*3
+    r2 r4 d!(\pE %55
+    es8) r d4( es8) r d4(
+    es8) r r4 r2
+    R1
+    c1\p
+    b %60
+    c\cresc
+    des4\! r c2\fz
+    des4 r c2\fz
+    des4 b2 b4\p
+    ces2 c %65
+    des d
+    es\cresc d
+    es e\f
+    f2.\ff d4
+    h \pa r r2 %70
+    r4 \pd \clef "treble_8" f'8(\pE d) \appoggiatura c4 h2
+    r8 d( f d) \appoggiatura c4 h2
+    r8 d( f d) as'4( h,)
+    c2 f4. des8
+    h4.\trill a!16 h c4 r %75
+    R1
+    r4 r8 e,( a cis) e4
+    r r8 d,( g h) d4
+    \clef bass r4 r8 c,( f a c) a
+    \pa b b, r g' a a, r f' %80
+    g g, r es' f f, r d' \pd
+    es4 es'2\fz es4
+    d\f d d d
+    d r r2
+    \pa c1\fz %85
+    r4 c~\pE c8(\< des es e)\!
+    \mvDl f4\fz r r2
+    r4 d~\pE d8(\< es f fis)\! \pd
+    \clef "treble_8" g2 f8( es d c)
+    \appoggiatura c4 h2~ h8( d f as) %90
+    \once \slurDashed as2( g4) r8 g,
+    \once \slurDashed h4( c) r2
+    R1*3 %95
+    \clef bass \partCombineChords a!4.\< b8 c des es f\!
+    \pa \mvDl ges4.\fz f8 es(\> des c b)\!
+    \partCombineChords a!4.\< b8 c des es f\!
+    \pa \mvDl ges4.\fz f8 es(\> des c b)\!
+    \pd a!4. b8 c des es des %100
+    c r \clef "treble_8" c2 es4
+    r des2 f4
+    \pa r ces2 as'4~
+    as b,2 ges'4~
+    ges as,2 f'4~ %105
+    f ges,2 es'4(
+    \pd \clef bass es) ges2 a,!4
+    b2\f b
+    b b
+    b4 b b b %110
+    b r r2\fermata
+    R1*2
+    r2 r4 \clef "treble_8" eses(\pE
+    des8) r eses4( des8) r eses4( %115
+    des8) r r4 r2
+    R1*3
+    r2 r4 fes(\pE %120
+    es!8) r fes4( es8) r fes4(
+    es8) r r4 r2
+    R1
+    \clef bass f,1\p
+    es %125
+    f\cresc
+    ges4\! r as2\fz
+    ges4 r as2\fz
+    ges4 b,\ff es b
+    ges'4.\fz f8 es des c! b %130
+    f'4 r \clef "treble_8" c'2(\p
+    des4) r d2(
+    es4) r es2(
+    f4) r c2(
+    des4) r d2\cresc %135
+    es des
+    c1~\fz
+    c4 c2\fz c4
+    des \pa c\p des c
+    b f' es \pd r %140
+    \clef bass c\f r c r
+    b r r2
+    es(\p d!4) r
+    es2( d!4) r
+    es2(\cresc d4)\! r %145
+    c1\ff
+    d!4 r ces2\fz
+    b\fz as\fz
+    ges\fz b4\p r
+    ges r es r %150
+    f4.\decresc ges8 f( ges f ges)
+    f4.\pp ges8 f( ges f ges)
+    f4\! r r2
+    R1\fermata \bar "|." %154 finis
+  }
+}

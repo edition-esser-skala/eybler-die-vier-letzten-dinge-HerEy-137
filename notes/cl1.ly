@@ -1043,3 +1043,155 @@ GottDerAltClarinettoI = \transpose g f {
     h2 r4\fermata \bar "|." %123 finis
   }
 }
+
+OSehtClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOSeht
+    r4 r8 g'16.\f c32 c8( h) r g16. d'32
+    d8( c) r e16. c32 a8 a4 \pa f8\p
+    d4. \pd r8 g2\f
+    a8-! f'-! r4 r2
+    r as4(\p g8 fis) %5
+    f4( e8 es) d2
+    c8 r as4(\fz g8) r as4(\fz
+    g8) r r g16.\pE c32 c8( h) r g16. d'32
+    d8( c) r e16. c32 a8 a'4 f16 d
+    h8-! c-! r4 e,4.\sfp g8 %10
+    a r r4 as4.\sfp c8
+    g r r4 r8 es'(\p f h,)
+    r4 r8 \pao c as'4\fp r
+    \pa r8 d,( f d) ces4.\sfp b16 as
+    as8 g \pd r4 r8 f4\sfp es8 %15
+    d r r4 r2
+    r des'\sfp
+    c8-! f-! r4 r2
+    r ces4\p b8 a
+    as8 f(\p g as) g4 r %20
+    r8 \pa d'( es c) r d( es c)
+    r2 \pd c4\sfz r
+    \pa r8 b4\p b8 \pd as4\sfz r
+    r8 f'\p es4 r2
+    \pa r8 des4\sfp c16 b as4. g8 %25
+    \parOn g-\parenthesize-! \parOff g-\parenthesize-! \pd r4 r2
+    as4\sfp \pao g\sfp c2
+    g4. fis8 g4.\decresc fis8 \noBreak
+    g4 g8 g g2\!\fermata \bar "||"
+    \tempoOSehtB \pa r4 r8 b'(\p g e cis b) \noBreak %30
+    g4 r8 b'( g e cis b)
+    g4 r8 b'( g e cis b)
+    a4 r8 d c es g4
+    r r8 b, as c es4
+    r r8 g, f as c4 \pd %35
+    h!8 h4\sfp c8 r h4\sfp c8
+    r h4\sfp c8 h as'( g f)
+    r e4\sfp f8 r e4\sfp f8
+    r e4\sfp f8 e \pco b' g e
+    c2\p c %40
+    c\cresc des
+    c8 h! c d es e f fis
+    g2\f g
+    g g
+    g4 g g g %45
+    g r r2\fermata
+    R1*2
+    r2 r4 ces,(\pE
+    b8) r ces4( b8) r ces4( %50
+    b8) r r4 r2
+    R1*3
+    r2 r4 des(\pE %55
+    c8) r des4( c8) r des4(
+    c8) r r4 r2
+    R1*2
+    es1\p %60
+    d\cresc
+    c4\! r d2\fz
+    es4 r d2\fz
+    es4 c2 c4\p
+    des2 d %65
+    es des
+    c\cresc e
+    f fis\f
+    g2.\ff e4
+    b r r2 %70
+    r4 g'8(\pE e) \appoggiatura d4 cis2
+    r8 e( g e) \appoggiatura d4 cis2
+    r8 e( g e) b'4( cis,)
+    d2 es
+    cis4.\trill h!16 cis d4 r %75
+    R1
+    r4 r8 fis,( h dis) fis4
+    r r8 e,( a cis) e4
+    r r8 d,( g h) d g~
+    g e c f~ f d h e~ %80
+    e c a d~ d h g c~
+    c h\cresc a h c cis d dis
+    e4\f e e e
+    e r r2
+    \pa d1\fz %85
+    r4 d~\pE d8(\< es f fis)\!
+    \mvDl g4\fz r r2
+    r4 e!~\pE e8(\< f g gis)\! \pd
+    a4 r r2
+    r r4 e, %90
+    e'2~ e8( cis a e)
+    g4( f) r2
+    R1*3 %95
+    \pa f4. es8 d \pd r r4
+    d'2\fz r
+    \pa f,4. es8 d \pd r r4
+    d'2\fz r
+    \pa f,4. es8 d \pd r as''4~ %100
+    as g r2
+    R1
+    \pa r4 des2 b'4~
+    b c,2 as'4~
+    as b,2 g'4~ %105
+    g as,2 f'4~
+    f as,2 f'4 \pd
+    e\f c'2 c4~
+    c c2 c4~
+    c c c c %110
+    c r r2\fermata
+    R1*2
+    r2 r4 fes,(\pE
+    es8) r fes4( es8) r fes4( %115
+    es8) r r4 r2
+    R1*3
+    r2 r4 ges(\pE %120
+    f8) r ges4( f8) r ges4(
+    f8) r r4 r2
+    R1
+    c1\p
+    h! %125
+    b\cresc
+    as4\! r des2\fz
+    c4 r des2\fz
+    c4 c,\ff f c
+    as'4.\fz g8 f es d! c %130
+    h4 r g'2(\p
+    as4) r a2(
+    b4) r as2(
+    g4) r g2~
+    g4 r g2~\cresc %135
+    g\! g
+    d'1\fz
+    f4 h,2\fz h4
+    c g2\p f4
+    es c2 r4 %140
+    d'\f r h r
+    c r r2
+    des2(\p c4) r
+    des2( c4) r
+    c2~\cresc c4\! r %145
+    d!2.\ff d4
+    e! r des2\fz
+    c\fz b\fz
+    as\fz f'4\p r
+    d r h! r %150
+    \pa c r r2
+    g4\pp r r2 \pd
+    e4 r r2
+    R1\fermata \bar "|." %154 finis
+  }
+}

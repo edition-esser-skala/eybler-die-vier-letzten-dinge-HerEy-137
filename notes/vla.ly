@@ -1506,3 +1506,209 @@ GottDerAltViola = \transpose e es {
     q2 r4\fermata \bar "|." %123 finis
   }
 }
+
+SchonSchwebenViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoSchonSchweben
+    c2\pE r
+    r4 r8. g'16 g2
+    R1
+    r8. f16 f8[ r16 c] c2
+    R1 %5
+    f,\fp
+    r8. f16 f8[ r16 <d' b'>] q2
+    R1*2
+    r2 r4 g %10
+    f r r2\fermata \bar "|." %11 finis
+  }
+}
+
+OSehtViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoOSeht
+    r4 r16. b32\f d16. b32 f4~ f16. c'32 es16. c32
+    f,4~ f16. d'32 f16. d32 b8.. h32\p c16.( d32 es16. g32)
+    f4. r8 <b, f>16\f q q q q q q q
+    <b es,>8 <g' b, es,> r4 r16 f\p f f f r r8
+    r16 es es es es r r8 r16 b b b b b b b %5
+    a! a c c b b b b b b b b a a a a
+    << {
+      b d d d c c c c d d d d c c c c %7
+      d8 d~\p \oneVoice d16. f32 d16. b32
+    } \\ {
+      b16\mf b b b a a a a b b b b a a a a %7
+      b8[ d]
+    } >> f,8 f~ f16. f'32 es16. c32
+    f,8 f~ f16. b'32 f16. d32 b8.. h32 c16. d32 es16. g32
+    es8-! d-! r4 <b f>16\f q q q q\p q q q %10
+    <b es,>8-! <es b'>-! r4 b16\f b b b b\p es es es
+    c8-! <f a>-! r4 r8 f,16.(\p b32 a!8 c)
+    r b16.(\cresc des32) f8 as ges16\fp es es es es es es es
+    es es es es es es es es es es es es es es as, as
+    c c c c b( des es f) es es es es es es des! des %15
+    c64[\pp c c c] c32 r c64[ c c c] c32 r c64[ c c c] c32 r c64[ c c c] c32 r b64[ b b b] b32 r b64[ b b b] b32 r b64[ b b b] b32 r des64[ des des des] des32 r
+    f16( e ges\cresc f es des c b) as\f d d d d d d d
+    es8-! es'-! r4 r16 << { ces, ces ces ces8 } \\ { as16\p as as as8 } >> r
+    r16 << { b16 b b b8 } \\ { b16 b b b8 } >> r r16 fes' fes fes fes fes fes fes
+    es es es es f f ges ges f f f f es es b b %20
+    c( a! c f) r des( b g) r a( c f) r des!( b des)
+    c-! f( e f) ges(-> f) ges(-> f) es\fz es es es es\p es es es
+    es es es es es es des des des\fz des des\p des c c c c
+    c c c c c c b b ges ges es'\< es as, as f' f
+    ges ges ges ges\! as as d,! d es\> es ges! ges ges ges f f\! %25
+    f8-! f-! r4 ces4:64\sfp des:\sfp
+    ges:\sfp f:\sfp b,:\sfp b:\sfp
+    a!16 c8 es! des b16 a\decresc c8 es des! b16\! \noBreak
+    a8.. b32 a16.( b32 a16. b32) a2\fermata \bar "||"
+    \tempoOSehtB << { h2:32 h: } \\ { f:\p f: } >> \noBreak %30
+    <h f>1:
+    q:
+    << { c8 } \\ { g } >> r es' g b!4\fz des,8 f
+    as4\fz c,8 es ges4\fz b,8 des
+    f4\fz as,?8 c es4\fz ges,8 b %35
+    c16( b a! b) c(-> b a b) c( b a! b) c(-> b a b)
+    c( b a! b) c(-> b a b) c( b a! b) c(-> b a c)
+    f( es d! es) f(-> es d es) f( es d es) f(-> es d es)
+    f( es d es) f(-> es d es) f( es d c) b8 b'~
+    b\p ges es b~ b d f b~ %40
+    b ges es b ces\cresc ces' as? f
+    ges4 b,2 des4
+    f16(\f a!) c-! a-! c( a) f-! a-! f( b) des-! b-! des( b) f-! b-!
+    f( a!) c-! a-! c( a) f-! a-! f( b) des-! b-! des( b) f-! b-!
+    f a c a f b des b f a c a f b des b %45
+    a4 <f c'>-! r2\fermata
+    f,2:32\sfp f:
+    f: f:
+    ges: ges:
+    f8 r ges4: f8 r ges4: %50
+    f8 r r8. des32(\f es f8[) r16 f32( ges] as8[) r16 as32( b])
+    ces8(\fz as) ces(\fz as) ces(\fz as) f-! as-!
+    ges2:\sfp ges:
+    ges: ges:
+    as: as: %55
+    ges8 r as4: ges8 r as4:
+    ges8 r r8. es32\f( f ges8[) r16 ges32( as] b8^[) r16 b32( c!)]
+    des8(\fz b) des(\fz b) des(\fz b) g-! e-!
+    f16(\p g a! g) f( g a g) f( g a g) f( g a f)
+    g( a b a) g( a b a) g( a b a) g( a b g) %60
+    a(\cresc b c b) a( b c b) a( b c b) a( b c a)
+    b\f b des des f f des des c c es es ges ges es es
+    b b des des f f des des c c es es ges ges es es
+    des des b b f' f des des b' b f f des des b b
+    ges2:16\p g: %65
+    as: ces:
+    b:\cresc d!:
+    es: e:\f
+    f16\ff f f f as as f f d d d' d d, d d' d
+    d, d d' d h h as as f\decresc f d d as' as as, as %70
+    << { h2:32 h: } \\ { f:\p f: } >>
+    <h f>1:
+    q:
+    << { c8 } \\ { g } >> r es' g as4 as,8 f'
+    as4 f8 as, g4 es'8 es, %75
+    g4 es'8 c g4 d'8 b
+    a!4 cis8 e e,4 e'8 cis
+    a4 a'8 f d4 h8 d
+    g4 es!8 g c,!4 a8 c
+    f4 b,!8 b' es,4 a,8 a' %80
+    d,4 g,8 g' c,4 f,8 f'
+    b,4 g2\cresc g4
+    d'16\f fis a fis d g b g d fis a fis d g b g
+    fis8 d16 d cis cis d d es!\fz es d d es\fz es d d
+    << {
+      es2:16 es: %85
+      c: f:
+      f: f:
+      d!: h!:
+    } \\ {
+      c!:\fp c: %85
+      c: a!:
+      b:\fp c:
+      d: h:
+    } >>
+    c2:8 c:
+    c8 c h h h h c c %90
+    d2: g,:
+    g: g:16\sfp
+    des:\sfp des4:\sfp ges:
+    es2:\sfp es4:\sfp as:
+    f2:\sfp f4:\sfp f': %95
+    ges8(\< es c des) a!( b es !des)\!
+    c4 r r f,
+    es8(\< ges c des) a!( b es !des)\!
+    c4 r r f,
+    es8( ges c b) a!( b c des) %100
+    es4 c8 es a,!4 c8 f,
+    b4 f8 b des4 b8 des
+    es4 ges8 es ces4 f8 as
+    b,4 f'8 d! es4 b8 es
+    ges4 es8 c! as4 f'8 d! %105
+    b'4 b,8 es ges4\cresc es8 ces
+    ges'4 es8 b ges'4 es8 a,!
+    b16(\f d!) f-! d-! f( d) b-! d-! b es ges es ges es b es
+    b16 d f d f d b d b es ges es ges es b es
+    b d f d b es ges es b d f d b es ges es %110
+    d4-! <d b'>-! r2\fermata
+    b2:32\sfp b:
+    b: b:
+    ces: ces:
+    b8 r ces4: b8 r ces4: %115
+    b8 r r8. ges32(\f as b8^[) r16 b32( ces] des8^[) r16 des32( es])
+    fes8(\fz des) fes(\fz des) fes(\fz des) b-! des-!
+    ces2:\sfp ces:
+    ces: ces:
+    des: des: %120
+    ces8 r des4: ces8 r des4:
+    ces8 r r8. as32_[(\f b] ces8[) r16 ces32( des] es8[) r16 es32( f!)]
+    ges8(\fz es) ges(\fz es) ges(\fz es) c-! a-!
+    b16(\p c d! c) b( c d c) b( c d c) b( c d b)
+    c( d es d) c( d es d) c( d es d) c( d es c) %125
+    d(\cresc es f es) d( es f es) d( es f es) d( es f d)
+    es\f es ges ges b b ges ges f f as as ces ces as as
+    es es ges ges b b ges ges f f as as ces ces as as
+    ges\ff ges b, b ges' ges f f es es b b ges' ges f f
+    es es b b ges' ges f f es es des des c! c b b %130
+    a!2:16\sfp a:
+    b: h:
+    c: es:
+    des:\cresc f:
+    f: f: %135
+    f:\f f:
+    a!16\ff a c c a a c c a a c c a a c c
+    f,2: f:
+    f4: f:\p b,: c:
+    b2: b8 r r4 %140
+    <c es>\f r <a! f'> r
+    << {
+      d!2: d:
+      es: d:
+      es: d:
+      ges: f: %145
+      a!2.: c4:
+      f,2: as:
+      ges: f:
+      es: ges:
+      ges4: es: c: ges: %150
+      f: f16 f ges ges f f ges ges f f ges ges
+      f4: f16 f ges ges f f ges ges f f ges ges
+      f4 \once \oneVoice r f \once \oneVoice r
+      f2
+    } \\ {
+      f2:\sfp f:\pp %142
+      ges: f:
+      ges: f:
+      b:\cresc b: %145
+      c2.:\ff es4:
+      d!2: f:\fz
+      ges:\fz d!:\fz
+      es:\fz es:\p
+      es4: c: a!: es: %150
+      d!4:\decresc d16 d es es d d es es d d es es
+      d4:\pp d16 d es es d d es es d d es es
+      d4 s d\ppp s
+      d2
+    } >> r\fermata \bar "|." %154 finis
+  }
+}

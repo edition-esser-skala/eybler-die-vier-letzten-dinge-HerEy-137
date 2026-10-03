@@ -600,3 +600,120 @@ WerRuftTenoreILyrics = \lyricmode {
   ho -- vah,
   Du! %24 finis
 }
+
+OSehtTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 4/4 \autoBeamOff \tempoOSeht
+    R1*28 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoOSehtB R1*16 %45
+    r2 r\fermata
+    R1*2
+    r2 r4 ges\p
+    f ges f ges %50
+    f4. as8 as4 r
+    R1*3
+    r2 r4 as\p %55
+    ges as ges as
+    ges4. b8 b4 r
+    R1*2
+    r8 des\p des des b2 %60
+    r8 es!\cresc es es c2
+    r4 des\f c es
+    des des c es
+    des r r f,\p
+    ges4. ges8 g4 r8 g %65
+    as4. as8 ces4 r8 ces
+    b4.\cresc b8 d!4 r8 d
+    es4.\f es8 e4 r8 e
+    f2.\ff d4
+    f2 r %70
+    R1*40 %110
+    r2 r\fermata
+    R1*2
+    r2 r4 eses\p
+    des eses des eses %115
+    des4. b8 ges4 r
+    R1*3
+    r2 r4 fes'\p %120
+    es! fes es fes
+    es4. ces8 as4 r
+    R1*2
+    r8 a!\p a a a2 %125
+    r8 b\cresc b b b2
+    r4 b\f d! f
+    es b d! f
+    es r r2
+    R1 %130
+    r2 r4 a,!\p
+    b4. b8 h4 r8 h
+    c4. c8 es4 r8 es
+    des4.\cresc des8 a!4 r8 a
+    b4. b8 h4 r8 h %135
+    c4.\f c8 des4 r8 des
+    c2.\ff a!4
+    f'2 r
+    R1*3 %141
+    r2 r4 f,\p
+    ges4. ges8 f4 r8 f
+    ges4. ges8 f4 r8 b\cresc
+    b4. b8 b4 r8 d! %145
+    c2.\ff es4
+    d2 r
+    R1*6 %153
+    R1\fermata \bar "|." %154 finis
+  }
+}
+
+OSehtTenoreLyrics = \lyricmode {
+  Des %49
+  Schre -- ckens Sitz iſt %50
+  Jo -- ſa -- phat!
+
+  Des %55
+  Schre -- ckens Sitz iſt
+  Jo -- ſa -- phat!
+
+  Der Don -- ner "rollt –" %60
+  Je -- ho -- vah naht!
+  Der Don -- ner
+  rollt, Je -- ho -- vah
+  naht! Des
+  Schre -- ckens Sitz iſt %65
+  Jo -- ſa -- phat! Der
+  Don -- ner rollt, Je --
+  ho -- vah naht! Je --
+  ho -- vah
+  naht! %70
+
+  Des %114
+  Schre -- ckens Sitz iſt %115
+  Jo -- ſa -- phat!
+
+  Des %120
+  Schre -- ckens Sitz iſt
+  Jo -- ſa -- phat!
+
+  Der Don -- ner rollt, %125
+  Je -- ho -- vah naht,
+  der Don -- ner
+  rollt, Je -- ho -- vah
+  naht!
+  %130
+  Des
+  Schre -- ckens Sitz iſt
+  Jo -- ſa -- phat, der
+  Don -- ner rollt, Je --
+  ho -- vah naht, der %135
+  Don -- ner rollt, Je --
+  ho -- vah
+  naht!
+
+  Des %142
+  Schre -- ckens Sitz iſt
+  Jo -- ſa -- phat, der
+  Don -- ner rollt, Je -- %145
+  ho -- vah
+  naht! %147 finis
+}

@@ -282,3 +282,69 @@ WieGroßClarinoBII = {
     R1\fermata \bar "|."
   }
 }
+
+OSehtClarinoBII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOSeht
+    R1*28 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoOSehtB r2 g'\pE\ten \noBreak %30
+    r g\ten
+    r e\ten
+    R1*9 %41
+    c1\cresc
+    g4\f r g r
+    g r g r
+    g g g g %45
+    g r r2\fermata
+    R1*15 %61
+    c4\fE r r2
+    c4 r r2
+    c4 r r2
+    R1*4 %68
+    c8\f c16 c c8 c c c c c
+    e4 r r2 %70
+    R1*12 %82
+    e4\f e8. e16 e4 e
+    e r r2
+    b'\fz r %85
+    R1
+    c,2\fz r
+    R1*9 %96
+    d'2\fz r
+    R1
+    d2\fz r
+    R1*8 %107
+    c,4\f r c r
+    c r c r
+    c c c c %11ß
+    c r r2\fermata
+    c1~\sfp
+    c4 r r2
+    R1*4 %117
+    b'1~\sfp
+    b4 r r2
+    R1*7 %126
+    r2 g\fz
+    r g\fz
+    R1*2 %130
+    g,4 r r2
+    R1*3
+    r2 g~\p %135
+    g\cresc g
+    g1\fz
+    g8 g16 g g8 g g g g g
+    g4 r r2
+    R1 %140
+    r2 g'4\f r
+    e r r2
+    R1*3 %145
+    d'1\ff
+    g,4 r c, r
+    c r c r
+    c r r2
+    R1*4 %153
+    R1\fermata \bar "|." %154 finis
+  }
+}

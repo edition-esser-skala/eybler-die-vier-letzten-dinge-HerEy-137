@@ -448,3 +448,80 @@ WerRuftTromboneIII = {
     c r r2\fermata \bar "|." %30 finis
   }
 }
+
+OSehtTromboneIII = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoOSeht
+    R1*28 \noBreak %28
+    R1\fermata \bar "||"
+    \tempoOSehtB d1\sfp \noBreak %30
+    d\sfp
+    d\sfp
+    es4 r r2
+    R1*2 %35
+    f4.\sfp ges8 f4.\sfp ges8
+    f4.\sfp ges8 f4 r
+    b,4.\sfp ces8 b4.\sfp ces8
+    b4.\sfp ces8 b4 r
+    R1*3 %42
+    f'2\f f
+    f f
+    f4 f f f %45
+    f r r2\fermata
+    des1~\sfp
+    des4 r r2
+    R1*4 %52
+    es1~\sfp
+    es4 r r2
+    R1*7 %61
+    r2 a\fz
+    b4 r a2\fz
+    b4 r r2
+    R1*4 %68
+    b,1\ff
+    h4 r r2 %70
+    R1*11 %81
+    r4 es2\sfz es4
+    d\f d d d
+    d r r2
+    c\fz r %85
+    R1
+    des2\fz r
+    R1*9 %96
+    a'2\fz r
+    R1
+    a2\fz r
+    R1*6 %105
+    r2 ces,\sfp
+    b\sfp a!\sfp
+    b\f b
+    b b
+    b4 b b b %110
+    b r r2\fermata
+    ges1~\sfp
+    ges4 r r2
+    R1*4 %117
+    as1~\sfp
+    as4 r r2
+    R1*7 %126
+    r2 f'\fz
+    ges4 r f2\fz
+    ges4 r ges r
+    es2\fz r %130
+    R1*6 %136
+    f1~\fz
+    f4 f2\fz f4
+    b r r2
+    R1 %140
+    c,4\f r f r
+    b, r r2
+    R1*3 %145
+    b1~\ff
+    b4 r b2\fz
+    b\fz b\fz
+    b4\fz r r2
+    R1*4 %153
+    R1\fermata \bar "|." %154 finis
+  }
+}
