@@ -276,3 +276,110 @@ WieGroßClarinoCI = {
     R1\fermata \bar "|." %72 finis
   }
 }
+
+DerDonnerClarinoCI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoDerDonner
+    R2.*10 %10
+    c4.\fz\ten r8 r4
+    R2.*3
+    g'8\f g16 g g8 g g g %15
+    g4 r r
+    R2.*2
+    c4\f r r
+    g r r %20
+    c r r
+    R2.*3
+    c2.\f %25
+    g4 r r
+    R2.*5 %31
+    \time 4/4 \tempoDerDonnerB
+      R1*2 \noBreak
+    r2\fermata r4 r
+    \time 3/4 r4 r g\fz \noBreak %35
+    r r g\fz
+    r r g\fz
+    r r g\fz
+    g\fzE r r
+    R2.*5 %44
+    g4.\ff g8 g g %45
+    g4 r r
+    \pa d'4.\ff d8 d d
+    d4 \pd r r
+    c4.\ff c8 c c
+    c4 c c %50
+    \pao c, r \pao c
+    r \pao c r
+    \pao c r r
+    R2.\fermata
+    r4\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesClarinoCI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoOSchreckliches
+    r2\fermata r
+    R1*3
+    g'4.\f g16 g g4 g %5
+    g r r2
+    g2. r4
+    R1
+    c4. c16 c c4 c
+    g r r2 %10
+    R1
+    g4. g16 g g4 g
+    d' r r2
+    R1
+    g,4 r r2 %15
+    R1
+    c4 r r2
+    R1*10 %27
+    c2 r
+    R1*8 %26
+    c1~\ff
+    c4 r r2
+    R1*5 %43
+    r2\fermata r4 r
+    R1*9 %53
+    r4 c2\fz r4
+    R1*19 %73
+    c2.\fz r4
+    R1*26 %100
+    c2\f r
+    c4. c16 c c4 c
+    c r r2
+    R1*2 %105
+    c4. c16 c c4 c
+    c r r2
+    R1*2
+    c2 c4 c %110
+    c r r2
+    R1
+    \pao c,4 r \pao g' r
+    c r r2
+    R1 %115
+    g4 r r2
+    g4.\fz g16 g g4 g
+    d' r r2
+    R1*6 %124
+    c1~\ff %125
+    c4 r r2
+    R1*5 %131
+    c2\fz\fermata r
+    R1*3 %135
+    g4 r r2
+    R1*24 %160
+    g4.\f g16 g g4 g
+    g r r2
+    g4. g16 g g4 g
+    g r r2
+    g4 r g r %165
+    e'1
+    \pao d4 r r2
+    R1*26 %193
+    R1\fermata \bar "|." %194 finis
+  }
+}

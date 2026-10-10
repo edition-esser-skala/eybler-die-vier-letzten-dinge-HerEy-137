@@ -1126,3 +1126,224 @@ OSehtClarinettoII = {
     R1\fermata \bar "|." %154 finis
   }
 }
+
+DerDonnerClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 3/4 \tempoDerDonner
+    R2.*4
+    g'2.~\f %5
+    g
+    R2.*2
+    a2.~\f
+    a %10
+    R2.*2
+    r4 d\f b!
+    g b g
+    e e e %15
+    e r r
+    R2.*2
+    f2\fz e4~\fz
+    e es2\fz %20
+    d\fz cis4~\fz
+    cis c2\fz
+    h4 r r
+    f' gis h
+    d2.\f %25
+    a4 r r
+    R2.*5 %31
+    \time 4/4 \tempoDerDonnerB
+      R1*2 \noBreak
+    r2\fermata r4 r
+    \time 3/4 a2.\fz \noBreak %35
+    a\fz
+    a\fz
+    a\fz
+    a4 r r
+    R2.*5 %44
+    fis2.~\ff %45
+    fis
+    g~\ff
+    g
+    gis~\ff
+    gis4 gis gis %50
+    r gis r
+    gis r gis
+    r gis r
+    R2.\fermata
+    r4\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesClarinettoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key a \minor \time 2/2 \tempoOSchreckliches
+    r2\fermata r
+    R1*3
+    a'2\f a4 a %5
+    a2 r
+    a a4 c
+    b2 r
+    gis gis4 gis
+    a e' c a %10
+    f2 e
+    a1
+    e4 gis2\fz gis4
+    gis2. h4
+    a r r2 %15
+    R1
+    r2 r4 d,
+    b'2 r4 es,
+    c'2 r4 f,
+    des'1 %20
+    b~
+    b2 as~
+    as1~
+    as2 g~
+    g1~ %25
+    g2 f~
+    f f
+    as\fz g4 f
+    es g es c
+    g' r r2 %30
+    R1
+    as,2(\fz g4) r
+    R1
+    as2(\fz g4) r
+    f'2\fz r %35
+    f\fz r
+    as1~\ff
+    as2 r4 f
+    es g f g~
+    g es c es %40
+    f2\fz g\fz
+    as\fz g\fz
+    as\fz b\fz
+    des,\fz\fermata r4 des\ff
+    as' f des h! %45
+    c c' as fis
+    g r d r
+    c es\fz d as'\fz
+    g c\fz h! f'\fz
+    es as\fz g d %50
+    es c as fis
+    g h2\fz c4
+    d es, f fis
+    g h2\fz c4
+    d c h a %55
+    h2 c
+    h c
+    h4 r r2
+    d1(\p\<
+    dis) %60
+    e!4\! r r2
+    R1*11 %72
+    es,1\fz
+    as\fz
+    g\fz %75
+    f2..\fz c8
+    g'4 r g8.[ a16 h8. c16]
+    d4 r r2
+    g,4..\pE g16 a8.[ h16 c8. d16]
+    e4 r r2 %80
+    e4. c8 e( c) d( h)
+    c4 r r2
+    r4 g2 d'4
+    c r r2
+    r4 g2 d'4 %85
+    c2 d
+    e4 r a,2\fz
+    g\p e8 d c h
+    c4 r r2
+    r4 b'2\p as4 %90
+    r g2\cresc f4
+    e\f r r2
+    R1*2
+    r2 r4 f\f %95
+    b c des f,
+    e! e f g
+    c, b' as f
+    g h! c d
+    es f es c %100
+    a! a2 g4
+    d' fis,2 fis4
+    g fis g d
+    g4. f8 e4 d
+    a' g f e %105
+    f1
+    b
+    e,
+    a
+    d, %110
+    g
+    e~
+    e
+    b'2 f
+    h!4 e,2 e4 %115
+    e2 h'
+    c2.\fz a4
+    e r r e'(
+    f\fz e) c a
+    f2(\fz e4) e'( %120
+    f\fz e) c a
+    f2(\fz e4) r
+    b2\fz r
+    d\fz r
+    h!1\ff %125
+    d2 r4 d
+    c e d e
+    e2. e4
+    f2\fz g\fz
+    a\fz g\fz %130
+    a\fz g\fz
+    f\fz\fermata r4 b\ff
+    f' d b gis
+    a2 f4 dis
+    e r h! r %135
+    a c\fz h f'\fz
+    e a\fz gis d'\fz
+    c f\fz e h
+    c a f dis
+    e gis2\fz a4 %140
+    h c, d dis
+    e d'!2\fz c4
+    h a gis fis
+    e1~
+    e~ %145
+    e4 r r2
+    h'1(\p\<
+    his
+    cis4)\! r-\markup \remark \whiteout "Clarinetti si preparino in C" r2
+    R1*16 %165
+    % \transpose b c' \relative c'' { %for MIDI
+    g1\fE
+    d4.. cis16 d8.[ e16 fis8. g16]
+    a2\pE g
+    fis4.. d16 e8.[ fis16 g8. a16]
+    h2 a %170
+    g4. g8 h g a fis
+    g4 r r2
+    R1*3 %175
+    g2 a
+    h4 r \mvD #1 g2\fz
+    h4.\decresc g8 h( a g fis)\!
+    g4 r r2
+    R1 %180
+    a\pE
+    g4 r r2
+    r4 d2 d4
+    e4. c8 c4 a'
+    g4. h8 \once \slurDashed h( a g fis) %185
+    g4 r r2
+    fis1\p
+    g
+    a
+    g~ %190
+    g~
+    g~\perd
+    g~
+    g4\! r r2\fermata \bar "|." %194 finis
+    % } %for MIDI
+  }
+}

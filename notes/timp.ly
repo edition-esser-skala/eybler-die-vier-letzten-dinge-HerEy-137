@@ -351,3 +351,122 @@ OSehtTimpani = {
     R1\fermata \bar "|." %154 finis
   }
 }
+
+JehovahSiehTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 6/4 \tempoJehovahSieh
+    R1.*65 %65
+    \time 2/2 \tempoJehovahSiehB
+      r2 c~\p\startTrillSpan \noBreak
+    c8\stopTrillSpan r r4 c2~\pp\startTrillSpan
+    c8\stopTrillSpan r r4 c2~\mf\startTrillSpan
+    c8\stopTrillSpan r r4 r2
+    R1*4 %73
+    r2 r4 r8\fermata r \bar "|" %74 finis
+  }
+}
+
+DerDonnerTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoDerDonner
+    R2.*14 %14
+    g8[\f r16 \tuplet 3/2 { g32 g g] } g8[ r16 \tuplet 3/2 { g32 g g] } g8[ r16 \tuplet 3/2 { g32 g g] } %15
+    g4 r r
+    R2.*2
+    c4\f r r
+    R2. %20
+    c4 r r
+    R2.*3
+    c2.\f\startTrillSpan %25
+    g4\stopTrillSpan r r
+    g8-! r r4 r
+    R2.*4 %31
+    \time 4/4 \tempoDerDonnerB
+      R1*2 \noBreak
+    r2\fermata r4 r
+    \time 3/4 g4\fz r r \noBreak %35
+    g\fz r r
+    g\fz r r
+    g\fz r r
+    g\fz r r
+    R2.*5 %44
+    g2.~\ff\startTrillSpan %45
+    g4\stopTrillSpan r r
+    R2.*2
+    c2.~\ff\startTrillSpan
+    c4\stopTrillSpan c c %50
+    c r c
+    r c r
+    c r r
+    R2.\fermata
+    r4\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesTimpani = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoOSchreckliches
+    r2\fermata r
+    R1*3
+    g4.\f \tuplet 3/2 8 { g16 g g } g4 g %5
+    g r r2
+    g2~\startTrillSpan g4\stopTrillSpan r
+    R1
+    c4. \tuplet 3/2 8 { c16 c c } c4 c
+    g r r2 %10
+    R1
+    g2~\startTrillSpan g4\stopTrillSpan r
+    R1*2
+    g4 r r2 %15
+    R1
+    c4 r r2
+    R1*10 %27
+    c2\fzE r
+    R1*8 %36
+    c1~\ff\startTrillSpan
+    c4\stopTrillSpan r r2
+    R1*5 %43
+    r2\fermata r4 r
+    R1*9 %53
+    r4 c~\fz\startTrillSpan c r\stopTrillSpan
+    R1*19 %73
+    c2.\fz\trill r4
+    R1*29 %103
+    g4\f r r2
+    g4. g16 g g4 g %105
+    c r r2
+    R1*6 %112
+    c4 r g r
+    c r r2
+    R1 %115
+    g4 r r2
+    g2~\fz\startTrillSpan g4\stopTrillSpan r
+    R1*7 %124
+    c1~\ff\startTrillSpan %125
+    c4\stopTrillSpan r r2
+    R1*5 %131
+    c2\fz\fermata r
+    R1*3 %135
+    g4\ffE r r2
+    R1*24 %160
+    g4\f r r2
+    g4. g16 g g4 g
+    g r r2
+    g4. g16 g g4 g
+    g1~\startTrillSpan %165
+    g4\stopTrillSpan r r2
+    R1*19 %185
+    r4 g2\pp\trill r4
+    r g2\trill r4
+    r g2\trill r4
+    r g2\trill r4
+    g1~\p\startTrillSpan %190
+    g~
+    g~\perd
+    g~
+    g4\!\stopTrillSpan r r2\fermata \bar "|." %194 finis
+  }
+}

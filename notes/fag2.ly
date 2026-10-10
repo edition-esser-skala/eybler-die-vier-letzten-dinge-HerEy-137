@@ -1187,3 +1187,234 @@ OSehtFagottoII = {
     R1\fermata \bar "|." %154 finis
   }
 }
+
+DerDonnerFagottoII = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/4 \tempoDerDonner
+    R2.*4
+    f,2.~\f %5
+    f
+    R2.*2
+    g2.~\f
+    g %10
+    R2.*2
+    r4 as'!\f f
+    d f d
+    h d h %15
+    g r r
+    R2.*2
+    c2\fz h4~\fz
+    h b2\fz %20
+    a\fz as4~\fz
+    as g2\fz
+    fis4 r r
+    c'' a fis
+    c2.\f %25
+    g4 r r
+    R2.*5 %31
+    \time 4/4 \tempoDerDonnerB
+      R1*2 \noBreak
+    r2\fermata r4 r
+    \time 3/4 g2.\fz \noBreak %35
+    g\fz
+    g\fz
+    g\fz
+    g4 r r
+    R2.*5 %44
+    b,2.~\ff %45
+    b4 r r
+    h'2.~\ff
+    h4 r r
+    c,2.~\ff
+    c4 c c %50
+    r c r
+    c r c
+    r c  r
+    R2.\fermata
+    r4\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesFagottoII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \minor \time 2/2 \tempoOSchreckliches
+    r2\fermata r
+    R1*3
+    g2\f g4 g %5
+    g2 r
+    des' b4 g
+    f2 r
+    c' c,4 c'
+    b d b g %10
+    es'2 d
+    cis1
+    d4 d2\fz d4
+    es c! a fis
+    g g'2\fz g4 %15
+    f! as h, g'
+    es c r2
+    R1*2
+    as'1 %20
+    f
+    ges
+    es
+    f
+    d! %25
+    es
+    ces2 b
+    a!1\fz
+    b4 f' des b
+    f r r2 %30
+    R1
+    ges2(\fz f4) r
+    R1
+    ges2(\fz f4) r
+    es'2\fz r %35
+    c\fz r
+    a!1\ff
+    c2 r4 a!
+    b des c es
+    des f b b, %40
+    heses2\fz as\fz
+    ges\fz as\fz
+    ges\fz f\fz
+    es\fz r4 r
+    r2 r4 f'\ff %45
+    des' b ges e
+    f r f, r
+    b des\fz c ges'\fz
+    f b\fz a! es'\fz
+    des ges\fz f c %50
+    des b ges e
+    f a!2\fz b4
+    c des, es e
+    f \clef "treble_8" es'!2\fz des4
+    c b a g %55
+    f1~
+    f~
+    f4 r r2
+    \clef bass c'1(\p\<
+    cis) %60
+    d!4\! r r2
+    R1*4 %65
+    r4 f,2\pE c'4
+    b r r2
+    r4 f2 c'4
+    b r r2
+    R1*3 %72
+    b,1\fz
+    c\fz
+    des\fz %75
+    es2.\fz e4
+    f4 r f8.[ g16 a!8. b16]
+    c4 r r2
+    \clef "treble_8" f,4.. f16 g8.[ a16 b8. c16]
+    d4 r r2 %80
+    d4. b8 d( b) c( f,)
+    b4 r r2
+    r4 f2 c'4
+    b r r2
+    r4 f2 c'4 %85
+    b2 c
+    d4 r e,2\fz
+    f1\p
+    \clef bass b,4 r r2
+    r4 as'2\p ges4 %90
+    r f2\cresc es4
+    d\f r r2
+    R1*3 %95
+    r2 r4 es\f
+    f as ges f
+    ges f es ges
+    f es des c
+    b c des des' %100
+    c c,2 d!4
+    e g c c,
+    f g as f,
+    g g' g, a
+    h d g g, %105
+    c1
+    f,
+    b!
+    es,
+    as %110
+    d,
+    g
+    c2 b!
+    as g
+    fis1 %115
+    g2 f
+    es1\fz
+    d4 r r2
+    R1
+    es2(\fz d4) r %120
+    R1
+    es2(\fz d4) r
+    c'2\fz r
+    as\fz r
+    fis1\ff %125
+    a!2 r4 fis
+    g b a c
+    g2 g
+    ges\fz f\fz
+    es\fz f\fz %130
+    es\fz d\fz
+    c\fz\fermata r4 as''\ff
+    es' c as fis
+    g2 es4 cis
+    d r d, r %135
+    g b\fz a es'\fz
+    d g\fz fis c'\fz
+    b es\fz d a
+    b g es cis
+    d fis2\fz g4 %140
+    a b, c cis
+    d c'!2\fz b4
+    a g fis e
+    d1~
+    d~ %145
+    d4 r r2
+    a'1(\p\< \noBreak
+    ais
+    \key g \major h!4)\! r r2 \noBreak
+    R1*4 %153
+    r4 d,2\pE a'4
+    g r r2 %155
+    r4 d2 a'4
+    g r r2
+    R1*3 %160
+    g1\f
+    g
+    es
+    es
+    g %165
+    cis,
+    d4.. cis16 d8.[ e!16 fis!8. g16]
+    a4 r r2
+    d,4..\pE d16 e8.[ fis16 g8. a16]
+    h4 r r2 %170
+    g4 g, h d
+    g, r r2
+    r4 d'2 a'4
+    g r r2
+    r4 d2 a'4 %175
+    g2 a
+    h4 r \mvD #1 cis,2\fz
+    d4 r r2
+    \clef "treble_8" d'1\sfp
+    c4 r r2 %180
+    R1*2
+    \clef bass r4 h,2 h4
+    c2. c4
+    d d d, d %185
+    g r r2
+    R1*3
+    g1~\p %190
+    g~
+    g~\perd
+    g~
+    g4\! r r2\fermata \bar "|." %194 finis
+  }
+}

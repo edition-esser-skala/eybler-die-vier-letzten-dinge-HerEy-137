@@ -348,3 +348,124 @@ OSehtClarinoBII = {
     R1\fermata \bar "|." %154 finis
   }
 }
+
+DerDonnerClarinoBII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoDerDonner
+    R2.*6 %6
+    c4.\fz\ten r8 r4
+    R2.*5 %12
+    g'2.\f
+    e
+    e4 e e %15
+    e r r
+    R2.*2
+    b'4\f r r
+    r c, r %20
+    g r r
+    r c r
+    e r r
+    R2.*8 %31
+    \time 4/4 \tempoDerDonnerB
+      R1*2 \noBreak
+    r2\fermata r4 r
+    \time 3/4 e4\fz r r \noBreak %35
+    d'\fz r r
+    e,\fz r r
+    d'\fz r r
+    e,\fz r r
+    R2.*5 %44
+    c4.\ff c8 c c %45
+    c4 r r
+    e4.\ff e8 e e
+    e4 r r
+    R2.*5 %53
+    R2.\fermata
+    r4\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesClarinoBII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoOSchreckliches
+    r2\fermata r
+    R1*3
+    c4.\f c16 c c4 c %5
+    c r r2
+    c4. c16 c c4 c
+    g'2 r
+    R1
+    e4 r r2 %10
+    R1
+    c
+    e4 r r2
+    R1*2 %16
+    e4 r r2
+    R1*12 %28
+    c2 r4 c
+    g r r2 %30
+    R1*8 %38
+    c4\ffE r r2
+    c4 r r2 %40
+    R1*3
+    r2\fermata r4 r
+    r2 r4 g %45
+    c2 r
+    R1
+    c4 r r2
+    R1*3 %51
+    g4 r r2
+    R1
+    g4 r r2
+    R1 %55
+    g4 r8. g16 g4 g
+    g r8. g16 g4 g
+    g r r2
+    R1*14 %72
+    c2.\fz r4
+    R1
+    g2.\fz r4 %75
+    R1
+    g4 r r2
+    R1*20 %97
+    c4\f r r c
+    g' r r2
+    R1*3 %102
+    g,4 r r2
+    R1*4 %107
+    c2 c4 c
+    c r r2
+    R1 %110
+    g2 g4 g
+    g r r2
+    R1
+    r2 c
+    e4 r r2 %115
+    e4 r e r
+    c4.\fz c16 c c4 c
+    e r r2
+    R1*13 %131
+    b'2\fz\fermata r
+    R1*2
+    e,4 r r2 %135
+    R1*4
+    e4 r r2 %140
+    R1
+    e4 r r2
+    R1
+    e4 r8. e16 e4 e
+    e r8. e16 e4 e %145
+    e r r2
+    R1*15 %161
+    c2\f r
+    c r
+    c r
+    c4. c16 c c4 c %165
+    c1
+    e4 r r2
+    R1*26 %193
+    R1\fermata \bar "|." %194 finis
+  }
+}

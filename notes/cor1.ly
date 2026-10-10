@@ -716,3 +716,159 @@ OSehtCornoI = {
     % } %for MIDI
   }
 }
+
+DerDonnerCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoDerDonner
+    R2.*8 %8
+    c'2.~\f
+    c %10
+    R2.*2
+    \pa d2.\f
+    d \pd
+    e4 e e %15
+    e r r
+    R2.*2
+    c4\f r r
+    R2.*2 %21
+    r4 c r
+    R2.*2
+    c2.\f %25
+    e4 r r
+    R2.*5 %31
+    \time 4/4 \tempoDerDonnerB
+      R1*2 \noBreak
+    r2\fermata r4 r
+    \time 3/4 r4 e\fz r \noBreak %35
+    r e\fz r
+    r e\fz r
+    r e\fz r
+    e\fz r r
+    R2.*5 %44
+    b4.\ff b8 b b %45
+    b4 r r
+    \pa d4.\ff d8 d d
+    d4 \pd r r
+    c4.\ff c8 c c
+    c4 c c %50
+    r c r
+    c r c
+    r c r
+    R2.\fermata
+    r4\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesCornoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoOSchreckliches
+    r2\fermata r
+    R1*3
+    c'4.\f c8 c4 c %5
+    c r r2
+    b4. b8 b4 b
+    \pao b2 r
+    c4. c8 c4 c
+    e r r2 %10
+    c r
+    e1
+    R1
+    c4 r r2
+    R1*12 %26
+    c4. c16 c c4 c
+    c2 r
+    R1*8 %36
+    c1~\ff
+    c4 r r2
+    R1
+    d2 r %40
+    R1*3
+    c2\fz\fermata r4 r
+    R1*3 %47
+    g4 r r2
+    R1*5 %53
+    r4 \pao c2\fz r4
+    R1 %55
+    \pao d2 d
+    \pao d d
+    \pao d4 r r2
+    R1*14 %72
+    d2.\fz r4
+    c2.\fz r4
+    g2.\fz r4 %75
+    c2.\fz r4
+    R1*12 %88
+    g1~\p
+    g~ %90
+    g~\cresc
+    g4\f r r2
+    R1*3 %95
+    c4\f r r f
+    d r r2
+    R1*2
+    g,4 r r2 %100
+    R1*3
+    e'2\f r
+    e4. e16 e e4 e %105
+    e r r2
+    \pa d d4 d
+    d \pd r r2
+    e e4 e
+    e r r2 %110
+    R1
+    e2 e4 e
+    c r r2
+    c r
+    R1*2 %116
+    c2\fz r
+    R1*2
+    c2\fz r %120
+    R1
+    c2\fz r
+    R1*2
+    c1~\ff %125
+    c4 r r2
+    R1*5 %131
+    c2\fz\fermata r
+    \after 4*0 -\markup \remark \whiteout "Corni si preparino in G" R1*11 %143
+    % \transpose es g \relative c'' { %for MIDI
+    g4\f r8. g16 g4 g
+    g r8. g16 g4 g %145
+    g r r2
+    g1~\p\<
+    g~
+    g4\! r r2
+    R1*11 %160
+    c2\f r
+    c4. c16 c c4 c
+    c r r2
+    c4. c16 c c4 c
+    c2 c %165
+    c1
+    d4 r r2
+    d\p e
+    d4 r r2
+    c d %170
+    e4 g~ g8 e f d
+    c4 e2 g4
+    g4. f8 d4 r
+    r e2 g4
+    g4. f8 d4 r %175
+    c1~
+    c~\cresc
+    c4\! r r2
+    R1*3 %181
+    g1\p
+    r4 g2 g4
+    c r r2
+    R1*5 %189
+    g1~\p %190
+    g~
+    g~\perd
+    g~
+    g4\! r r2\fermata \bar "|." %194 finis
+    % } %for MIDI
+  }
+}

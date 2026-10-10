@@ -54,6 +54,18 @@ mvD = #(define-music-function
   #})
 brkBeam = #(make-music 'BeamForbidEvent)
 smorz = \markup \remark "smorzando"
+sffz = \dynScript "sffz" ##f
+
+sbTupletsOn = {
+  \set Staff.beamExceptions = #'()
+  \set Staff.baseMoment = #(ly:make-moment 1/4)
+  \set Staff.beatStructure = 1,1,1,1
+}
+sbTupletsOff = {
+  \unset Staff.beamExceptions
+  \unset Staff.baseMoment
+  \unset Staff.beatStructure
+}
 
 
 #(define-public (tuplet-number::parenthesize grob)
@@ -125,6 +137,11 @@ tempoGottDerAlt = \tempoMarkup "Larghetto"
 tempoSchonSchweben = \tempoMarkup "Rezitativ"
 tempoOSeht = \tempoMarkup "Adagio"
   tempoOSehtB = \tempoMarkup "Allegro"
+tempoJehovahSieh = \tempoMarkup "Adagio"
+  tempoJehovahSiehB = \tempoMarkup "Adagio"
+tempoDerDonner = \tempoMarkup "Allegro vivace"
+  tempoDerDonnerB = \tempoMarkup "Con moto"
+tempoOSchreckliches = \tempoMarkup "Andante [con moto]"
 
 
 \include "notes/fl1.ly"

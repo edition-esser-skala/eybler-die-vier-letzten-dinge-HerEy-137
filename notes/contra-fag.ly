@@ -456,3 +456,174 @@ WieGroßContrafagotto = {
     R1\fermata \bar "|." %72 finis
   }
 }
+
+DerDonnerContrafagotto = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/4 \tempoDerDonner
+    R2.*2
+    as4.\fz r8 r4
+    R2.*3 %6
+    b4.\fz r8 r4
+    R2.*3 %10
+    c4.\fz r8 r4
+    R2.*3
+    r4 g\fE g %15
+    g r r
+    R2.*2
+    c2\fz h4~\fz
+    h b2\fz %20
+    a\fz as4~\fz
+    as g2\fz
+    fis4 r r
+    R2.
+    c\ff %25
+    g'4 r r
+    R2.*5 %31
+    \time 4/4 \tempoDerDonnerB
+      R1*2 \noBreak
+    r2\fermata r4 r
+    \time 3/4 r4 g\fz r \noBreak %35
+    r g\fz r
+    r g\fz r
+    r g\fz r
+    g r r
+    R2.*5 %44
+    b2.~\ff %45
+    b4 r r
+    h2.~\ff
+    h4 r r
+    c2.~\ff
+    c4 r r %50
+    r c r
+    c r c
+    r c r
+    R2.\fermata
+    r4\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesContrafagotto = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \minor \time 2/2 \tempoOSchreckliches
+    r2\fermata r
+    R1*3
+    g'2\f g4 g %5
+    g2 r
+    des b4 g
+    f2 r
+    c' c4 c
+    b d' b g %10
+    es2 d
+    cis1
+    d4 r r2
+    es4 c a fis
+    g r r2 %15
+    f'!4 as h, g'
+    es r r2
+    R1*2
+    as2. ges4 %20
+    f1
+    ges2. f4
+    es1
+    f2. es4
+    d!1 %25
+    es
+    ces2 b
+    a!1\fz
+    b4 f' des b
+    f r r2 %30
+    R1
+    ges2(\fz f4) r
+    R1
+    ges2(\fz f4) r
+    es'2\fz r %35
+    c\fz r
+    a!1\ff
+    c2 r
+    R1
+    r2 r4 b %40
+    heses2\fz as\fz
+    ges\fz as\fz
+    ges\fz f\fz
+    es\fz\fermata r4 r
+    r2 r4 f'\ff %45
+    des' b ges e
+    f r f, r
+    b r r2
+    R1*3 %51
+    r4 f'2\fz f4
+    f1~
+    f4 f2\fz f4
+    f1 %55
+    f,4 f' f, f'
+    f, f' f, f'
+    f, r r2
+    R1*14 %72
+    b1\fz
+    c\fz
+    des\fz %75
+    es2.\fz e4
+    f r r2
+    R1*18 %95
+    r2 r4 ces'\f
+    b as ges f
+    ges f es ges
+    f es des c
+    b c des des' %100
+    c c,2 d!4
+    e g c c,
+    f g as as,
+    g g' g, a!
+    h d g h, %105
+    c es! g c
+    f,1
+    b,
+    es
+    as, %110
+    d
+    g,
+    c2 b!
+    as g
+    fis4 a d fis %115
+    g2 f
+    es1\fz
+    d2 r
+    R1
+    es,2(\fz d4) r %120
+    R1
+    es2(\fz d4) r
+    R1*2
+    fis1\ff %125
+    a!2 r
+    R1
+    r2 r4 g
+    ges2\fz f\fz
+    es\fz f\fz %130
+    es\fz d\fz
+    c\fz\fermata r4 r
+    r2 r4 fis'
+    g b, c es
+    d r d, r %135
+    g r r2
+    R1*3
+    r4 d'2\fz d4 %140
+    d r r2
+    r4 d2\fz d4
+    d r r2
+    d1~
+    d~ %145
+    d4 r r2
+    R1*2
+    \key g \major R1*13 %161
+    g1\fz
+    es\fz
+    b\fz
+    es2\fz g %165
+    cis,1\fz
+    d4 r r2
+    R1*26 %183
+    R1\fermata \bar "|." %184 finis
+  }
+}

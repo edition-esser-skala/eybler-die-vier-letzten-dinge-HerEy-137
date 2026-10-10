@@ -698,3 +698,262 @@ OSehtBassoLyrics = \lyricmode {
   ho -- vah
   naht! %147 finis
 }
+
+JehovahSiehBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/4 \autoBeamOff \tempoJehovahSieh
+    \after 4*0 ^\markup \remark "Erſter Erzengel" R1.*11 %11
+    r2 r4 r r g'\pE
+    h2 d,4 e r c
+    d( e) fis g g, r
+    g'\< fis e dis2\> e4\! %15
+    c r d g, r r
+    r fis'2\fz g4 r r
+    r e2\fz a4 r8 a fis d
+    cis4( a) cis d r r
+    d\f fis a d2 h4 %20
+    g( e) a d d, r
+    h'2^\dolce g4 fis r fis
+    g2 e4 e d r
+    h'\f g fis e2\fz e4
+    a r a, d r r %25
+    R1.*3
+    r4 f2\fz e8([ d')] d4 r
+    c4. d8 c h gis4 a a8([ g)] %30
+    fis!4. a8 d, fis g4 g fis
+    e2 h4 c( e) g
+    c2 c4 h2 r4
+    R1.
+    g4 fis e dis2 dis8([ fis)] %35
+    a2 r8 dis, e4 h r
+    c c' h a2 g4
+    fis2 d!4 g r r
+    r r g g( fis) e
+    dis4.( e8) fis4 e r r %40
+    c\f e g c2 c,4\p
+    d2 d4 g, r r
+    \fC \mvTr g'\p^\markup \remark "Chor der Engeln" g g h,2 d4
+    e( c) a d d r
+    a'\cresc a a c,2 d4 %45
+    e2 e4 \appoggiatura e a2 r4
+    c\f c c c,2\fz c4\p
+    d2 dis4 e e r
+    d c h a2 r4
+    f'\cresc e d c2 r4 %50
+    a'\f g fis e2 c4\p
+    d2 d4 g, r r
+    R1.*13 %65
+    \key c \minor \time 2/2 \tempoJehovahSiehB
+      \after 4*0 ^\markup \remark "Erſter Erzengel" R1*3
+    r2 r4 g'
+    c2 g %70
+    es r4 c
+    g'2. es4
+    c' g es c
+    g'2 r4 r8\fermata r \bar "|" %74 finis
+  }
+}
+
+JehovahSiehBassoLyrics = \lyricmode {
+  Je -- %12
+  ho -- vah ſieh in
+  dei -- ner Mil -- de
+  auf die Er -- war -- ten -- %15
+  den he -- rab,
+  Du biſts,
+  Du biſts, der Ih -- nen
+  Da -- ſeyn gab
+  nach dei -- nem, dei -- nem %20
+  E -- ben -- bil -- de,
+  ſieh he -- rab in
+  dei -- ner Mil -- de,
+  auf die Er -- war -- ten --
+  den he -- rab.
+
+  O Va -- ter! %29
+  hö -- re un -- ſre Bit -- ten, O %30
+  hö -- re un -- ſre Bit -- ten, Je --
+  ho -- vah, hö -- re
+  un -- ſer Flehn!
+
+  Du haſt für ſie als %35
+  Menſch ge -- lit -- ten,
+  laß ſie vor dem Ge --
+  richt be -- ſtehn,
+  laß ſie,  laß
+  ſie be -- ſtehn, %40
+  vor dem Ge -- richt laß
+  ſie be -- ſtehn.
+  O Va -- ter, hö -- re
+  un -- ſre Bit -- ten,
+  Je -- ho -- vah, hö -- re %45
+  un -- ſer Flehn!
+  Du haſt für ſie als
+  Menſch ge -- lit -- ten,
+  laß ſie be -- ſtehn
+  vor dem Ge -- richt, %50
+  vor dem Ge -- richt laß
+  ſie be -- ſtehn.
+
+  Je -- %69
+  ho -- vah %70
+  ſpricht das
+  e -- wig
+  blei -- ben -- de Ge --
+  richt. %74 finis
+}
+
+OSchrecklichesBassoI = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoOSchreckliches
+    << { R1 } \\ \context Voice = "BassoI" { \voiceTwo d2^\fermata r_\markup \remark "(Erſter Erzengel)" \oneVoice } >>
+    R1*42 %43
+    r2\fermata r4 r
+    R1*15 %59
+    r2 r4 f\pE %60
+    b4. b8 f4. f8
+    b,2 r4 b'
+    es,4. es8 es4. e8
+    f2 r4 f
+    d^\dolce f d b %65
+    f'2 f4 f
+    d f d b
+    f'2 f4 f
+    b4. b8 b4.\cresc b8
+    b4 r es,2\fz %70
+    f4.\pE f8 f4 f
+    b, r r2
+    R1*4 %76
+    r2 r4 f'\pE
+    f4. f8 f4. f8
+    f2 r4 f
+    d4. d8 f4. f8 %80
+    b2 r4 f
+    d f d b
+    f'2 f4 f
+    d f d b
+    f'2 f4 f %85
+    b4. b8 b4. b8
+    b4 r e,2\fz
+    f4.\pE f8 f4 f
+    b,2 r
+    R1*42 %131
+    r2\fermata r4 r
+    R1*15 \noBreak %147
+    r2 r4 d\pE
+    \key g \major g4. g8 d4. d8 \noBreak
+    g2 r4 g %150
+    c,4. c8 c4. cis8
+    d2 r4 d
+    h d h g
+    d'2 d4 d
+    h d h g %155
+    d'2 d4 d
+    g4. g8 g4. g8
+    g4 r \mvDl c,2\fz
+    d4.\pE d8 d4 d
+    g, r r2 %160
+    R1*6 %166
+    r2 r4 d'\pE
+    d4. d8 d4. d8
+    d2 r4 d
+    h4. h8 d4. d8 %170
+    g2 r4 d
+    h d h g
+    d'2 d4 d
+    h d h g
+    d'2 d4 d %175
+    g4. g8 g4. g8
+    g4 r\fz cis2
+    d4. d8 d,4. d8
+    g2 r
+    r r4 c,^\dolce %180
+    d2 r4 fis
+    g2 r4 h,
+    h h h h
+    c2 c4 c'
+    d d d, d %185
+    g r r2
+    R1
+    r2 r4 g\cresc
+    g r r g
+    g1~\f %190
+    g~\decresc
+    g2\! r
+    R1
+    R\fermata \bar "|." %194 finis
+  }
+}
+
+OSchrecklichesBassoILyrics = \lyricmode {
+  "-richt!"
+
+  O %60
+  nah -- men -- lo -- ſes
+  Glück! O
+  nah -- men -- lo -- ſes
+  Glück! Zum
+  Heil ſind wir ge -- %65
+  boh -- ren! Zum
+  Heil hat uns er --
+  koh -- ren Je --
+  ho -- vahs Va -- ter --
+  blick! O %70
+  nah -- men -- lo -- ſes
+  Glück!
+
+  O %77
+  nah -- men -- lo -- ſes
+  Glück! O
+  nah -- men -- lo -- ſes %80
+  Glück! Zum
+  Heil ſind wir ge --
+  boh -- ren, zum
+  Heil hat uns er --
+  koh -- ren Je -- %85
+  ho -- vahs Va -- ter --
+  blick, o
+  nah -- men -- lo -- ſes
+  Glück!
+
+  O %148
+  nah -- men -- lo -- ſes
+  Glück! O %150
+  nah -- men -- lo -- ſes
+  Glück! Zum
+  Heil ſind wir ge --
+  boh -- ren, zum
+  Heil hat uns er -- %155
+  koh -- ren Je --
+  ho -- vahs Va -- ter --
+  blick, o
+  nah -- men -- lo -- ſes
+  Glück! %160
+
+  O %167
+  nah -- men -- lo -- ſes
+  Glück! O
+  nah -- men -- lo -- ſes %170
+  Glück! Zum
+  Heil ſind wir ge --
+  boh -- ren, zum
+  Heil hat uns er --
+  koh -- ren Je -- %175
+  ho -- vahs Va -- ter --
+  blick, o
+  nah -- men -- lo -- ſes
+  Glück!
+  Zum %180
+  Heil, zum
+  Heil, zum
+  Heil hat uns er --
+  koh -- ren Je --
+  ho -- vahs Va -- ter -- %185
+  blick! zum
+  Heil, zum
+  Heil, zum
+  Heil, zum
+  Heil. __ %190 finis
+}

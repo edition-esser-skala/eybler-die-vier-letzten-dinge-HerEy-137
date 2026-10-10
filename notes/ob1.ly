@@ -777,3 +777,219 @@ OSehtOboeI = {
     R1\fermata \bar "|." %154 finis
   }
 }
+
+DerDonnerOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoDerDonner
+    R2.*4
+    f'2.~\f %5
+    f
+    R2.*2
+    g2.~\f
+    g %10
+    R2.*2
+    r4 f\f as!
+    h, d f
+    g, h d %15
+    f r r
+    R2.*2
+    es2\fz g4~\fz
+    g ges2\fz %20
+    f\fz e4~\fz
+    e es2\fz
+    d4 r r
+    \pa a c es \pd
+    fis2.\f %25
+    g4 r r
+    R2.*5 %31
+    \time 4/4 \tempoDerDonnerB
+      R1*2 \noBreak
+    r2\fermata r4 r
+    \time 3/4 d2.\fz \noBreak %35
+    es\fz
+    d\fz
+    es\fz
+    d4 r r
+    R2.*5 %44
+    g2.~\ff %45
+    g
+    as!~\ff
+    as
+    a~\ff
+    a4 fis es! %50
+    r c r
+    es r fis
+    r a r
+    R2.\fermata
+    r4\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesOboeI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \minor \time 2/2 \tempoOSchreckliches
+    r2\fermata r
+    R1*3
+    g''2\f g4 g %5
+    g2 r
+    g g4 g
+    as2 r
+    a a4 a
+    b \pa d, b g %10
+    es \pd r r2
+    g'1
+    fis4 r r2
+    R1
+    r4 g2\fz g4 %15
+    as f! d h
+    c es r c
+    as'2 r4 des,
+    b'2 r4 es,
+    ces'1~ %20
+    ces2 des,~
+    des b'~
+    b ces,~
+    ces as'~
+    as b,~ %25
+    b ges'~
+    ges ges
+    ges\fz f4 es
+    des f des b
+    f r r f'( %30
+    ges\fz f) des b
+    ges2(\fz f4) f'(
+    ges\fz f) des b
+    ges2(\fz f4) r
+    c'2\fz r %35
+    es\fz r
+    ges1\ff
+    \pa a,!2 r4 c
+    des b es c
+    f2 des4 b \pd %40
+    ces2\fz d\fz
+    es\fz d\fz
+    es\fz f\fz
+    ges\fz\fermata r4 ces,\ff
+    ges' es ces a! %45
+    b2 ges4 e
+    f r a r
+    b r r ges\fz
+    f b\fz a! es'\fz
+    des ges\fz f c %50
+    des b ges e
+    f ges'2\fz f4
+    es des \pa c b
+    a! \pd ges'2\fz f4
+    es des c b %55
+    f'1~
+    f~
+    f4 r r2
+    R1*14 %72
+    des1\fz
+    es\fz
+    f\fz %75
+    ges4.\fz f8 es4.\fz des8
+    c4 r r2
+    es2\p d!
+    c4 r r2
+    f es %80
+    d4 r r2
+    r4 d2 f4
+    f4. es8 c4 r
+    r d2 f4
+    f4. es8 c4 r %85
+    R1
+    r2 b'\fz
+    f4.\p d8 f es d c
+    \pao b4 r r2
+    r4 d2\p es4 %90
+    r f2\cresc ges4
+    as\f r r2
+    R1*4 %96
+    r2 r4 \pa b,\f
+    es f ges b,
+    a! ges' f es
+    des a! b r %100
+    R1
+    r2 r4 c
+    as' g f c'~
+    c h2 c4
+    d \pd h g f %105
+    es r r c
+    as'1~
+    as
+    g~
+    g %110
+    f~
+    f
+    es2 g
+    \pao c, es
+    d4 c b a! %115
+    \pa b2 d \pd
+    g1\fz
+    fis4 r r d(
+    es\fz d) b g
+    es2(\fz d4) d'( %120
+    es\fz d) b g
+    es2(\fz d4) r
+    as'2\fz r
+    c\fz r
+    es1\ff %125
+    fis,2 r4 a
+    b g c a
+    d2 b4 b
+    c2\fz d\fz
+    es\fz d\fz %130
+    es\fz f\fz
+    es\fz\fermata r
+    r r4 d\ff
+    b' g es cis
+    d r fis, r %135
+    g b\fz a es'\fz
+    d g\fz fis c\fz
+    b es\fz d a
+    b g' es cis
+    d es!2\fz d4 %140
+    c b \pa a g
+    fis \pd a2\fz b4
+    c b a g
+    a2 b
+    a b %145
+    a4 r r2
+    R1*2
+    \key g \major R1*12 %160
+    b1\f
+    es
+    g
+    b
+    g %165
+    g
+    fis!4 r r2
+    c'2\pE h!
+    a4 r r2
+    d c %170
+    h4. g8 h g a fis
+    g4 r r2
+    r4 \pao d,2 c'4
+    h r r2
+    r4 \pao d,2 c'4 %175
+    h r r2
+    r g'\fz
+    d4.\decresc g8 h( a g fis)\!
+    g4 r r2
+    e1\pE %180
+    a,4 r r2
+    R1
+    r4 g'2 g4
+    g4. e8 e4 r
+    R1*4 %188
+    fis1\p
+    g~ %190
+    g~
+    g~\perd
+    g~
+    g4\! r r2\fermata \bar "|." %194 finis
+  }
+}

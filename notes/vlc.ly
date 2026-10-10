@@ -1409,3 +1409,424 @@ OSehtCello = {
     b2 r\fermata \bar "|." %154 finis
   }
 }
+
+JehovahSiehCelloISolo = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/4 \tempoJehovahSieh
+    R1.*2
+    d'2.~\pE d
+    e4.( d8 c h) c8. h16 a4 r
+    \clef "treble_8" g'2.~\cresc g %5
+    e2(\! d8 c) h4( a) r
+    \clef bass r8 d,,( fis a d fis) \grace { a16[ h] } c2 a4
+    fis8 d,( fis a d fis) \grace { a16[ h] } c4.( d16 e d c h a)
+    d4 r dis(\sfz e) r e(
+    h) r d8 r d r r4 r %10
+    r r f(\sfz e8) h( c gis a c)
+    h4 r d8 c h4 g, g
+    g r r r2 r4
+    R1.
+    r2 r4 r c'(\> h)\! %15
+    r e( c) h r r
+    r r a(\fz h) r r
+    r r h(\fz cis) r r
+    r2 r4 r8 fis4 d8( a fis)
+    d4 r r r2 r4 %20
+    r2 r4 r8 d'( d, d' d, d')
+    d,( d' d, d' d, d') d, d' d, d' d, d'
+    d, d' d, d' d, d' d, d' d, d' d, d'
+    fis4(\< h, a' g)\! r r
+    \clef "treble_8" cis, r r r fis2~\fz %25
+    fis8( a g fis g e) d4 r cis8 r
+    d r r4 cis(\fz d8) cis( h ais h g)
+    fis4 r a8 g fis4 r r
+    r2 r4 r r8 d'( c! f)
+    e4 r r r2 r4 %30
+    R1.
+    r2 r4 r8 c,8( e g c e)
+    g2 e4 dis r \clef bass e(
+    dis8) h( ais a gis g) fis4 r r
+    e'( a, ais) \appoggiatura ais h2 fis8( a) %35
+    c!4 r r r2 r4
+    r e( d) r c( h)
+    r \once \slurDashed a( d) d r \clef "treble_8" g~
+    g fis e dis2 g4
+    fis2 dis4 e r r %40
+    \clef bass r2 r4 <c e,>2\fz r4
+    \clef "treble_8" r2 r4 r d8( fis) fis( g)
+    g4 r r r2 r4
+    r2 r4 r fis8( gis) gis( a)
+    a4 r r r2 r4 %45
+    r2 r4 r a,8(\f h) h( c)
+    c4 r r \clef bass <c e,>2\fz r4
+    R1.
+    \clef "treble_8" f4(\p e gis, a) r r
+    d(\cresc g f e) r r %50
+    fis(\f h, a') g2 e4\p
+    d( h a g) r r
+    d'2.~ d
+    e4.( d8 c h) c8. h16 a4 r
+    g'2.~\cresc g %55
+    e2( d8 c) h4( a) r
+    \clef bass r8 d,,( fis a d fis) \grace { a16[ h] } c2( a4
+    fis8) d,( fis a d fis) \grace { a16[ h] } c4.( d16 e d c h a)
+    d4 r f(\fz e) r e8( c)
+    h4 r d8 r d r r4 r %60
+    r e2~\fz e8( h c gis a c)
+    h4 r d8 c h4 r r
+    f2(\pp^\markup \remark "col Basso" d4 h) r r
+    g'2( es4 c) r r \noBreak
+    f,2. g %65
+    \key c \minor \time 2/2 \tempoJehovahSiehB as1~
+    as~
+    as
+    g1:32
+    g:
+    g: %70
+    g:
+    g:
+    g2 r4 r8\fermata g'32(\f a! h! c64 d) \bar "|" %74 finis
+  }
+}
+
+JehovahSiehCelloIISolo = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/4 \tempoJehovahSieh
+    R1.*2
+    r4 h'(\pE a) r fis( g)
+    c,2 e4 a, r r
+    r e''(\cresc d) r h( c) %5
+    gis\! a8 a,( h c) d2 r4
+    r2 r4 r8 d,( fis a d fis)
+    a4 r r r8 d,,( fis a d c)
+    h4 r h'(\sfz c) r c,(
+    d) r fis8 r g r r4 r %10
+    r r <h g,>(\sfz <c c,>) r r
+    d, r d, g h d
+    g r r r2 r4
+    R1.
+    r2 r4 r dis(\> e)\! %15
+    r c( d) g, r r
+    r r d(\fz g) r r
+    r r e(\fz a) r r
+    r2 r4 d, fis a
+    d r r r2 r4 %20
+    r2 r4 r r8 fis( g\trill fis)
+    h2 g4\trill fis r fis
+    g4. a16 g fis8 e \grace { d16[ fis] } e4 d r
+    h'(\< g' dis e)\! r r
+    a, r r r r ais(\fz %25
+    h) r g( a) r a,8 r
+    d r r4 ais(\fz h) r g
+    a r a d, r r
+    r2 r4 r r8 gis'( a d)
+    c!4 r r r2 r4 %30
+    R1.*2
+    r8 c,( e g c c,) h4 r ais'(
+    h) r e, h r r
+    g' fis e dis2 dis8( fis) %35
+    a4 r r r2 r4
+    r c( h) r a( g)
+    r fis( d) g r r
+    r r g~ g fis e
+    dis2 h4 e r r %40
+    r2 r4 <g, c,>2\fz r4
+    r2 r4 r h'8( d) d( g,)
+    g4 r r r2 r4
+    r2 r4 r d'8( h) h( a)
+    a4 r r r2 r4 %45
+    r2 r4 r a8(\f g!) g( c,)
+    c4 r r <g c,>2\fz r4
+    R1.
+    d'4(\p c h a) r r
+    f'(\cresc e d c) r r %50
+    a'(\f g fis!) e2 c4\p
+    d2 d,4 g r r
+    r c'( h) r fis( g)
+    c,2 e4 a, r r
+    r e''(\cresc d) r h( c) %55
+    gis\! a8 a,( h c) d2 r4
+    r2 r4 r8 d,( fis a d fis)
+    a4 r r r8 d,,( fis a d c)
+    h4 r <h' g,>(\fz <c c,>) r a,
+    d r fis8 r g r r4 r %60
+    r r c,,(\fz c') r r
+    d r d, g r r
+    f'2(\pp^\markup \remark "col Basso" d4 h) r r
+    g'2( es4 c) r r \noBreak
+    f,2. g %65
+    \key c \minor \time 2/2 \tempoJehovahSiehB as1~
+    as~
+    as
+    g1:32
+    g:
+    g: %70
+    g:
+    g:
+    g2 r4 r8\fermata g'32(\f a! h! c64 d) \bar "|" %74 finis
+  }
+}
+
+DerDonnerCello = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/4 \tempoDerDonner
+    es'4.\fz h8 c fis,
+    g d es h c g
+    as4.\fz g8 as g
+    as g as g as ges
+    \tuplet 3/2 8 { f16 ges as } r8 \tuplet 3/2 8 { f16 ges as } r8 \tuplet 3/2 8 { f16 ges as } r8 %5
+    \tuplet 3/2 8 { f16 ges as } r8 \tuplet 3/2 8 { f16 ges as } r8 \tuplet 3/2 8 { f16 ges as } r8
+    b4.\fz a8 b a
+    b a b a b as
+    \tuplet 3/2 8 { g!16 as b } r8 \tuplet 3/2 8 { g16 as b } r8 \tuplet 3/2 8 { g16 as b } r8
+    \tuplet 3/2 8 { g16 as b } r8 \tuplet 3/2 8 { g16 as b } r8 \tuplet 3/2 8 { g16 as b } r8 %10
+    c4.\fz h8 c h
+    c h c h c b
+    as4 as' f
+    d f d
+    h8[ r16 h32( c] d8[) r16 d32( c] h8[) r16 h32( a] %15
+    g4) r r
+    R2.*2
+    c8\f c c'\fz c h, h
+    h'\fz h b, b b' b\fz %20
+    a, a a'\fz a gis, gis
+    gis'\fz gis g, g g'\fz g
+    fis4 r8 d32( e fis g a8) fis32( g a b
+    c8) a32( b c d es!8) d c b
+    a g fis es! d c %25
+    b4 r r
+    r8 g'32(\f a b c \scriptOut d8)-! r r4
+    R2.*2
+    r8. c,16 c4 r \noBreak %30
+    R2.
+    \time 4/4 \tempoDerDonnerB
+      r8. c'16-!\f c8[-! r16 g]-! g8[-! r16 es]-! es8[-! r16 c]-! \noBreak
+    c4 r r2 \noBreak
+    as\sfp\fermata r4 r \noBreak
+    \time 3/4 g4 <g d' h'>\fz r \noBreak %35
+    r <g es' c'>\fz r
+    r <g d' h'>\fz r
+    r <g es' c'>\fz r
+    <g d' h'> r r8 d'32( c h a
+    g8) r r4 r %40
+    R2.
+    r4 c'8.[-!\ff c16-! b!8.-! b16]-!
+    as!8.[-! as16-! g8.-! g16-! f8.-! f16]-!
+    es!8.[-! es16-! des8.-! des16-! c8.-! c16]-!
+    b8. g32 a b8. g32 a b8. g32 a %45
+    b4 r r
+    h8. gis32 a h8. gis32 a h8. gis32 a
+    h4 r r
+    c8. a32 h c8. a32 h c8. a32 h
+    c8.[ c16 fis8. fis16 a8. a16] %50
+    c4 <c, c,> r
+    q r q
+    r q r
+    R2.\fermata
+    cis4\fz\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesCello = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \minor \time 2/2 \tempoOSchreckliches
+    d2\fermata r8. \once \stemDown d16\f d8.\trill c32 d
+    es!2 r8. fis16 fis8.\trill e32 fis
+    g2 r8. a16 a8.\trill g32 a
+    b8[ r16 h] h8.\trill a32 h c8[ r16 d] d8.\trill c32 d
+    \tuplet 3/2 4 { es8 d c b[ as g] f! es d c[ b as] } %5
+    g4 r r2
+    \override TupletNumber.stencil = ##f \tuplet 3/2 4 { des''8 c b as[ g f] e des c b[ as g] }
+    f4 r r2
+    \tuplet 3/2 4 { c''8 d! es! d[ c b] a! g fis es![ d c]
+    b b b d'[ d d] b b b g[ g g] %10
+    es es es b'[ b b] d, d d b'[ b b]
+    cis, cis cis g'[ g g] b b b cis,![ cis cis]
+    d d d fis[ fis fis] a a a d[ d d] }
+    es4 fis,,2 fis4
+    g b d g %15
+    f! as h, g'
+    es g c c,
+    f as des des,
+    ges b es es,
+    as ces es ges, %20
+    f as des des,
+    ges b des f,
+    es ges ces ces,
+    f as ces es,
+    d! f b b, %25
+    es ges b es,
+    ces ces' b, b'
+    a,! c! f a
+    b, des f b
+    a! c a f %30
+    ges(\fz f) des b
+    ges2(\fz f4) f'
+    ges(\fz f) des b
+    ges2(\fz f4) f'
+    es es,2 des4\trill %35
+    c c'2 b4\trill
+    a!\ff c es ges
+    c, es ges a!
+    b, des c es
+    des f b b, %40
+    heses\fz heses' as,\fz as'
+    ges,\fz ges' as,\fz as'
+    ges,\fz ges' f,\fz f'
+    es2\fermata r4 r
+    r2 r4 \tuplet 3/2 4 { f8\ff f f %45
+    des' des des b[ b b] ges ges ges e[ e e] }
+    f4 r f, r
+    b \tuplet 3/2 { des8\fz des des } c4 \tuplet 3/2 { ges'8\fz ges ges }
+    f4 \tuplet 3/2 { b8\fz b b } a!4 \tuplet 3/2 { es'8\fz es es }
+    des4 \tuplet 3/2 4 { ges8\fz ges ges f f f c[ c c] %50
+    des des des b[ b b] ges ges ges e[ e e]
+    f f, f f[ f f] f f f f[ f f]
+    f f f f[ f f] f f f f[ f f]
+    f f' f f[ f f] f f f f[ f f]
+    f f f f[ f f] f f f f[ f f] %55
+    f f, f f[ f f] f f' f f[ f f]
+    f f, f f[ f f] f f' f f[ f f] }
+    f4.. e16 f8.[ g16 a8. b16]
+    c4 r r2
+    R1 %60
+    \mvTr b4\pE-\pizz r f r
+    r b, b r
+    es, r es' r
+    r f f r
+    d r b r %65
+    f r f' r
+    d r b r
+    f r f' r
+    b, r b'\cresc r
+    b, r es\fz r %70
+    f\p r r \mvTr f\f-\arco
+    ges f e f
+    b, b' des b,
+    c c' es c,
+    des des' f des, %75
+    es f ges e
+    f r r2
+    \mvTr f4\pE-\pizz r b, r
+    r f' f r
+    d r f r %80
+    r b b r
+    d, r b r
+    f r f' r
+    d r b r
+    f r f' r %85
+    b, r b' r
+    b, r \mvTrr e\fz-\arco r
+    f\p f f, f
+    b\pp b b b
+    b b b b\cresc %90
+    b b' b b\f
+    b r r2
+    r4 ces,\p ces ces
+    g! r r2
+    r4 as as b\f %95
+    ces b as ces'
+    b as ges f
+    ges f es ges
+    f es' des c
+    b c des des, %100
+    c c' c, d
+    e g c c,
+    f g as as,
+    g g' g, a
+    h d g h %105
+    c, es! g c
+    f, c as f
+    b d f b
+    es, b g es
+    as c es as %110
+    d, as f d
+    g h d g
+    c, c' b, b'
+    as, as' g, g'
+    fis a d, fis %115
+    g g, f! f'
+    es,\fz es' g es
+    d fis a d
+    es(\fz d) b g
+    es2(\fz d4) d' %120
+    es(\fz d) b g
+    es2(\fz d4) des
+    c c' c, b
+    as as' as, g
+    fis\ff a c es %125
+    a, c es fis
+    g, b a c
+    b d g, g'
+    ges,\fz ges' f,\fz f'
+    es,\fz es' f,\fz f' %130
+    es,\fz es' d,\fz d'
+    c2\fz\fermata r4 as'\ff
+    es' c as fis
+    g b, c es
+    d r d, r %135
+    g \tuplet 3/2 { b8\fz b b } a4 \tuplet 3/2 { es'8\fz es es }
+    d4 \tuplet 3/2 { g8\fz g g } fis4 \tuplet 3/2 { c'8\fz c c }
+    b4 \tuplet 3/2 4 { es8\fz es es d[ d d] a a a
+    b b b g[ g g] es es es cis[ cis cis]
+    d d, d d[ d d] d d d d[ d d] %140
+    d d d d[ d d] d d d d[ d d]
+    d d' d d[ d d] d d d d[ d d]
+    d d d d[ d d] d d d d[ d d]
+    d d, d d[ d d] d d' d d[ d d]
+    d d, d d[ d d] d d' d d[ d d] } %145
+    d4.. cis16 d8.[ e16 fis8. g16]
+    a4 r r2 \noBreak
+    R1
+    \key g \major \mvTr g4\pE-\pizz r d r \noBreak
+    r g, g r %150
+    c r c r
+    r d d, r
+    h' r g r
+    d r d' r
+    h r g r %155
+    d r d' r
+    g, r g r
+    g r c, r
+    d r r \mvTr d'\f-\arco
+    g fis! g a %160
+    b g, b g
+    g' b, es b
+    b' es, g es
+    b es g\cresc b
+    es b g es %165
+    cis cis' cis cis,
+    d r r2
+    \mvTr d4\pE-\pizz r g, r
+    r d' d r
+    h r d r %170
+    r g g r
+    h, r g r
+    d r d' r
+    h r g r
+    d r d' r %175
+    g, r g' r
+    g r \mvTr cis2\f-\arco
+    d4\decresc d d, d
+    g,\p h d g
+    g, c e g %180
+    g, c d fis
+    g, h d g
+    h, d g h
+    c, e g c
+    d d d, d %185
+    g g, g g
+    g' g, g g
+    g' g, g g
+    g' g, g g
+    g g' d h %190
+    g g' d h
+    g\perd g' d h
+    g r g r
+    g\! r r2\fermata \bar "|." %194 finis
+  }
+}

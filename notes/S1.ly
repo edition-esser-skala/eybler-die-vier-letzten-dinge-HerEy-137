@@ -730,3 +730,260 @@ OSehtSopranoLyrics = \lyricmode {
   ho -- vah
   naht! %147 finis
 }
+
+JehovahSiehSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/4 \autoBeamOff \tempoJehovahSieh
+    \after 4*0 ^\markup \remark "Zweyter Erzengel" R1.*11 %11
+    r2 r4 r r h'\pE
+    d2 fis,4 g r g'8([ e)]
+    d2 c4 \grace { h16[ d] } c4 h r
+    h\< h h c2\> h4\! %15
+    a r d8([ fis,)] g4 r r
+    r a2\fz h4 r r
+    r g'4.(\fz e8) cis4 r8 cis d h
+    a2 g4 fis r r
+    r2 r4 d8([\f fis)] a([ d)] fis([ d)] %20
+    g2 cis,4 e8([ d)] d4 r
+    d2^\dolce h4 a r a8([ ais)]
+    h2 g4 \grace { fis16[ a] } g4 fis r
+    d'\f e fis g2\fz e8([ cis)]
+    a4 r cis, d r r %25
+    R1.*3
+    r4 d'2\fz d8([ h)] gis4 r
+    a4. gis8 a h d4 c! e %30
+    e( d8) c h a ais4 h d
+    g2 dis4 e4.( d8) c([ h)]
+    ais2 ais4 h2 r4
+    R1.
+    e4 dis g \appoggiatura g fis2 h,4 %35
+    c2 r8 a a([ g)] fis4 r
+    e a h c2 e4
+    d2 \tuplet 3/2 { d8([ c h)] } h4 r r
+    r2 r4 r r c
+    c( h) a g r r %40
+    g\f c e g2 \tuplet 3/2 { e8([\p c a)] }
+    d2 fis,4 g r r
+    \fC \mvTr h\p^\markup \remark "Chor der Engeln" h h d2 fis,4
+    g2 c4 h a r
+    c\cresc c c e2 d4 %45
+    c2 h4 \appoggiatura h c2 r4
+    e\f e e g2\fz e4\p
+    d2 c4 c h r
+    gis a h c2 r4
+    h\cresc c d e2 r4 %50
+    dis\f e fis g2 e4\p
+    d2 fis,4 g r r
+    R1.*13 %65
+    \key c \minor \time 2/2 \tempoJehovahSiehB
+      \after 4*0 ^\markup \remark "Zweyter Erzengel" R1*3
+    r2 r4 g
+    c2 g %70
+    es' r4 c
+    g'2. es4
+    c g es c
+    g'2 r4 r8\fermata r \bar "||" %74 finis
+  }
+}
+
+JehovahSiehSopranoLyrics = \lyricmode {
+  Je -- %12
+  ho -- vah ſieh in
+  dei -- ner Mil -- de
+  auf die Er -- war -- ten -- %15
+  den he -- rab,
+  Du biſts,
+  Du __ biſts, der Ih -- nen
+  Da -- ſeyn gab
+  nach dei -- nem %20
+  E -- ben -- bil -- de,
+  ſieh he -- rab in
+  dei -- ner Mil -- de,
+  auf die Er -- war -- ten --
+  den he -- rab. %25
+
+  O Va -- ter! %29
+  hö -- re un -- ſre Bit -- ten, O %30
+  hö -- re un -- ſre Bit -- ten, Je --
+  ho -- vah, hö -- re
+  un -- ſer Flehn!
+
+  Du haſt für ſie als %35
+  Menſch ge -- lit -- ten,
+  laß ſie vor dem Ge --
+  richt be -- ſtehn,
+  laß
+  ſie be -- ſtehn, %40
+  vor dem Ge -- richt laß
+  ſie be -- ſtehn.
+  O Va -- ter, hö -- re
+  un -- ſre Bit -- ten,
+  Je -- ho -- vah, hö -- re %45
+  un -- ſer Flehn!
+  Du haſt für ſie als
+  Menſch ge -- lit -- ten,
+  laß ſie be -- ſtehn
+  vor dem Ge -- richt, %50
+  vor dem Ge -- richt laß
+  ſie be -- ſtehn.
+
+  Je -- %69
+  ho -- vah %70
+  ſpricht das
+  e -- wig
+  blei -- ben -- de Ge --
+  richt. %74 finis
+}
+
+OSchrecklichesSopranoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoOSchreckliches
+    r2\fermata r
+    R1*42 %43
+    r2\fermata r4 r
+    R1*15 %59
+    r2 r4 f\pE %60
+    f'4. d8 es4. c8
+    b2 r4 b
+    g'4. f8 es4. d8
+    c2 r4 f,
+    b^\dolce d d f %65
+    f4.( es8) c4 f,
+    b d d f
+    f4.( es8) c4 c
+    d4. b8 es4.\cresc c8
+    f4 r g2\fz %70
+    f4.\pE d8 f([ es)] d([ c)]
+    b4 r r2
+    R1*4 %76
+    r2 r4 f\pE
+    es'4. c8 d4. b8
+    c2 r4 f,
+    f'4. d8 es4. c8 %80
+    d2 r4 f,
+    b d d f
+    f4.( es8) c4 f,
+    b d d f
+    f4.( es8) c4 c %85
+    d4. b8 es4. c8
+    f4 r \mvDll b2\fz
+    f4.\pE d8 f([ es)] d([ c)]
+    b2 r
+    R1*42 %131
+    r2\fermata r4 r
+    R1*15 \noBreak %147
+    r2 r4 d,\pE
+    \key g \major d'4. h8 c4. a8 \noBreak
+    g2 r4 g %150
+    e'4. d8 c4. h8
+    a2 r4 d,
+    g h h d
+    d4.( c8) a4 d,
+    g h h d %155
+    d4.( c8) a4 a
+    h4. g8 c4. a8
+    d4 r e2\fz
+    d4.\pE h8 d([ c)] h([ a)]
+    g4 r r2 %160
+    R1*6 %166
+    r2 r4 d\pE
+    c'4. a8 h4. g8
+    a2 r4 d,
+    d'4. h8 c4. a8 %170
+    h2 r4 d,
+    g h h d
+    d4.( c8) a4 d,
+    g h d g
+    d4.( c8) a4 a %175
+    h4. g8 c4. a8
+    d4 r g2\fz
+    d4. h8 d([ c)] h([ a)]
+    g2 r
+    r r4 e'8([^\dolce c)] %180
+    a2 r4 d8([ c])
+    h2 r4 g8([ h)]
+    d4 d d g
+    g4.( e8) e4 c
+    h4. d8 d([ c)] h([ a)] %185
+    g4 r r h8([\p a)]
+    a4 r r c8([ h)]
+    h4 r r d8([\cresc fis)]
+    fis4 r r d8([ g)]
+    g1~\f %190
+    g~\decresc
+    g2\! r
+    R1
+    R\fermata \bar "|." %194 finis
+  }
+}
+
+OSchrecklichesSopranoILyrics = \lyricmode {
+  O %60
+  nah -- men -- lo -- ſes
+  Glück! O
+  nah -- men -- lo -- ſes
+  Glück! Zum
+  Heil ſind wir ge -- %65
+  boh -- ren! Zum
+  Heil hat uns er --
+  koh -- ren Je --
+  ho -- vahs Va -- ter --
+  blick! O %70
+  nah -- men -- lo -- ſes
+  Glück!
+
+  O %77
+  nah -- men -- lo -- ſes
+  Glück! O
+  nah -- men -- lo -- ſes %80
+  Glück! Zum
+  Heil ſind wir ge --
+  boh -- ren, zum
+  Heil hat uns er --
+  koh -- ren Je -- %85
+  ho -- vahs Va -- ter --
+  blick, o
+  nah -- men -- lo -- ſes
+  Glück!
+
+  O %148
+  nah -- men -- lo -- ſes
+  Glück! O %150
+  nah -- men -- lo -- ſes
+  Glück! Zum
+  Heil ſind wir ge --
+  boh -- ren, zum
+  Heil hat uns er -- %155
+  koh -- ren Je --
+  ho -- vahs Va -- ter --
+  blick, o
+  nah -- men -- lo -- ſes
+  Glück! %160
+
+  O %167
+  nah -- men -- lo -- ſes
+  Glück! O
+  nah -- men -- lo -- ſes %170
+  Glück! Zum
+  Heil ſind wir ge --
+  boh -- ren, zum
+  Heil hat uns er --
+  koh -- ren Je -- %175
+  ho -- vahs Va -- ter --
+  blick, o
+  nah -- men -- lo -- ſes
+  Glück!
+  Zum %180
+  Heil, zum
+  Heil, zum
+  Heil hat uns er --
+  koh -- ren Je --
+  ho -- vahs Va -- ter -- %185
+  blick! zum
+  Heil, zum
+  Heil, zum
+  Heil, zum
+  Heil. __ %190 finis
+}

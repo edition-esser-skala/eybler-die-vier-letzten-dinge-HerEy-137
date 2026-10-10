@@ -1657,3 +1657,342 @@ OSehtViolone = {
     b2 r\fermata \bar "|." %154 finis
   }
 }
+
+JehovahSiehViolone = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/4 \tempoJehovahSieh
+    g4\pE^\pizz r d' e r r
+    a, r g d' r r
+    R1.
+    r2 r4 r a g
+    c r r r2 r4 %5
+    r2 r4 r d d
+    d r r r d d
+    d r r r d c
+    h r r r2 r4
+    r2 r4 r g'\f d %10
+    h r r r2 r4
+    r d\p d, g r r
+    r2 r4 r e'\p^\arco c
+    d( e fis) g g, r
+    R1. %15
+    r2 r4 r g^\pizz h
+    d r r r g\f fis
+    e r r r a\p d,
+    cis a cis d r r
+    r2 r4 r d' h %20
+    r g a d, d' r
+    r d, d d d' r
+    r d, d d d' r
+    h g fis r e e
+    r a a, d r r %25
+    r2 r4 r a'\p^\arco a,
+    d r r r2 r4
+    r a' a, d \grace e16 d8(\f cis d e)
+    f4 r f(\sfz e) r r
+    r c'!^\pizz gis r a c, %30
+    r d fis! r g fis
+    e r h' c r r
+    r c,\p^\arco c h2.~
+    h2.~ h8 h'(\f c h ais a)
+    g4 r r r2 r4 %35
+    r a^\pizz dis, e h r
+    R1.*3
+    r2 r4 r e\f d! %40
+    c r r r2 r4
+    r d'\p d, g r r
+    g d h g g' d
+    e c a d d r
+    a'\cresc a a r c, d %45
+    r e e a, a' r
+    c\f g e c\fz c' r
+    r d,\p dis e e, r
+    r2 r4 r a' d,
+    f r r r c'\cresc fis, %50
+    a r r r e\f c
+    r d\p d, g g' h
+    d r r r2 r4
+    r2 r4 r a, g
+    c r r r2 r4 %55
+    r2 r4 r d d
+    d r r r d d
+    d r r r d c
+    h r r r2 r4
+    r d d g e\f h %60
+    c r r r2 r4
+    r d\p^\arco d, g r r
+    f'2(\pp d4 h) r r
+    g'2( es4 c) r r \noBreak
+    f,2. g %65
+    \key c \minor \time 2/2 \tempoJehovahSiehB as1~
+    as~
+    as
+    g1:32
+    g:
+    g: %70
+    g:
+    g:
+    g2 r4 r8\fermata g'32(\f a! h! c64 d) \bar "|" %74 finis
+  }
+}
+
+DerDonnerViolone = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/4 \tempoDerDonner
+    es'4.\fz h8 c fis,
+    g d es h c g
+    as4.\fz g8 as g
+    as g as g as ges
+    \tuplet 3/2 8 { f16 ges as } r8 \tuplet 3/2 8 { f16 ges as } r8 \tuplet 3/2 8 { f16 ges as } r8 %5
+    \tuplet 3/2 8 { f16 ges as } r8 \tuplet 3/2 8 { f16 ges as } r8 \tuplet 3/2 8 { f16 ges as } r8
+    b4.\fz a8 b a
+    b a b a b as
+    \tuplet 3/2 8 { g!16 as b } r8 \tuplet 3/2 8 { g16 as b } r8 \tuplet 3/2 8 { g16 as b } r8
+    \tuplet 3/2 8 { g16 as b } r8 \tuplet 3/2 8 { g16 as b } r8 \tuplet 3/2 8 { g16 as b } r8 %10
+    c4.\fz h8 c h
+    c h c h c b
+    as4 as' f
+    d f d
+    h8[ r16 h32( c] d8[) r16 d32( c] h8[) r16 h32( a] %15
+    g4) r r
+    R2.*2
+    c8\f c c'\fz c h, h
+    h'\fz h b, b b' b\fz %20
+    a, a a'\fz a gis, gis
+    gis'\fz gis g, g g'\fz g
+    fis4 r8 d32( e fis g a8) fis32( g a b
+    c8) a32( b c d es!8) d c b
+    a g fis es! d c %25
+    b4 r r
+    g8\f r r4 r
+    R2.*2
+    r8. c16 c4 r \noBreak %30
+    R2.
+    \time 4/4 \tempoDerDonnerB
+      r8. c'16-!\f c8[-! r16 g]-! g8[-! r16 es]-! es8[-! r16 c]-! \noBreak
+    c4 r r2 \noBreak
+    as\sfp\fermata r4 r \noBreak
+    \time 3/4 g4 r g'\fz \noBreak %35
+    g, r g'\fz
+    g, r g'\fz
+    g, r g'\fz
+    g, r r8 d'32( c h a
+    g8) r r4 r %40
+    R2.
+    r4 c'-!\ff b!-!
+    \parOn as!-\parenthesize-! g-! f-!
+    es!-! des-! \parOff c-\parenthesize-!
+    b8. g32 a b8. g32 a b8. g32 a %45
+    b4 r r
+    h8. gis32 a h8. gis32 a h8. gis32 a
+    h4 r r
+    c8. a32 h c8. a32 h c8. a32 h
+    c4 fis a %50
+    c r \grace { a,32[ h] } c4
+    r \grace { a32[ h] } c4 r
+    \grace { a32[ h] } c4 r r
+    R2.\fermata
+    cis4\fz\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesViolone = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \minor \time 2/2 \tempoOSchreckliches
+    d2\fermata r4 d\f
+    es!2 r4 fis
+    g2 r4 a
+    b h c d
+    \tuplet 3/2 4 { es8 d c b[ as g] f! es d c[ b as] } %5
+    g4 r r2
+    \override TupletNumber.stencil = ##f \tuplet 3/2 4 { des''8 c b as[ g f] e des c b[ as g] }
+    f4 r r2
+    \tuplet 3/2 4 { c''8 d! es! d[ c b] a! g fis es![ d c] }
+    b4 d' b g %10
+    es b' d, b'
+    cis, g' b cis,!
+    d fis a d
+    es c,! a' fis,
+    g b d g %15
+    f! as h, g'
+    es g c c,
+    f as des des,
+    ges b es es,
+    as ces es ges, %20
+    f as des des,
+    ges b des f,
+    es ges ces ces,
+    f as ces es,
+    d! f b b, %25
+    es ges b es,
+    ces ces' b, b'
+    a,! c! f a
+    b, des f b
+    a! c a f %30
+    ges(\fz f) des b
+    ges2(\fz f4) f'
+    ges(\fz f) des b
+    ges2(\fz f4) f'
+    es es' es, des %35
+    c c' c, b
+    a!\ff c es ges
+    c, es ges a!
+    b, des c es
+    des f b b, %40
+    heses\fz heses' as,\fz as'
+    ges,\fz ges' as,\fz as'
+    ges,\fz ges' f,\fz f'
+    es2\fermata r4 r
+    r2 r4 f\ff %45
+    des' b ges e
+    f r f, r
+    b des\fz c ges'\fz
+    f b\fz a! es'\fz
+    des ges\fz f c %50
+    des b ges e
+    f, f' f, f'
+    f, f' f, f'
+    f, f' f, f'
+    f, f' f, f' %55
+    f, f' f, f'
+    f, f' f, f'
+    f, r r2
+    R1*2 %60
+    b'4\pE^\pizz r f r
+    r b, b r
+    es r es r
+    r f f r
+    d r b r %65
+    f r f' r
+    d r b r
+    f r f' r
+    b, r b'\cresc r
+    b, r es\fz r %70
+    f\p r f, f'\f^\arco
+    ges f e f
+    b, b' des b,
+    c c' es c,
+    des des' f des, %75
+    es f ges e
+    f r r2
+    f4\pE^\pizz r b, r
+    r f' f r
+    d r f r %80
+    r b b r
+    d, r b r
+    f r f' r
+    d r b r
+    f r f' r %85
+    b, r b' r
+    b, r e\fz^\arco r
+    f\p f f, f
+    b\pp b b b
+    b b b b\cresc %90
+    b b' b b\f
+    b r r2
+    r4 ces,\p ces ces
+    g! r r2
+    r4 as as b\f %95
+    ces b as ces'
+    b as ges f
+    ges f es ges
+    f es' des c
+    b c des des, %100
+    c c' c, d
+    e g c c,
+    f g as as,
+    g g' g, a
+    h d g h %105
+    c, es! g c
+    f, c as f'
+    b, d f b
+    es, b g es'
+    as, c es as %110
+    d, as f d'
+    g, h d g
+    c, c' b, b'
+    as, as' g, g'
+    fis a d, fis %115
+    g g, f! f'
+    es,\fz es' g es
+    d fis a d
+    es(\fz d) b g
+    es2(\fz d4) d' %120
+    es(\fz d) b g
+    es2(\fz d4) des
+    c c' c, b
+    as as' as, g
+    fis\ff a c es %125
+    a, c es fis
+    g, b a c
+    b d g, g'
+    ges,\fz ges' f,\fz f'
+    es\fz es' f,\fz f' %130
+    es,\fz es' d,\fz d'
+    c,2\fz\fermata r4 as'\ff
+    es' c as fis
+    g b, c es
+    d r d r %135
+    g, b\fz a es'\fz
+    d g\fz fis c'\fz
+    b es\fz d a
+    b g es cis
+    d d' d, d' %140
+    d, d' d, d'
+    d, d' d, d'
+    d, d' d, d'
+    d, d' d, d'
+    d, d' d, d' %145
+    d, r r2
+    R1*2
+    \key g \major g4\pE^\pizz r d r \noBreak
+    r g g r %150
+    c, r c' r
+    r d d r
+    h r g r
+    d r d' r
+    h r g r %155
+    d r d' r
+    g, r g r
+    g r c, r
+    d r d r
+    g\f^\arco fis! g a %160
+    b g, b g
+    g' b, es b
+    b' es, g es
+    b es g\cresc b
+    es b g es %165
+    cis cis' cis cis,
+    d r r2
+    d4\pE^\pizz r g r
+    r d d r
+    h r d r %170
+    r g g r
+    h r g r
+    d r d' r
+    h r g r
+    d r d' r %175
+    g,, r g' r
+    g r cis2\f^\arco
+    d4\decresc d d, d
+    g,\p h d g
+    g, c e g %180
+    g, c d fis
+    g, h d g
+    h, d g h
+    c, e g c
+    d d d, d %185
+    g, g' g g
+    g, g' g g
+    g, g' g g
+    g, g' g g
+    g, g' d h %190
+    g g' d h
+    g\perd g' d h
+    g r g r
+    g\! r r2\fermata \bar "|." %194 finis
+  }
+}

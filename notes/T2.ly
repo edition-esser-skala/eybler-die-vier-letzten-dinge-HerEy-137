@@ -56,3 +56,278 @@ WerRuftTenoreIILyrics = \lyricmode {
   ho -- vah,
   Du! %24 finis
 }
+
+OSchrecklichesTenoreII = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoOSchreckliches
+    r2\fermata r
+    R1*3
+    r2 r4 es\f %5
+    es4. es8 es4. es8
+    des2 r4 des
+    des4. des8 des4. des8
+    c2 r4 es
+    d! d b g %10
+    es2 d4 d
+    cis1
+    d4 r r d'
+    es c a fis
+    g b r2 %15
+    R1
+    r4 g es'2
+    R1
+    r4 b ges'2
+    r2 r4 es %20
+    des4. des8 des4 des
+    des2 des4 des
+    ces4. ces8 ces4 ces
+    ces2 ces4 ces
+    b4. b8 b4 b %25
+    b2 b4 b
+    ces ces es es
+    c2 c4 c
+    des f des b
+    f r r f' %30
+    ges\fz f des b
+    ges2\fz f4 f'
+    ges\fz f des b
+    \mvDl ges2\fz f4 r
+    \mvDl a!2\fz r %35
+    c r
+    es1\ff
+    ges2 r4 es
+    des f a,! c
+    b2 b4 des %40
+    es4.\fz es8 f4.\fz f8
+    ges2\fz r4 f
+    ges4.\fz ges8 d!4.\fz d8
+    es2\fermata r4 ces\ff
+    ges' es ces a! %45
+    b2 ges4 e
+    f1
+    b,2 r
+    R1*22 %70
+    r2 r4 f'\f
+    ges f e f
+    des'2 b4 r
+    es2\fz c4 a
+    f'2\fz des4 b %75
+    ges'4.\fz f8 es4.\fz des8
+    c2 r
+    R1*11 %88
+    r2 r4 b\p
+    f'2 r4 es\cresc %90
+    d2 r4 es\f
+    f d\p d d
+    d4.( es8) es4 r
+    r b\pp b b
+    b4.( ces8) ces4 r %95
+    R1*2
+    r2 r4 b
+    c! ges' f es
+    des r r2 %100
+    R1*2
+    r2 r4 c
+    f4. es8 d!4 c
+    g r r g %105
+    es'4. es8 es4 es
+    es2 f,4 f
+    d'4. d8 d4 d
+    d2 es,4 es
+    c'4. c8 c4 c %110
+    c2 d,4 d
+    h'4. h8 h4 h
+    c2 d4 d
+    es4. es8 es4 g,
+    a!2 d4 c %115
+    b4. b8 a4 d
+    cis4.\fz g8 g4. g8
+    a2 r4 d
+    es\fz d b g
+    es2\fz d4 d' %120
+    es\fz d b g
+    es2\fz d4 r
+    es'2\fz r
+    c\fz r
+    a!1\ff %125
+    c2 r4 c
+    b d d d
+    d2 d4 b
+    c4.\fz c8 d4.\fz d8
+    es2\fz r4 d %130
+    es4.\fz es8 h4.\fz h8
+    \mvDll c2\fz\fermata r4 as\ff
+    es' c as fis
+    g2 es4 cis
+    d1 %135
+    g4 r r2
+    R1*12 %148
+    \key g \major R1*10 %158
+    r2 r4 d\f
+    g fis! g a %160
+    b2 g4 r
+    es'2\fz b4 b
+    g'2 es4 b
+    g\fz b es g
+    b,r es2 %165
+    e4.\fz e8 e4. e8
+    a,4 r r2
+    R1
+    a2\p d,4 r
+    R1 %170
+    h'!2 d,4 r
+    r2 r4 d
+    d d d d
+    d2 d4 d
+    d d d d %175
+    d2 d4 r
+    r g8.([\f g'16)] g2
+    r r4 d\p
+    f d h! f
+    e r r2 %180
+    R1*5 %185
+    r4\p es8([ d)] d4 r
+    r es8([ d)] d4 r
+    R1
+    r4 g g g
+    g1~ %190
+    g\decresc
+    g2\! r
+    R1
+    R\fermata \bar "|." %194 finis
+  }
+}
+
+OSchrecklichesTenoreIILyrics = \lyricmode {
+  O %5
+  ſchreck -- li -- ches Ge --
+  ſchick! O
+  ſchreck -- li -- ches Ge --
+  ſchick! O
+  weh, wir ſind ver -- %10
+  loh -- ren, ver --
+  loh --
+  ren! Weh
+  ihr, die mich ge --
+  boh -- ren! %15
+
+  O weh!
+
+  O weh!
+  O %20
+  weh, wir ſind ver --
+  loh -- ren, weh
+  ihr, die mich ge --
+  boh -- ren, o
+  weh, wir ſind ver -- %25
+  loh -- ren, weh
+  ihr, die mich ge --
+  boh -- ren, o
+  ſchreck -- li -- ches Ge --
+  ſchick! O %30
+  weh, wir ſind ver --
+  loh -- ren, weh
+  ihr, die mich ge --
+  boh -- ren!
+  weh! %35
+  weh!
+  weh
+  ihr! O
+  weh, wir ſind ver --
+  loh -- ren! O %40
+  ſchreck -- li -- ches Ge --
+  ſchick! O
+  ſchreck -- li -- ches Ge --
+  ſchick! O
+  weh, wir ſind ver -- %45
+  loh -- ren, ver --
+  loh --
+  ren!
+
+  O %71
+  weh, wir ſind ver --
+  loh -- ren,
+  wir ſind ver --
+  loh -- ren, o %75
+  ſchreck -- li -- ches Ge --
+  ſchick!
+
+  O %89
+  weh! o %90
+  weh, o
+  weh, wir ſind ver --
+  loh -- ren!
+  Wir ſind ver --
+  loh -- ren! %95
+
+  O %99
+  ſchreck -- li -- ches Ge -- %100
+  ſchick!
+
+  O
+  ſchreck -- li -- ches Ge --
+  ſchick! O %105
+  weh, wir ſind ver --
+  loh -- ren! Weh
+  ihr, die mich ge --
+  boh -- ren, o
+  weh, wir ſind ver -- %110
+  loh -- ren, weh
+  ihr, die mich ge --
+  boh -- ren, o
+  weh, wir ſind ver --
+  loh -- ren, o %115
+  ſchreck -- li -- ches, o
+  ſchreck -- li -- ches Ge --
+  ſchick! O
+  weh, wir ſind ver --
+  loh -- ren, weh %120
+  ihr, die mich ge --
+  boh -- ren!
+  weh!
+  weh!
+  weh %125
+  ihr! O
+  weh, wir ſind ver --
+  loh -- ren, o
+  ſchreck -- li -- ches Ge --
+  ſchick! O %130
+  ſchreck -- li -- ches Ge --
+  ſchick! O
+  weh, wir ſind ver --
+  loh -- ren, ver --
+  loh -- %135
+  ren!
+
+  O %159
+  weh, wir ſind ver -- %160
+  loh -- ren!
+  Wir ſind ver --
+  loh -- ren, o
+  ſchreck -- li -- ches Ge --
+  ſchick! O %165
+  ſchreck -- li -- ches Ge --
+  ſchick!
+
+  weh ihr!
+  %170
+  weh ihr!
+  weh
+  ihr, die mich ge --
+  boh -- ren, o
+  weh, wir ſind ver -- %175
+  loh -- ren!
+  O weh!
+  O %
+  ſchreck -- li -- ches Ge --
+  ſchick! %180
+
+  O weh! %186
+  O weh!
+
+  Wir ſind ver --
+  loh -- %190
+
+  ren! %192 finis
+}

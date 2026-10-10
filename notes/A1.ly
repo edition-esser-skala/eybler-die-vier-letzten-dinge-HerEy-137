@@ -716,3 +716,190 @@ OSehtAltoLyrics = \lyricmode {
   ho -- vah
   naht! %147 finis
 }
+
+JehovahSiehAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/4 \autoBeamOff \tempoJehovahSieh
+    R1.*42 %42
+    \fC \mvTr g'4\p^\markup \remark "Chor der Engeln" g g g( d) c
+    h( c) a' g fis r
+    a\cresc a a a2 h4 %45
+    a( e) gis \appoggiatura gis a2 r4
+    g\f g g g2\fz g4\p
+    f2 fis4 e e r
+    f e d c2 r4
+    g'\cresc g g g2 r4 %50
+    fis!\f g dis e2 \tuplet 3/2 { e8([\p c a)] }
+    h4( d) c h r r
+    R1.*13 %65
+    \key c \minor \time 2/2 \tempoJehovahSiehB
+      R1*8 %73
+    R1\fermata \bar "|" %74 finis
+  }
+}
+
+JehovahSiehAltoLyrics = \lyricmode {
+  O Va -- ter, hö -- re %43
+  un -- ſre Bit -- ten,
+  Je -- ho -- vah, hö -- re %45
+  un -- ſer Flehn!
+  Du haſt für ſie als
+  Menſch ge -- lit -- ten,
+  laß ſie be -- ſtehn
+  vor dem Ge -- richt, %50
+  vor dem Ge -- richt laß
+  ſie be -- ſtehn. %52 finis
+}
+
+OSchrecklichesAltoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoOSchreckliches
+    r2\fermata r
+    R1*42 %43
+    r2\fermata r4 r
+    R1*15 %59
+    r2 r4 f\pE %60
+    f4. f8 f4. f8
+    d2 r4 f
+    g4. g8 g4. g8
+    c,2 r4 f
+    f^\dolce f f f %65
+    f2 f4 f
+    f f f f
+    f2 f4 f
+    f4. f8 a4.\cresc c8
+    b4 r b2\fz %70
+    f4.\pE f8 f4 f
+    b r r2
+    R1*4 %76
+    r2 r4 f\pE
+    f4. f8 f4. b8
+    a2 r4 f
+    f4. f8 f4. f8 %80
+    f2 r4 f
+    f f f f
+    f2 f4 f
+    f f f f
+    f2 f4 f %85
+    f4. f8 a4. c8
+    b4 r des2\fz
+    d4.\pE b8 d([ c)] b([ a)]
+    b2 r
+    R1*42 %131
+    r2\fermata r4 r
+    R1*15 \noBreak %147
+    r2 r4 d,\pE
+    \key g \major h'4. g8 a4. fis8 \noBreak
+    g2 r4 g %150
+    g4. g8 a4. g8
+    fis2 r4 d
+    d g g h
+    h4.( a8) fis4 d
+    d g g h %155
+    h4.( a8) fis4 d
+    d4. d8 fis4. a8
+    g4 r g2\fz
+    d4.\pE d8 d4 d
+    h r r2 %160
+    R1*6 %166
+    r2 r4 d\pE
+    d4. d8 d4. d8
+    fis2 r4 d
+    g4. g8 a4. fis8 %170
+    d2 r4 d
+    d g g h
+    h4.( a8) fis4 d
+    d g g h
+    h4.( a8) fis4 d %175
+    d4. d8 fis4. a8
+    g4 r b2\fz
+    h4. g8 h([ a)] g([ fis)]
+    g2 r
+    r r4 e^\dolce %180
+    d2 r4 a'
+    g2 r4 g
+    g g g g
+    g2 g4 a
+    g4. h8 h([ a)] g([ fis)] %185
+    g4 r r g8([\p fis)]
+    fis4 r r a8([ g)]
+    g4 r r h8([\cresc a)]
+    a4 r r c8([ h)]
+    h1~\f %190
+    h~\decresc
+    h2\! r
+    R1
+    R\fermata \bar "|." %194 finis
+  }
+}
+
+OSchrecklichesAltoILyrics = \lyricmode {
+  O %60
+  nah -- men -- lo -- ſes
+  Glück! O
+  nah -- men -- lo -- ſes
+  Glück! Zum
+  Heil ſind wir ge -- %65
+  boh -- ren! Zum
+  Heil hat uns er --
+  koh -- ren Je --
+  ho -- vahs Va -- ter --
+  blick! O %70
+  nah -- men -- lo -- ſes
+  Glück!
+
+  O %77
+  nah -- men -- lo -- ſes
+  Glück! O
+  nah -- men -- lo -- ſes %80
+  Glück! Zum
+  Heil ſind wir ge --
+  boh -- ren, zum
+  Heil hat uns er --
+  koh -- ren Je -- %85
+  ho -- vahs Va -- ter --
+  blick, o
+  nah -- men -- lo -- ſes
+  Glück!
+
+  O %148
+  nah -- men -- lo -- ſes
+  Glück! O %150
+  nah -- men -- lo -- ſes
+  Glück! Zum
+  Heil ſind wir ge --
+  boh -- ren, zum
+  Heil hat uns er -- %155
+  koh -- ren Je --
+  ho -- vahs Va -- ter --
+  blick, o
+  nah -- men -- lo -- ſes
+  Glück! %160
+
+  O %167
+  nah -- men -- lo -- ſes
+  Glück! O
+  nah -- men -- lo -- ſes %170
+  Glück! Zum
+  Heil ſind wir ge --
+  boh -- ren, zum
+  Heil hat uns er --
+  koh -- ren Je -- %175
+  ho -- vahs Va -- ter --
+  blick, o
+  nah -- men -- lo -- ſes
+  Glück!
+  Zum %180
+  Heil, zum
+  Heil, zum
+  Heil hat uns er --
+  koh -- ren Je --
+  ho -- vahs Va -- ter -- %185
+  blick! zum
+  Heil, zum
+  Heil, zum
+  Heil, zum
+  Heil. __ %190 finis
+}

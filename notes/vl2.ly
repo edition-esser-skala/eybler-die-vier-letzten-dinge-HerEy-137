@@ -1610,3 +1610,382 @@ OSehtViolinoII = {
     b2 r\fermata \bar "|." %154 finis
   }
 }
+
+JehovahSiehViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/4 \tempoJehovahSieh
+    g'4\pE^\pizz r fis g r r
+    fis r g fis r r
+    R1.
+    r2 r4 r a h
+    c r r r2 r4 %5
+    r2 r4 r c, h
+    a r r r <fis' a,> q
+    q r r r fis a
+    d, r r r2 r4
+    r2 r4 r <h' d, g,>\f q %10
+    <d d, g,> r r r2 r4
+    r h,\p a g r r
+    r2 r4 r h(\p^\arco c)
+    h2 a4 \grace { g16[ h] } a4 g r
+    R1. %15
+    r2 r4 r g'^\pizz g
+    fis r r r <g h,>\f <a d,>
+    <h g> r r r a\p fis
+    e cis e d r r
+    r2 r4 r a' h %20
+    r h g r fis r
+    r2 r4 r8 fis' d a fis d
+    g4 r r r8 d' a fis d d'
+    fis,4 r r r h g
+    r cis, e d r r %25
+    r2 r4 r a(\p^\arco cis
+    d) r r r2 r4
+    r a a a \grace e'16 d8(\f cis d e)
+    f4 r d~\fz d r r
+    r e^\pizz e r e a %30
+    r c, a' r g a
+    h r a g r r
+    r ais,\p^\arco ais h2( ais4)
+    h2( ais4) h8 dis(\f e dis g! fis)
+    e4 r r r2 r4 %35
+    r dis^\pizz fis e dis r
+    R1.*3
+    r2 r4 r <g' h, e,>\f <f h, d,> %40
+    <e c e,> r r r2 r4
+    r d,\p c h r r
+    g' g g r g c,
+    h c a' g fis r
+    a\cresc a a r a h %45
+    r a gis gis a r
+    g\f g g <g c e>\fz r r
+    r f\p fis e e r
+    r2 r4 r a a
+    g r r r c\cresc c %50
+    c r r r h\f c
+    r h,\p c h d d
+    d r r r2 r4
+    r2 r4 r a' h
+    c r r r2 r4 %55
+    r2 r4 r c, h
+    a r r r <fis' a,> q
+    q r r r fis a
+    d, r r r2 r4
+    r d fis g <c e, g,>\f <d g, g,> %60
+    <c e, g,> r r r2 r4
+    r h,\p^\arco a g r r
+    f'2(\pp d4 h) r r
+    g'2( es4 c) r r \noBreak
+    des2. h! %65
+    \key c \minor \time 2/2 \tempoJehovahSiehB
+      c1~ \noBreak
+    c~
+    c
+    c1:32
+    c: %70
+    c:
+    c:
+    c:
+    h2 r4 r8\fermata g'32(\f a! h! c64 d) \bar "|" %74 finis
+  }
+}
+
+DerDonnerViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 3/4 \tempoDerDonner
+    es'4.\fz h8 c fis,
+    g d es h c g
+    as4.:16\fz g16 g as as g g
+    as as g g as as g g as as c c
+    des8 <f des'>4 q q8~ %5
+    q q4 q q8
+    b,4.:\fz a16 a b b a a
+    b b a a b b a a b b d! d
+    es8 <g es'>4 q q8~
+    q q4 q q8 %10
+    c,4.:\fz h16 h c c h h
+    c c h h c c h h c c e e
+    f4 c'-! as!-!
+    f-! as-! f-!
+    d8 r16 g32_[( a] h8[) r16 h32( c] d8[) r16 d32( es] %15
+    f4) r r
+    R2.*2
+    c,4\f <es c' as'!> d
+    <d h' g'> cis <fis cis' fis> %20
+    c <f c' f> h,
+    <e h' e> b <b g' es'>
+    a8 d32( e fis g a8) fis32_( g a b c8) a32( b c d
+    es!8) d c b a g
+    fis es! d c b a %25
+    g4 r r
+    r r8 g'32_[(\f a b c] \scriptOut d8)-! r
+    R2.*2
+    r8. <c es,>16 q4 r \noBreak %30
+    R2.
+    \time 4/4 \tempoDerDonnerB
+      r8. g16-!\f g8[-! r16 es]-! es8[-! r16 c]-! c8[-! r16 <es g,>]-! \noBreak
+    q4 r r2 \noBreak
+    c\sfp\fermata r4 r
+    \time 3/4 h4 r8 g'32(\ff a h c) d8-! h-! \noBreak %35
+    g4 r8 c32( d es! f) g8-! es-!
+    d4 r8 g,32( a h c) d8-! h-!
+    g4 r8 c32( d es f) g8-! es-!
+    d4 r8 d32( c h a) g8 d32([ c h a)]
+    g8 r r4 r %40
+    R2.
+    r4 c'8.[-!\ff c16-! des8.-! des16]-!
+    c8.[-! c16-! e,8.-! e16-! f8.-! f16]-!
+    c'8.[-! c16-! des8.-! des16-! es8.-! es16]-!
+    << {
+      e8 e4 e e8~ %45
+      e
+    } \\ {
+      e8 e4 e e8~ %45
+      e e, g b des e
+    } >>
+    <d f> q4 q q8~
+    q f, gis h d f
+    <fis a,> q4 q q8~
+    q a fis es! c a %50
+    fis4 <fis es'!> r
+    q r q
+    r q r
+    R2.\fermata
+    b,4\fz\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key g \minor \time 2/2 \tempoOSchreckliches
+    a!2\fermata r8. d16\f d8.\trill c32 d
+    es!2 r8. fis16 fis8.\trill e32 fis
+    g2 r8. a16 a8.\trill g32 a
+    b8[ r16 h] h8.\trill a32 h c8[ r16 d] d8.\trill c32 d
+    \sbTupletsOn \tuplet 3/2 4 { es8 d c b as g f es d c b as } %5
+    g4 r r2
+    \override TupletNumber.stencil = ##f \tuplet 3/2 4 { des''8 c b as g f e des'! c b as g }
+    f4 r r2
+    \tuplet 3/2 4 { c'8 d! es! d c b a! g fis es! d c
+    b b b d' d d b b b g g g %10
+    es es es b' b b d, d d b' b b
+    cis, cis cis g' g g b b b cis,! cis cis
+    d d d fis fis fis a a a d d d
+    fis, fis fis a a a c! c c a, a a
+    b g b d b d g d g b g b %15
+    h h h d d d f! f f d, d d
+    g, c es c es g es g c es c g
+    as f c c c c des f as as as as
+    b ges des des des des es ges b b b b
+    ces as es es es es es as ces ces ces ces %20
+    ces ces ces as as as f f f as as as
+    b ges des des des des des ges b b b b
+    b b b ges ges ges es es es ges ges ges
+    as f ces ces ces ces ces f as as as as
+    as as as f f f d! d d f f f %25
+    ges es b b b b b es ges ges ges ges
+    ges es' es es es es es ges, ges ges ges ges
+    ges es' es es es es c! c c c c c
+    b b b f f f des des des b b b
+    f' f f a! a a c c c f f f %30
+    ges\fz ges ges f f f des des des b b b
+    ges\fz ges ges ges ges ges f f f f' f f
+    ges\fz ges ges f f f des des des b b b
+    ges\fz ges ges ges ges ges f f f f f f
+    a! a a a, a a a' a a b b b %35
+    c c c c, c c c' c c des des des
+    es\ff des c es des c es des c es des c
+    es des c des c b a! ges f es des c
+    des des des b b b es es es c c c
+    f f f f f f f f f f f f %40
+    ges\fz ges ges ges ges ges ces\fz ces ces ces ces ces
+    b\fz b b b b b ces\fz ces ces ces ces ces
+    b\fz b b b b b d!\fz f f f f f }
+    es2\fermata r4 \tuplet 3/2 4 { ces,8\ff ces ces
+    ges' ges ges es es es ces ces ces a! a a %45
+    b b b b'' b b ges ges ges e e e }
+    f4 r <a,! f c> r
+    \tuplet 3/2 4 { b,8 b b des\fz des des c c c ges'\fz ges ges
+    f f f b\fz b b a! a a es'\fz es es
+    des des des ges\fz ges ges f f f c c c %50
+    des des des b b b ges ges ges e e e }
+    f4 \tuplet 3/2 4 { \mvDl a,!8\fz b c a b c des c des
+    es des es f es f ges f ges g f g }
+    c,4 \tuplet 3/2 4 { ges''8\fz f es ges f es des es f
+    es des c b c des c b a g! a b %55
+    a c f c a f b des f des b f
+    a c f c a f b des f des b f } \sbTupletsOff
+    f'4 r8. e,16 f8.[ g16 a8. b16]
+    c4 r r2
+    R1 %60
+    \mvTr b4\pE-\pizz r a r
+    r <b d,> q r
+    b r c r
+    r a a r
+    b,8(-\arco f') b( f) b( f) d'( f,) %65
+    d'( f,) c'( f,) a( f) c( f)
+    b,( f') b( f) b( f) d'( f,)
+    d'( f,) c'( f,) a( f) a( f)
+    b( f) b( f) c'(\cresc a) c( a)
+    d( b) d( d,) \mvDl es(\fz es') g( es) %70
+    d(\p f b, d) d( c b f)
+    \sbTupletsOn \tuplet 3/2 4 { ges\f ges ges f f f e e e f f f
+    des des des f f f b b b des des des
+    es, es es a! a a c c c es es es
+    f, f f b b b des des des f f f %75
+    es es es es es des c c c c c b }
+    a!4 r r2 \sbTupletsOff
+    \mvTr <a c>4\pE-\pizz r b r
+    r a a r
+    b r <a c> r %80
+    r b b r
+    b,8(-\arco f') b( f) b( f) d'( f,)
+    d'( f,) c'( f,) a( f) c( f)
+    b,( f') b( f) b( f) d'( f,)
+    d'( f,) c'( f,) a( f) a( f) %85
+    b( f) b( f) c'( a) c( a)
+    d( b) d( b) \mvDll g'(\fp b,) g'( b,)
+    d( f b, d) d( c b a)
+    b\pp b,4 b b b8
+    ces ces4 ces ces\cresc b8 %90
+    as d'4 d d\f es8
+    f4 r r2
+    r4 es,\p es es
+    des r r2
+    r4 ces ces \sbTupletsOn \tuplet 3/2 4 { es8\f es es %95
+    as as as ges ges ges f f f es es es
+    d! d d ces' ces ces b b b as as as
+    ges ges ges as, as as es' es es b b b
+    c! c c a'! a a b b b c c c
+    des des des c c c b b b f f f %100
+    f f f e e e g g g f f f
+    e e e c' c c e e e g g g
+    as as as e e e f f f c c c
+    c c c h h h d d d c c c
+    g g g h h h g' g g f f f %105
+    es! es es c c c g g g es es es
+    f as' as as as as as f, f f f f
+    d' d d b! b b f f f d d d
+    es g' g g g g g es, es es es es
+    c' c c as as as es es es c c c %110
+    d f' f f f f f d, d d d d
+    d' d d g, g g h h h d d d
+    c c c es es es g g g g, g g
+    as as as c c c es es es es, es es
+    a! a a d, d d fis fis fis a a a %115
+    d, d d d' d d d d d d, d d
+    cis\fz cis cis cis' cis cis cis cis cis g' g g
+    fis fis fis a a a fis fis fis d d d
+    es\fz es es d d d b b b g g g
+    es\fz es es es es es d d d d' d d %120
+    es\fz es es d d d b b b g g g
+    es\fz es es es es es d d d es es es
+    es es es es es es es es es g g g
+    as as as as as as as as as h h h
+    c\ff b! a! c b a c b a c b a %125
+    c b a b a g fis es! d c b a
+    b b b g g g c c c a a a
+    d d d d d d d d d d d d
+    es\fz es es es es es as\fz as as as as as
+    g\fz g g g g g as\fz as as as as as %130
+    g\fz g g g g g h\fz h h h h h }
+    c2\fz\fermata r4 \tuplet 3/2 4 { as8\ff as as
+    es' es es c c c as as as fis fis fis
+    g g g g' g g es es es cis cis cis }
+    d4 r <fis, a,> r %135
+    \tuplet 3/2 4 { g,8 g g b\fz b b a a a es'\fz es es
+    d d d g\fz g g fis fis fis c'\fz c c
+    b b b es\fz es es d d d a a a
+    b b b g g g es es es cis cis cis }
+    d4 \tuplet 3/2 4 { fis8\fz g a fis g a g fis g %140
+    a g fis g fis g es d es e d e }
+    a,4 \tuplet 3/2 4 { es''!8\fz d c es d c b c d
+    c b a g a b a g fis e fis g
+    fis a d a fis d g b d b g d
+    fis a d a fis d g b d b g d } \sbTupletsOff %145
+    d'4 r8. cis,16 d8.[ e16 fis8. g16]
+    a4 r r2 \noBreak
+    << {
+      \tiny r2-\critnote r4 d-\dolce
+      \key g \major h'4. g8 a4. fis8 \noBreak
+      g4 r r g %150
+      c4. h8 a4.^\critnote g8
+      fis4 r r d
+      d g g h
+      h4. a8 fis4 d
+      d g g h %155
+      h4. a8 fis4 fis
+      g4. g8 a4. fis8
+      h4 r c2
+      h4. g8 h a g fis
+      g4
+    } \\ {
+      R1 %148
+      \mvTr g,4\pE-\pizz r fis r
+      r g g r %150
+      g r a r
+      r fis fis r \slurUp
+      g,8(-\arco d') g( d) g( d) h'( d,)
+      h'( d,) a'( d,) fis( d) a( d)
+      g,( d') g( d) g( d) h'( d,) %155
+      h'( d,) a'( d,) fis( d) fis( a)
+      g( d) g( d) a'( fis) a( fis)
+      h( g) h( g) c(\fz g) e( c')
+      h(\p d g, h) h( a g fis)
+      \sbTupletsOn \hideTn \tuplet 3/2 { g8\f g g }
+    } >> \tuplet 3/2 4 { fis!8 fis fis g g g a a a %160
+    b b, b b b b b b b b b b
+    b g' g g g g g g g g g g
+    g b b b b b b b b b b b
+    b es es es es es es\cresc es es es es es
+    es g g g g g g g g g g g %165
+    g g, g g g g g g g g g g } \sbTupletsOff
+    fis4\! r << {
+      \tiny r-\critnote d'-\dolce %167
+      a'4. fis8 g4. g8
+      fis2 r4 d
+      h'4. g8 a4. fis8 %170
+      g2 r4 d
+      d g g h
+      h4. a8 fis4 d
+      d g g h
+      h4. a8 fis4 fis %175
+      g4. g8 a4. fis8
+      h4 r g2
+      h4. g8 h a g fis
+      g
+    } \\ {
+      r2 %167
+      \mvTr <fis, a>4\pE-\pizz r g r
+      r fis fis r
+      g r <fis a> r %170
+      r g g r \slurUp
+      g,8(-\arco d') g( d) g( d) h'( d,)
+      h'( d,) a'( d,) fis( d) a( d)
+      g,( d') g( d) g( d) h'( d,)
+      h'( d,) a'( d,) fis( d) fis( a) %175
+      g( d) g( d) a'( fis) a( fis)
+      h( g) h( g) \mvD #-1 e'(\f g,) e'( g,)
+      h(\decresc d g, h) h( a g fis)
+      g\p
+    } >> h,4 h h h8
+    c c4 c c c8 %180
+    fis fis4 fis fis a8
+    g g4 g g g8
+    g g4 g g g8
+    g g4 g g a8
+    g g4 h a8 g fis %185
+    g g,4 g g8 g'([ fis)]
+    fis a,4 a a8 a'([ g)]
+    g h,4 h h8 h'([ a)]
+    a c,4 c c8 c'([ h)]
+    h h4 h h h8~ %190
+    h g4 g g g8~
+    g\perd d4 d d d8
+    d4 r d r
+    d\! r r2\fermata \bar "|." %194 finis
+  }
+}

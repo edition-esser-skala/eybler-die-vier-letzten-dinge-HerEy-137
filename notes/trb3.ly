@@ -525,3 +525,178 @@ OSehtTromboneIII = {
     R1\fermata \bar "|." %154 finis
   }
 }
+
+JehovahSiehTromboneIII = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/4 \tempoJehovahSieh
+    R1.*65 %65
+    \key c \minor \time 2/2 \tempoJehovahSiehB
+      c2(\p^\critnote es8) r r4 \noBreak
+    c2(\f es8) r r4
+    c2(\sffz es8) r r4
+    R1*5 %73
+    r2 r4 r8\fermata r \bar "|" %74 finis
+  }
+}
+
+DerDonnerTromboneIII = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/4 \tempoDerDonner
+    R2.*2
+    as4.\fz\ten r8 r4
+    R2.
+    f'~\f %5
+    f
+    R2.*2
+    g2.~\f
+    g %10
+    R2.*2
+    as!2.\f
+    as
+    g4 g g %15
+    g r r
+    R2.*2
+    c2\fz h4~\fz
+    h b2\fz %20
+    a\fz as4~\fz
+    as g2\fz
+    fis4 r r
+    R2.
+    a\f %25
+    b4 r r
+    R2.*5 %31
+    \time 4/4 \tempoDerDonnerB
+      R1*2 \noBreak
+    r2\fermata r4 r
+    \time 3/4 r4 g\fz r \noBreak %35
+    r g\fz r
+    r g\fz r
+    r g\fz r
+    g r r
+    R2.*5 %44
+    e2.~\ff %45
+    e4 r r
+    f2.~\ff
+    f4 r r
+    fis2.~\ff
+    fis4 fis fis %50
+    fis r fis
+    r fis r
+    fis r r
+    R2.\fermata
+    r4\fermata r r \bar "|" %55 finis
+  }
+}
+
+OSchrecklichesTromboneIII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key g \minor \time 2/2 \tempoOSchreckliches
+    r2\fermata r
+    R1*3
+    g'2\f g4 g %5
+    g2 r
+    g g4 g
+    f2 r
+    a! a4 a
+    b r r2 %10
+    R1
+    cis,
+    d4 r r2
+    a'2. fis4
+    g r r2 %15
+    h,2. g'4
+    es r r2
+    R1*2
+    as2.\f ges4 %20
+    f1
+    ges2. f4
+    es1
+    f2. es4
+    d!1 %25
+    es
+    R
+    c'2.\fz a!4
+    b f des b
+    f'4 r r2 %30
+    R1
+    ges2(\fz f4) r
+    R1
+    ges2(\fz f4) r
+    R1*2 %36
+    a!1~\ff
+    a2 r
+    R1*5 %43
+    es2\fz\fermata r4 r
+    R1*3 %47
+    b4 r r2
+    R1*3 %51
+    r4 a'2\fz b4
+    c r r2
+    r4 c2\fz des4
+    f, r r2 %55
+    f1~
+    f~
+    f4 r r2
+    R1*14 %72
+    r4 b,2\fz des4
+    r c2\fz es4
+    r des2\fz f4 %75
+    es f ges e
+    f4 r r2
+    R1*18 %95
+    r2 r4 es\f
+    f ces' b as
+    ges r r2
+    R1*2 %100
+    c,2 r
+    R1*2
+    g'2 r
+    R1 %105
+    c~
+    c
+    b~
+    b
+    as~ %110
+    as
+    g
+    g2 b
+    as g
+    fis d %115
+    g f
+    es1\fz
+    d2 r
+    R1
+    es2(\fz d4) r %120
+    R1
+    es2(\fz d4) r
+    R1*2
+    fis1~\ff %125
+    fis2 r
+    R1*5 %131
+    as2\fz\fermata r4 r
+    R1*2
+    d,4\ffE r d r %135
+    g, r r2
+    R1*3
+    r4 fis'2\fz g4 %140
+    a r r2
+    r4 a2\fz b4
+    d, r r2
+    d1~
+    d~ %145
+    d4 r r2
+    R1*2
+    \key g \major R1*13 %161
+    es1\fz
+    g\fz
+    b\fz
+    g\fz %165
+    cis,\fz
+    d4 r r2
+    R1*26 %193
+    R1\fermata \bar "|." %194 finis
+  }
+}

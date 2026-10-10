@@ -2175,3 +2175,63 @@ OSehtSoliLyrics = \lyricmode {
   ho -- vah
   naht! %142 finis
 }
+
+DerDonnerSoli = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 3/4 \autoBeamOff \tempoDerDonner
+    R2.*15 %15
+    r8 d g g g a
+    h2 r8 d
+    d4. f,8 g d
+    es4 r r
+    R2.*6 %25
+    r8 d g g g a
+    b4 r r
+    r r g
+    d'4. b8 g d
+    es es r4 r8 g \noBreak %30
+    g g g g c h
+    \time 4/4 \tempoDerDonnerB
+      c c r4 r r8 g \noBreak
+    c4 g es c \noBreak
+    as2.\fermata as4
+    \time 3/4 g4 r r \noBreak %35
+    R2.*4
+    r8 d' g8. a16 h4 %40
+    r8 g d'8. h16 g8 d
+    es4 r r
+    R2.*10 %52
+    r4 r c'
+    es2\fermata fis,4
+    g4\fermata r8 b, a g \bar "|" %55 finis
+    \once \override Parentheses.font-size = #3 \parenthesize d'2\fermata
+  }
+}
+
+DerDonnerSoliLyrics = \lyricmode {
+  Der Don -- ner ſpal -- tet %16
+  rings der
+  Er -- de fe -- ſten
+  Grund.
+
+  Der Son -- ne Flamm’ er -- %26
+  liſcht:
+  aus
+  en -- de -- lo -- ſer
+  Fer -- ne ent -- %30
+  ſtür -- zen ih -- rer Bahn die
+  Ster -- ne hi --
+  nun -- ter in der
+  Gäh -- rung
+  Schlund. %35
+
+  Der ſtol -- ze Bau %40
+  des Welt -- ge -- bäu -- des
+  bricht.
+
+  Wie %53
+  ſchreck -- lich,
+  Herr, iſt dein Ge -- %55 finis
+  (richt!)
+}
