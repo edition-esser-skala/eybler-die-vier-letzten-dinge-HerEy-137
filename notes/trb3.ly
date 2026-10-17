@@ -700,3 +700,78 @@ OSchrecklichesTromboneIII = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+AllegroTromboneIII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1
+    f1~\fz
+    f4 r r2
+    r4 ges r ges
+    r ges ges ges %5
+    f1~\fz
+    f4 r r2
+    r4 as! r as
+    r as as as
+    ges r r2 %10
+    es2.\fz r4
+    R1
+    b'2.\fz r4
+    R1*2 %15
+    g1~\f
+    g
+    ges4 r r2
+    R1
+    f~\f %20
+    f
+    ges4 r r2
+    R1
+    as2\fz r
+    R1 %25
+    b2\fz r
+    R1
+    c2\fz r
+    R1*2 %30
+    r2 ges\fz
+    r ges\fz
+    R1*3 %35
+    r2 ces\fz
+    r ces\fz
+    R1*3 %40
+    g2\fz r
+    a\fz r
+    h\fz r
+    R1*6 %49
+    e,2\fz e\fz %50
+    e\fz e\fz
+    e1~\fz
+    e4 r r2
+    R1*2 %55
+    fes2\fz r
+    ges\fz r
+    as!\fz r
+    R1*7 %65
+    f1~\f
+    f
+    es4 r r2
+    R1
+    f1~\f %70
+    f
+    es4 r r2
+    R1*8 %80
+    e1~\f
+    e4 r r2
+    e1~\f
+    e4 r r2
+    R1*6 %90
+    f2\fz as!\fz
+    fis\fz fis\fz
+    g4 r r c,\ff
+    g' es c es
+    g r g r %95
+    c, r r2
+    R1*5 %101
+    r2 r\fermata \bar "|." %102 finis
+  }
+}

@@ -470,3 +470,62 @@ OSchrecklichesTimpani = {
     g4\!\stopTrillSpan r r2\fermata \bar "|." %194 finis
   }
 }
+
+AllegroTimpani = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1*10 %10
+    c2~\fz\startTrillSpan c4\stopTrillSpan r
+    R1
+    g2~\fz\startTrillSpan g4\stopTrillSpan r
+    R1*2 %15
+    g1~\f\startTrillSpan
+    g
+    c4\stopTrillSpan r r2
+    R1*9 %27
+    c4\fzE r r2
+    R1
+    g\startTrillSpan %30
+    c4\stopTrillSpan r r2
+    R1*9 %40
+    g4\fz r r2
+    R1*6 %47
+    g4\f r g g
+    g r g g
+    r8 \tuplet 3/2 8 { g16 g g } g4 r8 \tuplet 3/2 8 { g16 g g } g4 %50
+    r8 \tuplet 3/2 8 { g16 g g } g4 r8 \tuplet 3/2 8 { g16 g g } g4
+    r8 \tuplet 3/2 8 { g16 g g } g8 g g g g g
+    g4 r r2
+    R1*10 %63
+    c1~\sfp\startTrillSpan
+    c~\cresc %65
+    c8\f\stopTrillSpan \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c }
+    c8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } c8 c
+    c1~\sfp\startTrillSpan
+    c~\cresc
+    c8\f\stopTrillSpan \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } %70
+    c8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } c8 \tuplet 3/2 8 { c16 c c } c8 c
+    r4 c r c
+    r c r c
+    R1*7 %80
+    g1~\f\startTrillSpan
+    g4\stopTrillSpan r r2
+    g1~\f\startTrillSpan
+    g4\stopTrillSpan r r2
+    R1*3 %87
+    g4\f r r2
+    R1*3 %91
+    c2\fz\startTrillSpan c\fz
+    g4\stopTrillSpan r r2
+    R1
+    r2 g4\ffE r %95
+    c r r2
+    c1~\p\startTrillSpan
+    c4\stopTrillSpan r r2
+    c1~\pp\startTrillSpan
+    c4\stopTrillSpan r c\ppp r %100
+    c r r2
+    r r\fermata \bar "|." %102 finis
+  }
+}

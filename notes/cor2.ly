@@ -863,3 +863,76 @@ OSchrecklichesCornoII = {
     % } %for MIDI
   }
 }
+
+AllegroCornoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1
+    b'1~\fz
+    b4 r r2
+    R1*2 %5
+    b1~\fz
+    b4 r r2
+    R1*2
+    c,2 r %10
+    c1\fz
+    g'4 r r2
+    g2~\fz g4 r
+    R1*2 %15
+    e1~\f
+    e
+    c4 r r2
+    R1
+    d'~\f %20
+    d
+    c,4 r c r
+    c r c r
+    R1*2 %25
+    b'2\fzE r
+    R1
+    c,2\fz r
+    R1*2 %30
+    r2 c~\fz
+    c8 r r4 c2~\fz
+    c8 r r4 r2
+    R1*2 %35
+    r2 c(\fz
+    g'8) r r4 c,2(\fz
+    g'8) r r4 r2
+    R1*2 %40
+    e2\fz r
+    R1*6 %47
+    e2\f e4 e
+    e2 e4 e
+    e2\fz e\fz %50
+    e\fz e\fz
+    e\fz e4 e
+    e r r2
+    R1*6 %59
+    r2 d'~\fz %60
+    d8 r r4 d2~\fz
+    d8 r d4~\fz d8 r d4~\fz
+    d8 r r4 r2
+    c,4\fz r r2
+    R1*3 %67
+    c4\fz r r2
+    R1*3 %71
+    r4 c r c
+    r c r c
+    R1*7 %80
+    e2\f e4 e
+    e r r2
+    e\f e4 e
+    e r r2
+    R1 %85
+    r2 c\fz\ten
+    R1*3
+    r2 c\fz\ten %90
+    b'\fz d\fz
+    c,\fz c\fz
+    e4 r-\markup \remark \whiteout "Corni si preparino in A" r2
+    R1*8 %101
+    r2 r\fermata \bar "|." %102 finis
+  }
+}

@@ -379,3 +379,67 @@ OSchrecklichesClarinoCII = {
     R1\fermata \bar "|." %194 finis
   }
 }
+
+AllegroClarinoCII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1*10 %10
+    c2~\fz c4 r
+    R1
+    e2~\fz e4 r
+    R1*2 %15
+    e1~\f
+    e
+    c4 r r2
+    R1*5 %23
+    e2\fz r
+    R1*3 %27
+    c2\fz r
+    R1
+    g %30
+    c4 r r2
+    R1*9 %40
+    e2\fz r
+    R1*2
+    r4 c2\fz c4~\fz
+    c c2\fz c4~\fz %45
+    c c8. c16 c4 c
+    c r r2
+    R1*2
+    e2\fz e\fz %50
+    e\fz e\fz
+    e\fz e4 e
+    e r r2
+    R1*6 %59
+    r2 c(\fz %60
+    g'8) r r4 c,2(\fz
+    g'8) r c,4(\fz g'8) r c,4(\fz
+    g'8) r r4 r2
+    c,1~\sfp
+    c~\cresc %65
+    c4\f r r2
+    R1
+    c~\sfp
+    c~\cresc
+    c4\f r r2 %70
+    R1
+    r4 c r c
+    r c r c
+    R1*7 %80
+    e2\f e4 e
+    e r r2
+    e\f e4 e
+    e r r2
+    R1*3 %87
+    g,2\fz\ten r
+    R1*3 %91
+    c2\fz c\fz
+    g4 r r2
+    R1
+    r2 g4\ffE r %95
+    c r r2
+    R1*5 %101
+    r2 r\fermata \bar "|." %102 finis
+  }
+}

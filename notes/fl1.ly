@@ -1030,3 +1030,97 @@ OSchrecklichesFlautoI = {
     g4\! r r2\fermata \bar "|." %194 finis
   }
 }
+
+AllegroFlautoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1
+    as'''2\fz \pa f4 des
+    as f des as \pd
+    R1*2 %5
+    as''2\fz \pa f4 des
+    as f des as \pd
+    R1*4 %11
+    b'2. c4
+    des1\fz
+    c4 r r2
+    R1 %15
+    des1~\f
+    des
+    c4 r r2
+    R1
+    ces1~\f %20
+    ces
+    es~
+    es
+    fes2\fz es4 d!
+    des2 es4 f %25
+    ges2\fz f4 e
+    es2 f4 g
+    as2\fz g4 fis
+    f e es d
+    des2 c4 b %30
+    a r8. f16 es'4.\fz c8
+    a8 r r8. f16 es'4.\fz c8
+    a r r4 r2
+    R1*2 %35
+    r4 r8. b16 as'!4.\fz f8
+    d r r8. b16 as'4.\fz f8
+    d r r4 r as8( b
+    ces\fz b) as([ b ces\fz b)] as( b
+    ces\fz b) ces([\fz b)] ces([\fz b)] ces([\fz as)] %40
+    \pa g!4 fes'2\fz es4
+    r ges2\fz f4
+    r as!2\fz g4 \pd
+    fis4. g8 fis4. g8
+    fis4. g8 fis4. g8 %45
+    fis4 fis8. fis16 fis4 fis
+    a2 c,
+    b4 r es\f g
+    b, r es g
+    r des2\fz des4~\fz %50
+    des des2\fz des4~\fz
+    des des8. des16 des4 des
+    des2 c4 b
+    as! r r2
+    r r8 c des es %55
+    fes2\fz es4 d
+    ges2\fz f4 e
+    as!2\fz g4 fis
+    f es! d c
+    h r8. g16 f'4.\fz d8 %60
+    h r r8. g16 f'4.\fz d8
+    h r f'8.\fz d16 h8 r f'8.\fz d16
+    h8 r r4 f2
+    es4 r r2
+    R1 %65
+    d'4\f d8. d16 d4 d
+    f2. h,4
+    c4 r r2
+    R1
+    f4\f f8. f16 f4 f %70
+    as!2 h,
+    r4 c r c
+    r c r c
+    R1*7 %80
+    des2\f b4 g
+    e8 f g as a b h c
+    des2\f b4 g
+    e8 des' c ces b a as g
+    f8 r r4 r r8 b(\f %85
+    es) r r4 r2
+    r8 as,!( des) r r2
+    r4 r8 g,( c) r r4
+    r2 r4 r8 f,(
+    b4.)\ff g8( c4.) as8 %90
+    des2\fz d\fz
+    es\fz \pao c\fz
+    g'\ff \pa es4 c
+    g es c es
+    g \pd r \pao h, r %95
+    \pao c r r2
+    R1*5 %101
+    r2 r\fermata \bar "|." %102 finis
+  }
+}

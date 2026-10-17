@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 #(define option-movement-title-format "number-title")
-#(define option-print-all-bar-numbers #f)
+#(define option-print-all-bar-numbers #t)
 \include "ees.ly"
 \include "ees_articulate.ly"
 
@@ -142,6 +142,8 @@ tempoJehovahSieh = \tempoMarkup "Adagio"
 tempoDerDonner = \tempoMarkup "Allegro vivace"
   tempoDerDonnerB = \tempoMarkup "Con moto"
 tempoOSchreckliches = \tempoMarkup "Andante [con moto]"
+
+tempoAllegro = \tempoMarkup "Allegro"
 
 
 \include "notes/fl1.ly"

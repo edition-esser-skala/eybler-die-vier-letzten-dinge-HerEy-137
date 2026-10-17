@@ -1418,3 +1418,106 @@ OSchrecklichesClarinettoI = {
     % } %for MIDI
   }
 }
+
+AllegroClarinettoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1
+    b'~\fz
+    b4 r r r8 b
+    ces4.\fz b8 ces4.\fz b8
+    ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r %5
+    b1~\fz
+    b4 r r2
+    r4 e! r e
+    r e e e
+    f c2 c4 %10
+    d1\fz
+    es2. f4
+    es1\fz
+    d2 e
+    cis e %15
+    es1~\f
+    es
+    as,2 d
+    h d
+    des1~\f %20
+    des
+    c2 des
+    es f
+    des4\fz b as g
+    fis2 a4 g %25
+    c2\fz b!4 a
+    gis2 h4 a!
+    d2\fz c4 h
+    e a, d g,
+    a1 %30
+    g4 r8. g16 f'4.\fz d8
+    h8 r r8. g16 f'4.\fz d8
+    h r r4 r2
+    d8(\fz es f) r d(\fz es f) r
+    d([\fz es)] d([\fz es)] d([\fz es)] d([\fz f)] %35
+    e! r r8. c,16 b'!4.\fz g8
+    e r r8. c16 b'4.\fz f8
+    g4. as8 b4. c8
+    des(\fz c b c) des(\fz c b c)
+    des([\fz c)] des([\fz c)] des([\fz c)] des([\fz b)] %40
+    a!4 c des2
+    d es
+    e f
+    d4 d2 d4~
+    d d2 d4~ %45
+    d d8. d16 d4 d
+    h1
+    c4 r a\f a
+    a r a a
+    r es'2\fz es4~\fz %50
+    es es2~\fz es4~\fz
+    es es8. es16 es4 es
+    es2 d4 es
+    d8 g,, a b c a b c
+    d b c d es d es f %55
+    ges2\fz f4 e
+    as2\fz g4 fis
+    b!2\fz a4 gis
+    g f! e d
+    a' r d2(\fz %60
+    cis8) r r4 d2(\fz
+    cis8) r d4(\fz cis8) r d4(\fz
+    cis8) r r4 g2
+    f4 r r2
+    R1 %65
+    e'4\f e8. e16 e4 e
+    e2 b
+    a4 r r2
+    R1
+    e'4\f e8. e16 e4 e %70
+    e2 cis
+    r4 d r d
+    r d r d
+    R1
+    b\ppE %75
+    h
+    c
+    cis2\cresc d
+    es e
+    f es4 d\! %80
+    c2\f c4 c
+    c r r2
+    c\f c4 c
+    c r r2
+    r4 r8 g\f c d es r %85
+    r2 r8 f, b c
+    d r r4 r r8 es,
+    a b! c cis d g, fis a
+    d,\piucresc fis g g~
+    g h c c~ %90
+    c c4\ff c8 b b4 b8
+    b2\fz b\fz
+    h\fz h\fz
+    a4 r-\markup \remark \whiteout "Clarinetti si preparino in A" r2
+    R1*8 %101
+    r2 r\fermata \bar "|." %102 finis
+  }
+}

@@ -1418,3 +1418,105 @@ OSchrecklichesFagottoII = {
     g4\! r r2\fermata \bar "|." %194 finis
   }
 }
+
+AllegroFagottoII = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1
+    f,1~\fz
+    f4 r r2
+    r4 c'' r c
+    r c c ges, %5
+    f1~\fz
+    f4 r r r8 as'
+    ces4.\fz b8 ces4.\fz b8
+    ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r
+    ges2. f4 %10
+    es1\fz
+    des2. c4
+    b1\fz
+    as!4 f'2 d!4~
+    d h2 g4 %15
+    b1~\f
+    b
+    a4 es'!2 c4~
+    c a2 f4
+    as1~\f %20
+    as
+    ges2 as
+    b ces
+    as\fz b4 ces~
+    ces b g! a! %25
+    b2\fz c!4 des~
+    des c a h
+    c2\fzE d!4 es
+    g, c f, b!
+    e,2 e' %30
+    f4 r8. f16 es'4.\fz c8
+    a8 r r8. f16 es'4.\fz c8
+    a r r4 r2
+    R1*2 %35
+    r2 \once \slurDashed ces,(\fz
+    b8) r r4 \once \slurDashed ces2(\fz
+    b8) r r4 r ces'8(\fz b
+    as b) ces([\fz b as b)] ces(\fz b
+    as b) as([\fz b)] as([\fz b)] as([\fz ces)] %40
+    des,2 ces
+    es des
+    f es
+    d!4. es8 d4. es8
+    d4. es8 d4. es8 %45
+    d4 c a fis
+    \once \slurDashed es!2(\fz d8) r r4
+    g r g\f g
+    g r g g
+    r g2\fz g4~\fz %50
+    g g2~\fz g4~\fz
+    g g8. g16 g4 g
+    e g c, e
+    f r8 f b4 r8 g
+    c4 r8 as des c des es %55
+    fes2\fz es4 d
+    ges2\fz f4 e
+    as!2\fz g4 fis
+    f es! d c
+    g r as2(\fz %60
+    g8) r r4 as2(\fz
+    g8) r as4(\fz g8) r as4(\fz
+    g8) r r4 g2
+    c4 r r2
+    R1 %65
+    c,4\f c8. c16 c4 c
+    c2 c
+    c4 r r2
+    R1
+    c4\f c8. c16 c4 c %70
+    c2 c
+    r4 c r c
+    r c r c
+    R1*7 %80
+    g'2\f g4 g
+    g r r2
+    g\f g4 g
+    g r r r8 c\f
+    f es! des c b as g f %85
+    es b' es des c b as g
+    f es des as' des c b as
+    g f e d c g' c b
+    as\piucresc g f es'! des c b as
+    g4\ff g ges ges %90
+    f2\fz f\fz
+    fis\fz fis\fz
+    g4 r r c\ff
+    g es c es
+    g r g r %95
+    c, r r2
+    d''1\p
+    es4 r r2
+    h1\perd
+    c4\! r c,\pp r %100
+    c r r2
+    r r\fermata \bar "|." %102 finis
+  }
+}

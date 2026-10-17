@@ -627,3 +627,88 @@ OSchrecklichesContrafagotto = {
     R1\fermata \bar "|." %184 finis
   }
 }
+
+AllegroContrafagotto = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1
+    f,1~\fz
+    f4 r r2
+    R1*2 %5
+    f1~\fz
+    f4 r r2
+    R1*3 %10
+    es'1\fz
+    des4 r r2
+    b1\fz
+    as!4 r r2
+    R1 %15
+    b1~\f
+    b
+    a4 r r2
+    R1
+    as!~\f %20
+    as
+    ges4 r r2
+    R1
+    as!2\fz r
+    R1 %25
+    b2\fz r
+    R1
+    c2\fz r
+    R1*2 %30
+    r2 ges(\fz
+    f8) r r4 ges2(\fz
+    f8) r r4 r2
+    R1*2 %35
+    r2 ces'(\fz
+    b8) r r4 ces2(\fz
+    b8) r r4 r2
+    R1*2 %40
+    des2 ces
+    es des
+    f es
+    d!4 r r2
+    R1*3 %47
+    g,2 g'4\fE g
+    g,2 g'4 g
+    g,2\fz g\fz %50
+    g\fz g\fz
+    g1~\fz
+    g4 r r2
+    R1*2 %55
+    fes'2\fz es4 d!
+    ges2\fz f4 e
+    as!2\fz g4 fis
+    f es! d c
+    g' r as,2(\fz %60
+    g8) r r4 as2(\fz
+    g8) r as4(\fz g8) r as4(\fz
+    g8) r r4 r2
+    R1*2 %65
+    c,1~\ff
+    c~
+    c4 r r2
+    R1
+    c~\ff %70
+    c
+    r4 c' r b!
+    r as r g
+    R1*7 %80
+    g1~\fz
+    g4 r r2
+    g1~\fz
+    g4 r r2
+    R1*5 %89
+    g2\fz ges\fz %90
+    f\fz f'\fz
+    fis,\fz fis'\fz
+    g4 r r c\ff
+    g es c es
+    g r g, r %95
+    c r r2
+    R1*5 %101
+    r2 r\fermata \bar "|." %102 finis
+  }
+}

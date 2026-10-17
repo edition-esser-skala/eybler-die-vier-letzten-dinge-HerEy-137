@@ -1347,3 +1347,100 @@ OSchrecklichesClarinettoII = {
     % } %for MIDI
   }
 }
+
+AllegroClarinettoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1
+    g'~\fz
+    g4 r r r8 b,
+    ces4.\fz b8 ces4.\fz b8
+    ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r %5
+    g'1~\fz
+    g4 r r2
+    r4 g r g
+    r g g g
+    c2. b!4 %10
+    as1\fz
+    g
+    fis\fz
+    g2 b!
+    g g %15
+    fis1~\f
+    fis
+    f2 as!
+    f f
+    e1~\f %20
+    e
+    f~
+    f
+    b2\fz as4 g
+    fis2 a4 g %25
+    c2\fz b!4 a
+    gis2 h4 a!
+    d2\fz c4 h
+    e a, d g,
+    a1 %30
+    g4 r8. g16 f'4.\fz d8
+    h8 r r8. g16 f'4.\fz d8
+    h r r4 r as8(\fz g
+    f) r as(\fz g f) r as(\fz g
+    f g) f([\fz g)] f([\fz g)] f([\fz as)] %35
+    g r r8. c,16 b'!4.\fz g8
+    e r r8. c16 b'4.\fz g8
+    e4. f8 g4. as8
+    b(\fz as g as) b(\fz as g as)
+    b([\fz as)] b([\fz as)] b([\fz as)] b([\fz g)] %40
+    fis4 a b2
+    h c
+    cis d
+    h4 h2 h4~
+    h h2 h4~ %45
+    h h8. h16 h4 h
+    gis1
+    a4 r f\f f
+    f r f f
+    r c'2\fz c4~\fz %50
+    c c2~\fz c4~\fz
+    c c8. c16 c4 c
+    a1
+    b8 g, a b c a b c
+    d b c d es d es f %55
+    ges2\fz f4 e
+    as2\fz g4 fis
+    b!2\fz a4 gis
+    g f! e d
+    a' r g2(\fz %60
+    e8) r r4 g2(\fz
+    e8) r g4(\fz e8) r g4(\fz
+    e8) r r4 e2
+    d4 r r2
+    R1 %65
+    cis'4\f cis8. cis16 cis4 cis
+    cis2 e,
+    f4 r r2
+    R1
+    cis'4\f cis8. cis16 cis4 cis %70
+    cis2 g
+    r4 f r f
+    r f r f
+    R1*7 %80
+    fis2\f fis4 fis
+    fis r r2
+    fis\f fis4 fis
+    fis r r2
+    r4 r8 g\f c d es r %85
+    r2 r8 f, b c
+    d r r4 r r8 es,
+    a b! c cis d g, fis a
+    d,\piucresc fis g g~
+    g h c c~ %90
+    c a4\ff a8 b b4 b8
+    b2\fz b\fz
+    h\fz h\fz
+    a4 r-\markup \remark \whiteout "Clarinetti si preparino in A" r2
+    R1*8 %101
+    r2 r\fermata \bar "|." %102 finis
+  }
+}

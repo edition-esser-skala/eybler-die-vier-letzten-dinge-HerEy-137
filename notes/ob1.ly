@@ -993,3 +993,104 @@ OSchrecklichesOboeI = {
     g4\! r r2\fermata \bar "|." %194 finis
   }
 }
+
+AllegroOboeI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1
+    f'1~\fz
+    f4 r r2
+    r4 es r es
+    r es es es %5
+    f1~\fz
+    f4 r r r8 as,
+    ces4.\fz b8 ces4.\fz b8
+    ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r
+    es2. f4 %10
+    ges1\fz
+    f
+    g!\fz
+    as!4 \pa as2 f4~
+    f d2 \pd f4 %15
+    e1~\f
+    e
+    es4 \pa ges2 es4~
+    es c2 \pd es4
+    d!1~\f %20
+    d
+    es1~
+    es
+    fes2\fz es4 d!
+    des2 es4 f %25
+    ges2\fz f4 e
+    es2 f4 g
+    as!2\fz g4 fis
+    f e es d
+    des2 \pao c4 b %30
+    a r \once \slurDashed \pa b2\fz(
+    c8) \pd r r4 \once \slurDashed \pa b2(\fz
+    c4.) \pd des8 es4. f8
+    ges(\fz f es f) ges(\fz f es f)
+    ges([\fz f)] ges([\fz f)] ges([\fz f)] ges([\fz es)] %35
+    d! r r8. b16 as'!4.\fz f8
+    d r r8. b16 as'4.\fz f8
+    d r r4 r2
+    f8(\fz ges as) r f(\fz ges as) r
+    f([\fz ges)] f([\fz ges)] f([\fz ges)] f([\fz as)] %40
+    \pa g4 fes2\fz es4
+    r ges2\fz f4
+    r as!2\fz \pd g4
+    fis8 c'(\fz a4.) c8(\fz a4)~
+    a8 c(\fz a4.) c8(\fz a4)~ %45
+    a a8. a16 a4 a
+    fis1
+    g4 r g\f g
+    g r g g
+    r g2\fz g4~\fz %50
+    g g2\fz g4~\fz
+    g g8. g16 g4 g
+    g2 e4 g
+    c,8 f, g as b g as b
+    c as b c des c des es %55
+    fes2\fz es4 d
+    ges2\fz f4 e
+    as!2\fz g4 fis
+    f es! d c
+    h r f'2(\fz %60
+    f8) r r4 f2(\fz
+    f8) r f4(\fz f8) r f4(\fz
+    f8) r r4 r2
+    c,4.\sfp d8 es f g a
+    h\cresc c d es e f fis g %65
+    as!4\f as8. as16 as4 as
+    as r r2
+    c,,4.\sfp d8 es f g a
+    h\cresc c d es e f fis g
+    as!4\f as8. as16 as4 as %70
+    f2 d
+    r4 es r es
+    r es r es
+    R1*7 %80
+    des2\f des4 des
+    des r r2
+    des\f des4 des
+    des r r2
+    \pa r2 r8 f\f b as! %85
+    g f es r r4 r8 es
+    as g f es des r r4
+    r8 des g f e d c r
+    r4 r8 c\piucresc f es d! r
+    r b4\ff b8 c \pd es4 es8 %90
+    f2\fz d!\fz
+    es\fz es\fz
+    g\ff es4 \pa c
+    g es c es
+    g \pd r g r %95
+    g r r2
+    h1\p
+    c4 r r2
+    R1*3 %101
+    r2 r\fermata \bar "|." %102 finis
+  }
+}

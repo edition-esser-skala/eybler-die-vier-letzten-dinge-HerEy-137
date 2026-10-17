@@ -1830,3 +1830,112 @@ OSchrecklichesCello = {
     g\! r r2\fermata \bar "|." %194 finis
   }
 }
+
+AllegroCello = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoAllegro
+    \partial 4. c'8\f b a g f es d c b as! g
+    f\fz as des as f as des as
+    f as des as f as des as
+    ges16(\fz f ges f ges8) r ges16(\fz f ges f ges8) r
+    \grace f16 ges4\fz \grace f16 ges4\fz \grace f16 ges4\fz \grace f16 ges4\fz %5
+    f8\fz as des as f as des as
+    f as des as f as des as
+    as16(\fz g! as g as8) r as16(\fz g as g as8) r
+    \grace g16 as4\fz \grace g16 as4\fz \grace g16 as4\fz \grace g16 as4\fz
+    ges8 ges' ges ges ges ges f f %10
+    es f16 ges as b c d es8 es es es
+    des des, des des des des c c
+    b c16 des es f g! a b8 b b b
+    as as f f f' f d, d
+    d' d h, h h' h g, g %15
+    b b b' b des des e, e
+    g g b, b des des g, g
+    a a es'! es es' es c, c
+    c' c a, a a' a f, f
+    as! as as' as ces ces d,! d %20
+    f f as, as ces ces f, f
+    ges16 f ges f ges8 ges' as,16 g as g as8 as'
+    b,16 a b a b8 b' ces,16 b ces b ces8 ces'
+    as,\fz as' as as b b ces ces
+    ces ces b b g! g a a %25
+    b,\fz b' b b c! c des des
+    des des c c a a h h
+    c,\fz c' c c d! d es es
+    g, g c c f, f b! b
+    e, e e e e, e e e %30
+    f16( g a b c d e f) ges2\fz
+    f,16( g a b c d e f) ges2\fz
+    f8 r r4 r \clef "treble_8" ges'8(\fz f
+    es f) ges([\fz f es f)] ges(\fz f
+    es f) es([\fz f)] es([\fz f)] es8 r %35
+    \clef bass b,16( c d! es f g! a b) ces2\fz
+    b,16( c! d es f g a b) ces2\fz
+    b8 r r4 r ces8(\fz b
+    as! b) ces([\fz b as b)] ces(\fz b
+    as b) as([\fz b)] as([\fz b)] as(\fz ces) %40
+    des des des des ces, ces' ces ces
+    es, es' es es des, des' des des
+    f, f' f f es, es' es es
+    d!4 r8 \tuplet 3/2 8 { a16 b! c } d4 r8 \tuplet 3/2 8 { a16 b! c }
+    d4 r8 \tuplet 3/2 8 { a16 b! c } d4 r8 \tuplet 3/2 8 { a16 b! c } %45
+    d4 c a fis
+    es!2(\fz d8) r r4
+    g,16( fis g fis g8) r \grace fis'16 g4-! g-!
+    g,16( fis g fis g8) r \grace fis'16 g4-! g-!
+    g, r8 g'32( as! b c des4)\fz r8 g,32( as b c %50
+    des4)\fz r8 g,32( as! b c des4)\fz r8 g,32( as! b c
+    des2)\fz b4 g
+    e g c, e
+    f r8 \tuplet 3/2 8 { f,16 g as } b4 r8 \tuplet 3/2 8 { g16 as b }
+    c4 r8 \tuplet 3/2 8 { as16 b c } des8 c des es %55
+    fes2:8\fz es8 es d d
+    ges2:\fz f8 f e e
+    as!2:\fz g8 g fis fis
+    f f es! es d d c c
+    g'4 r as,2(\fz %60
+    g8) r r4 as2(\fz
+    g8) r as4(\fz g8) r as4(\fz
+    g8) r r4 r r8 \tuplet 3/2 8 { g16 a h }
+    <c c,>2:16\sfp q:
+    q:\cresc q: %65
+    c4\f f as f
+    c f as f
+    <c c,>2:\sfp q:
+    q:\cresc q:
+    c4\f f as f %70
+    c f as f
+    c \grace h'16 c4 b, \grace a'16 b4
+    as, \grace g'16 as4 g, \grace fis'16 g4
+    f,2:16\pp f:
+    f: f: %75
+    fis: fis:
+    g: g:
+    gis:\cresc a:
+    b: h:
+    c: b4: as!: %80
+    g16(\f as b as) g( as b as) g( as b as) g( as b as)
+    g4 r r2
+    g16(\f as b as) g( as b as) g( as b as) g( as b as)
+    g4 r r r8 \tuplet 3/2 8 { c'16\f d! e }
+    f8 es des c b as g f %85
+    es!8 \tuplet 3/2 8 { b'16 c d } es8 des c b as g
+    f es des \tuplet 3/2 8 { as'16 b c } des8 c b as
+    g f e d c \tuplet 3/2 8 { g'16 a h } c8 b
+    as g f\piucresc es des c b as
+    g\ff g' g g ges,\fz ges' ges ges %90
+    f,\fz f' f f f,\fz f' f f
+    fis,\fz fis' fis fis fis,\fz fis' fis fis
+    g4 r r \grace { g32[ a h] } c4\ff
+    g es c es
+    g r g, r %95
+    c r r2
+    <c c,>2:16\p q:
+    q4 r r2
+    q2:\decresc q:
+    q4 r8 \tuplet 3/2 8 { g16\pp a h } c4 r8 \tuplet 3/2 8 { g16 a h } %100
+    c4 r8 \tuplet 3/2 8 { g16\ppp a h } c4 r8 \tuplet 3/2 8 { g16 a h }
+    c4 r r2\fermata \bar "|." %102 finis
+  }
+}

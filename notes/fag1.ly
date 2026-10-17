@@ -1481,3 +1481,112 @@ OSchrecklichesFagottoI = {
     d4\! r r2\fermata \bar "|." %194 finis
   }
 }
+
+AllegroFagottoI = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \minor \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1
+    f1~\fz
+    f4 r r2
+    r4 es' r es
+    r es es ges, %5
+    f1~\fz
+    f4 r r r8 as
+    ces4.\fz b8 ces4.\fz b8
+    ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r
+    b2. d!4 %10
+    es1\fz
+    des2. c4
+    b1\fz
+    as!4 f'2 d!4~
+    d h2 g4 %15
+    b1~\f
+    b
+    a4 es'!2 c4~
+    c a2 f4
+    as1~\f %20
+    as
+    ges2 as
+    b ces
+    as\fz b4 ces~
+    ces b g! a! %25
+    b2\fz c!4 des~
+    des c a h
+    c2\fzE d!4 es
+    g, c f, b!
+    e, b' c des %30
+    c r8. f,16 es'4.\fz c8
+    a8 r r8. f16 es'4.\fz c8
+    a r r4 r \clef "treble_8" ges'8(\fz f
+    es f) ges([\fz f es f)] ges(\fz f
+    es f) es([\fz f)] es([\fz f)] es([\fz ges)] %35
+    f r r4 \clef bass \once \slurDashed ces2(\fz
+    b8) r r4 \once \slurDashed ces2(\fz
+    b8) r r4 r ces8(\fz b
+    as b) ces([\fz b as b)] ces(\fz b
+    as b) as([\fz b)] as([\fz b)] as([\fz ces)] %40
+    b2 ces
+    c des
+    d es
+    d!4. es8 d4. es8
+    d4. es8 d4. es8 %45
+    d4 c a fis
+    \once \slurDashed es!2(\fz d8) r r4
+    g r g\f g
+    g r g g
+    r g2\fz g4~\fz %50
+    g g2~\fz g4~\fz
+    g g8. g16 g4 g
+    e g c, e
+    f r8 f b4 r8 g
+    c4 r8 as des c des es %55
+    fes4\fz fes, es d
+    ges2\fz f4 e
+    as!2\fz g4 fis
+    f es! d c
+    g' r as2(\fz %60
+    g8) r r4 as2(\fz
+    g8) r as4(\fz g8) r as4(\fz
+    g8) r r4 g2
+    \pao c,4 r r2
+    R1 %65
+    c4\f c8. c16 c4 c
+    c2 c
+    c4 r r2
+    R1
+    c4\f c8. c16 c4 c %70
+    c2 c
+    r4 c r c
+    r c r c
+    R1
+    as'1\ppE  %75
+    a
+    b
+    h2\cresc c
+    des d
+    es des4 c\! %80
+    g2\f g4 g
+    g r r2
+    g\f g4 g
+    g r r r8 c\f
+    f es! des c b as g f %85
+    es b' es des c b as g
+    f es des as' des c b as
+    g f e d c g' c b
+    as\piucresc g f es'! des c b as
+    g4\ff g ges ges %90
+    f2\fz f\fz
+    fis\fz fis\fz
+    g4 r r c\ff
+    g es c es
+    g r g r %95
+    c, r r2
+    f'1\p
+    \pao es4 r r2
+    d1\perd
+    \pao c4\! r c\pp r %100
+    c r r2
+    r r\fermata \bar "|." %102 finis
+  }
+}

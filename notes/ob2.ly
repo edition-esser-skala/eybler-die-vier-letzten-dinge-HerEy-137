@@ -932,3 +932,104 @@ OSchrecklichesOboeII = {
     h4\! r r2\fermata \bar "|." %194 finis
   }
 }
+
+AllegroOboeII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoAllegro
+    \partial 4. r8 r4 R1
+    des'1~\fz
+    des4 r r2
+    r4 c r c
+    r c c c %5
+    des1~\fz
+    des4 r r r8 as
+    ces4.\fz b8 ces4.\fz b8
+    ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r ces8(\fz b16) r
+    b1 %10
+    a1\fz
+    b2. a4
+    b1\fz
+    c4 as'2 f4~
+    f d2 h4 %15
+    g'1~\f
+    g
+    c,4 ges'2 es4~
+    es c2 a4
+    f'1~\f %20
+    f
+    b,2 ces
+    des es
+    ces2\fz b4 as!
+    g!2 b4 c %25
+    des2\fz c4 b
+    a2 c4 d
+    es2\fz d4 c
+    h c a b
+    b2 c4 des %30
+    f, r \once \slurDashed b2(\fz
+    a8) r r4 \once \slurDashed b2(\fz
+    a4.) b8 c4. des8
+    es(\fz des c des) es(\fz des c des)
+    es([\fz des)] es([\fz des)] es([\fz des)] es([\fz c)] %35
+    b r r8. b16 as'!4.\fz f8
+    d r r8. b16 as'4.\fz f8
+    d r r4 r ces8(\fz b
+    as) r ces(\fz b as) r ces(\fz b)
+    as([\fz b)] as([\fz b)] as([\fz b)] as([\fz ces)] %40
+    b2 ces
+    c des
+    d es4 g,
+    a8 c(\fz a4.) c8(\fz a4)~
+    a8 c(\fz a4.) c8( a4)~ %45
+    a a8. a16 a4 a
+    c1
+    b4 r b\f b
+    b r b b
+    r e2\fz e4~\fz %50
+    e e2\fz e4~\fz
+    e e8. e16 e4 e
+    e2 b
+    as!8 f g as b g as b
+    c as b c des c des es %55
+    fes2\fz es4 d
+    ges2\fz f4 e
+    as!2\fz g4 fis
+    f es! d c
+    h r c2(\fz %60
+    d8) r r4 c2(\fz
+    d8) r c4(\fz d8) r c4(\fz
+    d8) r r4 r2
+    c,4.\sfp d8 es f g a
+    h\cresc c d es e f fis g %65
+    f4\f f8. f16 f4 f
+    f r r2
+    c,4.\sfp d8 es f g a
+    h\cresc c d es e f fis g
+    f4\f f8. f16 f4 f %70
+    d2 h
+    r4 c r c
+    r c r c
+    R1*7 %80
+    b2\f b4 b
+    b r r2
+    b\f b4 b
+    b r r2
+    r8 c\f f es des c b r %85
+    r4 r8 b es des c b
+    as r r4 r8 as des c
+    b as g r r4 r8 g
+    c\piucresc b as r r4 r8 f'(
+    b)\ff b,4 b8 c c4 c8 %90
+    des2\fz h\fz
+    c\fz c\fz
+    g\ff es4 c'
+    g es c es
+    g r f r %95
+    es r r2
+    as!1\p
+    g4 r r2
+    R1*3 %101
+    r2 r\fermata \bar "|." %102 finis
+  }
+}

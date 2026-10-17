@@ -2197,3 +2197,119 @@ OSchrecklichesViola = {
     h\! r r2\fermata \bar "|." %194 finis
   }
 }
+
+AllegroViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \minor \time 2/2 \tempoAllegro
+    \partial 4. a16\f a b b fis fis g g d' d es es h h c c g' g as! as b b
+    as\fz as, as as as4:16 as2:
+    as: as:
+    ges16(\fz f ges f ges8) r ges16(\fz f ges f ges8) r
+    ges16\fz ges ges r ges\fz ges ges r ges\fz ges ges r ges\fz ges ges r %5
+    f16\fz as as as as4: as2:
+    as: as:
+    as16(\fz g! as g as8) r as16(\fz g as g as8) r
+    as16\fz as as r as\fz as as r as\fz as as r as\fz as as r
+    b2: b4: as: %10
+    ges2: ges':
+    f: f4: es:
+    des2: des:
+    c: as':
+    f: f,4: d': %15
+    des2: des4: b:
+    b: des: e,: g:
+    ges: c: a: c:
+    es2: es,4: c':
+    ces2: ces4: as: %20
+    as: ces: d,!: as':
+    ges16 f ges f ges8 ges' as,16 g as g as8 as'
+    b,16 a b a b8 b' ces,16 b ces b ces8 ces'
+    as2:\fz ges4: f:
+    e2: es4: c!: %25
+    b:\fz b': as: g:
+    fis2: f4: d:
+    c:\fz c': b: a:
+    g2: f:
+    g: g: %30
+    f4 a, b2\fz
+    c4 a b2\fz
+    c8 r r4 r ges'16\fz ges f f
+    es es f f ges\fz ges f f es es f f ges\fz ges f f
+    es es f f es\fz es f f es\fz es f f es\fz es ges ges %35
+    f4 d! es2\fz
+    f4 d es2\fz
+    f8 r r4 r ces16\fz ces b b
+    as! as b b ces\fz ces b b as as b b ces\fz ces b b
+    as as b b as\fz as b b as\fz as b b as\fz as ces ces %40
+    b4: g': as2:
+    a: b:
+    h: c:
+    a16 a c c a a c c a a c c a a c c
+    a a c c a a c c a a c c a a c c %45
+    a a g g fis fis g g a a b b c c b b
+    a a g g fis fis g g a4: fis:
+    g16( fis g fis g8) r <b es, g,>4 q
+    g16( fis g fis g8) r <b es, g,>4 q
+    e,16 e des' des b b g g e! e des'! des b b g g %50
+    e e des' des b b g g e! e des'! des b b g g
+    e e g g b b as as g g f f e e g g
+    b4: g: e: b:
+    as8 f16 f g g as as b8 g16 g as as b b
+    c8 as16 as b b c c des8 c16 c des des es es %55
+    fes2:\fz es4: d:
+    ges2:\fz f4: e:
+    as!2:\fz g4: fis:
+    f: es!: d: c:
+    h4 r c2(\fz %60
+    d8) r r4 c2(\fz
+    d8) r c4(\fz d8) r c4(\fz
+    d8) r r4 r2
+    <g, es>2:\sfp q:
+    q:\cresc q: %65
+    <f as!>8\f <as f'>4 q q q8~
+    q <as f>4 q q q8
+    <g es>2:\sfp q:
+    q:\cresc q:
+    <f as!>8\f <as f'>4 q q q8~ %70
+    q <as f>4 q q q8
+    <es g>4 \grace h'16 c4 r \grace a16 b4
+    r \grace g16 as4 r \grace fis16 g4
+    f2:\pp f:
+    f: f: %75
+    fis: fis:
+    g: g:
+    gis:\cresc a:
+    b: h:
+    c: des4: c:\f %80
+    b16(\fz as g as) b( as g as) b( as g as) b( as g as)
+    b b as as g g as as a a b b h h c c
+    b( as g as) b( as g as) b( as g as) b( as g as)
+    b b des des c c ces ces b b a a as as g g
+    f8 r r \tuplet 3/2 8 { f'16 g a } b8 as g f %85
+    es r r4 r8 \tuplet 3/2 8 { es16 f g } as8 g
+    f es des r r4 r8 \tuplet 3/2 8 { f16 e f }
+    g8 f e d c f e! c~
+    c b' as!\piucresc f~ f es des b~
+    b\ff << {
+      b'4 b8 es, as4 as8 %90
+      as2: as:
+      a: a:
+      g16 g g g
+    } \\ {
+      b,4 b8 es as,4 as8 %90
+      as2:\fz h:\fz
+      c:\fz c:\fz
+      g16\ff g' g g
+    } >> g4: es: c:
+    g: es: c: es:
+    g4 r <g f'> r %95
+    <c, g' es'> r r2
+    as'2:\p as:
+    g4 r r2
+    f2:\decresc f:
+    es4 r8 \tuplet 3/2 8 { g16\pp a h } c4 r8 \tuplet 3/2 8 { g16 a h } %100
+    c4 r8 \tuplet 3/2 8 { g16\ppp a h } c4 r8 \tuplet 3/2 8 { g16 a h }
+    c4 r r2\fermata \bar "|." %102 finis
+  }
+}
