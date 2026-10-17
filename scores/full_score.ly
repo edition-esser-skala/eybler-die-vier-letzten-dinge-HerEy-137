@@ -1884,7 +1884,7 @@
   % }
   % \part "dritter" "III" "Dritte Abtheilung"
   \bookpart {
-    \section "20" "Allegro"
+    \section "20" "Uebergang"
     \addTocEntry
     \score { %\articulate
       <<
