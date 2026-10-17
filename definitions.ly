@@ -144,6 +144,8 @@ tempoDerDonner = \tempoMarkup "Allegro vivace"
 tempoOSchreckliches = \tempoMarkup "Andante [con moto]"
 
 tempoAllegro = \tempoMarkup "Allegro"
+tempoIhrGluecklichen = \tempoMarkup "Andante cantabile"
+  tempoIhrGluecklichenB = \tempoMarkup "Recitativo"
 
 
 \include "notes/fl1.ly"

@@ -1444,3 +1444,105 @@ AllegroClarinettoII = {
     r2 r\fermata \bar "|." %102 finis
   }
 }
+
+IhrGluecklichenClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoIhrGluecklichen
+    c'4\p e d
+    c4. d8 e4
+    c f8( e d c)
+    c4( h) r
+    h\< h c %5
+    d\> h c\!
+    a8.( cis16 d8) a([-.\p g-. h-.)]
+    h4(\> c8)\! c([-\dolce c e)]
+    e16( d c h) h8 d([ d f)]
+    f16([\> e d c)]\! c8 a([\cresc g f)] %10
+    e8.\mf d16 c8 c d16( e f d)
+    c4( h8) r16 a'( g f e d)
+    c4(\p\< e g)
+    c8.\fz h16 a8( g f e)~ \markCritnote
+    e16( d e f) c8( e d f) %15
+    f4(\p e8) r r4
+    r r8 g([ c e)]
+    d8. h16 c8 c,([\< e g)]
+    c8.(\fz h16 a8)] e'([-.\p c-. e,-.)]
+    d4~ d8 r r4 %20
+    g8.(\> d16 h8)\! h([\< d g)]\!
+    h8.( a16 fis8) r r4
+    g8.(\> d16 h8)\! d([\< c e)]\!
+    g4(\> fis8)\! r h\f h
+    h4(\fz a8) r a(-.\p h-.) %25
+    h4( a8) r fis\f fis
+    g16( a h c) c( h) a-! g-! d( c) h-! c-!
+    h8 r h16(\< d d g)\! g( fis e d)
+    d( c h' a) g8(-\decresc h fis a)
+    g4 r8 h,(-.\p h-. h-.) %30
+    h4\ten r8 d(-.\cresc d-. d-.)
+    d4\ten r r
+    c'\p e d
+    c4.\> d8\! e4
+    c4\< f8(\! e d c) %35
+    c4( h) r
+    h\< h c
+    d\> h c\!
+    a8.( cis16 d8) a([-.\p g-. h-.)]
+    h4(\> c8)\! c([-\dolce c e)] %40
+    e16( d c h) h8 d([ d f)]
+    f16(\> e d c)\! c8 c([\< h b)]\!
+    b4~\fz b16( a g f) b( a g f)
+    e4( d8) f([\decresc e d)]\!
+    c4\< e g %45
+    c8.(\fz h16 a8 g f e)~ \markCritnote
+    e16( d e f) c8( e d f)
+    e r r4 r
+    r8 f\decresc e d c f \noBreak
+    e8.( f16) e8.(\p f16) e8.( f16) %50
+    \time 2/2 \tempoIhrGluecklichenB
+      e4 r r2 \noBreak
+    R1*2
+    r4 h'~ \once \slurDashed h8(\< c d e)\!
+    f2\ten r %55
+    R1
+    r4 c e\< g\!
+    r g,2 a4
+    h d2 c8 a
+    e4 r r2 %60
+    R1*2
+    e8..([\p f32 e8.. f32] e8..[ f32 e8.. f32])
+    e8..([ f32 e8.. f32] e8..[ f32 e8.. f32])
+    e4 r r2 %65
+    r r8 g(-. f-. e-.)
+    d4 r r2
+    r8 d(-. f-. a-. d-.) d(-.\f a-. f-.)
+    d4 r r2
+    c2\p r %70
+    R1
+    r2 r4 g'\p
+    d'2( c4) r
+    R1*2 %75
+    r4 c~ c8(\< d e f)\!
+    g2.\fz r4
+    R1
+    r4 f\pE f f
+    c2. r4 %80
+    r d d d
+    a2. r4
+    R1*3 %85
+    r4 a g f
+    e cis' d r
+    R1
+    r2 \after 4..\! d,\>
+    c8 r r4 r2 %90
+    r4 h'(\p ais h)
+    R1
+    r4 e,2\f c'4
+    a2. r4
+    R1*2 %96
+    r4 g( a h)
+    r2 r4 c~
+    c8( h a g) e8\pE r g r
+    g2( fis4) r \bar "||" %100 finis
+  }
+}

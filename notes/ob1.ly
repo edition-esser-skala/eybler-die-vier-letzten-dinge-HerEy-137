@@ -1094,3 +1094,84 @@ AllegroOboeI = {
     r2 r\fermata \bar "|." %102 finis
   }
 }
+
+IhrGluecklichenOboeI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoIhrGluecklichen
+    R2.*9 %9
+    r4 r8 a''(\cresc gis fis) %10
+    e8.\mf d16 cis8 cis d16( e fis d)
+    cis4( h8) r16 a'( gis fis e d)
+    cis4(\p\< e a)
+    cis8.(\fz h16 a8 gis fis e8)~ \markCritnote
+    e16( d e fis) cis8( e d gis) %15
+    gis4(\p a8) r r4
+    R2.
+    r4 r8 cis,(\< e a)
+    cis8.(\fz h16 a8) \pa gis([-.\p fis-.  e-.)] \pd
+    e4( dis8) r r4 %20
+    \pa gis8.(\> fis16 e8)\! \pd e([\< fis gis)]\!
+    h8. a16 fis8 r r4
+    \pa gis8.(\> fis16 e8)\! \pd dis([\< cis a')]\!
+    gis4(\> fis8)\! r h\f h
+    h8.\fz gis16 a8 r \once \slurDashed fis(-.\p gis-.) %25
+    gis4( a8) r fis\f fis
+    gis r r4 r
+    e,16( gis gis h) h(\< e e gis)\! gis( fis e dis)
+    dis( cis h a) gis8\p r h r
+    h8.(^> a16\! gis8) r r4 %30
+    d'!8.(^>\cresc cis16 h8) r r4
+    h'8.(\f a16 gis8) fis([\decresc e d)]
+    cis4\! r r
+    R2.*2 %35
+    r4 r8 h(-.\p h-. h-.)
+    h4 r r
+    r h( cis
+    d8) r r4 r
+    R2.*2 %41
+    r4 r8 cis(\< d e)
+    g4~\fz g16( fis e d) cis( d e fis)
+    a,4 gis!8 fis'([\decresc e d)]
+    cis4(\< e a)] %45
+    cis8.(\fz h16 a8 gis fis e)~ \markCritnote
+    e16( d e fis) cis8( e d h)
+    \pao a a'([ gis fis e d)]
+    cis fis([\decresc e d cis h)]\! \noBreak
+    a8.( d16) cis8.(\p d16) cis8.( d16) %50
+    \time 2/2 \tempoIhrGluecklichenB
+      cis4 r r2 \noBreak
+    R1*2
+    r4 d2\< cis4
+    h2\!\ten r %55
+    R1
+    r4 cis2 cis4
+    d2. cis4
+    h2. a4
+    gis r r2 %60
+    R1*3
+    h2\p a4. gis8
+    gis4 r r2 %65
+    r r8 ais(-. h-. cis-.)
+    d4 r r2
+    r8 fis,(-. fis-. fis-. fis-.) d'([-.\f d-. d-.)]
+    d4 r r2
+    r r4 e\pE %70
+    d2. r4
+    R1*4 %75
+    r4 cis2\< cis4
+    cis2.\fz r4
+    R1*2
+    e2~\pE-\critnote e8( h' a g) %80
+    fis4 r r2
+    R1*11 %92
+    r4 gis(\f h8 a gis fis)
+    e2( dis4) r
+    R1 %95
+    r2 r4 gis(
+    h2) a4 gis
+    R1
+    r2 cis,8\p r \pao ais r
+    \pao h2. r4 \bar "||" %100 finis
+  }
+}

@@ -1007,3 +1007,92 @@ AllegroFlautoII = {
     r2 r\fermata \bar "|." %102 finis
   }
 }
+
+IhrGluecklichenFlautoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoIhrGluecklichen
+    cis'4(\p e gis)
+    a4. gis8 a4
+    d, fis8( e d fis)
+    e2 r4
+    gis\< gis a %5
+    h\> gis a\!
+    fis~ fis8 d([-.\p cis-. h-.)]
+    d4(\> cis8)\! r r4
+    R2.*2 %10
+    cis'8.\mf h16 a8 a h16( cis d h)
+    a4( gis8) r r4
+    R2.
+    r4 r r8 cis~ \markCritnote
+    cis16( h cis d) a8( cis h d,) %15
+    d4(\p cis8) r r4
+    R2.*3
+    h4~\pE h16( ais h ais h ais a fis) %20
+    e4 r r
+    h'~ h16( dis fis e dis cis h dis)
+    e8 r r4 r
+    h~ h16( ais h ais h\cresc ais h h')\!
+    gis4\fz fis8 r \once \slurDashed cis(-.\p cis-.) %25
+    cis4. r8 dis\f dis
+    e16( fis gis a) a( gis) fis-! e-! h( a) gis-! fis-!
+    gis8( h e\< gis)\! e'16( dis cis h)
+    h( a gis fis) e8(\decresc gis fis a,)
+    gis4\! r r %30
+    R2.*2
+    cis4(\p e gis)
+    a4.\> gis8\! a4
+    \after 8... \! d,\< fis8( e d fis) %35
+    e2 r4
+    gis\< gis a
+    h\> gis a\!
+    fis4. d8([-.\p cis-. h-.)]
+    d4(\> cis8)\! r r4 %40
+    R2.
+    r4 r8 cis(\< d e)
+    g4~\fz g16( fis e d) cis( d e fis)
+    cis4( h8) r r4
+    R2. %45
+    r4 r r8 cis'~\pE \markCritnote
+    cis16( h cis d) a8( cis h d,)
+    cis r r4 r
+    r r e8.\decresc d16 \noBreak
+    cis8.( fis16) e8.(\p fis16) e8.( fis16) %50
+    \time 2/2 \tempoIhrGluecklichenB
+      e4 r r2 \noBreak
+    R1*2
+    r4 gis~ gis8(\< a h cis)\!
+    d2\ten r %55
+    R1*2
+    \afterGrace e,4.-\critnote { fis32[ e dis e] } fis8 gis(\< a h cis
+    e\> d h gis\! e eis fis d)
+    cis4 r r2 %60
+    R1*7 %67
+    r2 r8 \once \slurDashed d(-.\f fis-. h-.)
+    d4 r r2
+    \afterGrace cis,4.\pE { d32[ cis h cis] } d8(\< e fis gis a)\! %70
+    a2( gis4) r8. ais16
+    cis4.( h8 a gis fis e)
+    d2( cis4) r
+    R1*2 %75
+    \afterGrace a'4. { h32[ a gis a] } h8( cis\< d e fis)
+    g4.\fz e8 cis4 r
+    R1
+    a2~\pE a8( fis' e d)
+    d2( cis4) r %80
+    fis,2~ fis8( d' cis h)
+    h2( ais4) r
+    R1*3 %85
+    fis4. h8 ais(\< cis e g)\!
+    fis4. e8 d4 r
+    R1*4 %91
+    r2 r4 cis,\f
+    cis4( gis' fis cis)
+    h2. r4
+    R1*2 %96
+    r2 r4 e(
+    cis'2) h4 a~
+    a8( gis fis e) cis8\pE r e r
+    e2( dis4) r \bar "||" %100 finis
+  }
+}

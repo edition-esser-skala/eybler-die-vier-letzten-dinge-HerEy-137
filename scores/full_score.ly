@@ -1883,108 +1883,163 @@
   %   }
   % }
   % \part "dritter" "III" "Dritte Abtheilung"
+  % \bookpart {
+  %   \section "20" "Uebergang"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #15 #15 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
+  %           \partCombine #'(0 . 10) \AllegroFlautoI \AllegroFlautoII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \partCombine #'(0 . 10) \AllegroOboeI \AllegroOboeII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cl" "B" "flat" "1, 2" }
+  %           \setSoloText "cl 1"
+  %           % \transpose c b,
+  %           \partCombine #'(0 . 10) \AllegroClarinettoI \AllegroClarinettoII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+  %           \setSoloText "fag 1"
+  %           \partCombine #'(0 . 10) \AllegroFagottoI \AllegroFagottoII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "contra-fag"
+  %           % \transpose c c,
+  %           \AllegroContrafagotto
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff \with { \smallStaffDistance } <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
+  %           \setSoloText "cor 1"
+  %           % \transpose c es,
+  %           \partCombine #'(0 . 10) \AllegroCornoI \AllegroCornoII
+  %         >>
+  %         \new GrandStaff <<
+  %           \new Staff <<
+  %             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "C" "" "1, 2" }
+  %             \partCombine #'(0 . 10) \AllegroClarinoCI \AllegroClarinoCII
+  %           >>
+  %           \new Staff \with { \smallStaffDistance } <<
+  %             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "B" "flat" "1, 2" }
+  %             \setSoloText "clno 1"
+  %             % \transpose c b,
+  %             \partCombine #'(0 . 10) \AllegroClarinoBI \AllegroClarinoBII
+  %           >>
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \setGroupDistance #10 #15 } <<
+  %           \new Staff {
+  %             \set Staff.instrumentName = \markup \center-column { "trb" "1" }
+  %             \AllegroTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AllegroTromboneII
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "3"
+  %             \AllegroTromboneIII
+  %           }
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
+  %         \AllegroTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AllegroViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AllegroViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AllegroViola
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vlc"
+  %           \AllegroCello
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "cb"
+  %           % \transpose c c,
+  %           \AllegroViolone
+  %         }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 130 }
+  %   }
+  % }
   \bookpart {
-    \section "20" "Uebergang"
+    \section "21" "Recitativo · Ihr Glücklichen, euch hat der Herr verziehn"
     \addTocEntry
+    \paper {
+      top-system-spacing.basic-distance = #15
+      top-system-spacing.minimum-distance = #15
+      top-markup-spacing.basic-distance = #0
+      top-markup-spacing.minimum-distance = #0
+      markup-system-spacing.basic-distance = #15
+      markup-system-spacing.minimum-distance = #15
+      systems-per-page = #3
+    }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \setGroupDistance #15 #15 } <<
+        \new StaffGroup \with { \setGroupDistance #15 #13 } <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
-            \partCombine #'(0 . 10) \AllegroFlautoI \AllegroFlautoII
+            \partCombine #'(0 . 10) \IhrGluecklichenFlautoI \IhrGluecklichenFlautoII
           }
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \partCombine #'(0 . 10) \AllegroOboeI \AllegroOboeII
+            \setSoloText "ob 1"
+            \partCombine #'(0 . 10) \IhrGluecklichenOboeI \IhrGluecklichenOboeII
           }
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cl" "B" "flat" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cl" "A" "" "1, 2" }
             \setSoloText "cl 1"
-            % \transpose c b,
-            \partCombine #'(0 . 10) \AllegroClarinettoI \AllegroClarinettoII
+            % \transpose c a,
+            \partCombine #'(0 . 10) \IhrGluecklichenClarinettoI \IhrGluecklichenClarinettoII
           }
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
             \setSoloText "fag 1"
-            \partCombine #'(0 . 10) \AllegroFagottoI \AllegroFagottoII
-          }
-          \new Staff {
-            \set Staff.instrumentName = "contra-fag"
-            % \transpose c c,
-            \AllegroContrafagotto
+            \partCombine #'(0 . 10) \IhrGluecklichenFagottoI \IhrGluecklichenFagottoII
           }
         >>
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
-            \setSoloText "cor 1"
-            % \transpose c es,
-            \partCombine #'(0 . 10) \AllegroCornoI \AllegroCornoII
-          >>
-          \new GrandStaff <<
-            \new Staff <<
-              \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "C" "" "1, 2" }
-              \partCombine #'(0 . 10) \AllegroClarinoCI \AllegroClarinoCII
-            >>
-            \new Staff \with { \smallStaffDistance } <<
-              \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "B" "flat" "1, 2" }
-              \setSoloText "clno 1"
-              % \transpose c b,
-              \partCombine #'(0 . 10) \AllegroClarinoBI \AllegroClarinoBII
-            >>
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "A" "" "1, 2" }
+            % \transpose c a,
+            \partCombine #'(0 . 10) \IhrGluecklichenCornoI \IhrGluecklichenCornoII
           >>
         >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \setGroupDistance #10 #15 } <<
-            \new Staff {
-              \set Staff.instrumentName = \markup \center-column { "trb" "1" }
-              \AllegroTromboneI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \AllegroTromboneII
-            }
-            \new Staff {
-              \set Staff.instrumentName = "3"
-              \AllegroTromboneIII
-            }
-          >>
-        >>
-        \new Staff {
-          \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
-          \AllegroTimpani
-        }
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \AllegroViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \AllegroViolinoII
-            }
-          >>
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "vla"
-            \AllegroViola
+            \set Staff.instrumentName = \markup \center-column { "Zweyter" "Erzengel" }
+            \new Voice = "Soli" { \dynamicUp \IhrGluecklichenSoli }
           }
-          \new Staff {
-            \set Staff.instrumentName = "vlc"
-            \AllegroCello
-          }
-        >>
-        \new StaffGroup <<
-          \new Staff {
-            \set Staff.instrumentName = "cb"
-            % \transpose c c,
-            \AllegroViolone
-          }
+          \new Lyrics \lyricsto Soli \IhrGluecklichenSoliLyrics
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 130 }
+      \midi { \tempo 4 = 66 } %90
     }
   }
 }

@@ -936,3 +936,79 @@ AllegroCornoII = {
     r2 r\fermata \bar "|." %102 finis
   }
 }
+
+IhrGluecklichenCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoIhrGluecklichen
+    c4(\p e g)
+    c4. g8 e4
+    R2.
+    r4 r8 g,(-.\p g-. g-.)
+    g4 r r %5
+    g'2\> c4\!
+    r r r8 g\pE
+    g4\> e8\! r r4
+    g,2 r4
+    c2 r4 %10
+    e(\> c8)\! r r4
+    \once \slurDashed c'4( g8) r r4
+    R2.
+    c,4\fz r r \markCritnote
+    r r8 g'4 g8 %15
+    g4(\p e8) r r4
+    R2.
+    g,4 c8 c'([\< g e)]
+    c4.\fz r8 r4
+    R2. %20
+    g'4. r8 r4
+    R2.
+    g4. d'8(\< g, c)
+    \after 4 \! d4.\> r8 r4
+    e,4\fz c'8 r r4 %25
+    r r c8\f c
+    g4 r8 d'4 d8
+    g, g,4 g g8
+    g4 r r
+    g\p r8 g(-. g-. g-.) %30
+    g4\ten r8 g(-.\cresc g-. g-.)
+    g4\!\ten r r
+    c(\p e g)
+    c4.\> g8\! e4
+    R2. %35
+    r4 r8 g,(-.\p g-. g-.)
+    g4 r r
+    g'2\> c4\!
+    r r r8 g\pE
+    g4(\> e8)\! r r4 %40
+    g,2\p r4
+    c4. c8\< c c
+    c4.\fz r8 r4
+    g4. r8 r4
+    r8 c'4\p\< g e8 %45
+    c4\fz r r \markCritnote
+    r r8 g'4 g8
+    c,2.~
+    c4 r g' \noBreak
+    c, c\p c %50
+    \time 2/2 \tempoIhrGluecklichenB
+      c4 r r2 \noBreak
+    R1*5 %56
+    c1
+    g'2 r
+    R1*11 %69
+    c,2\p r %70
+    R1
+    r4 g'2 g4
+    c,2. r4
+    R1*2 %75
+    r4 c2\p\< c4
+    c2.\fz r4
+    R1*12 %89
+    r2 r4 e(\p %90
+    c' g) r g(
+    d' c) r e,\f
+    e2. r4
+    R1*7 \bar "||" %100 finis
+  }
+}

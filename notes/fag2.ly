@@ -1520,3 +1520,96 @@ AllegroFagottoII = {
     r r\fermata \bar "|." %102 finis
   }
 }
+
+IhrGluecklichenFagottoII = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/4 \tempoIhrGluecklichen
+    R2.
+    a'4.\p h8 cis4
+    d h8( cis d dis)
+    e4 e, r
+    e\< d' cis %5
+    gis\> e fis\!
+    d8.( cis16 h8) d([-.\p e-. e,-.)]
+    e4(\> a8)\! \clef "treble_8" a'([-\dolce a cis)]
+    cis16( h a gis) gis8 h([ h d)]
+    d16([\> cis h a)]\! a8 r r4 %10
+    \clef bass a,\mf r8 fis' d h
+    e4 e,8 r r4
+    r8 a'4 e cis8
+    a4\fz a' r8 a, \markCritnote
+    d h e4 e, %15
+    a4.\p r8 r4
+    e'( a8) r r4
+    e( a8) r r4
+    fis,4.\fz gis8([-.\p a-. ais-.)]
+    h4. r8 r4 %20
+    e,4\fz e'8 r r4
+    h4\fz h'8 r r4
+    e,,4.\fz gis'8([\< a fis)]
+    h4\> h,8\! r gis\f fis
+    eis4(\fz fis8) r r4 %25
+    r r a8\f a
+    gis e h'4 h
+    e r e,8\f fis16 gis
+    a8 h16 cis h4\p h
+    e, \clef "treble_8" r r %30
+    r4 r8 e'16(\cresc gis gis h h e)\!
+    e4 r8 d!(\decresc cis h)
+    a4\pE r r
+    a4.\> h8\! cis4
+    d\< h8(\! cis d dis) %35
+    e4 e, r
+    \clef bass e4\< d' cis
+    gis\> e fis\!
+    d8. cis16 h8 d([-.\p e-. e,-.)]
+    e4(\> a8)\! \clef "treble_8" a'([-\dolce a cis)] %40
+    cis16( h a gis) gis8 h([ h d)]
+    d16(\> cis h a)\! a8 r r4
+    \clef bass d,,\fz d' r8 d
+    e4 e,8 r r4
+    r8 a'4\cresc e cis8 %45
+    a4\fz a' r8 a, \markCritnote
+    d h e4 e,
+    a8 r r4 r
+    a2.~\decresc \noBreak
+    a4 a\p a %50
+    \time 2/2 \tempoIhrGluecklichenB
+      a4 r r2 \noBreak
+    R1*2
+    h'2.\< a4
+    gis2\ten\! r %55
+    R1
+    r4 cis2 cis4
+    h2. a4
+    gis2. fis4
+    eis r r2 %60
+    R1*3
+    eis2\p fis4. cis8
+    cis4 r r8 h'(-. a-. gis-.) %65
+    fis4 r r2
+    R1
+    r8 \slurDashed h(-. fis-. d-. h-.) fis'([-. d-. h-.)] \slurSolid
+    gis4 r r2
+    R1*2 %71
+    r4 e'\p fis gis
+    a2. r4
+    R1*3 %76
+    a,2.\fz r4
+    R1*8 %85
+    r4 d'\pE cis h
+    ais fis h r
+    R1
+    r2 e,\>
+    a,!8\! r r4 r2 %90
+    R1
+    r4 a'(\p gis a)
+    r eis,\f fis a
+    h2. r4
+    R1*3 %97
+    r4 a'( h cis)
+    dis, e a,8\pE r cis r
+    h2. r4 \bar "||" %100 finis
+  }
+}

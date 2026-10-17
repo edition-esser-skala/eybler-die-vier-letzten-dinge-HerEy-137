@@ -1033,3 +1033,83 @@ AllegroOboeII = {
     r2 r\fermata \bar "|." %102 finis
   }
 }
+
+IhrGluecklichenOboeII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \tempoIhrGluecklichen
+    R2.*9 %9
+    r4 r8 fis'(\cresc e d) %10
+    cis8.\mf h16 a8 a h16( cis d h)
+    a4( gis8) r16 fis'( e d cis h)
+    a4(\p\< cis e)
+    a8.(\fz gis16 fis8 e d cis)~ \markCritnote
+    cis16( h cis d) a8( cis h d) %15
+    d4(\p cis8) r r4
+    R2.
+    r4 r8 a(\< cis e)
+    a8.(\fz gis16 fis8) eis([-.\p fis-. cis-.)]
+    h4~ h8 r r4 %20
+    h8.(\> dis16 e8)\! h([\< dis e)]\!
+    gis8. fis16 dis8 r r4
+    h8.(\> dis16 e8)\! h([\< a fis')]\!
+    e4(\> dis8)\! r dis\f d
+    cis4~\fz cis8 r \once \slurDashed cis(-.\p eis-.) %25
+    eis4( fis8) r dis\f dis
+    e r r4 r
+    r8 e,16( gis) gis(\< h h e)\! e( dis cis h)
+    h( a gis fis) e8\p r a r
+    gis8.(^> fis16\! e8) r r4 %30
+    h'8.(^>\cresc a16 gis8) r r4
+    d'8.(\f cis16 h8) d([\decresc cis h)]
+    a4\! r r
+    R2.*2 %35
+    r4 r8 gis(-.\p gis-. gis-.)
+    gis4 r r
+    r gis( a
+    h8) r r4 r
+    R2.*2 %41
+    r4 r8 a(\< h cis)
+    cis4~\fz cis16( d e fis) g( fis e d)
+    cis4 h8 d([\decresc cis h)]
+    a4(\< cis e)] %45
+    a8.(\fz gis16 fis8 e d cis)~ \markCritnote
+    cis16( h cis d) a8( cis h gis)
+    a fis'([ e d cis h)]
+    a d([\decresc cis h a gis)]\! \noBreak
+    a4 a\p a %50
+    \time 2/2 \tempoIhrGluecklichenB
+      a4 r r2 \noBreak
+    R1*2
+    r4 h2\< a4
+    gis2\!\ten r %55
+    R1
+    r4 a2 a4
+    h2. a4
+    gis2. fis4
+    eis r r2 %60
+    R1*3
+    gis2\p fis4. eis8
+    eis4 r r2 %65
+    R1*2
+    r8 d(-. d-. d-. d-.) h'([-.\f h-. h-.)]
+    h4 r r2
+    r r4 cis\pE %70
+    h2. r4
+    R1*4 %75
+    r4 e,2\< e4
+    e2.\fz r4
+    R1*2
+    e'2~\pE-\critnote e8( h' a g) %80
+    fis4 r r2
+    R1*11 %92
+    r4 cis2\f a4
+    fis2. r4
+    R1 %95
+    r2 r4 e'(
+    gis2) fis4 e
+    R1
+    r2 a,8\p r ais r
+    h2. r4 \bar "||" %100 finis
+  }
+}

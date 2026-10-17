@@ -2235,3 +2235,91 @@ DerDonnerSoliLyrics = \lyricmode {
   Herr, iſt dein Ge -- %55 finis
   (richt!)
 }
+
+IhrGluecklichenSoli = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/4 \autoBeamOff \tempoIhrGluecklichen
+    R2.*14 \markCritnote %14
+    R2.*32 \markCritnote %46
+    R2.*4 %50
+    \time 2/2 \tempoIhrGluecklichenB
+      r2 e' \noBreak
+    d8. cis16 cis4 r2
+    e2 d8 cis h a
+    gis4 r r2
+    d' cis4 h %55
+    fis'4. fis8 e d cis h
+    cis4 cis r2
+    R1*2
+    r2 r4 cis %60
+    cis gis a fis
+    eis2 r8 gis a h
+    a4 a r2
+    R1*3 %66
+    r2 d
+    R1
+    fis2\fz\fermata h,4. e8
+    cis2 r %70
+    R1*2
+    r2 r4 e
+    fis4. e8 \grace e d8[ cis] \grace cis h[ a]
+    \grace { gis16[ h] } a4 gis r e'8. h16 %75
+    cis4 cis r2
+    r r4 e
+    g8. e16 cis8 d e e fis g
+    fis4 r r2
+    R1*3 %82
+    fis4 r cis8 cis ais cis
+    cis8. fis,16 fis4 r8 fis cis' cis
+    cis e g4. g8 fis cis %85
+    d4 d r2
+    r r4 r8 d
+    fis8. fis16 d8 h gis!4 r8 a
+    a4 e r2
+    R1*4 %93
+    r2 r4 fis
+    h2 r4 fis %95
+    a8. gis16 gis4 r2
+    R1*4 \bar "||" %100 finis
+  }
+}
+
+IhrGluecklichenSoliLyrics = \lyricmode {
+  Ihr %51
+  Glück -- li -- chen,
+  euch hat der Herr ver --
+  ziehn;
+  Euch wird das höch -- ſte %55
+  Glück er -- ſchaff -- ner
+  We -- ſen.
+
+  Ein %60
+  mor -- ſcher, ſchwa -- cher
+  Staub ſeyd ihr ge --
+  we -- "ſen –"
+
+  "Und –" %67
+
+  ſehn ſollt ihr
+  ihn. %70
+
+  Den %73
+  himm -- li -- ſchen Er --
+  bar -- mer ſollt ihr %75
+  ſe -- hen,
+  der
+  en -- de -- lo -- ſe Freu -- den euch ge --
+  währt;
+
+  Ja, wenn ihr nicht un -- %83
+  ſterb -- lich wärt, ihr könn -- tet
+  die -- ſen An -- blick nicht be -- %85
+  ſte -- hen, Ihr
+  wür -- det in ein Nichts ver --
+  ge -- hen.
+
+  Nun %94
+  kommt, und %95
+  fol -- get mir. %96 finis
+}
