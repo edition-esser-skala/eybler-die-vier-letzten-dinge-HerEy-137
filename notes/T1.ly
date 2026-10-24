@@ -974,3 +974,46 @@ OSchrecklichesTenoreILyrics = \lyricmode {
   Heil, zum
   Heil. __ %190 finis
 }
+
+UnaussprechlichTenoreI = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoUnaussprechlich
+    R1
+    R\fermata
+    R
+    R\fermata
+    R \noBreak %5
+    R\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*3
+    r2 b4\pp r %10
+    r2 r4 ges8 ges
+    es8. es16 es8 es ges4 r
+    r8 b\pococresc b b as!4 r
+    ges es'8. ges16 f8 d! r4
+    r f8\mf f ges4 es %15
+    ces a \tempoUnaussprechlichC b r \noBreak
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r2 \mvDll es4\f\fermata ges8 ges %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      g8.\ff es16 f8. d16 \noBreak
+    \tempoUnaussprechlichE es4 r \noBreak
+    R2*15 %37
+    R2\fermata \bar "|." %38 finis
+  }
+}
+
+UnaussprechlichTenoreILyrics = \lyricmode {
+  Herr! %10
+  Un -- aus --
+  ſprech -- lich iſt das Glück,
+  das dei -- ne Gnad’
+  uns zu -- ge -- meſ -- ſen,
+  un -- aus -- ſprech -- lich %15
+  iſt das Glück!
+
+  Ach! un -- aus -- %20
+  ſprech -- lich iſt das
+  Glück! %22 finis
+}

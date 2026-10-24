@@ -1546,3 +1546,86 @@ IhrGluecklichenClarinettoII = {
     g2( fis4) r \bar "||" %100 finis
   }
 }
+
+UnaussprechlichClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    fis\fff\fermata
+    R
+    fis\fff\fermata
+    R \noBreak %5
+    fis\fff\fermata \bar "||"
+    \tempoUnaussprechlichB R1*4 %10
+    as4\p\ten r r2
+    as4\ten r r2
+    as4\ten r g\ten r
+    as\ten\cresc r g\ten r
+    g\mf\ten r as\ten r %15
+    f\f\ten r \tempoUnaussprechlichC g2~\p
+    g1~
+    g
+    b4\fz\ten r r8\fermata r r4 \noBreak
+    r2 d4\f\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      c\fz b\fz \noBreak
+    \tempoUnaussprechlichE a2~ \noBreak
+    a~
+    a~
+    a~ %25
+    a~
+    a~
+    a4 c~
+    c f,
+    b? d %30
+    c b
+    a8 f a c
+    f4 e
+    f8 a, c f
+    a4 b, %35
+    a r
+    c, c
+    c r\fermata \bar "|." %38 finis
+  }
+}
+
+HerrLassClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 6/4 \tempoHerrLass
+    R1.*18 %18
+    r2 r4 r2 r4\fermata
+    R1.*3 \noBreak %22
+    r2 r4 r r\fermata \tempoHerrLassB r4
+    \twofourtime \time 2/4 \newSpacingSection
+      R2*29 %52
+    r4 c'\p^\critnote
+    d es16( d c b)
+    a4 r %55
+    R2*3
+    r4 c8\f d
+    % es8. a,16 b8 c16 d %60 for MIDI
+    es8. a,16 \after 16 ^\turn b8 c16 d %60
+    d8( c) r4
+    R2*4 %65
+    g16(\pE h c d) es8 r
+    a,16( c d es) f8 r
+    b,16( d g b) e,8 r16\fermata r
+    r4\fermata r
+    R2*7 %76
+    b16( c d es f\cresc g a b)
+    b(\f a) a( g) g( f) f( es)
+    es( d c8) r4
+    R2 %80
+    r4 f8.\pE b,16
+    a( b c d es c d b)
+    c8 r r4
+    g'16( f es d) es( d c b)
+    a4 r %85
+    R2*9 %94
+    r4 as'8\f as %95
+    g16( es c es) d8 a!
+    b4 r\fermata \bar "|." %97 finis
+  }
+}

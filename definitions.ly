@@ -80,6 +80,30 @@ piucresc = #(make-music
   'span-type 'text
   'span-text (markup (#:normal-text #:small "più cresc.")))
 
+pococresc = #(make-music
+  'CrescendoEvent
+  'span-direction START
+  'span-type 'text
+  'span-text (markup (#:normal-text #:small "poco cresc.")))
+
+
+% part-specific commands
+#(define option-is-full-score
+  (if (not (defined? 'option-is-full-score))
+  #f
+  option-is-full-score))
+
+% move dnymics only in the full score
+mvDofs = #(define-music-function
+  (parser location offset)
+  (number?)
+  (if option-is-full-score #{
+    \once \override DynamicText.X-offset = #offset
+  #} #{
+    \once \override DynamicText.X-offset = #0
+  #}))
+
+
 tempoOvertura = \tempoMarkup "Grave"
   tempoOverturaB = \tempoMarkup "Allegro assai"
 tempoGroßIst = \tempoMarkup "Adagio maestoso"
@@ -146,6 +170,16 @@ tempoOSchreckliches = \tempoMarkup "Andante [con moto]"
 tempoAllegro = \tempoMarkup "Allegro"
 tempoIhrGluecklichen = \tempoMarkup "Andante cantabile"
   tempoIhrGluecklichenB = \tempoMarkup "Recitativo"
+tempoOHeil = \tempoMarkup "Andante cantabile"
+tempoUnaussprechlich = \tempoMarkup "Adagio maestoso"
+  tempoUnaussprechlichB = \tempoMarkup "Largo"
+  tempoUnaussprechlichC = \tempoMarkup "Recitativo" %90
+  tempoUnaussprechlichD = \tempoMarkup "Adagio" %45
+  tempoUnaussprechlichE = \tempoMarkup "Presto" %150
+tempoHerrLass = \tempoMarkup "Adagio"
+  tempoHerrLassB = \tempoMarkup "Larghetto"
+tempoSeinVaterarm = \tempoMarkup "Recitativo"
+  tempoSeinVaterarmB = \tempoMarkup "Larghetto"
 
 
 \include "notes/fl1.ly"

@@ -789,3 +789,40 @@ AllegroTromboneI = {
     r2 r\fermata \bar "|." %102 finis
   }
 }
+
+UnaussprechlichTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    g\fff\fermata
+    R
+    e'\fff\fermata
+    R \noBreak %5
+    g\fff\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*9 %15
+    r2 \tempoUnaussprechlichC r \noBreak
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r2 r4\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      g4\fz f\fz
+    \tempoUnaussprechlichE es2~ \noBreak
+    es~
+    es~
+    es~ %25
+    es~
+    es~
+    es~
+    es~
+    es4 es %30
+    g f
+    es r
+    g f
+    es r
+    g f %35
+    es r
+    es es
+    es r\fermata \bar "|." %38 finis
+  }
+}

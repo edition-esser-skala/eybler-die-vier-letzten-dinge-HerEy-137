@@ -790,3 +790,40 @@ AllegroTromboneII = {
     r2 r\fermata \bar "|." %102 finis
   }
 }
+
+UnaussprechlichTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    e,\fff\fermata
+    R
+    c'\fff\fermata
+    R \noBreak %5
+    c\fff\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*9 %15
+    r2 \tempoUnaussprechlichC r \noBreak
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r2 r4\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      es4\fz d\fz
+    \tempoUnaussprechlichE es2~ \noBreak
+    es~
+    es~
+    es~ %25
+    es~
+    es~
+    es~
+    es~
+    es4 es %30
+    es d
+    es r
+    es d
+    es r
+    es d %35
+    es r
+    g, g
+    g r\fermata \bar "|." %38 finis
+  }
+}

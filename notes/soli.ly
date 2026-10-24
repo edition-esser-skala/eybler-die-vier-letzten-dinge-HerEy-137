@@ -2323,3 +2323,542 @@ IhrGluecklichenSoliLyrics = \lyricmode {
   kommt, und %95
   fol -- get mir. %96 finis
 }
+
+HerrLassSoliA = {
+  \relative c' {
+    \clef treble
+    \key as \major \time 6/4 \autoBeamOff \tempoHerrLass
+    R1.*4
+    c'2 as4 des2 c4 %5
+    c( b) as \grace { g16[ b] } as4 g r
+    des'2 c4 b2 f'4
+    es2 des4 \grace { c16[ es] } des4 c r
+    es2 e4 g4.( f8) es([ des)]
+    c4.( b8) c([ as)] as4( g) r %10
+    r2 r4 r r c8([ as)]
+    f2 f'8([ as,)] as4( g) b
+    b( a8[ c)] es([ g)] g4( f) es
+    es16([ d c b)] b4 r d!2 b4
+    es2 b4 f'2 g4 %15
+    as8([ f)] d4 r es2 des4
+    h8([ c f es]) d([ c)] b4.( c8) f,([ as)]
+    g4 r r r2 r4
+    r as'4.\fz f8 \grace es4 d2.\fermata
+    r4 es h c( d8[ e)] f([ g)] %20
+    as2 d,4 es r r
+    R1. \noBreak
+    r2 r4 r r\fermata \tempoHerrLassB r
+    \twofourtime \time 2/4 \newSpacingSection
+      R2*19 %42
+    r4 es8 c
+    as b16([ c)] des8 b
+    g es es' c %45
+    as b16([ c)] des8 b
+    g es es^\dolce as
+    g as b16([ c)] des([ c)]
+    b4 c8 es
+    es16([ des)] f,([ b)] b([ as)] as([ g)] %50
+    as4 b8 es,
+    c' es, des'16([ c)] b([ as)]
+    g8 b b es,
+    c' es, des'16([ c)] b[( as)]
+    g8 b b16([ g')] f([ es)] %55
+    es([ d)] c([ b)] a([ b)] c([ as)]
+    as8([ g)] b es
+    es16([ c)] c([ as')] as([ g)] g([ f)]
+    es4 r
+    R2 %60
+    r4 es8. as,16
+    g8 as des! c
+    b16([ g)] es8 es'8. as,16
+    g8 as des c
+    b16([ g)] es8 c'16([ b)] as([ g)] %65
+    f8 f des'16([ c)] b([ as)]
+    g4 es'16([ des)] c([ b)]
+    as8 as as'8.\fermata d,16
+    es4\fermata ges8 a,
+    b des! c f %70
+    des b f' g,!
+    as! c b es
+    c as f'16([ es)] c([ as)]
+    g8 as b16([ c)] des([ c)]
+    b4 es8. ges16 %75
+    ges([ f)] des([ b)] b([ as)] as([ g!)]
+    as4 r
+    R2
+    r4 es'8. as,16
+    g8 as des c %80
+    b16([ g)] es8 es'8. as,16
+    g8 as des c
+    b16([ g)] es8 c'16([ b)] as([ g)]
+    f8 f f'16([ es)] des([ c)]
+    b4 b8 c %85
+    des ges f8. es16
+    des8 b as! b
+    c f es8. des16
+    c8 as as16([ es')] des([ c)]
+    \grace c b8 b b16([ f')] es([ des)] %90
+    \appoggiatura des8 c4 as16([ c)] es([ as)]
+    as([ f)] des([ b)] es8. g,16
+    as4 r
+    R2*3 %96
+    R2\fermata \bar "|." %97 finis
+  }
+}
+
+HerrLassSoliALyrics = \lyricmode {
+  Herr, laß dir den %5
+  Dank ge -- fal -- len,
+  E -- wig ſoll dein
+  Lob er -- ſchal -- len,
+  Dein, der ſo __ viel
+  Glück be -- ſchied; %10
+  laß
+  dir O Herr, den
+  Dank laß dir __ ge --
+  fal -- len, E -- wig
+  ſoll dein Lob er -- %15
+  ſchal -- len, Dein, der
+  ſo __ viel Glück be --
+  ſchied,
+  ſo viel Glück!
+  Dein, der ſo __ viel %20
+  Glück be -- ſchied.
+
+  Nim -- mer %43
+  wird dein Don -- ner
+  kra -- chen, Nim -- mer %45
+  wird dein Zorn er --
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen --
+  lied, Huld um --
+  ſchwebt dein Au -- gen -- %50
+  lied, Nim -- mer
+  wird dein Don -- ner
+  kra -- chen, Nim -- mer
+  wird dein Zorn er --
+  wa -- chen, Huld um -- %55
+  ſchwebt dein Au -- gen --
+  lied, Huld um --
+  ſchwebt dein Au -- gen --
+  lied.
+  %60
+  Herr, laß
+  dir den Dank ge --
+  fal -- len, E -- wig
+  ſoll dein Lob er --
+  ſchal -- len, Dein, der %65
+  ſo viel Glück be --
+  ſchied, Dein, der
+  ſo viel Glück be --
+  ſchied. Nim -- mer
+  wird dein Don -- ner %70
+  kra -- chen, Nim -- mer
+  wird dein Zorn er --
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen --
+  lied, Huld um -- %75
+  ſchwebt dein Au -- gen --
+  lied.
+
+  Herr, laß
+  dir den Dank ge -- %80
+  fal -- len, E -- wig
+  ſoll dein Lob er --
+  ſchal -- len, Dein, der
+  ſo viel Glück be --
+  ſchied. Nim -- mer %85
+  wird dein Don -- ner
+  kra -- chen, Nim -- mer
+  wird dein Zorn er --
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen -- %90
+  lied, Huld um --
+  ſchwebt dein Au -- gen --
+  lied. %93 finis
+}
+
+HerrLassSoliB = {
+  \relative c' {
+    \clef "treble_8"
+    \key as \major \time 6/4 \autoBeamOff \tempoHerrLass
+    R1.*4
+    es2 c4 f2 es4 %5
+    es( des) c c b r
+    b2 as4 f'( des) b
+    g( as) b b as r
+    r as as as( a) b8([ des)]
+    f2 f4 b,2 r4 %10
+    r r g'8([ es)] c2 as'8([ f)]
+    \appoggiatura es4 d2 b8([ f')] f4( es) g8([ f)]
+    es2 d4 c2 f4
+    g16([ f es d)] d4 r b( d) f
+    b,( es) g as4.( g8) f([ es)] %15
+    d4 f r r b, es
+    es( d8[ c)] b([ as)] g4( f) b
+    b r r r g'4.\fz b,8
+    as4 c4. as'8 f2.\fermata
+    r4 b, es es2 c8([ as)] %20
+    f2 b8([ as)] g4 r r
+    R1. \noBreak
+    r2 r4 r r\fermata \tempoHerrLassB r
+    \twofourtime \time 2/4 \newSpacingSection
+      R2*11 %34
+    r4 es'8 c %35
+    as b16([ c)] des8 b
+    g es es' c
+    as b16([ c)] des8 b
+    g es es^\dolce as
+    g as b16([ c)] des([ c)] %40
+    b4 c8 es
+    es16([ des)] f,([ b)] b([ as)] as([ g)]
+    as4 c8 es
+    c as b des
+    b g c es %45
+    c as b des
+    b g as es'
+    des c16([ es)] des([ c)] b([ as)]
+    g4 as8 ges'
+    f b,16([ des)] des([ c)] c([ b)] %50
+    as4 g8 b
+    as c b16([ c)] des([ c)]
+    b8 g g b
+    as c b16([ c)] des([ c)]
+    b8 g es' b %55
+    b16([ c)] d([ es)] f8. d16
+    b4 es16([ des)] c([ h)]
+    c([ as')] g([ f)] f([ es)] es([ d)]
+    es4 r
+    R2*2 %61
+    es8. as,16 g8 as
+    des! c b16([ g)] es8
+    es'8. as,16 g8 as
+    b g es'16([ des)] c([ b)] %65
+    as8 f f'16([ es)] des([ c)]
+    b8 g es r
+    c' f d8.\fermata as'16
+    g4\fermata es8 c
+    f b, a8. a16 %70
+    b8 f des'! b
+    es as,! g8. g16
+    as8 es as16([ c)] c([ es)]
+    es([ des16)] c([ es)] des([ c)] b([ as)]
+    g4 as8 a %75
+    a16([ b)] f'([ des)] des([ c)] c([ b)]
+    as4 r
+    R2*2
+    es'8. as,16 g8 as %80
+    des c b16([ g)] es8
+    es'8. as,16 g8 as
+    b g es'16([ des)] c([ b)]
+    as8 b16([ c)] des([ c)] b([ as)]
+    g4 f8 a %85
+    b des! c a
+    f b f g
+    as! c b g
+    es as as as
+    as16([ f')] des([ b)] g([ des')] c([ b)] %90
+    \appoggiatura b8 as4 c16([ es)] as([ ges)]
+    f([ des)] f([ des)] c([ es)] des([ b)]
+    as4 r
+    R2*3 %96
+    R2\fermata \bar "|." %97 finis
+  }
+}
+
+HerrLassSoliBLyrics = \lyricmode {
+  Herr, laß dir den %5
+  Dank ge -- fal -- len,
+  E -- wig ſoll dein
+  Lob er -- ſchal -- len,
+  Dein, der ſo __ viel
+  Glück be -- ſchied; %10
+  laß dir den
+  Dank O Herr, den
+  Dank laß dir ge --
+  fal -- len, E -- wig
+  ſoll dein Lob er -- %15
+  ſchal -- len, Dein, der
+  ſo __ viel Glück be --
+  ſchied, ſo viel
+  Glück, ſo viel Glück!
+  Dein, der ſo viel %20
+  Glück be -- ſchied.
+
+  Nim -- mer %35
+  wird dein Don -- ner
+  kra -- chen, Nim -- mer
+  wird dein Zorn er --
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen -- %40
+  lied, Huld um --
+  ſchwebt dein Au -- gen --
+  lied. Nim -- mer
+  wird dein Don -- ner
+  kra -- chen, Nim -- mer %45
+  wird dein Zorn er --
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen --
+  lied, Huld um --
+  ſchwebt dein Au -- gen -- %50
+  lied, Nim -- mer
+  wird dein Don -- ner
+  kra -- chen, Nim -- mer
+  wird dein Zorn er --
+  wa -- chen, Huld um -- %55
+  ſchwebt dein Au -- gen --
+  lied, Huld um --
+  ſchwebt dein Au -- gen --
+  lied.
+
+  Herr, laß dir den %62
+  Dank ge -- fal -- len,
+  E -- wig ſoll dein
+  Lob er -- ſchal -- len, %65
+  Dein, der ſo viel
+  Glück be -- ſchied,
+  ſo viel Glück be --
+  ſchied. Nim -- mer
+  wird dein Don -- ner %70
+  kra -- chen, Nim -- mer
+  wird dein Zorn er --
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen --
+  lied, Huld um -- %75
+  ſchwebt dein Au -- gen --
+  lied.
+
+  Herr, laß dir den %80
+  Dank ge -- fal -- len,
+  E -- wig ſoll dein
+  Lob er -- ſchal -- len,
+  der ſo viel be --
+  ſchied. Nim -- mer %85
+  wird dein Don -- ner
+  kra -- chen, Nim -- mer
+  wird dein Zorn er --
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen -- %90
+  lied, Huld um --
+  ſchwebt dein Au -- gen --
+  lied. %93 finis
+}
+
+HerrLassSoliC = {
+  \relative c {
+    \clef bass
+    \key as \major \time 6/4 \autoBeamOff \tempoHerrLass
+    R1.*4
+    as'2 as4 as2 as4 %5
+    g2 as4 es es r
+    g2 as4 des,2 des4
+    es( f) g as as, r
+    c2 c4 des2 des4
+    des2 d4 es2 b'8([ g)] %10
+    es2 c'4 as2 as,4
+    b2 d4 es2 es'8([ d)]
+    c2 b4 a4.( f8) g([ a)]
+    b4 b, r as'2.
+    g4 g es d2 es4 %15
+    b b' r g2 g4
+    as2 as,4 b( as') d,
+    es b'4.\fz des,8 c4 r r
+    r f f as2.\fermata
+    r4 g g as2 as,4 %20
+    b2 b4 es r r
+    R1. \noBreak
+    r2 r4 r r\fermata \tempoHerrLassB r
+    \twofourtime \time 2/4 \newSpacingSection
+      R2*3 %26
+    r4 es'8 c
+    as b16([ c)] des8 b
+    g es es' c
+    as b16([ c)] des8 b %30
+    g es es^\dolce as
+    g as b16([ c)] des([ c)]
+    b4 c8 es
+    es16([ des)] f,([ b)] b([ as)] as([ g)]
+    as4 c8 es %35
+    c as b des
+    b g c es
+    c as b des
+    b g as es
+    des' c16([ es)] des([ c)] b([ as)] %40
+    g4 as8 ges
+    f b16([ des)] des([ c)] c([ b)]
+    as4 as,8 as
+    f' f b, b
+    es es as, as %45
+    f' f b, b
+    es es c c'
+    b as g as
+    es4 c8 as
+    des des es es %50
+    as,4 r
+    R2
+    es''8 es, r4
+    R2
+    es'8 es, g g %55
+    f f d d
+    es4 g8 g
+    as as b b,
+    es4 r
+    R2 %60
+    r4 es8 c'
+    des! c b as
+    g as es c'
+    des c b as
+    g b as, b16([ c)] %65
+    des8 des b c16([ des)]
+    es4 c8 des16([ es)]
+    f([ g)] as([ f)] b8.\fermata b,16
+    es4\fermata c8 es
+    des! b' f c' %70
+    b des b, des
+    c as'! es b'
+    as c c,16([ es)] as([ c)]
+    b8 as g as
+    es4 c8 c %75
+    des des es es
+    as,4 r
+    R2
+    r4 es'8 c'
+    des c b as %80
+    g as es c'
+    des c b as
+    g b as, b16([ c)]
+    des8 des b c16([ des)]
+    es4 des8 c %85
+    b b' a c
+    b des des, b
+    as! as' g b
+    as c c, c
+    des des es f16([ g)] %90
+    \appoggiatura g8 as4 c,8 c
+    des des es es
+    as,4 r
+    R2*3 %96
+    R2\fermata \bar "|." %97 finis
+  }
+}
+
+HerrLassSoliCLyrics = \lyricmode {
+  Herr, laß dir den %5
+  Dank ge -- fal -- len,
+  E -- wig ſoll dein
+  Lob er -- ſchal -- len,
+  Dein, der ſo viel
+  Glück be -- ſchied; laß  %10
+  dir den Dank, den
+  Dank O Herr, den
+  Dank laß dir __ ge --
+  fal -- len, E --
+  wig ſoll dein Lob er -- %15
+  ſchal -- len, Dein, der
+  ſo viel Glück be --
+  ſchied, ſo viel Glück,
+  ſo viel Glück!
+  Dein, der ſo viel %20
+  Glück be -- ſchied.
+
+  Nim -- mer %27
+  wird dein Don -- ner
+  kra -- chen, Nim -- mer
+  wird dein Zorn er -- %30
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen --
+  lied, Huld um --
+  ſchwebt dein Au -- gen --
+  lied. Nim -- mer %35
+  wird dein Don -- ner
+  kra -- chen, Nim -- mer
+  wird dein Zorn er --
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen -- %40
+  lied, Huld um --
+  ſchwebt dein Au -- gen --
+  lied. Nim -- mer
+  wird dein Don -- ner
+  kra -- chen, Nim -- mer %45
+  wird dein Zorn er --
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen --
+  lied, Huld um --
+  ſchwebt dein Au -- gen -- %50
+  lied,
+
+  Nim -- mer
+
+  Nim -- mer, Huld um -- %55
+  ſchwebt dein Au -- gen --
+  lied, Huld um --
+  ſchwebt dein Au -- gen --
+  lied.
+
+  Herr, laß %61
+  dir den Dank ge --
+  fal -- len, E -- wig
+  ſoll dein Lob er --
+  ſchal -- len, Dein, der %65
+  ſo viel Glück be --
+  ſchied, Dein, der
+  ſo viel Glück be --
+  ſchied. Nim -- mer
+  wird dein Don -- ner %70
+  kra -- chen, Nim -- mer
+  wird dein Zorn er --
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen --
+  lied, Huld um -- %75
+  ſchwebt dein Au -- gen --
+  lied.
+
+  Herr, laß
+  dir den Dank ge -- %80
+  fal -- len, E -- wig
+  ſoll dein Lob er --
+  ſchal -- len, Dein, der
+  ſo viel Glück be --
+  ſchied. Nim -- mer %85
+  wird dein Don -- ner
+  kra -- chen, Nim -- mer
+  wird dein Zorn er --
+  wa -- chen, Huld um --
+  ſchwebt dein Au -- gen -- %90
+  lied, Huld um --
+  ſchwebt dein Au -- gen --
+  lied. %93 finis
+}
+
+SeinVaterarmSoli = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoSeinVaterarm
+    r4 r8 g' a8. g16 g4
+    r8 g a h c c r4
+    R1*2
+    r8 c, b'8. g16 e8 e r4 %5
+    g8. g16 g8 a b4 r8 c
+    b8. a16 a4 r2
+    r8 d, fis a c4. d8
+    h! h r4 r8 g d h
+    g4. f'!8 e4 r %10
+    r2 r4 r8 c
+    c'4.\fermata fis,8 a8. g16 g4
+    R1\fermata \bar "|." %13 finis
+  }
+}
+
+SeinVaterarmSoliLyrics = \lyricmode {
+  Sein Va -- ter -- arm
+  hält euch um -- ſchloſ -- ſen;
+
+  Durch E -- wig -- kei -- ten %5
+  ſchal -- le nun das Lob dem
+  E -- wi -- gen,
+  dem un -- aus -- ſprech -- lich
+  Groſ -- ſen, der euch als
+  Staub er -- "ſchuf –" %10
+  zum
+  ew’ -- gen Glück er -- hob. %12 finis
+}

@@ -903,3 +903,152 @@ OSchrecklichesAltoILyrics = \lyricmode {
   Heil, zum
   Heil. __ %190 finis
 }
+
+OHeilAltoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \autoBeamOff \tempoOHeil
+    \partial 4 r4 R2.*7 %7
+    r4 r h\pE
+    h'2 a4
+    gis2 r4 %10
+    gis h a
+    gis8([ fis)] e4 r
+    h' a gis
+    fis4.\fz h,8 h4
+    a' gis dis %15
+    e4.\fz gis8 gis4
+    gis2 fis4
+    a2 gis4
+    h a a
+    gis fis r %20
+    R2.
+    r4 r h
+    h2 cis4\<
+    \after 4 \! dis2 gis,4
+    gis4. gis8 gis his %25
+    his4 cis r
+    gis fis e
+    fis2 fis4
+    fis2 fis4
+    fis2 r4 %30
+    h h h
+    cis a! gis
+    h2 h8([ a)]
+    gis4 r r
+    R2.*3 %37
+    r4 r dis\pE
+    dis2 fis4
+    fis2\cresc fis4 %40
+    dis4.\f e8 a gis
+    gis4 fis r
+    h\p ais gis
+    gis2 e4
+    cis2 fis4 %45
+    fis r r
+    fis\< h h
+    h(\! e,) fis8([ a)]
+    gis2 fis4
+    e r r %50
+    R2.*2
+    gis2.\crescE
+    e4 r r
+    r gis2\f %55
+    \mvTrh cis\fz^\critnote a4
+    gis r r
+    R2.*6 %63
+    R2.\fermata \bar "|." %64 finis
+  }
+}
+
+OHeilAltoILyrics = \lyricmode {
+  O %8
+  Heil euch,
+  Heil, %10
+  ihr ſollt ihn
+  ſe -- hen,
+  den Un -- aus --
+  ſprech -- li -- chen,
+  den Un -- aus -- %15
+  ſprech -- li -- chen,
+  Heil euch,
+  Heil euch,
+  ihr ſollt ihn
+  ſe -- hen, %20
+
+  Sein
+  Glanz, ſein
+  Glanz wird
+  ſtär -- kend euch um -- %25
+  we -- hen;
+  Ihr ſollt nicht
+  mehr um
+  Gna -- de
+  flehn, %30
+  Ihr ſollt den
+  Va -- ter, den
+  Va -- ter ſehn.
+
+  Sein %38
+  Glanz, ſein
+  Glanz wird %40
+  ſtär -- kend euch um --
+  we -- hen;
+  Ihr ſollt nicht
+  mehr um
+  Gna -- de %45
+  flehn,
+  Ihr ſollt den
+  Va -- ter,
+  Va -- ter
+  ſehn, %50
+
+  Heil %53
+  euch!
+  Ihr %55
+  ſollt ihn
+  ſehn. %57 finis
+}
+
+UnaussprechlichAltoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoUnaussprechlich
+    R1
+    R\fermata
+    R
+    R\fermata
+    R \noBreak %5
+    R\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*3
+    r2 es4\pp r %10
+    r2 r4 es8 es
+    es8. es16 es8 es es4 r
+    r8 ges\pococresc ges ges f4 r
+    b b8. b16 b8 b r4
+    r f8\mf f ges4 es %15
+    ces' a \tempoUnaussprechlichC b r \noBreak
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r2 \mvDll a4\f\fermata c8 c %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      es8.\ff es16 d8. as16 \noBreak
+    \tempoUnaussprechlichE g4 r \noBreak
+    R2*15 %37
+    R2\fermata \bar "|." %38 finis
+  }
+}
+
+UnaussprechlichAltoILyrics = \lyricmode {
+  Herr! %10
+  Un -- aus --
+  ſprech -- lich iſt das Glück,
+  das dei -- ne Gnad’
+  uns zu -- ge -- meſ -- ſen,
+  un -- aus -- ſprech -- lich %15
+  iſt das Glück!
+
+  Ach! un -- aus -- %20
+  ſprech -- lich iſt das
+  Glück! %22 finis
+}

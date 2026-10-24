@@ -1939,3 +1939,243 @@ AllegroCello = {
     c4 r r2\fermata \bar "|." %102 finis
   }
 }
+
+OHeilCello = {
+  \relative c {
+    \clef "treble_8"
+    \key e \major \time 3/4 \tempoOHeil
+    \partial 4 r4 e(\p gis h)
+    e( h gis)
+    e( gis h)
+    e e, d'
+    cis( h a) %5
+    gis( e gis)
+    dis dis'( e
+    h) r r
+    e,( gis h)
+    e( gis, h) %10
+    e, e' e
+    e, e' e
+    e r r
+    h-! fis-! dis-!
+    h-! r r %15
+    e-! gis-! h-!
+    e8-! r gis,4( fis)
+    r a( gis)
+    e( a fis)
+    h h, a'\mf %20
+    gis gis a
+    h h, r
+    r h'(\< a
+    \after 4\! gis2) fis4
+    e cis gis' %25
+    cis, cis'( dis)
+    e( dis cis)
+    fis,( e' dis)
+    cis( h ais)
+    h h, h %30
+    h a'! gis
+    fis2 gis8 e
+    h4 h' h,
+    e r r
+    r a(\mf gis) %35
+    r fis( e)
+    r dis( e)
+    h h' r
+    r h(\p fis
+    dis\< fis dis) %40
+    h\! r r
+    r \once \stemUp h'(\p ais
+    gis fisis gis)
+    cis2.
+    fis,! %45
+    h,4( dis fis)
+    h(\< cis dis)
+    e(\! cis a!)
+    h2 h,4
+    e e(-.\p e-. %50
+    e-.) r r
+    r e(-.\cresc e-.
+    e-.) r r
+    r e'-!\f e-!
+    cis-! r cis-! %55
+    fis,-! r h-!
+    e,\p gis'( e
+    h e h
+    gis h gis)
+    e2.~\decresc %60
+    e4 e e
+    e2.~\pp
+    e~\ppp
+    e4 r r\fermata \bar "|." %64 finis
+  }
+}
+
+UnaussprechlichCello = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    \mvDofs #-4 <c c,>\fff\fermata
+    R
+    a\fff\fermata
+    R \noBreak %5
+    \mvDofs #-4 e\fff\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1 \noBreak
+    r8 r16. g32(\fp as2.)
+    r8 r16. as32(\fp a2.)
+    r8 r16. a32(\fp b2.) %10
+    r8 r16. b32(\fp h2.)
+    r8 r16. h32(\fp c2.)
+    r8 r16. c32(\fp des4) r8 r16. des32(\cresc d4)
+    r8 r16. d32( es4) r8 r16. a,32( b4)
+    r8 r16. g32(\mf as4) r8 r16. f32( ges4) %15
+    ces8\f ces ces ces \tempoUnaussprechlichC b4 r
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r8 r16. es32\f es8[ r16. a,32] a4\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      b'8\ff r b, r
+    \tempoUnaussprechlichE es4 r8 es
+    f g as b
+    c4 r8 g
+    as b c d %25
+    es4 r8 b
+    c d es f
+    g4 es
+    b g
+    c as %30
+    b b,
+    es8 b' g es
+    b4 b'
+    es,8 b' g es
+    b4 b' %35
+    es, r
+    es es
+    es r\fermata \bar "|." %38 finis
+  }
+}
+
+HerrLassCello = {
+  \relative c {
+    \clef bass
+    \key as \major \time 6/4 \tempoHerrLass
+    es2(\p c4 f2 es4)~
+    es des( c) es2 es4
+    des( f b) es,( as c)
+    es,2 as,8.( es16) es4 r r
+    R1. %5
+    r2 r4 r es' es
+    g r r r2 r4
+    r2 r4 r as as
+    c, r r r2 r4
+    r des( d) es2 r4 %10
+    r c c r as as
+    r b( d) r es es'8( d)
+    c2 b4 a2 f,4
+    r b b as'2.\fp
+    g\fp d2\fp es4 %15
+    b r r r g g
+    as r r r b b
+    es r f( e) r c(
+    f) r f,( as) r r\fermata
+    g r g as2. %20
+    r4 b b es, r g'
+    as2( b4 c2 d4) \noBreak
+    es4 es, es es r\fermata \tempoHerrLassB r
+    \twofourtime \time 2/4 \newSpacingSection
+      f8\p r b, r \noBreak
+    es r r4 %25
+    r as,8 c
+    es4 r
+    f8^\pizz r b, r
+    es r as, r
+    f' r b, r %30
+    es r c' r
+    b as g as
+    es r as, r
+    des r es es
+    as, r r4 %35
+    f'8^\arco r b, r
+    es r as, r
+    f' r b, r
+    es r c c'
+    b-! as-! g-! as-! %40
+    es r as, r
+    des r es es,
+    as r r16 c'( f es)
+    r as,( des c) r f,( des' b)
+    r g( b es,) r c'( f es) %45
+    r as,( des c) r f,( des' b)
+    r g( b es,) r es( c' as)
+    r g( as es') r es,( des' c)
+    r b( g es) r es'( c ges)
+    r f( f' des) r c( es g,) %50
+    as( es c as) es'8 r
+    es r g as
+    es r r16 g( b es,)
+    r as( c es,) r es( as c)
+    es( b g es) r8 g %55
+    r f r d r es g, g
+    as as' b b,
+    es4 es8\f es
+    es4 es8 es %60
+    es4 r
+    r8 es,\pE es4~
+    es2
+    r8 es es4~
+    es8 f16 g as8 r %65
+    des r b r
+    es\cresc r c r
+    f r b,\fz r16\fermata r
+    es4\p\fermata r8 es'-!
+    des-! b-! a-! f-! %70
+    b b, r des'-!
+    c-! as!-! g-! es-!
+    as as, r c'(
+    b as g as)
+    es4 c8 c %75
+    des des' es es,
+    as as, r c'\f
+    b as g g,
+    as es r4
+    r8 es\p es4~ %80
+    es2
+    r8 es es4~
+    es8 f16 g as8 r
+    des r b r
+    es4 r %85
+    r8 b'-! a-! a,-!
+    b r r4
+    r8 as'!-! g-! g,-!
+    as r c4(
+    des es %90
+    f) c'8\mf r
+    des r es es,
+    as r des^\pizz des
+    c r g g
+    as r c,\f^\arco c %95
+    des r es es
+    as,4 r\fermata \bar "|." %97
+  }
+}
+
+SeinVaterarmCello = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSeinVaterarm
+    r8. e16\f e4 r2
+    r2 \clef "treble_8" r4 r8 \tempoSeinVaterarmB g(\pE^\dolce
+    e'4 d16 c h a) g8. \grace h16 a g8 e'16.([\fp c32]
+    \scriptOut a8)-! f'16.([\fp d32] \scriptOut h8)-! a'16.([\fp g32] f4 \scriptOut e8)-! r16 \clef bass e,\f
+    e4 r r2 %5
+    R1
+    r2 r8. f16\f f8[ r16 fis]
+    fis4 r r2
+    r8. g16\f g8[ r16 h,] h4 r
+    r2 r16 e(\pE fis gis a h c d) %10
+    e4( d16 c h a) \appoggiatura g4 fis2
+    r\fermata r4 r8. g16\f
+    g2 r\fermata \bar "|." %13 finis
+  }
+}

@@ -2105,3 +2105,247 @@ AllegroViolinoI = {
     c4 r r2\fermata \bar "|." %102 finis
   }
 }
+
+OHeilViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoOHeil
+    \partial 4 h'4\p e2 fis4\trill
+    gis r e
+    h'2 a4\trill
+    gis r r
+    a( h cis) %5
+    h4. gis8 e4
+    \grace { fis16[ gis] } a2 gis4\trill
+    fis r r
+    R2.
+    e2 fis4\trill %10
+    gis r r
+    gis2 fis16( e dis cis)
+    h4 r r
+    \grace { fis'16[ gis] } a2~ a16 gis fis e
+    dis4 r r %15
+    \grace { gis16[ a] } h2~ h16 gis( e h)
+    gis8 r e'4( dis)
+    r fis( e)
+    r8 gis( his, cis h' a)
+    gis4( \tuplet 3/2 4 { fis8) dis(\mf e fis gis a) %20
+    h gis e' } e4~ \tuplet 3/2 { e8 cis a }
+    gis4( fis) r
+    r fis(\< fisis
+    \after 4 \! gis2) his,4
+    cis r r %25
+    r e( fis\trill
+    gis) r r
+    r fis,~ \tuplet 3/2 { fis8 h dis }
+    fis2 e4\trill
+    e( dis) r %30
+    R2.
+    r4 h~ \tuplet 3/2 { h8 e gis }
+    h4~ \tuplet 3/2 4 { h8 cis( h a gis fis) }
+    e4 r h'(\mf
+    dis,2) e4( %35
+    fis2 gis4)
+    \grace { fis16[ gis] } a2 gis4\trill
+    fis r r
+    r dis,(\p fis
+    h\< dis fis) %40
+    a\! r r
+    r dis,(\p cis
+    h ais h)
+    cis2.
+    ais %45
+    h2 cis4\trill
+    dis(\< e fis)
+    gis2\! fis16( gis a fis)
+    h2 dis,4
+    e gis,(-.\p gis-. %50
+    gis-.) r r
+    r h(-.\cresc h-.
+    h-.) r r
+    r e-!\f e-!
+    gis-! r gis-! %55
+    a-! r dis,-!
+    e2.\p
+    gis
+    h
+    e~\decresc %60
+    e4 e e
+    e2.~\pp
+    e~\ppp
+    e4 r r\fermata \bar "|." %64 finis
+
+  }
+}
+
+UnaussprechlichViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    \mvDofs #-4 <g e' c'>\fff\fermata
+    R
+    \mvDofs #-4 <a e' c' e>\fff\fermata
+    R \noBreak %5
+    \mvDofs #-4 <g e' c' g'>\fff\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB
+      r2 r4 r8 r16. d''32(\fp \noBreak
+    es4)( c8 as) es4 r8 r16. d'32(\fp
+    es4)( c8 ges) es4 r8 r16. f'32(\fp
+    ges4)( es8 b) ges4 r8 r16. fis'32(\fp %10
+    a4)( fis8 dis) a4 r8 r16. gis'32(\fp
+    a4)( fis8 dis) a4 r8 r16. a'32(\fp
+    b!4)( ges8 des) ces'4(\cresc as8 f)
+    ges4( es8 b) f'4( d8 b)
+    ces4(\mf d!8 f) b,4( es8 ges) %15
+    a,16\f a'8 a a a16 \tempoUnaussprechlichC b4 r \noBreak
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r8 r16. es,32\f es8[ r16. <ges a,>32] q4\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      \mvDll <b b, es, g,>8\ff r <d, f, b,> r \noBreak
+    \tempoUnaussprechlichE <es' es,>2:16 \noBreak
+    q:
+    q:
+    q: %25
+    q:
+    q:
+    q16 q b b g' g f f
+    es es d d c c b b
+    as4 <c es, as,> %30
+    <b es, g,> <d, f, b,>
+    es16 b g b es b g' es
+    b' g es b as' f d b
+    es b g b es b g' es
+    b' g es b as' f d b %35
+    es4 <g b, es,>
+    <es, g,> q
+    q r\fermata \bar "|." %38 finis
+  }
+}
+
+HerrLassViolinoI = {
+  \relative c' {
+    \clef treble
+    \key as \major \time 6/4 \tempoHerrLass
+    c2(\p as4 des2 c4)
+    f4.( g8 as f) es4( des\trill c)
+    f2( g4 b4.) as8( g f)
+    es4( des) c8.( b16) b4 r r
+    R1. %5
+    r2 r4 r g'( b
+    des) r r r2 r4
+    r2 r4 r as( c
+    es) r r r2 r4
+    r f, f es2 r4 %10
+    r es'( g,) r c( f,)
+    r f'( as,) r g b~
+    b a g2 f4 es
+    r d d f2.\fp
+    g\fp as2\fp g4 %15
+    % f4.( g8\< as a) b8.(\p g16 es4) r %for MIDI
+    f4.( g8\< as a) b8.(\! g16 es4) r
+    r2 r4 r f as
+    g r des!( c) r b'(
+    as) r f'( d) r r\fermata
+    es r h c( as f) %20
+    r d d es es'( d)
+    d( c b) \once \stemUp b( as8\trill g as b) \noBreak
+    g4 es es es r\fermata \tempoHerrLassB r
+    \twofourtime \time 2/4 \newSpacingSection
+      as8\p r b r \noBreak
+    g r as-! b-! %25
+    c-! des-! es-! c-!
+    b4 r
+    as8^\pizz r b r
+    g r c r
+    as r b r %30
+    g r as r
+    g as des c
+    b r c r
+    des r as g
+    as r r4 %35
+    r8 as^\arco r b
+    r g r c
+    r as r b
+    r g r as
+    g-! as-! des-! c-! %40
+    r b r c
+    r b-! as-! g-!
+    as r es'4(
+    c des
+    b) es( %45
+    c des
+    b) as
+    g8( as des c)
+    b4 c
+    des8( b as g) %50
+    as4 r8 b
+    r c des[ c]
+    b r r b
+    r c des[ c]
+    b r r b %55
+    r as r as
+    r g b es
+    es16( c) c( as) as( g) g( f)
+    es4 b'16.(\f es,32) c'16.( es,32)
+    es'16( des! b g) es( as b c) %60
+    c8( b) r es-!\p
+    des-! c-! b-! as-!
+    g-! as-! b-! es-!
+    des-! c-! b-! as-!
+    g16( f' es des) c8 r %65
+    f, r des' r
+    g,\cresc r es' r
+    as, r d\fz r16\fermata r
+    es4\p\fermata r8 a,-!
+    b-! des!-! c-! f-! %70
+    des4 r8 g,!-!
+    as!-! c-! b-! es-!
+    c4 r8 as(
+    g[ as \grace { b16[ c] } des8 c])
+    b4 as16(\< c es ges)~ %75
+    ges\> f( des b)\! b( as) as( g!)
+    as8 r es'16(\f f g as)
+    as( g) g( f) f( es) es( des)
+    des( c b8) r es-!\p
+    des-! c-! b-! as-! %80
+    g-! as-! b-! es-!
+    des-! c-! b-! as-!
+    g16( f' es des) c8 r
+    f, r des' r
+    g,4 r %85
+    r8 ges-! f-! f'-!
+    des-! r r4
+    r8 f,-! es-! es'-!
+    c-! r as4~
+    as g %90
+    g8([ as)] as'\mf r
+    f r es g,
+    as r g^\pizz g
+    as r des! des
+    c r as'\f^\arco as %95
+    as16( f des b) es8-! <g, b,>-!
+    <as as,>4 r\fermata \bar "|." %97 finis
+  }
+}
+
+SeinVaterarmViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSeinVaterarm
+    r8. <c' g'>16\f q4 r2
+    r r4 r8 \tempoSeinVaterarmB g(\p^\dolce
+    e'4 d16 c h a) g8. \grace h16 a g8 e'16.([\fp c32]
+    \scriptOut a8)-! f'16.([\fp d32] \scriptOut h8)-! a'16.([\fp g32] f4 \scriptOut e8)-! r16 <c b'>\f
+    q4 r r2 %5
+    R1
+    r2 r8. a'16\f a8[ r16 <c a,>]
+    q4 r r2
+    r8. <h d,>16\f q8[ r16 <d d,>] q4 r
+    r2 r16 e,,(\p fis gis a h c d) %10
+    e4( d16 c h a) \appoggiatura g4 fis2
+    r\fermata r4 r8. <h g'>16\f
+    q2 r\fermata \bar "|." %13 finis
+  }
+}

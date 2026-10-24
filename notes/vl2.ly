@@ -2098,3 +2098,246 @@ AllegroViolinoII = {
     c4 r r2\fermata \bar "|." %102 finis
   }
 }
+
+OHeilViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \tempoOHeil
+    \partial 4 r4 \override TupletNumber.stencil = ##f
+      \tuplet 3/2 4 { e8-!\p gis-! h-! e,-! gis-! h-! dis,-! fis-! h-!
+    e, gis h e, gis h e, gis h
+    e, gis h e, gis h dis, fis h
+    e, gis h e, gis h e, gis h
+    e, a cis e, gis h e, a cis %5
+    e, gis h e, gis h e, gis h
+    fis a h fis a h e, gis h
+    dis, fis ais h cis h a gis fis
+    e gis h e, gis h dis, fis h
+    e, gis h e, gis h dis, fis h %10
+    e, gis h e, gis h e, a cis
+    e, gis h e, gis h e, a cis
+    e, gis h fis a h e, gis h
+    dis, fis h dis, fis h dis, fis h
+    fis a h e, gis h dis, fis h %15
+    e, gis h e, gis h e, gis h
+    e, gis h h, e gis h, dis fis
+    dis fis h h, dis fis h, e gis
+    h, e gis a, cis e cis fis a
+    h, e gis h, dis fis h,\mf dis fis %20
+    h, e gis h, e gis cis, fis a
+    h, e gis h, dis fis h, dis fis
+    h, dis fis h, dis fis cis e cis
+    his dis his gis his dis gis, his dis
+    gis, cis e gis e cis his dis his %25
+    gis his dis cis e gis fis dis a'
+    gis cis gis fis dis' fis, e e' e,
+    cis dis e fis gis ais h dis h
+    ais cis h ais h gis fis cis' ais
+    fis gis ais h dis cis h fis dis %30
+    h dis fis h, dis fis h, eis gis
+    cis, fis a! dis, fis h e, gis h
+    e, gis h e, gis h fis a h
+    e, gis h e,\mf gis h e, gis h
+    h, fis' h h, fis' h h, gis' h %35
+    h, dis fis h, dis fis h, e gis
+    h, fis' a h, fis' a h, e gis
+    h, dis fis h, dis fis h,\p dis fis
+    h, dis fis h, dis fis h, dis fis
+    h,\< dis fis h, dis fis h, dis fis } %40
+    h4\! r r
+    r fis(\p fisis
+    gis ais gis)
+    gis2.
+    e %45
+    \tuplet 3/2 4 { dis8-! fis-! h-! h,-! dis-! fis-! ais,-! cis-! fis-!
+    dis\< fis h cis, fis ais h, fis' h\!
+    e, gis h e, gis cis cis, fis a!
+    h, e gis h, e gis h, fis' a }
+    gis4 e(-.\p e-. %50
+    e-.) r r
+    r gis(-.\cresc gis-.
+    gis-.) r r
+    r h-!\f h-!
+    e-! r e-! %55
+    fis-! r fis,-!
+    \tuplet 3/2 4 { e8\p gis h e, gis h e, gis h
+    e, gis h e, gis h e, gis h
+    e, gis h e, gis h e, gis h
+    e,\decresc gis h e, gis h e, gis h %60
+    e, gis h e, gis h e, gis h }
+    <gis h,>2.~\pp
+    q~\ppp
+    q4 r r\fermata \bar "|." %64 finis
+  }
+}
+
+UnaussprechlichViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    \mvDofs #-4 <g e' c'>\fff\fermata
+    R
+    \mvDofs #-4 <a e' c'>\fff\fermata
+    R \noBreak %5
+    \mvDofs #-4 <g g' c>\fff\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB
+      r4 r8 r16. h32(\fp c2)~ \noBreak
+    c4 r8 r16. h32(\fp c2)~
+    c4 r8 r16. h32(\fp c2)~
+    c4 r8 r16. d32(\fp es2)~ %10
+    es4 r8 r16. d32(\fp es2)~
+    es4 r8. r16 f32(\fp ges2)~
+    ges4~ ges16( a32 b16. ges32) f4~\cresc f16.( ges!32 as16. ces32)
+    b4~ b16.( f32 ges16. es32) d!4~ d16.( f32 d16. b32)
+    d4~\mf d16.( f32 as16. d,32) es4~ es16.( ges32 b16. as32) %15
+    ges16\f ges'8 ges f es16 \tempoUnaussprechlichC d!4 r \noBreak
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r8 r16. g,32\f g8[ r16. <es c'>32] q4\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      \mvDll <g'! b, es,>8\ff r <f b, d,> r \noBreak
+    \tempoUnaussprechlichE <es es,>2:16 \noBreak
+    q:
+    q:
+    q: %25
+    q:
+    q:
+    q16 q b b g' g f f
+    es es d d c c b b
+    as4 <as' c, es,> %30
+    <g b, es,> <d f, as,>
+    es,16 b g b es b g' es
+    b' g es b as' f d b
+    es b g b es b g' es
+    b' g es b as' f d b %35
+    es4 <es b' g'>
+    <es g,> q
+    q r\fermata \bar "|." %38 finis
+  }
+}
+
+HerrLassViolinoII = {
+  \relative c' {
+    \clef treble
+    \key as \major \time 6/4 \tempoHerrLass
+    as1.\p
+    as2 as4 b2 as4
+    as2 es'4 es( c as)
+    b2 as8.( g16) g4 r r
+    R1. %5
+    r2 r4 r es'( g
+    b) r r r2 r4
+    r2 r4 r c,( es
+    as) r r r2 r4
+    r des,( f) b,2 r4 %10
+    r g'( es) r f( as,)
+    r \once \slurDashed d( f) r es g8 f
+    es2 d4 c2 a4
+    r b b d2.\fp
+    es\fp f2\fp es4 %15
+    d r r r es es
+    es r r r d f
+    es r as,( g) r e'(
+    f) r c'( b) r r\fermata
+    b r g es( c as) %20
+    r as as g g'( b)
+    b( as g) es2 f4 \noBreak
+    b, b b b r\fermata \tempoHerrLassB r
+    \twofourtime \time 2/4 \newSpacingSection
+      f'8\p r f r \noBreak
+    es r c-! g-! %25
+    as-! b-! c-! as'-!
+    g4 r
+    f8^\pizz r f r
+    es r as r
+    f r f r %30
+    es r es r
+    es es b' as
+    g r ges r
+    f r es <es des>
+    <es c> r r4 %35
+    r8 f^\arco r f
+    r es r as
+    r f r f
+    r es r es
+    es-! es-! b'-! as-! %40
+    r g r ges
+    r f-! es-! des-!
+    c r c'4(
+    as b
+    g) c( %45
+    as b
+    g) es
+    es8 es b'( as)
+    g4 ges
+    f( es8 des) %50
+    c4 r8 g'
+    r as b[ as]
+    g r r g
+    r as b[ as]
+    g r r es %55
+    r d r f
+    r es es16( des c h)
+    c( as' g f) f( es) es( d)
+    es4 \slurDashed g16.(\f es32) as16.( es32) \slurSolid
+    b'8 des,! c16( es g as) %60
+    as8( g) r c,-!\p
+    b-! as-! g-! as-!
+    des-! c-! b-! c-!
+    b-! as-! g-! as-!
+    b16( des c b) as8 r %65
+    as r b r
+    b\cresc r c r
+    c r as'\fz r16\fermata r
+    g4\p\fermata r8 ges-!
+    f-! b-! c-! c-! %70
+    f,4 r8 es-!
+    es-! as-! b-! b-!
+    es,4 r8 es~
+    es es( b' as)
+    g4 as8\< a~ %75
+    a16\> b( f des)\! des( c) c( b)
+    as8 r es'16(\f f g as)
+    as( g) g( f) f( es) es( b')
+    b( as g8) r c,-!\p
+    b-! as-! g-! as-! %80
+    des-! c-! b-! c-!
+    b-! as-! g-! as-!
+    b16( des c b) as8 r
+    as r b r
+    b4 r %85
+    r8 des-! c-! c'-!
+    b-! r r4
+    r8 c,-! b-! b'-!
+    as-! r es4(
+    f des) %90
+    des8([ c)] <es es'>\mf r
+    <f des'> r <es c'> <des es>
+    <c es> r es^\pizz es
+    es r b' b
+    as r as16(\f^\arco c es ges) %95
+    f( des f, des) c8-! des-!
+    c4 r\fermata \bar "|." %97 finis
+  }
+}
+
+SeinVaterarmViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSeinVaterarm
+    r8. <g' c>16\f q4 r2
+    R1
+    r8 e\p e e f4( e8) r
+    f r d r h'4( c8) r16 <c g'>\f
+    q4 r r2 %5
+    R1
+    r2 r8. c16\f c8[ r16 <d d,>]
+    q4 r r2
+    r8. d16\f d8[ r16 f] f4 r
+    R1 %10
+    r8 c,\p e e a,2
+    r\fermata r4 r8. <d h'>16\f
+    q2 r\fermata \bar "|." %13 finis
+  }
+}

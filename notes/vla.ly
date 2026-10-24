@@ -2313,3 +2313,316 @@ AllegroViola = {
     c4 r r2\fermata \bar "|." %102 finis
   }
 }
+
+OHeilViola = {
+  \relative c' {
+    \clef alto
+    \key e \major \time 3/4 \tempoOHeil
+    \partial 4 r4 R2.
+    r4 << {
+      e( gis)
+      h2 a4
+      gis( h gis)
+      a( gis a) %5
+      h2( e,4)
+      fis h h
+      h \oneVoice r r
+      R2.
+      r4 \voiceOne h( a %10
+      gis) \oneVoice r r
+      r \voiceOne h( cis
+      h) \oneVoice r r
+      r \voiceOne fis fis
+      \grace { fis16[ gis] } a4 \oneVoice r r %15
+      r \voiceOne gis gis
+      \grace { gis16[ a] } h4 h2
+      \once \oneVoice r4 h2
+      \once \oneVoice r8 gis \once \oneVoice r e \once \oneVoice r a
+      gis4( fis) h %20
+      h2( a4)
+      gis( fis) \oneVoice r
+      r \voiceOne dis'( cis
+      his) dis gis,
+      gis2 fis4~ %25
+      fis e( a)
+      gis \oneVoice r r
+      r \voiceOne cis( h
+      fis) \oneVoice r r
+      r \voiceOne fis fis %30
+      fis2 gis4
+      a2 gis4
+      \once \oneVoice r gis( a
+      gis) h( gis)
+      \once \oneVoice r fis( gis) %35
+      \once \oneVoice r a( gis)
+      \once \oneVoice r fis( e
+      dis) \oneVoice r r
+      r \voiceOne fis fis
+      fis2.~ %40
+      fis4
+    } \\ {
+      gis,(\pE e') %2
+      gis2 fis4
+      e( gis, h)
+      e2 e4 %5
+      e( gis h,)
+      h( fis' e)
+      dis s s
+      s2.
+      s4 gis( dis %10
+      e) s s
+      s gis( a
+      gis) s s
+      s dis dis
+      \grace { dis16[ e] } fis4 s s %15
+      s e e
+      \grace { e16[ fis] } gis4 h,2
+      s4 dis( e)
+      s8 e s cis s fis
+      e4( dis) dis\mf %20
+      h( e fis)
+      e( dis) s
+      s h(\< cis
+      dis) his\! dis
+      cis( e) dis~ %25
+      dis cis( fis)
+      e s s
+      s ais( h
+      cis) s s
+      s dis, dis %30
+      dis2 eis4
+      fis4 dis e
+      s e( dis
+      e) gis(\mf e)
+      s h( e) %35
+      s dis( e)
+      s h h
+      h s s
+      s dis\p dis
+      dis2.~\< %40
+      dis4\!
+    } >> r r
+    r dis\p dis
+    dis2.
+    e
+    cis %45
+    h4 fis' fis
+    fis2\< h4~
+    h\! e, a
+    gis2 fis4
+    e h(-.\p h-. %50
+    h-.) r r
+    r e(-.\cresc e-.
+    e-.)\! r r
+    r << {
+      gis gis
+      cis \once \oneVoice r cis %55
+      cis \once \oneVoice r h
+      h2.~
+      h~
+      h~
+      h~ %60
+      h4 <h e,> q
+      q2.~
+      q~
+      q4
+    } \\ {
+      e,\f e
+      e s e %55
+      a s a
+      gis2.~\p
+      gis~
+      gis~\decresc
+      gis~ %60
+      gis4 gis gis
+      gis2.~\pp
+      gis~\ppp
+      gis4
+    } >> r r\fermata \bar "|." %64 finis
+  }
+}
+
+UnaussprechlichViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    \mvDofs #-4 <e c c,>\fff\fermata
+    R
+    \mvDofs #-4 q\fff\fermata
+    R \noBreak %5
+    \mvDofs #-4 q\fff\fermata \noBreak
+    \key c \minor \tempoUnaussprechlichB
+      r2 r8 r16. f,32(\fp ges!4)~ \noBreak
+    ges2 r8 r16. f32(\fp ges!4)~
+    ges2 r8 r16. f32(\fp ges!4)~
+    ges2 r8 r16. f32(\fp ges!4)~ %10
+    ges2 r8 r16. f32(\fp ges!4)~
+    ges2 r8 r16. d'32(\fp es4)
+    r16. c32( des16. a32) b4 r16. cis32(\cresc d16. e32) f4
+    r16. d32( es16. f32) ges4 r16. a,32( b16. cis32) d4
+    r16. g,32(\mf as16. b32) ces4 r16. f,32( ges16. a32 b16.) b'32( ges16. f32) %15
+    es16\f es8 es es es16 \tempoUnaussprechlichC f4 r
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r8 r16. b,32\f b8[ r16. <ges' a,>32] q4\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+       <g b,>8\ff r <as b,> r \noBreak
+    \tempoUnaussprechlichE <g b,>4 r8 es \noBreak
+    f g as b
+    c4 r8 g
+    as b c d %25
+    es4 r8 b
+    c d es f
+    g4 es
+    b g
+    es <c' es, as,> %30
+    <b es, g,> <d, as>
+    <es g,> r
+    <b' es, g,> <d f, b,>
+    <es es, g,> r
+    <b es, g,> <d f, b,> %35
+    <es es, g,> r
+    <b, es,> q
+    q r\fermata \bar "|." %38 finis
+  }
+}
+
+HerrLassViola = {
+  \relative c' {
+    \clef alto
+    \key as \major \time 6/4 \tempoHerrLass
+    es,2(\p c4 f2 es4)~
+    es des( c8 c') b4( g as)
+    as( des b) c( es) r
+    r es, es es r r
+    R1. %5
+    r2 r4 r <es b'> q
+    q r r r2 r4
+    r2 r4 r <as es'> q
+    q r r r2 r4
+    r f( b) b2 r4 %10
+    r c c r c c
+    r b b r b es8 d
+    c2 b4 a2 c4
+    r f, f b2.\fp
+    b\fp b\fp %15
+    b4 r r r b b
+    as r r r f d'
+    es r f,( g) r c
+    c r as'( f) r r\fermata
+    es r es as,2 c4 %20
+    r f, f es r g
+    as2( b4 c2 d4) \noBreak
+    es g, g g r\fermata \tempoHerrLassB  r
+    \twofourtime \time 2/4 \newSpacingSection
+      c8\p r des! r \noBreak
+    b r es es %25
+    es4. es8
+    es4 r
+    c8^\pizz r des r
+    b r es r
+    c r des r %30
+    b r as r
+    des c es es
+    es r es r
+    des r c b
+    as r r4 %35
+    r8 c^\arco r des
+    r b r es
+    r c r des
+    r b r c
+    des-! c-! es-! es-! %40
+    r es r es
+    r des-! c-! b-!
+    as r << {
+      es'4( %43
+      c des
+      b) es( %45
+      c des
+      b)
+    } \\ {
+      c( %43
+      as b
+      g) c( %45
+      as b
+      g)
+    } >> as
+    des8([ c)] es es
+    es4 es
+    des( c8 b) %50
+    as4 r8 es
+    r es es'[ es]
+    es r es,4~
+    es es'8 es
+    es r r b %55
+    r b r b
+    r b es,[ es]
+    es c' b as
+    g4 << {
+      b8 c
+      des!4 c16( es des c) %60
+      c8([ b)]
+    } \\ {
+      g8\f as
+      b4 as16( c b as) %60
+      as8([ g)]
+    } >> r4
+    r8 es'-!\p des-! c-!
+    b-! as-! g-! r
+    r es'-! des-! c-!
+    b16( g as b) c8 r %65
+    des r des r
+    es\cresc r es r
+    f r f\fz r16\fermata r
+    b,4\p\fermata r8 c-!
+    des-! f-! f-! a-! %70
+    b4 r8 b,-!
+    c-! es-! es-! g-!
+    as!4 r8 as,(
+    des c es es)
+    es4 es8\< es~ %75
+    es16\> des( b f')\! es8. des16
+    c8 r r es\f
+    des c b es
+    es es r4
+    r8 es-!\p des-! c-! %80
+    b-! as-! g-! r
+    r es'-! des-! c-!
+    b16( g as b) c8 r
+    des r des r
+    es4 r %85
+    r8 b-! f'-! f-!
+    f-! r r4
+    r8 as,-! es'-! es-!
+    es-! r c4
+    b2 %90
+    b8([ as)] <as as'>\mf r
+    <des f> r <c es,> <b es,>
+    <as es> r b^\pizz b
+    c r es es
+    es r <es as,>\f^\arco q %95
+    <f as,> r <c es,> <des es,>
+    <c es,>4 r\fermata \bar "|."
+  }
+}
+
+SeinVaterarmViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoSeinVaterarm
+    r8. c16\f c4 r2
+    R1
+    r8 << { c c c } \\ { g\p g g } >> d'4( c8) r
+    c r f, r d'4( c8) r16 c\f
+    c4 r r2 %5
+    R1
+    r2 r8. f16\f f8[ r16 <a d,>]
+    q4 r r2
+    r8. <g g,>16\f q8[ r16 q] q4 r
+    R1 %10
+    r8 a,\p a c c2
+    r\fermata r4 r8. <g g'>16\f
+    q2 r\fermata \bar "|." %13 finis
+  }
+}

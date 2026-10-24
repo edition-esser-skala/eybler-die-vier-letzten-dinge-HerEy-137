@@ -331,3 +331,48 @@ OSchrecklichesTenoreIILyrics = \lyricmode {
 
   ren! %192 finis
 }
+
+UnaussprechlichTenoreII = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoUnaussprechlich
+    R1
+    R\fermata
+    R
+    R\fermata
+    R \noBreak %5
+    R\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*2
+    r2 ges4\pp r
+    r2 r4 b8 b %10
+    ges8. ges16 ges8 ges ges4 r
+    r2 r8 heses\pococresc heses heses
+    ges4 r as! ces8. ces16
+    b8 b r4 r b8\mf b
+    ces4 d,! r b'8\f b %15
+    es8. es,16 es8 ges \tempoUnaussprechlichC b4 r \noBreak
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r2 \mvDll ges'4\f\fermata c,8 c %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      es8.\ff es16 d8. f16 \noBreak
+    \tempoUnaussprechlichE es4 r \noBreak
+    R2*15 %37
+    R2\fermata \bar "|." %38 finis
+  }
+}
+
+UnaussprechlichTenoreIILyrics = \lyricmode {
+  Herr! %9
+  Un -- aus -- %10
+  ſprech -- lich iſt das Glück,
+  das dei -- ne
+  Gnad’ uns zu -- ge --
+  meſ -- ſen, un -- aus --
+  ſprech -- lich, un -- aus -- %15
+  ſprech -- lich iſt das Glück!
+
+  Ach! un -- aus -- %20
+  ſprech -- lich iſt das
+  Glück! %22 finis
+}

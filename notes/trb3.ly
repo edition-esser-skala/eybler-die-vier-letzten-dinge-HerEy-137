@@ -775,3 +775,40 @@ AllegroTromboneIII = {
     r2 r\fermata \bar "|." %102 finis
   }
 }
+
+UnaussprechlichTromboneIII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    c\fff\fermata
+    R
+    a'\fff\fermata
+    R \noBreak %5
+    e\fff\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*9 %15
+    r2 \tempoUnaussprechlichC r \noBreak
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r2 r4\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      b'4\fz b\fz
+    \tempoUnaussprechlichE es,2~ \noBreak
+    es~
+    es~
+    es~ %25
+    es~
+    es~
+    es~
+    es~
+    es4 es %30
+    b' b
+    es, r
+    b' b
+    g r
+    b b %35
+    es, r
+    es es
+    es r\fermata \bar "|." %38 finis
+  }
+}

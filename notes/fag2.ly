@@ -1613,3 +1613,85 @@ IhrGluecklichenFagottoII = {
     h2. r4 \bar "||" %100 finis
   }
 }
+
+UnaussprechlichFagottoII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    c\fff\fermata
+    R
+    a\fff\fermata
+    R \noBreak %5
+    e\fff\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*4 %10
+    ces''4\p\ten r r2
+    c4\ten r r2
+    des,4\ten r d\ten r
+    es\ten\cresc r b\ten r
+    d\mf\ten r es\ten r %15
+    ces'\f\ten r \tempoUnaussprechlichC b2~\p \noBreak
+    b1~
+    b
+    b,4\fz\ten r r8\fermata r r4
+    r2 a'4\f\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      b4\fz b,\fz \noBreak
+    \tempoUnaussprechlichE es2~
+    es~
+    es~
+    es~ %25
+    es~
+    es~
+    es4 g~
+    g g
+    as c %30
+    b as
+    g8 es g b
+    es4 b
+    g8 es g b
+    es4 b %35
+    es, r
+    es, es
+    es r\fermata \bar "|." %38 finis
+  }
+}
+
+HerrLassFagottoII = {
+  \relative c {
+    \clef "treble_8"
+    \key as \major \time 6/4 \tempoHerrLass
+    R1.*18 %18
+    r2 r4 r2 r4\fermata
+    R1.*3 \noBreak %22
+    r2 r4 r r\fermata \tempoHerrLassB r
+    \twofourtime \time 2/4 \newSpacingSection
+      R2*29 %52
+    r4 g'\p^\critnote
+    as b16( c des c)
+    b4 r %55
+    R2*3
+    r4 g8\f as
+    b8. des!16 c8 b16 as %60
+    as8( g) r4
+    R2*4 %65
+    f16(\pE a b c) des8 r
+    g,16( b c des) es8 r
+    as,16( c f as) d,8 r16\fermata r
+    r4\fermata r
+    R2*7 %76
+    as16( b c des es\cresc f g as)
+    as(\f g) g( f) f( es) es( des)
+    des( c b8) r4
+    R2 %80
+    r4 es8.\pE as,16
+    g( as b c des b c as)
+    b8 r r4
+    r4 f'16( es des c)
+    b4 r %85
+    R2*9 %94
+    r4 es8\f es %95
+    des16( f des f) es8 es,
+    as4 r\fermata \bar "|." %97 finis
+  }
+}

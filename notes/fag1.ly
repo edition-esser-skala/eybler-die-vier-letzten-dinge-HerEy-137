@@ -1683,3 +1683,95 @@ IhrGluecklichenFagottoI = {
     h2. r4 \bar "||" %100 finis
   }
 }
+
+UnaussprechlichFagottoI = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    c'\fff\fermata
+    R
+    a\fff\fermata
+    R \noBreak %5
+    e\fff\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*4 %10
+    es'4\p\ten r r2
+    es4\ten r r2
+    des4\ten r as!\ten r
+    ges\ten\cresc r b\ten r
+    as!\mf\ten r ges\ten r %15
+    es'\f\ten r \tempoUnaussprechlichC d2~\p \noBreak
+    d1~
+    d
+    \pco f4\fz\ten r r8\fermata r r4
+    r2 es4\f\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      \pao \mvDofs #-3 b4\fz b\fz \noBreak
+    \tempoUnaussprechlichE es2~
+    es~
+    es~
+    es~ %25
+    es~
+    es~
+    es4 b~
+    b b
+    c es %30
+    g f
+    es8 g, b es
+    g4 f
+    es8 g, b es
+    g4 f %35
+    es r
+    es, es
+    es r\fermata \bar "|." %38 finis
+  }
+}
+
+HerrLassFagottoI = {
+  \relative c {
+    \clef "treble_8"
+    \key as \major \time 6/4 \tempoHerrLass
+    R1.*13 %13
+    r2 r4 r8 \mvDofs #-3 d(\pE f b d f)
+    r es,( g b es g) r b,( as' g f es) %15
+    d4 r r r2 r4
+    R1.*2
+    r2 r4 r2 r4\fermata
+    R1.*3 \noBreak %22
+    r2 r4 r r\fermata \tempoHerrLassB es8\pE c
+    \twofourtime \time 2/4 \newSpacingSection
+      as( b16 c es des! c b) \noBreak
+    as( g f es) r4 %25
+    as16.( g32 b16. as32) des16( c b as)
+    g4 r
+    R2*25 %52
+    r4 g\p^\critnote
+    as b16( c des c)
+    b4 r %55
+    R2*3
+    r4 g8\f as
+    b8. des!16 c8 b16 as %60
+    as8( g) r4
+    R2*4 %65
+    f16(\pE a b c) des8 r
+    g,16( b c des) es8 r
+    as,16( c f as) d,8 r16\fermata r
+    r4\fermata r
+    R2*7 %76
+    as16( b c des es\cresc f g as)
+    as(\f g) g( f) f( es) es( des)
+    des( c b8) r4
+    R2 %80
+    r4 es8.\pE as,16
+    g( as b c des b c as)
+    b8 r r4
+    r4 f'16( es des c)
+    b4 r %85
+    R2*7 %92
+    r4 b8(-. b-.)
+    c16( des d es) d( es f es)
+    es8( c16) r es8\f es %95
+    des16( f des f) es8 es,
+    as4 r\fermata \bar "|." %97 finis
+  }
+}

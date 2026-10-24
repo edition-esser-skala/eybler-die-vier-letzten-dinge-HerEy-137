@@ -1623,3 +1623,96 @@ IhrGluecklichenClarinettoI = {
     h2( a4) r \bar "||" %100 finis
   }
 }
+
+UnaussprechlichClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    a'\fff\fermata
+    R
+    h\fff\fermata
+    R \noBreak %5
+    a\fff\fermata \bar "||"
+    \tempoUnaussprechlichB R1*4 %10
+    \mvDofs #-3 ces4\p\ten r r2
+    ces4\ten r r2
+    c4\ten r des\ten r
+    c\ten\cresc r e\ten r
+    \mvDofs #-4 des\mf\ten r c\ten r %15
+    \mvDofs #-3 h!\f\ten r \tempoUnaussprechlichC c2~\p
+    c1~
+    c
+    \mvDofs #-4 e4\fz\ten r r8\fermata r r4 \noBreak
+    r2 \mvDofs #-2 as4\f\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      a\fz g\fz \noBreak
+    \tempoUnaussprechlichE f2~ \noBreak
+    f~
+    f~
+    f~ %25
+    f~
+    f~
+    f4 a~
+    a \pco c
+    d, b'? %30
+    a e
+    f8 a, c f
+    a4 g
+    \pa f8 c f a \pd
+    c4 e, %35
+    f r
+    f, f
+    f r\fermata \bar "|." %38 finis
+  }
+}
+
+HerrLassClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 6/4 \tempoHerrLass
+    R1.*13 %13
+    r2 r4 r8 \mvDofs #-3 e(\pE g c e g)
+    r f,( a c f a) r c,( b' a g f) %15
+    e4 r r r2 r4
+    R1.*2
+    r2 r4 r2 r4\fermata
+    R1.*3 \noBreak %22
+    r2 r4 r r\fermata \tempoHerrLassB f8\pE d
+    \twofourtime \time 2/4 \newSpacingSection
+      b( c16 d f es d c) \noBreak
+    b( a g f) b16.( a32 c16. b32) %25
+    d16.( c32 es16. d32) g16( f es d)
+    c4 r
+    R2*25 %52
+    r4 c\p^\critnote
+    d es16( d c b)
+    a4 r %55
+    R2*3
+    r4 c8\f d
+    % es8. a,16 b8 c16 d %60 for MIDI
+    es8. a,16 \after 16 ^\turn b8 c16 d %60
+    d8( c) r4
+    R2*4 %65
+    g16(\pE h c d) es8 r
+    a,16( c d es) f8 r
+    b,16( d g b) e,8 r16\fermata r
+    r4\fermata r
+    R2*7 %76
+    b16( c d es f\cresc g a b)
+    b(\f a) a( g) g( f) f( es)
+    es( d c8) r4
+    R2 %80
+    r4 f8.\pE b,16
+    a( b c d es c d b)
+    c8 r r4
+    g'16( f es d) es( d c b)
+    a4 r %85
+    R2*7 %92
+    r4 c8(-. c-.)
+    d16( es e f) e( f g f)
+    f8( d16) r as'8\f as %95
+    g16( es c es) d8 a!
+    b4 r\fermata \bar "|." %97 finis
+  }
+}

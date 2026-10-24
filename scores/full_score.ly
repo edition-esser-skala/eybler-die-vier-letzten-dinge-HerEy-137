@@ -1,5 +1,6 @@
 \version "2.24.0"
 
+#(define option-is-full-score #t)
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
@@ -1987,59 +1988,413 @@
   %     \midi { \tempo 4 = 130 }
   %   }
   % }
+  % \bookpart {
+  %   \section "21" "Recitativo · Ihr Glücklichen, euch hat der Herr verziehn"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #15
+  %     top-system-spacing.minimum-distance = #15
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #15
+  %     markup-system-spacing.minimum-distance = #15
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #15 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
+  %           \partCombine #'(0 . 10) \IhrGluecklichenFlautoI \IhrGluecklichenFlautoII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \setSoloText "ob 1"
+  %           \partCombine #'(0 . 10) \IhrGluecklichenOboeI \IhrGluecklichenOboeII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cl" "A" "" "1, 2" }
+  %           \setSoloText "cl 1"
+  %           % \transpose c a,
+  %           \partCombine #'(0 . 10) \IhrGluecklichenClarinettoI \IhrGluecklichenClarinettoII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+  %           \setSoloText "fag 1"
+  %           \partCombine #'(0 . 10) \IhrGluecklichenFagottoI \IhrGluecklichenFagottoII
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "A" "" "1, 2" }
+  %           % \transpose c a,
+  %           \partCombine #'(0 . 10) \IhrGluecklichenCornoI \IhrGluecklichenCornoII
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Zweyter" "Erzengel" }
+  %           \new Voice = "Soli" { \dynamicUp \IhrGluecklichenSoli }
+  %         }
+  %         \new Lyrics \lyricsto Soli \IhrGluecklichenSoliLyrics
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 66 } %90
+  %   }
+  % }
+  % \bookpart {
+  %   \section "22" "Coro · O Heil euch, Heil"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #25
+  %     system-system-spacing.minimum-distance = #25
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \OHeilViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \OHeilViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \OHeilViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 1"
+  %           \new Voice = "SopranoI" { \dynamicUp \OHeilSopranoI }
+  %         }
+  %         \new Lyrics \lyricsto SopranoI \OHeilSopranoILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoII" { \dynamicUp \OHeilSopranoII }
+  %         }
+  %         \new Lyrics \lyricsto SopranoII \OHeilSopranoIILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A 1" "[S 3]" }
+  %           \new Voice = "AltoI" { \dynamicUp \OHeilAltoI }
+  %         }
+  %         \new Lyrics \lyricsto AltoI \OHeilAltoILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A 2" "[S 4]" }
+  %           \new Voice = "AltoII" { \dynamicUp \OHeilAltoII }
+  %         }
+  %         \new Lyrics \lyricsto AltoII \OHeilAltoIILyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vlc"
+  %           \OHeilCello
+  %         }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi {
+  %       \tempo 4 = 90
+  %       \context {
+  %         \Score
+  %         midiMinimumVolume = #0.7
+  %         midiMaximumVolume = #0.7
+  %       }
+  %     }
+  %   }
+  % }
+  % \bookpart {
+  %   \section "23" "Coro · Herr, unaussprechlich ist das Glück"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #10 #11 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
+  %           \partCombine #'(0 . 10) \UnaussprechlichFlautoI \UnaussprechlichFlautoII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
+  %           \partCombine #'(0 . 10) \UnaussprechlichOboeI \UnaussprechlichOboeII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cl" "B" "flat" "1, 2" }
+  %           % \transpose c b,
+  %           \partCombine #'(0 . 10) \UnaussprechlichClarinettoI \UnaussprechlichClarinettoII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+  %           \partCombine #'(0 . 10) \UnaussprechlichFagottoI \UnaussprechlichFagottoII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "contra-fag"
+  %           % \transpose c c,
+  %           \UnaussprechlichContrafagotto
+  %         }
+  %       >>
+  %       \new StaffGroup \with { \setGroupDistance #10 #11 } <<
+  %         \new Staff \with { \setStaffDistance #10 } <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "C" "" "1, 2" }
+  %           % \transpose c c,
+  %           \partCombine #'(0 . 10) \UnaussprechlichCornoI \UnaussprechlichCornoII
+  %         >>
+  %         \new GrandStaff \with { \setGroupDistance #10 #11 } <<
+  %           \new Staff <<
+  %             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "C" "" "1, 2" }
+  %             \partCombine #'(0 . 10) \UnaussprechlichClarinoCI \UnaussprechlichClarinoCII
+  %           >>
+  %           \new Staff \with { \smallStaffDistance } <<
+  %             \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "C" "" "3, 4" }
+  %             \partCombine #'(0 . 10) \UnaussprechlichClarinoBI \UnaussprechlichClarinoBII
+  %           >>
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \setGroupDistance #10 #11 } <<
+  %           \new Staff {
+  %             \set Staff.instrumentName = \markup \center-column { "trb" "1" }
+  %             \UnaussprechlichTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \UnaussprechlichTromboneII
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "3"
+  %             \UnaussprechlichTromboneIII
+  %           }
+  %         >>
+  %       >>
+  %       \new Staff \with { \setStaffDistance #11 } {
+  %         \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
+  %         \UnaussprechlichTimpani
+  %       }
+  %       \new StaffGroup \with { \setGroupDistance #10 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #10 #10 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \UnaussprechlichViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \UnaussprechlichViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \UnaussprechlichViola
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vlc"
+  %           \UnaussprechlichCello
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #11 #12 } <<
+  %         \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   P R I M O" \hspace #10 }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 1"
+  %           \new Voice = "SopranoI" { \dynamicUp \UnaussprechlichSopranoI }
+  %         }
+  %         \new Lyrics \lyricsto SopranoI \UnaussprechlichSopranoILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A 1"
+  %           \new Voice = "AltoI" { \dynamicUp \UnaussprechlichAltoI }
+  %         }
+  %         \new Lyrics \lyricsto AltoI \UnaussprechlichAltoILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T 1"
+  %           \new Voice = "TenoreI" { \dynamicUp \UnaussprechlichTenoreI }
+  %         }
+  %         \new Lyrics \lyricsto TenoreI \UnaussprechlichTenoreILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B 1"
+  %           \new Voice = "BassoI" { \dynamicUp \UnaussprechlichBassoI }
+  %         }
+  %         \new Lyrics \lyricsto BassoI \UnaussprechlichBassoILyrics
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #11 #12 } <<
+  %         \set ChoirStaff.instrumentName = \markup { \rotate #90 "C O R O   S E C O N D O" \hspace #10 }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "S 2" "Zweyter" "Erzengel" }
+  %           \new Voice = "SopranoII" { \dynamicUp \UnaussprechlichSopranoII }
+  %         }
+  %         \new Lyrics \lyricsto SopranoII \UnaussprechlichSopranoIILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A 2"
+  %           \new Voice = "AltoII" { \dynamicUp \UnaussprechlichAltoII }
+  %         }
+  %         \new Lyrics \lyricsto AltoII \UnaussprechlichAltoIILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T 2"
+  %           \new Voice = "TenoreII" { \dynamicUp \UnaussprechlichTenoreII }
+  %         }
+  %         \new Lyrics \lyricsto TenoreII \UnaussprechlichTenoreIILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B 2"
+  %           \new Voice = "BassoII" { \dynamicUp \UnaussprechlichBassoII }
+  %         }
+  %         \new Lyrics \lyricsto BassoII \UnaussprechlichBassoIILyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "cb"
+  %           % \transpose c c,
+  %           \UnaussprechlichViolone
+  %         }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 } %see definitions
+  %   }
+  % }
+  % \bookpart {
+  %   \section "23" "Terzetto · Herr, laß dir den Dank gefallen"
+  %   \addTocEntry
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     systems-per-page = #2
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cl" "B" "flat" "1, 2" }
+  %           \setSoloText "cl 1"
+  %           % \transpose c b,
+  %           \partCombine #'(0 . 10) \HerrLassClarinettoI \HerrLassClarinettoII
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
+  %           \setSoloText "fag 1"
+  %           \partCombine #'(0 . 10) \HerrLassFagottoI \HerrLassFagottoII
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \HerrLassViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \HerrLassViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \HerrLassViola
+  %         }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vlc"
+  %           \HerrLassCello
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Zweyter" "Erzengel" }
+  %           \new Voice = "SoliA" { \dynamicUp \HerrLassSoliA }
+  %         }
+  %         \new Lyrics \lyricsto SoliA \HerrLassSoliALyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Dritter" "Erzengel" }
+  %           \new Voice = "SoliB" { \dynamicUp \HerrLassSoliB }
+  %         }
+  %         \new Lyrics \lyricsto SoliB \HerrLassSoliBLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Erſter" "Erzengel" }
+  %           \new Voice = "SoliC" { \dynamicUp \HerrLassSoliC }
+  %         }
+  %         \new Lyrics \lyricsto SoliC \HerrLassSoliCLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "cb"
+  %           % \transpose c c,
+  %           \HerrLassViolone
+  %         }
+  %       >>
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "21" "Recitativo · Ihr Glücklichen, euch hat der Herr verziehn"
+    \section "24" "Recitativo · Sein Vaterarm halt euch umschlossen"
     \addTocEntry
-    \paper {
-      top-system-spacing.basic-distance = #15
-      top-system-spacing.minimum-distance = #15
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #15
-      markup-system-spacing.minimum-distance = #15
-      systems-per-page = #3
-    }
+    \paper { systems-per-page = #2 }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \setGroupDistance #15 #13 } <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
-            \partCombine #'(0 . 10) \IhrGluecklichenFlautoI \IhrGluecklichenFlautoII
-          }
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "ob" "1, 2" }
-            \setSoloText "ob 1"
-            \partCombine #'(0 . 10) \IhrGluecklichenOboeI \IhrGluecklichenOboeII
-          }
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cl" "A" "" "1, 2" }
-            \setSoloText "cl 1"
-            % \transpose c a,
-            \partCombine #'(0 . 10) \IhrGluecklichenClarinettoI \IhrGluecklichenClarinettoII
-          }
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "fag" "1, 2" }
-            \setSoloText "fag 1"
-            \partCombine #'(0 . 10) \IhrGluecklichenFagottoI \IhrGluecklichenFagottoII
-          }
-        >>
         \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "A" "" "1, 2" }
-            % \transpose c a,
-            \partCombine #'(0 . 10) \IhrGluecklichenCornoI \IhrGluecklichenCornoII
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SeinVaterarmViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SeinVaterarmViolinoII
+            }
           >>
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \SeinVaterarmViola
+          }
+          \new Staff {
+            \set Staff.instrumentName = "vlc"
+            \SeinVaterarmCello
+          }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Zweyter" "Erzengel" }
-            \new Voice = "Soli" { \dynamicUp \IhrGluecklichenSoli }
+            \set Staff.instrumentName = \markup \center-column { "Erſter" "Erzengel" }
+            \new Voice = "Soli" { \dynamicUp \SeinVaterarmSoli }
           }
-          \new Lyrics \lyricsto Soli \IhrGluecklichenSoliLyrics
+          \new Lyrics \lyricsto Soli \SeinVaterarmSoliLyrics
+        >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = "cb"
+            % \transpose c c,
+            \SeinVaterarmViolone
+          }
         >>
       >>
       \layout { }
-      \midi { \tempo 4 = 66 } %90
+      \midi { \tempo 4 = 60 }
     }
   }
 }

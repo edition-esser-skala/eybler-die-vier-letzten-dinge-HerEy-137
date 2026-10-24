@@ -336,3 +336,48 @@ OSchrecklichesBassoIILyrics = \lyricmode {
   loh --
   ren! %192 finis
 }
+
+UnaussprechlichBassoII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoUnaussprechlich
+    R1
+    R\fermata
+    R
+    R\fermata
+    R \noBreak %5
+    R\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*2
+    r2 a!4\pp r
+    r2 r4 b8 b %10
+    ces8. ces16 ces8 ces ces4 r
+    r2 r8 c\pococresc c c
+    des4 r d d8. d16
+    es8 es r4 r b'8\mf b
+    ces4 d,! r ges8\f ges %15
+    ces8. ces,16 ces8 ces \tempoUnaussprechlichC b4 r \noBreak
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r2 \mvDll a'4\f\fermata a8 a %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      b8.\ff b16 b,8. b16 \noBreak
+    \tempoUnaussprechlichE es4 r \noBreak
+    R2*15 %37
+    R2\fermata \bar "|." %38 finis
+  }
+}
+
+UnaussprechlichBassoIILyrics = \lyricmode {
+  Herr! %9
+  Un -- aus -- %10
+  ſprech -- lich iſt das Glück,
+  das dei -- ne
+  Gnad’ uns zu -- ge --
+  meſ -- ſen, un -- aus --
+  ſprech -- lich, un -- aus -- %15
+  ſprech -- lich iſt das Glück!
+
+  Ach! un -- aus -- %20
+  ſprech -- lich iſt das
+  Glück! %22 finis
+}

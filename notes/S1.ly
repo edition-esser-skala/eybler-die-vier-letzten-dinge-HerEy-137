@@ -987,3 +987,152 @@ OSchrecklichesSopranoILyrics = \lyricmode {
   Heil, zum
   Heil. __ %190 finis
 }
+
+OHeilSopranoI = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 3/4 \autoBeamOff \tempoOHeil
+    \partial 4 r4 R2.*7 %7
+    r4 r h'\pE
+    gis'2 fis4
+    e2 r4 %10
+    h e cis
+    h8([ a)] gis4 r
+    e' dis e
+    fis4.\fz dis8 h4
+    dis e fis %15
+    gis4.\fz e8 h4
+    e2 dis4
+    fis2 e4
+    gis cis, fis
+    e dis r %20
+    R2.
+    r4 r fis
+    fis2 fisis4\<
+    \after 4 \! gis2 his,4
+    cis4. e8 dis fis %25
+    fis4 e r
+    e fis gis
+    ais,2 h4
+    cis4.( dis8) e4
+    \appoggiatura e4 dis2 r4 %30
+    fis fis gis
+    a! dis, e
+    gis2 fis4
+    e r r
+    R2.*4 %38
+    r4 r dis\pE
+    dis2\crescE fis4 %40
+    a4.\f gis8 fis e
+    e4 dis r
+    dis\p dis dis
+    e2 cis4
+    fis2 ais,4 %45
+    h r r
+    dis\< e fis
+    gis2\! a8([ fis)]
+    e2 dis4
+    e r r %50
+    h2.\p
+    gis4 r r
+    e'2.\cresc
+    h4 r r
+    r gis'2\f %55
+    \mvTrh a\fz^\critnote dis,4
+    e r r
+    R2.*6 %63
+    R2.\fermata \bar "|." %64 finis
+  }
+}
+
+OHeilSopranoILyrics = \lyricmode {
+  O %8
+  Heil euch,
+  Heil, %10
+  ihr ſollt ihn
+  ſe -- hen,
+  den Un -- aus --
+  ſprech -- li -- chen,
+  den Un -- aus -- %15
+  ſprech -- li -- chen,
+  Heil euch,
+  Heil euch,
+  ihr ſollt ihn
+  ſe -- hen, %20
+
+  Sein
+  Glanz, ſein
+  Glanz wird
+  ſtär -- kend euch um -- %25
+  we -- hen;
+  Ihr ſollt nicht
+  mehr um
+  Gna -- de
+  flehn, %30
+  Ihr ſollt den
+  Va -- ter, den
+  Va -- ter ſehn.
+
+  Sein %39
+  Glanz wird %40
+  ſtär -- kend euch um --
+  we -- hen;
+  Ihr ſollt nicht
+  mehr um
+  Gna -- de %45
+  flehn,
+  Ihr ſollt den
+  Va -- ter,
+  Va -- ter
+  ſehn, %50
+  Heil
+  euch!
+  Heil
+  euch!
+  Ihr %55
+  ſollt ihn
+  ſehn. %57 finis
+}
+
+UnaussprechlichSopranoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoUnaussprechlich
+    R1
+    R\fermata
+    R
+    R\fermata
+    R \noBreak %5
+    R\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*3
+    r2 ges'4\pp r %10
+    r2 r4 a8 a
+    ges'8. ges16 es8 c a4 r
+    r8 des\pococresc des des f4 r
+    ges ges8. es16 d8 f r4
+    r f8\mf f ges4 es %15
+    ces a \tempoUnaussprechlichC b r \noBreak
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r2 \mvDll ges'4\f\fermata es8 es %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      \mvDll b'8.\ff g!16 as8. f16 \noBreak
+    \tempoUnaussprechlichE es4 r \noBreak
+    R2*15 %37
+    R2\fermata \bar "|." %38 finis
+  }
+}
+
+UnaussprechlichSopranoILyrics = \lyricmode {
+  Herr! %10
+  Un -- aus --
+  ſprech -- lich iſt das Glück,
+  das dei -- ne Gnad’
+  uns zu -- ge -- meſ -- ſen,
+  un -- aus -- ſprech -- lich %15
+  iſt das Glück!
+
+  Ach! un -- aus -- %20
+  ſprech -- lich iſt das
+  Glück! %22 finis
+}

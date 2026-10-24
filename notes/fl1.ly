@@ -1213,3 +1213,25 @@ IhrGluecklichenFlautoI = {
     gis2( fis4) r \bar "||" %100 finis
   }
 }
+
+UnaussprechlichFlautoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoUnaussprechlich
+    R1
+    c''\fff\fermata
+    R
+    e\fff\fermata
+    R \noBreak %5
+    g\fff\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*9 %15
+    r2 \tempoUnaussprechlichC r
+    R1*2
+    r2 r8\fermata r r4
+    r2 r4\fermata r %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      R2
+    \tempoUnaussprechlichE R2*16 %37
+    R2\fermata \bar "|." %38 finis
+  }
+}

@@ -957,3 +957,46 @@ OSchrecklichesBassoILyrics = \lyricmode {
   Heil, zum
   Heil. __ %190 finis
 }
+
+UnaussprechlichBassoI = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoUnaussprechlich
+    R1
+    R\fermata
+    R
+    R\fermata
+    R \noBreak %5
+    R\fermata \bar "||"
+    \key c \minor \tempoUnaussprechlichB R1*3
+    r2 b4\pp r %10
+    r2 r4 ces8 ces
+    c8. c16 c8 c c4 r
+    r8 des\pococresc des des d4 r
+    es es8. es16 b'8 b, r4
+    r f'8\mf f ges4 es %15
+    ces' a \tempoUnaussprechlichC b r \noBreak
+    R1*2
+    r2 r8\fermata r r4 \noBreak
+    r2 \mvDll c4\f\fermata a8 a %20
+    \twofourtime \time 2/4 \tempoUnaussprechlichD
+      b8.\ff b16 b8. b16 \noBreak
+    \tempoUnaussprechlichE es,4 r \noBreak
+    R2*15 %37
+    R2\fermata \bar "|." %38 finis
+  }
+}
+
+UnaussprechlichBassoILyrics = \lyricmode {
+  Herr! %10
+  Un -- aus --
+  ſprech -- lich iſt das Glück,
+  das dei -- ne Gnad’
+  uns zu -- ge -- meſ -- ſen,
+  un -- aus -- ſprech -- lich %15
+  iſt das Glück!
+
+  Ach! un -- aus -- %20
+  ſprech -- lich iſt das
+  Glück! %22 finis
+}
