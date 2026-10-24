@@ -1135,3 +1135,36 @@ UnaussprechlichOboeII = {
     R2\fermata \bar "|." %38 finis
   }
 }
+
+JehovahGrossOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoJehovahGross
+    c'4\fz c\fz c\fz r8 a
+    a8. cis16 d8-! d,-! d-! g-! r4
+    r8 c(\p e,) r r d'( g,) r
+    e'8.\fz d16 c8 h a r f'8.\ff e16
+    e4 r8 c\p h a g f %5
+    c4 d e r8 gis\f
+    a4 h c8. d16 e8 \brkBeam c
+    f4\fz f,\fz e\fz r
+    R1*3 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 g\f
+    e4 e c' r
+    e8.\fz d16 c8 h c4 r %20
+    R1
+    r4\fermata r8 gis\f a8. a16 a8 cis
+    d4\fz a\fz g r8 g
+    h8. h16 cis8 d e4\fz g,\fz
+    a r r2 %25
+    r4 r8 g\f a4 d
+    h r r2
+    r4 r8 c\f f4\fz f\fz
+    e\fz a,8-! g-! c4\fz f8-! e-!
+    c4\fz r r2 %30
+    r h2\fz
+    c4 r r2\fermata \bar "|." %32 finis
+  }
+}

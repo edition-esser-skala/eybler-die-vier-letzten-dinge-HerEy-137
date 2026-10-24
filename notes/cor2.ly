@@ -1034,3 +1034,35 @@ UnaussprechlichCornoII = {
     R2\fermata \bar "|." %38 finis
   }
 }
+
+JehovahGrossCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoJehovahGross
+    e4\fz c'\fz c\fz r
+    r r8 d g,4 r8 g(\p
+    c) r r c( d) r r g,
+    e'8.\fz d16 c8 r r4 c,~\ff
+    c r r2 %5
+    R1
+    r4 g'\f c8. d16 e8 r
+    c4\fz g\fz e\fz r
+    R1*3 %11
+    r4\fermata r r2
+    R1*6 %18
+    e4\f e c' r
+    e8.\fz d16 c8 g e4 r %20
+    R1
+    r4\fermata r8 e\f e4 r
+    d'\fz d\fz g, r
+    g r e'\fz e\fz
+    e, r r2 %25
+    r4 r8 c'\f c4 d
+    g, r r2
+    r c4\fz g\fz
+    c,2\fz c\fz
+    c4.\fz r8 r2 %30
+    r g'\fz
+    e4 r r2\fermata \bar "|." %32 finis
+  }
+}

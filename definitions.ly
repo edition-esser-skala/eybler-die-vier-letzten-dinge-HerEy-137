@@ -180,6 +180,7 @@ tempoHerrLass = \tempoMarkup "Adagio"
   tempoHerrLassB = \tempoMarkup "Larghetto"
 tempoSeinVaterarm = \tempoMarkup "Recitativo"
   tempoSeinVaterarmB = \tempoMarkup "Larghetto"
+tempoJehovahGross = \tempoMarkup "Andante maestoso"
 
 
 \include "notes/fl1.ly"

@@ -1775,3 +1775,36 @@ HerrLassFagottoI = {
     as4 r\fermata \bar "|." %97 finis
   }
 }
+
+JehovahGrossFagottoI = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoJehovahGross
+    c'4\fz a\fz e\fz r8 a
+    f8. e16 d8-! f-! g-! g,-! r4
+    r8 g'(\p c) r r a( h) r
+    e,8.\fz f16 g8 gis a r f4\ff
+    c r8 c'\p h a g f %5
+    c4 d e r8 e\f
+    a4 g c r8 e,
+    f4\fz g\fz c,\fz r
+    R1*3 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 \mvDofs #-1 \pao g'\f
+    c4 c a r
+    e8.\fz f16 g8 g c,4 r %20
+    R1
+    r4\fermata r8 e\f a8. g16 f8 e
+    d4\fz f\fz g r8 g
+    g8. f16 e8 d cis4\fz e\fz
+    a r r2 %25
+    r4 r8 e\f f4 d
+    g r r2
+    r4 r8 a\f f4\fz g\fz
+    c,2\fz c\fz
+    c4.\fz e8 f8.. g32 a8.. h32 %30
+    c8.. d32 e8.. f32 \pco g2\fz
+    \pco c,4 r r2\fermata \bar "|." %32 finis
+  }
+}

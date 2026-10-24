@@ -2626,3 +2626,28 @@ SeinVaterarmViola = {
     q2 r\fermata \bar "|." %13 finis
   }
 }
+
+JehovahGrossViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoJehovahGross
+    R1*11 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 g\f
+    <c c,>4 q <e c c,> r
+    \mvDofs #-3 <g c, c,>8.\fz a16 g8 f e4 r8 c(\p %20
+    h a g f) c4( d)
+    e\fermata r8 h'\f c8. e16 a8 g
+    f4\fz f\fz d8-! h-! r g
+    g'8. g16 g8 f e4\fz cis\fz
+    e8-! a-! r4 r2 %25
+    r4 r8 c,!\f c4 a'
+    d, r r8 <e c>^\pizz q r
+    r <a a,>\mf^\arco q r \mvDofs #.5 <a f c>4\ff <g g,>
+    <c, c,>\fz q8 q q4\fz q8 q
+    q4\fz r8 e, f8.. g32 a8.. h32 %30
+    c8.. d32 e8.. f32 g8 r <f g,>4
+    <e g, c,> r r2\fermata \bar "|." %32 finis
+  }
+}

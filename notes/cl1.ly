@@ -1716,3 +1716,36 @@ HerrLassClarinettoI = {
     b4 r\fermata \bar "|." %97 finis
   }
 }
+
+JehovahGrossClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoJehovahGross
+    g'4\fz a\fz g\fz r8 e
+    \pa f8. g16 a8-! f-! d-! h-! \pd r d(\p
+    e) r r e( f) r r d
+    g8.\fz f16 e8 f e r a8.\ff g16
+    g4 r8 c\p h a g f %5
+    c4 d e r8 e\f
+    e4 g g8. f16 e8 \brkBeam g
+    a4\fz g\fz g\fz r
+    R1*3 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 \pao g\f
+    g4 g a r
+    c8.\fz a16 g8 f e4 r %20
+    R1
+    r4\fermata r8 h'\f \pa a8. a16 a8 a \pd
+    a4\fz a\fz g r8 g
+    g8. g16 g8 f e4\fz cis\fz
+    e r r2 %25
+    r4 r8 g\f f4 a
+    g r r2
+    r4 r8 c\f f4\fz d\fz
+    c\fz f,8-! e-! c'4\fz a8-! g-!
+    c4.\fz r8 r2 %30
+    r \mvDofs #-2.5 d2\fz
+    \pao c4 r r2\fermata \bar "|." %32 finis
+  }
+}

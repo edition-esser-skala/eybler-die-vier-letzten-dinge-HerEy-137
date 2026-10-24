@@ -551,3 +551,25 @@ UnaussprechlichTimpani = {
     R2\fermata \bar "|." %38 finis
   }
 }
+
+JehovahGrossTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoJehovahGross
+    R1*11 %11
+    r4\fermata r r2
+    R1*6 %18
+    c4\f c c r
+    c\fz g8 g c4 r %20
+    R1
+    r4\fermata r r2
+    R1
+    g4 r r2
+    R1*3 %27
+    r2 c4\fz g\fz
+    c2\fz\startTrillSpan c2\fz\startTrillSpan
+    c4~ c8 r\stopTrillSpan r2 %30
+    r r4 g
+    c r r2\fermata \bar "|." %32 finis
+  }
+}

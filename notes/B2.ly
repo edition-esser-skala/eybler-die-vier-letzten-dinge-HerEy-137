@@ -381,3 +381,42 @@ UnaussprechlichBassoIILyrics = \lyricmode {
   ſprech -- lich iſt das
   Glück! %22 finis
 }
+
+JehovahGrossBassoII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoJehovahGross
+    R1*11 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 g'\f
+    c,4 c' a r
+    e8.\fz f16 g8 g, c4 r8 \mvDofs #-2 c'\p %20
+    h a g f c4 d
+    e\fermata r8 e\f a8. g16 f8 e
+    d4\fz f\fz g8 g, r g'
+    g8. f16 e8 d \mvDofs #-1.3 cis4\fz e\fz
+    a8 a, r4 r8 d\p g4 %25
+    r8 c, c' e,\f f4 d
+    g r8 g\p c,4 r8 c\cresc
+    a4 r8 a'\f f4\fz g\fz
+    c, r r2
+    R1*2 %31
+    R1\fermata \bar "|." %32 finis
+  }
+}
+
+JehovahGrossBassoIILyrics = \lyricmode {
+  Je -- %18
+  ho -- vah groß,
+  groß iſt dei -- ne Macht! Ver -- %20
+  ſchwun -- den iſt der Zei -- ten
+  Nacht, zer -- bor -- ſten iſt in
+  ho -- her Fey -- er des
+  Raums ge -- heim -- niß -- vol -- ler
+  Schley -- er, kein Band ſchließt %25
+  mehr das Da -- ſeyn
+  ein; du warſt, du
+  biſt, und du wirſt
+  ſeyn. %29 finis
+}

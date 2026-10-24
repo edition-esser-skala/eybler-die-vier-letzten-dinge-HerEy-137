@@ -493,3 +493,42 @@ UnaussprechlichSopranoIILyrics = \lyricmode {
   ſprech -- lich iſt das
   Glück! %22 finis
 }
+
+JehovahGrossSopranoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoJehovahGross
+    R1*11 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 g'\f
+    c4 g e' r
+    g8.\fz f16 e8 d c4 r8 c\p %20
+    h a g f c4 d
+    e\fermata r8 e'\f c8. cis16 d8 e
+    f4\fz d\fz h8 g r g
+    d'8. d16 e8 f g4\fz e\fz
+    cis8 a r4 r8 a\p h4 %25
+    r8 g c g\f a4 f'
+    d r8 g,\p c4 r8 c\cresc
+    e4 r8 c\f f4\fz h,\fz
+    c r r2
+    R1*2 %31
+    R1\fermata \bar "|." %32 finis
+  }
+}
+
+JehovahGrossSopranoIILyrics = \lyricmode {
+  Je -- %18
+  ho -- vah groß,
+  groß iſt dei -- ne Macht! Ver -- %20
+  ſchwun -- den iſt der Zei -- ten
+  Nacht, zer -- bor -- ſten iſt in
+  ho -- her Fey -- er des
+  Raums ge -- heim -- niß -- vol -- ler
+  Schley -- er, kein Band ſchließt %25
+  mehr das Da -- ſeyn
+  ein; du warſt, du
+  biſt, und du wirſt
+  ſeyn. %29 finis
+}

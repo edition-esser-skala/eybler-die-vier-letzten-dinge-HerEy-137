@@ -2273,3 +2273,28 @@ SeinVaterarmViolone = {
     g2 r\fermata \bar "|." %13 finis
   }
 }
+
+JehovahGrossViolone = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoJehovahGross
+    R1*11 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 g'\f
+    c,4 c' a r
+    e8.\fz f16 g8 g, c4 r8 c'(\p %20
+    h a g f) c4( d)
+    e\fermata r8 e\f a8. g16 f8 e
+    d4\fz f\fz g8 g, r g
+    g'8. f16 e8 d cis4\fz e\fz
+    a8 a, r4 r2 %25
+    r4 r8 e'\f f4 d
+    g r r8 c,^\pizz c r
+    r a\mf^\arco a r f4\ff g
+    c2\fz \grace { g32[ a h] } c2\fz
+    \grace { g32[ a h] } c4.\fz e8 f8.. g32 a8.. h32 %30
+    c8.. d32 e8.. f32 g8 r g,,4
+    c r r2\fermata \bar "|." %32 finis
+  }
+}

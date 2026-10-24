@@ -1118,3 +1118,27 @@ UnaussprechlichFlautoII = {
     R2\fermata \bar "|." %38 finis
   }
 }
+
+JehovahGrossFlautoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoJehovahGross
+    R1*11 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 g''\f
+    e4 e c' r
+    e8.\fz d16 c8 h c4 r %20
+    R1
+    r4\fermata r8 gis\f a8. a16 a8 cis
+    d4\fz f,\fz d r8 g
+    h8. h16 cis8 d e4\fz g,\fz
+    e r r2 %25
+    R1*2
+    r4 r8 c'\f f4\fz d,\fz
+    c\fz r c\fz r
+    c\fz r r2
+    r h'2\fz
+    c4 r r2\fermata \bar "|."
+  }
+}

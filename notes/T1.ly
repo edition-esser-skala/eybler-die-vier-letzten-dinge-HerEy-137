@@ -1017,3 +1017,42 @@ UnaussprechlichTenoreILyrics = \lyricmode {
   ſprech -- lich iſt das
   Glück! %22 finis
 }
+
+JehovahGrossTenoreI = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoJehovahGross
+    R1*11 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 g\f
+    e'4 e c r
+    c8.\fz a16 c8 h c4 r8 c\p %20
+    h a g f c4 d
+    e\fermata r8 h'\f a8. e'16 d8 cis
+    d4\fz d\fz d8 h r g
+    h8. h16 cis8 d e4\fz cis\fz
+    a8 cis r cis\p d4 r8 h %25
+    c4 r8 c\f c4 d
+    h r8 g\p g4 r8 g\cresc
+    c4 r8 e\f f4\fz d\fz
+    c r r2
+    R1*2 %31
+    R1\fermata \bar "|." %32 finis
+  }
+}
+
+JehovahGrossTenoreILyrics = \lyricmode {
+  Je -- %18
+  ho -- vah groß,
+  groß iſt dei -- ne Macht! Ver -- %20
+  ſchwun -- den iſt der Zei -- ten
+  Nacht, zer -- bor -- ſten iſt in
+  ho -- her Fey -- er des
+  Raums ge -- heim -- niß -- vol -- ler
+  Schley -- er, kein Band ſchließt %25
+  mehr das Da -- ſeyn
+  ein; du warſt, du
+  biſt, und du wirſt
+  ſeyn. %29 finis
+}

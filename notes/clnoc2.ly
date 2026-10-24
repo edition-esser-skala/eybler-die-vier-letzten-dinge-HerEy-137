@@ -465,3 +465,25 @@ UnaussprechlichClarinoCII = {
     R2\fermata \bar "|." %38 finis
   }
 }
+
+JehovahGrossClarinoCII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoJehovahGross
+    R1*11 %11
+    r4\fermata r r2
+    R1*6 %18
+    e4\f e e r
+    c\fz c'8 g e4 r %20
+    R1
+    r4\fermata r r2
+    R1
+    g,4 r r2
+    R1*3 %27
+    r2 c4\fz r
+    c\fz r c\fz r
+    c\fz r r2 %30
+    r r4 g'
+    e r r2\fermata \bar "|." %32 finis
+  }
+}

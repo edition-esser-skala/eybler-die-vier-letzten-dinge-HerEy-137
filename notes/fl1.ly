@@ -1235,3 +1235,27 @@ UnaussprechlichFlautoI = {
     R2\fermata \bar "|." %38 finis
   }
 }
+
+JehovahGrossFlautoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoJehovahGross
+    R1*11 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 \pao g''\f
+    c4 g e' r
+    g8.\fz f16 e8 d \pao c4 r %20
+    R1
+    r4\fermata r8 e\f c8. cis16 d8 e
+    f4\fz d\fz h r8 \pao g
+    d'8. d16 e8 f g4\fz e\fz
+    cis r r2 %25
+    R1*2
+    r4 r8 \pao c\f a'4\fz h,\fz
+    c\fz r c\fz r
+    c\fz r8 e, f8.. g32 a8.. h32 %30
+    c8.. d32 e8.. f32 g2\fz
+    \pao c,4 r r2\fermata \bar "|." %32 finis
+  }
+}

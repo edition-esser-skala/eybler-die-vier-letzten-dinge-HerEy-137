@@ -1197,3 +1197,36 @@ UnaussprechlichOboeI = {
     R2\fermata \bar "|." %38 finis
   }
 }
+
+JehovahGrossOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoJehovahGross
+    \pao c'4\fz e\fz g\fz r8 c,
+    d8. e16 f8-! d-! \pa h-! g-! \pd r4
+    r8 e'(\p c) r r f( d) r
+    g8.\fz f16 e8 d c r a'8.\ff g16
+    g4 r8 c,\p h a g f %5
+    c4 d e r8 h'\f
+    c4 d e8. f16 g8 \brkBeam \pao c,
+    a'4\fz h,\fz c\fz r
+    R1*3 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 \pao g\f
+    c4 g e' r
+    g8.\fz f16 e8 d \pao c4 r %20
+    R1
+    r4\fermata r8 e\f c8. cis16 d8 e
+    f4\fz d\fz h r8 \pao g
+    d'8. d16 e8 f g4\fz e\fz
+    cis r r2 %25
+    r4 r8 c\f \pao a4 f'
+    d r r2
+    r4 r8 \pao c\f a'4\fz \mvDofs #-1.3 h,\fz
+    \mvDofs #-1.3 c\fz f8-! e-! \pao \mvDofs #-1.3  c4\fz a'8-! g-!
+    \pao \mvDofs #-1.3 c,4\fz r8 e, f8.. g32 a8.. h32 %30
+    c8.. d32 e8.. f32 g2\fz
+    e4 r r2\fermata \bar "|." %32 finis
+  }
+}

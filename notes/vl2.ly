@@ -2341,3 +2341,28 @@ SeinVaterarmViolinoII = {
     q2 r\fermata \bar "|." %13 finis
   }
 }
+
+JehovahGrossViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoJehovahGross
+    R1*11 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 g'\f
+    <e g,>4 q <c' e, a,> r
+    \mvDofs #-2 <c g g,>8.\fz d16 c8 h c4 r8 c(\p %20
+    h a g f) c4( d)
+    e\fermata r8 gis\f a8. a16 a8 cis
+    d4\fz a\fz g r8 g
+    h8. h16 cis8 d e4\fz g,\fz
+    <e a>8-! cis-! r4 r2 %25
+    r4 r8 g'\f f4 d'
+    h r r8 <e, g,>^\pizz q r
+    r <c' e,>\mf^\arco q r <f c f,>4\ff <h, d,>
+    c,8.(\fz d64 e f g) a8-! g-! c,8.\fz \tuplet 3/2 { c32( d e) } f8-! e-!
+    c8.(\fz d64 e f128 g a h) c8 e, f8.. g32 a8.. h32 %30
+    c8.. d32 e8.. f32 g8 r <h, f g,>4
+    <c e, g,> r r2\fermata \bar "|." %32 finis
+  }
+}

@@ -2862,3 +2862,159 @@ SeinVaterarmSoliLyrics = \lyricmode {
   zum
   ew’ -- gen Glück er -- hob. %12 finis
 }
+
+JehovahGrossSoliA = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoJehovahGross
+    R1*7 %7
+    r2 r4 r8 g\f
+    c4 g e' r
+    g8.\fz f16 e8 d c4 r8 c\p %10
+    h a g f c4 d
+    e\fermata r8 e'\f c8. cis16 d8 e
+    f4\fz d\fz h8 g r g
+    d'8. d16 e8 f g4\fz e\fz
+    cis8 a r e'\p f4 r8 d %15
+    e4 r8 c\f a4 f'
+    d r8 g,\p c4 r8 c\cresc
+    e4 r8 c\f a'4\fz h,\fz
+    c r r2
+    R1*2 %21
+    r4\fermata r r2
+    R1*9 %31
+    R1\fermata \bar "|." %32 finis
+  }
+}
+
+JehovahGrossSoliALyrics = \lyricmode {
+  Je -- %8
+  ho -- vah groß,
+  groß iſt dei -- ne Macht! Ver -- %10
+  ſchwun -- den iſt der Zei -- ten
+  Nacht, zer -- bor -- ſten iſt in
+  ho -- her Fey -- er des
+  Raums ge -- heim -- niß -- vol -- ler
+  Schley -- er, kein Band ſchließt %15
+  mehr das Da -- ſeyn
+  ein; du warſt, du
+  biſt, und du wirſt
+  ſeyn. %19 finis
+}
+
+JehovahGrossSoliB = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoJehovahGross
+    R1*7 %7
+    r2 r4 r8 g\f
+    g4 g c r
+    c8.\fz d16 c8 h c4 r8 c\p %10
+    h a g f c4 d
+    e\fermata r8 h'\f a8. a16 a8 cis
+    d4\fz \mvDofs #-1.3 a\fz g8 g r g
+    h8. h16 cis8 d e4\fz cis\fz
+    a8 a r a\p d4 r8 g, %15
+    c!4 r8 g\f a4 d
+    h r8 g\p g4 r8 g\cresc
+    c4 r8 c\f f4\fz d\fz
+    c r r2
+    R1*2 %21
+    r4\fermata r r2
+    R1*9 %31
+    R1\fermata \bar "|." %32 finis
+  }
+}
+
+JehovahGrossSoliBLyrics = \lyricmode {
+  Je -- %8
+  ho -- vah groß,
+  groß iſt dei -- ne Macht! Ver -- %10
+  ſchwun -- den iſt der Zei -- ten
+  Nacht, zer -- bor -- ſten iſt in
+  ho -- her Fey -- er des
+  Raums ge -- heim -- niß -- vol -- ler
+  Schley -- er, kein Band ſchließt %15
+  mehr das Da -- ſeyn
+  ein; du warſt, du
+  biſt, und du wirſt
+  ſeyn. %19 finis
+}
+
+JehovahGrossSoliC = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoJehovahGross
+    R1*7 %7
+    r2 r4 r8 g'\f
+    e4 e a r
+    g8.\fz a16 g8 f e4 r8 \mvDofs #-2 c'\p %10
+    h a g f c4 d
+    e\fermata r8 gis\f a8. a16 a8 a
+    a4\fz a\fz g8 g r g
+    g8. g16 g8 f e4\fz g\fz
+    a8 a r4 r8 a\p h4 %15
+    r8 g e g\f f4 a
+    g r8 g\p e4 r8 e\cresc
+    a4 r8 a\f \once \override DynamicText.extra-offset = #'(0 . -.5) c4\fz f,\fz
+    e r r2
+    R1*2 %21
+    r4\fermata r r2
+    R1*9 %31
+    R1\fermata \bar "|." %32 finis
+  }
+}
+
+JehovahGrossSoliCLyrics = \lyricmode {
+  Je -- %8
+  ho -- vah groß,
+  groß iſt dei -- ne Macht! Ver -- %10
+  ſchwun -- den iſt der Zei -- ten
+  Nacht, zer -- bor -- ſten iſt in
+  ho -- her Fey -- er des
+  Raums ge -- heim -- niß -- vol -- ler
+  Schley -- er, kein Band ſchließt %15
+  mehr das Da -- ſeyn
+  ein; du warſt, du
+  biſt, und du wirſt
+  ſeyn. %19 finis
+}
+
+JehovahGrossSoliD = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoJehovahGross
+    R1*7 %7
+    r2 r4 r8 g'\f
+    c,4 c a r
+    e'8.\fz f16 g8 g, c4 r8 \mvDofs #-2 c'\p %10
+    h a g f c4 d
+    e\fermata r8 e\f a8. g16 f8 e
+    d4\fz f\fz g8 g, r g'
+    g8. f16 e8 d \mvDofs #-1.3 cis4\fz e\fz
+    a8 a, r4 r8 d\p g4 %15
+    r8 c, c' e,\f f4 d
+    g r8 g\p c,4 r8 c\cresc
+    a4 r8 a8\f f4\fz g\fz
+    c r r2
+    R1*2 %21
+    r4\fermata r r2
+    R1*9 %31
+    R1\fermata \bar "|." %32 finis
+  }
+}
+
+JehovahGrossSoliDLyrics = \lyricmode {
+  Je -- %8
+  ho -- vah groß,
+  groß iſt dei -- ne Macht! Ver -- %10
+  ſchwun -- den iſt der Zei -- ten
+  Nacht, zer -- bor -- ſten iſt in
+  ho -- her Fey -- er des
+  Raums ge -- heim -- niß -- vol -- ler
+  Schley -- er, kein Band ſchließt %15
+  mehr das Da -- ſeyn
+  ein; du warſt, du
+  biſt, und du wirſt
+  ſeyn. %19 finis
+}

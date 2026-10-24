@@ -1052,3 +1052,42 @@ UnaussprechlichAltoILyrics = \lyricmode {
   ſprech -- lich iſt das
   Glück! %22 finis
 }
+
+JehovahGrossAltoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoJehovahGross
+    R1*11 %11
+    r4\fermata r r2
+    R1*5 %17
+    r2 r4 r8 g'\f
+    g4 g c r
+    g8.\fz a16 g8 f e4 r8 c'\p %20
+    h a g f c4 d
+    e\fermata r8 gis\f a8. a16 a8 a
+    \mvDofs #-1.3 a4\fz \mvDofs #-1.3 a\fz g8 g r g
+    g8. g16 g8 f e4\fz g\fz
+    a8 e r a\p a4 r8 g %25
+    g4 r8 g\f f4 a
+    g r8 g\p e4 r8 e\cresc
+    a4 r8 a\f c4\fz g\fz
+    g r r2
+    R1*2 %31
+    R1\fermata \bar "|." %32 finis
+  }
+}
+
+JehovahGrossAltoILyrics = \lyricmode {
+  Je -- %18
+  ho -- vah groß,
+  groß iſt dei -- ne Macht! Ver -- %20
+  ſchwun -- den iſt der Zei -- ten
+  Nacht, zer -- bor -- ſten iſt in
+  ho -- her Fey -- er des
+  Raums ge -- heim -- niß -- vol -- ler
+  Schley -- er, kein Band ſchließt %25
+  mehr das Da -- ſeyn
+  ein; du warſt, du
+  biſt, und du wirſt
+  ſeyn. %29 finis
+}
