@@ -319,7 +319,7 @@ GroßIstViolinoII = {
     f:\fz fis:\fz
     g4 g8.\ff-! g16-! g8.-! g16-! h8.-! h16-!
     c8.-! c16-! c8.-! c16-! c8.-! c16-! e8.-! e16-! %125
-    f1\fermata \markCritnote
+    f1\fermata \startDeleted
     r2 des,\p
     c r
     h r
@@ -374,7 +374,7 @@ GroßIstViolinoII = {
     c:\fz a:\fz
     b!4 g8.\ff-! g16-! as8.-! as16-! g8.-! g16-!
     as8.-! as16-! as8.-! as16-! as8.-! as16-! c8.-! c16-! %180
-    des1\fermata
+    des1\fermata \stopDeleted
     R1*6 %187
     c,1\pp
     b!
@@ -899,7 +899,7 @@ EsHerrschetViolinoII = {
     g2(\sfp\< fis4 g
     \once \stemUp b!\> as g f)\!
     es( h c d)
-    es2(\> d4)\! r \markCritnote
+    es2(\> d4)\! r \startDeleted
     as'1\p^\critnote %25
     d,!2 r
     <f des'>\sfp r
@@ -936,7 +936,7 @@ EsHerrschetViolinoII = {
     es4)\! r r2
     as( b4 fis) %60
     g( c, b g')
-    \after 2 \! fis2.\> r4 \markCritnote
+    \after 2 \! fis2.\> r4 \stopDeleted
     es!1\p
     a,!2 r
     <c as'>\sfp r %65

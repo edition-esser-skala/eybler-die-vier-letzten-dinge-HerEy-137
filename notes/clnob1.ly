@@ -176,7 +176,7 @@ GroßIstClarinoBI = {
     r2 e'4.\fz e8
     e2 r
     r4 \pa d\ff d c \pd %125
-    b1\ff\fermata \markCritnote
+    b1\ff\fermata \startDeleted
     R1*5 %131
     c1~\fz
     c2 c4. c8
@@ -207,7 +207,7 @@ GroßIstClarinoBI = {
     R1
     c2\fz r
     r4 \pa b\ff b b \pd %180
-    b1\fermata
+    b1\fermata \stopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }

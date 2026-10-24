@@ -268,7 +268,7 @@ GroßIstFlautoI = {
     f2 fis4.\fz fis8
     g4 h,\ff c d
     es e f g %125
-    as1\fermata \ottava #0 \markCritnote
+    as1\fermata \ottava #0 \startDeleted
     R1*5 %131
     \ottava #1 e1~\fz
     e2 e4. e8
@@ -308,7 +308,7 @@ GroßIstFlautoI = {
     c\fz a\fz
     b!4 \pa g\ff as b
     c as \pd des es %180
-    f1\fermata
+    f1\fermata \stopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -1141,7 +1141,7 @@ IhrGluecklichenFlautoI = {
     e'8.\mf d16 cis8 cis d16( e fis d)
     cis4( h8) r r4
     R2.
-    r4 r r8 e~ \markCritnote
+    r4 r r8 e~ \startDeleted
     e16( d e fis) cis8( e d gis,) %15
     h4(\p a8) r r4
     R2.*3
@@ -1170,7 +1170,7 @@ IhrGluecklichenFlautoI = {
     e4~\fz e16( d cis h) ais( h cis d)
     a4( gis8) r r4
     R2. %45
-    r4 r r8 e'~\pE \markCritnote
+    r4 r r8 e'~\pE \stopDeleted
     e16( d e fis) cis8( e d gis,)
     a r r4 r
     r r e'8.\decresc gis,16 \noBreak

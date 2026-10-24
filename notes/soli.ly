@@ -921,7 +921,9 @@ EsHerrschetSoli = {
   \relative c {
     \clef bass
     \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoEsHerrschet
-    R1*81 %81
+    R1*24 \startDeleted %24
+    R1*38 \stopDeleted %62
+    R1*19 %81
     \tempoEsHerrschetB r2 r4 a' \noBreak
     fis4. fis8 fis4 r8 d
     es2.^\espressivo d4
@@ -2240,8 +2242,8 @@ IhrGluecklichenSoli = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \autoBeamOff \tempoIhrGluecklichen
-    R2.*14 \markCritnote %14
-    R2.*32 \markCritnote %46
+    R2.*14 \startDeleted %14
+    R2.*32 \stopDeleted %46
     R2.*4 %50
     \time 2/2 \tempoIhrGluecklichenB
       r2 e' \noBreak

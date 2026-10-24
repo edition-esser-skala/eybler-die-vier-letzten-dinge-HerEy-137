@@ -120,7 +120,7 @@ GroßIstTenore = {
     c2 fis4.\fz fis8
     g4 g\ff g, h
     c c c e %125
-    f1\fermata \markCritnote
+    f1\fermata \startDeleted
     r2 as,\p
     g r
     g r
@@ -175,7 +175,7 @@ GroßIstTenore = {
     g,2 c4.\fz c8
     f,4 b\ff c des
     es c as c %180
-    des1\fermata
+    des1\fermata \stopDeleted
     R
     as2\p r
     d,! r

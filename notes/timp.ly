@@ -134,7 +134,7 @@ GroßIstTimpani = {
     c4\stopTrillSpan r c2\fz\trill
     g4 g\ff g g
     c2 r %125
-    R1\fermata \markCritnote
+    R1\fermata \startDeleted
     R1*3
     c1~\p\startTrillSpan %130
     c~\cresc
@@ -163,7 +163,7 @@ GroßIstTimpani = {
     c2~\fz\startTrillSpan c4\stopTrillSpan r
     R1
     c2 r %180
-    R1\fermata
+    R1\fermata \stopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -246,7 +246,9 @@ EsHerrschetTimpani = {
     R\fermata
     R
     R\fermata
-    R1*77 %81
+    R1*20 \startDeleted %24
+    R1*38 \stopDeleted %62
+    R1*19 %81
     \tempoEsHerrschetB R1*5 %86
     R1\fermata
     R

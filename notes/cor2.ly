@@ -173,7 +173,7 @@ GroßIstCornoII = {
     R1*9 %123
     r4 e\ff e e
     e r r2 %125
-    b'1\ff\fermata \markCritnote
+    b'1\ff\fermata \startDeleted
     R1*5 %131
     b1~\fz
     b
@@ -208,7 +208,7 @@ GroßIstCornoII = {
     e2\fz r
     r4 g\ff c, c
     c2 r %180
-    b'1\fermata
+    b'1\fermata \stopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -954,7 +954,7 @@ IhrGluecklichenCornoII = {
     e(\> c8)\! r r4
     \once \slurDashed c'4( g8) r r4
     R2.
-    c,4\fz r r \markCritnote
+    c,4\fz r r \startDeleted
     r r8 g'4 g8 %15
     g4(\p e8) r r4
     R2.
@@ -986,7 +986,7 @@ IhrGluecklichenCornoII = {
     c4.\fz r8 r4
     g4. r8 r4
     r8 c'4\p\< g e8 %45
-    c4\fz r r \markCritnote
+    c4\fz r r \stopDeleted
     r r8 g'4 g8
     c,2.~
     c4 r g' \noBreak

@@ -282,7 +282,7 @@ GroßIstClarinettoII = {
     g2 gis4.\fz gis8
     a4 e\ff f g
     f fis g \hA fis %125
-    g1\fermata \markCritnote
+    g1\fermata \startDeleted
     R1*5 %131
     fis1~\fz
     fis2 fis4. fis8
@@ -329,7 +329,7 @@ GroßIstClarinettoII = {
     fis\fz d\fz
     e4 c'\ff d a
     b f g as %180
-    g1\fermata
+    g1\fermata \stopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -691,7 +691,7 @@ EsHerrschetClarinettoII = {
     R\fermata
     R
     R\fermata
-    R1*20 \markCritnote %24
+    R1*20 \startDeleted %24
     R1*20 %44
     \once \slurDashed g'2(\f c,4 as') %45
     g2 r
@@ -704,7 +704,7 @@ EsHerrschetClarinettoII = {
     R1*2
     f2( e4 d)
     g2 r %60
-    R1*2 \markCritnote
+    R1*2 \stopDeleted
     R1*8 %70
     a2\f\< h4 c~
     c\> h4 d gis,\!
@@ -1462,7 +1462,7 @@ IhrGluecklichenClarinettoII = {
     e8.\mf d16 c8 c d16( e f d)
     c4( h8) r16 a'( g f e d)
     c4(\p\< e g)
-    c8.\fz h16 a8( g f e)~ \markCritnote
+    c8.\fz h16 a8( g f e)~ \startDeleted
     e16( d e f) c8( e d f) %15
     f4(\p e8) r r4
     r r8 g([ c e)]
@@ -1494,7 +1494,7 @@ IhrGluecklichenClarinettoII = {
     b4~\fz b16( a g f) b( a g f)
     e4( d8) f([\decresc e d)]\!
     c4\< e g %45
-    c8.(\fz h16 a8 g f e)~ \markCritnote
+    c8.(\fz h16 a8 g f e)~ \stopDeleted
     e16( d e f) c8( e d f)
     e r r4 r
     r8 f\decresc e d c f \noBreak

@@ -287,7 +287,7 @@ GroßIstFagottoI = {
     a2 c4.\fz c8
     h4 g\ff es d
     c c' as g %125
-    f1\fermata \markCritnote
+    f1\fermata \startDeleted
     R1*5 %131
     \clef "treble_8" des'1~\fz
     des2 des4. des8
@@ -334,7 +334,7 @@ GroßIstFagottoI = {
     e\fz es\fz
     d4 des\ff c b
     as \pa ges f es %180
-    des1\fermata \pd
+    des1\fermata \stopDeleted \pd
     R1*6 %187
     \pa c'1\p
     b!
@@ -724,7 +724,7 @@ EsHerrschetFagottoI = {
     R\fermata
     R
     R\fermata
-    R1*20 \markCritnote %24
+    R1*20 \startDeleted %24
     R1*7 %31
     \clef "treble_8" e'2(\pE dis4 e)
     f2 r
@@ -743,7 +743,7 @@ EsHerrschetFagottoI = {
     R1
     \clef bass r4 es,( f g)
     as2 r %60
-    R1*2 \markCritnote
+    R1*2 \stopDeleted
     R1*4 %66
     g2(\p fis4 g)
     b2(\> a4)\! r
@@ -1608,7 +1608,7 @@ IhrGluecklichenFagottoI = {
     \clef bass a\mf r8 \pa fis d h
     e4. \pd r8 r4
     r8 \pa a4 e cis8
-    a4\fz a' \pd r8 a \markCritnote
+    a4\fz a' \pd r8 a \startDeleted
     \pa fis4 e \pd e %15
     a4.\p r8 r4
     d( cis8) r r4
@@ -1640,7 +1640,7 @@ IhrGluecklichenFagottoI = {
     \clef bass d,\fz d' r8 \pa d,
     e4 e,8 \pd r r4
     r8 a'4\cresc e cis8 %45
-    a4\fz a' r8 a \markCritnote
+    a4\fz a' r8 a \stopDeleted
     fis4 \pao e e
     a8 r r4 r
     a2.~\decresc \noBreak

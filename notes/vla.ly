@@ -319,7 +319,7 @@ GroßIstViola = {
     c:\fz a:\fz
     d4 d8.\ff-! d16-! c8.-! c16-! f8.-! f16-!
     es8.-! es16-! g8.-! g16-! f8.-! f16-! b8.-! b16-! %125
-    as1\fermata \markCritnote
+    as1\fermata \startDeleted
     r2 as,\p
     g r
     g r
@@ -390,7 +390,7 @@ GroßIstViola = {
       d4
     } >> fes8.\ff-! fes16-! es8.-! es16-! es8.-! es16-!
     es8.-! es16-! c'8.-! c16-! des8.-! des16-! as8.-! as16-! %180
-    as1\fermata
+    as1\fermata \stopDeleted
     R1*6 %187
     c,,1\pp
     g'~
@@ -935,7 +935,7 @@ EsHerrschetViola = {
     es2(\sfp\< d4 es
     e\> f! g as)\!
     c,( f es fis)
-    \after 2 \! g2.\> r4 \markCritnote
+    \after 2 \! g2.\> r4 \startDeleted
     f!1\p %25
     g2( f4 g)
     as2\sfp r
@@ -969,7 +969,7 @@ EsHerrschetViola = {
     h c\! r2
     r4 f( e es) %60
     d( a! g e')
-    \after 2\! d2.\> r4 \markCritnote
+    \after 2\! d2.\> r4 \stopDeleted
     c1\p
     d2( c4 d)
     es2\sfp r %65

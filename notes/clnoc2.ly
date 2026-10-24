@@ -162,7 +162,7 @@ GroßIstClarinoCII = {
     c2 r
     r4 g\ff g g
     c2 r %125
-    R1\fermata \markCritnote
+    R1\fermata \startDeleted
     R1*5 %131
     g1~\fz
     g2 g4. g8
@@ -198,7 +198,7 @@ GroßIstClarinoCII = {
     r c\fz
     R1
     c2 r %180
-    R1\fermata
+    R1\fermata \stopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }

@@ -286,7 +286,7 @@ GroßIstOboeI = {
     f2 a4.\fz a8
     g4 \mvD -1 h,\ff c d
     es e f g %125
-    as1\fermata \markCritnote
+    as1\fermata \startDeleted
     R1*5 %131
     des,1~\fz
     des2 des4. des8
@@ -333,7 +333,7 @@ GroßIstOboeI = {
     g\fz ges\fz
     f4 \pa fes\ff es \pd g
     as c, as' ges %180
-    f1\fermata
+    f1\fermata \stopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -515,7 +515,7 @@ EsHerrschetOboeI = {
     R\fermata
     R
     R\fermata
-    R1*20 \markCritnote %24
+    R1*20 \startDeleted %24
     R1*4 %28
     c'2(\p h4 c)
     des2(\> c4)\! r %30
@@ -537,7 +537,7 @@ EsHerrschetOboeI = {
     R1
     g2( f4 es)~
     es d r2 %60
-    R1*2 \markCritnote
+    R1*2 \stopDeleted
     R1*4 %66
     g,2(\p fis4 g)
     b2(\> a4)\! r
@@ -1104,7 +1104,7 @@ IhrGluecklichenOboeI = {
     e8.\mf d16 cis8 cis d16( e fis d)
     cis4( h8) r16 a'( gis fis e d)
     cis4(\p\< e a)
-    cis8.(\fz h16 a8 gis fis e8)~ \markCritnote
+    cis8.(\fz h16 a8 gis fis e8)~ \startDeleted
     e16( d e fis) cis8( e d gis) %15
     gis4(\p a8) r r4
     R2.
@@ -1134,7 +1134,7 @@ IhrGluecklichenOboeI = {
     g4~\fz g16( fis e d) cis( d e fis)
     a,4 gis!8 fis'([\decresc e d)]
     cis4(\< e a)] %45
-    cis8.(\fz h16 a8 gis fis e)~ \markCritnote
+    cis8.(\fz h16 a8 gis fis e)~ \stopDeleted
     e16( d e fis) cis8( e d h)
     \pao a a'([ gis fis e d)]
     cis fis([\decresc e d cis h)]\! \noBreak

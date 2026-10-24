@@ -120,7 +120,7 @@ GroßIstAlto = {
     f2 a4.\fz a8
     d,4 d\ff g f
     es! g c b %125
-    as1\fermata \markCritnote
+    as1\fermata \startDeleted
     r2 des,\p
     c r
     h r
@@ -175,7 +175,7 @@ GroßIstAlto = {
     g2 ges4.\fz ges8
     f4 fes\ff es des
     c es as ges %180
-    f!1\fermata
+    f!1\fermata \stopDeleted
     R
     des2\p r
     h r

@@ -320,7 +320,7 @@ GroßIstViolinoI = {
     f4. a,32( g f e) d4. \tuplet 3/2 8 { d'16( e fis) }
     g8. g,32(\ff a h8_[) \tuplet 3/2 8 { g16( \hA a \hA h] } c8.) h32( c d8.) c32( d
     es8.) c32( d e8) \tuplet 3/2 8 { c16( d \hA e } f8.) e32( f g8.) f32( g) %125
-    as1\fermata \markCritnote
+    as1\fermata \startDeleted
     r2 f,\p
     es r
     d! r
@@ -375,7 +375,7 @@ GroßIstViolinoI = {
     c4 r8 c'32( d es! f ges4) r8 \tuplet 3/2 8 { es,16( des c) }
     b4 b'8.-!\ff b16-! es8.-! es16-! des8.-! des16-!
     c8.-! c16-! es8.-! es16-! as8.-! as16-! ges8.-! ges16-! %180
-    f1\fermata
+    f1\fermata \stopDeleted
     R1*6 %187
     c,1~\pp
     c~
@@ -906,7 +906,7 @@ EsHerrschetViolinoI = {
     g'(\sfp\< fis4 g
     b!\> as g f)\!
     es( h c d)
-    es2(\> d4\!) r \markCritnote
+    es2(\> d4\!) r \startDeleted
     f2(\p des4 c) %25
     h2 r
     as'(\sfp f4 des)
@@ -944,7 +944,7 @@ EsHerrschetViolinoI = {
     g4)\! r r es'~
     es d( des c) %60
     b( fis g a!)
-    b2\> a4\! r \markCritnote
+    b2\> a4\! r \stopDeleted
     c2(\p as4 g)
     fis2 r
     es'(\sfp c4 as) %65

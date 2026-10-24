@@ -125,7 +125,7 @@ GroßIstSoprano = {
     f,2 d'4.\fz d8
     g,4 h\ff c d
     es e f g %125
-    as1\fermata \markCritnote
+    as1\fermata \startDeleted
     r2 f,\p
     es r
     d! r
@@ -180,7 +180,7 @@ GroßIstSoprano = {
     c2 a4.\fz a8
     b!4 g\ff as b
     c as des es %180
-    f1\fermata
+    f1\fermata \stopDeleted
     R
     f,2\p r
     f r

@@ -317,7 +317,7 @@ GroßIstViolone = {
     a4 r8 d,32( e f64 g a h c4.) c8
     h4 g\ff es d
     c c' as g %125
-    f1\fermata \markCritnote
+    f1\fermata \startDeleted
     r2 f,\p
     g r
     g r
@@ -370,7 +370,7 @@ GroßIstViolone = {
     e4.\fz e8 es4.\fz es8
     d4 des\ff c b
     as ges' f es %180
-    des1\fermata
+    des1\fermata \stopDeleted
     R1*6 %187
     c1~\pp
     c~
@@ -948,7 +948,7 @@ EsHerrschetViolone = {
     c1\sfp
     f,\sfp
     as\sfp
-    g2. r4 \markCritnote
+    g2. r4 \startDeleted
     R1*2 %26
     f'2\sfp r
     g( as4 f)
@@ -982,7 +982,7 @@ EsHerrschetViolone = {
     R1
     f,2( g4 a!) %60
     b( d es cis)
-    d2. r4 \markCritnote
+    d2. r4 \stopDeleted
     R1*2
     c2\sfp r %65
     d( es4 c)

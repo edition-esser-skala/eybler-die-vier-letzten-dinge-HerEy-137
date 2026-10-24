@@ -263,7 +263,7 @@ GroßIstContrafagotto = {
     a2 c4.\sfz c8
     h4 g\ff es d
     c c' as g %125
-    f1\fermata
+    f1\fermata \startDeleted
     R1*5 %131
     c1~\fz
     c4 r r2
@@ -312,7 +312,7 @@ GroßIstContrafagotto = {
     e\fz es\fz
     d4 des\ff c b
     as ges' f es %180
-    des1\fermata
+    des1\fermata \stopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }

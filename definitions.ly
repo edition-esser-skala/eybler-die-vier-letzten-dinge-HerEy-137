@@ -86,6 +86,16 @@ pococresc = #(make-music
   'span-type 'text
   'span-text (markup (#:normal-text #:small "poco cresc.")))
 
+startDeleted = {
+  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \mark \markup { \with-color #(rgb-color .8313 0 0) { \hspace #3.5 \raise #.5 \musicglyph "scripts.coda" \remark "vi -" } }
+}
+
+stopDeleted = {
+  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \mark \markup { \with-color #(rgb-color .8313 0 0) { \remark "- de" \raise #.5 \musicglyph "scripts.coda" \hspace #3.9 } }
+}
+
 
 % part-specific commands
 #(define option-is-full-score

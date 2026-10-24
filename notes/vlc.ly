@@ -323,7 +323,7 @@ GroßIstCello = {
     a:\fz c:\fz
     h4 g'8.-!\ff g16-! es8.-! es16-! d8.-! d16-!
     c8.-! c16-! c'8.-! c16-! as8.-! as16-! g8.-! g16-! %125
-    f1\fermata \markCritnote
+    f1\fermata \startDeleted
     r2 f,\p
     g r
     g r
@@ -378,7 +378,7 @@ GroßIstCello = {
     e:\fz es:\fz
     d4 des8.\ff-! des16-! c8.-! c16-! b8.-! b16-!
     as8.-! as16-! ges'8.-! ges16-! f8.-! f16-! es8.-! es16-! %180
-    des1\fermata
+    des1\fermata \stopDeleted
     R1*6 %187
     c1~\pp
     c~
@@ -767,7 +767,7 @@ EsHerrschetCello = {
     es\sfp c'2 c4~
     c c2 c4~
     c( d es c)
-    \after 2 \! h2.\> r4 \markCritnote
+    \after 2 \! h2.\> r4 \startDeleted
     R1 %25
     g2(\p as4 g)
     f2\sfp r
@@ -801,7 +801,7 @@ EsHerrschetCello = {
     R1
     f,2( g4 a!) %60
     b( d es cis)
-    d2. r4 \markCritnote
+    d2. r4 \stopDeleted
     R1
     d2(\p es4 d)
     <c c,>2\sfp r %65

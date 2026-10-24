@@ -113,7 +113,7 @@ GroßIstBasso = {
     a2 c4.\fz c8
     h4 g\ff es d
     c c' as! g %125
-    f1\fermata
+    f1\fermata \startDeleted
     r2 f\p
     g r
     g, r
@@ -166,7 +166,7 @@ GroßIstBasso = {
     e2 es4.\fz es8
     d4 des\ff c b
     as ges' f es %180
-    des1\fermata
+    des1\fermata \stopDeleted
     R
     f,2\p r
     g! r

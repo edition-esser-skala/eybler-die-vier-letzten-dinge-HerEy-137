@@ -175,7 +175,7 @@ GroßIstCornoI = {
     R1*9 %123
     r4 e\ff e d
     c r r2 %125
-    \pao b1\ff\fermata \markCritnote
+    \pao b1\ff\fermata \startDeleted
     R1*5 %131
     \pa b1~\fz
     b \pd
@@ -210,7 +210,7 @@ GroßIstCornoI = {
     e2\fz r
     r4 \pao g,\ff c c
     c2 r %180
-    \pao b1\fermata
+    \pao b1\fermata \stopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -964,7 +964,7 @@ IhrGluecklichenCornoI = {
     g(\> e8)\! r r4
     \once \slurDashed e'4( d8) r r4
     R2.
-    g,4\fz r r \markCritnote
+    g,4\fz r r \startDeleted
     r r8 \pao g4 d'8 %15
     d4(\p c8) r r4
     R2.
@@ -996,7 +996,7 @@ IhrGluecklichenCornoI = {
     c4.\fz r8 r4
     g4. r8 r4
     r8 e'4\p\< c g8 %45
-    e4\fz r r \markCritnote
+    e4\fz r r \stopDeleted
     r r8 \pao g4 d'8
     c2.~
     c4 r \pao g \noBreak

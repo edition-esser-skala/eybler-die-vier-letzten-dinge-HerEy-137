@@ -261,7 +261,7 @@ GroßIstTromboneIII = {
     a2 c4.\sfz c8
     h4 g\ff es d
     c c' as g %125
-    f1\fermata \markCritnote
+    f1\fermata \startDeleted
     R1*5 %131
     b1\fz
     R
@@ -310,7 +310,7 @@ GroßIstTromboneIII = {
     e\fz es\fz
     d4 des\ff c b
     as ges' f es %180
-    des1\fermata
+    des1\fermata \stopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -405,7 +405,9 @@ EsHerrschetTromboneIII = {
     R\fermata
     R
     R\fermata
-    R1*77 %81
+    R1*20 \startDeleted %24
+    R1*38 \stopDeleted %62
+    R1*19 %81
     \tempoEsHerrschetB R1*5 %86
     R1\fermata
     R
