@@ -320,7 +320,7 @@ GroßIstViolinoI = {
     f4. a,32( g f e) d4. \tuplet 3/2 8 { d'16( e fis) }
     g8. g,32(\ff a h8_[) \tuplet 3/2 8 { g16( \hA a \hA h] } c8.) h32( c d8.) c32( d
     es8.) c32( d e8) \tuplet 3/2 8 { c16( d \hA e } f8.) e32( f g8.) f32( g) %125
-    as1\fermata \startDeleted
+    as1\fermata \markStartDeleted
     r2 f,\p
     es r
     d! r
@@ -375,7 +375,7 @@ GroßIstViolinoI = {
     c4 r8 c'32( d es! f ges4) r8 \tuplet 3/2 8 { es,16( des c) }
     b4 b'8.-!\ff b16-! es8.-! es16-! des8.-! des16-!
     c8.-! c16-! es8.-! es16-! as8.-! as16-! ges8.-! ges16-! %180
-    f1\fermata \stopDeleted
+    f1\fermata \markStopDeleted
     R1*6 %187
     c,1~\pp
     c~
@@ -906,7 +906,7 @@ EsHerrschetViolinoI = {
     g'(\sfp\< fis4 g
     b!\> as g f)\!
     es( h c d)
-    es2(\> d4\!) r \startDeleted
+    es2(\> d4\!) r \markStartDeleted
     f2(\p des4 c) %25
     h2 r
     as'(\sfp f4 des)
@@ -944,7 +944,7 @@ EsHerrschetViolinoI = {
     g4)\! r r es'~
     es d( des c) %60
     b( fis g a!)
-    b2\> a4\! r \stopDeleted
+    b2\> a4\! r \markStopDeleted
     c2(\p as4 g)
     fis2 r
     es'(\sfp c4 as) %65
@@ -2372,5 +2372,300 @@ JehovahGrossViolinoI = {
     \mvDofs #-1.5 c,8.(\fz d64 e f128 g a h) c8 e,, f8.. g32 a8.. h32 %30
     c8.. d32 e8.. f32 g8 r <h, d, g,>4
     <c e, g,> r r2\fermata \bar "|." %32 finis
+  }
+}
+
+DeineGueteViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key es \major \time 2/4 \tempoDeineGuete
+    \mvDl <es' es, g,>4\f <g b, es,>
+    <c, es, as,> r
+    <c' c, f,> as8.. f32
+    d4\fermata \markStartDeletedMm r
+    r8 g, g r %5
+    r as as r
+    r f f f
+    r g g r
+    r f as r
+    r g b r %10
+    c4. as8
+    g f r4
+    b,8 b4 b8~
+    b b b r
+    r16 ces' ces ces r b b b %15
+    r a as as as as ges ges
+    r f f f f8 es
+    r b b r
+    r16 b' b b b r r8
+    r16 c c c c r r8 %20
+    r16 as as as as r r8
+    r16 g g g g r r8
+    r16 b b b r des, des des
+    c c' c c c r r8
+    r16 g g g r g as as %25
+    g( b, es b) es( b es b)
+    f'( b, d b) f'( b, d b)
+    es( b es b es b es b)
+    d( b d b d b f' b,)
+    es( g fis g) es( g fis g) %30
+    es4 \markStopDeletedMm r
+    r8^\critnote g^\pizz g r
+    r as as r
+    r d, d d
+    r es es r %35
+    r d d r
+    r es es r
+    \once \override Script.outside-staff-priority = #0
+      es4.\fp^\arco\fermata r8
+    d4 r8\fermata \tempoDeineGueteB r \noBreak
+    r d r d %40
+    r es r es
+    r es r es
+    r d d r
+    r es'16.(\fp d32) d8 r
+    r g16.(\fp f32) f8 \once \slurDashed d'16.([\fp b32)] %45
+    f8 es~ es16 d( b' d,)
+    d8( c) r4
+    b16 b8 b b b16~
+    b\cresc b8 b b b16
+    ces\mf ces ces ces ces ces ces ces %50
+    b( a) r c~\p c des r ges~ \markStartDeleted
+    ges f r c r des r ges
+    r f r c r des r ges
+    r f r es r des r a
+    b4( e,) %55
+    f r8\fermata r
+    <b d,!>\f r <d f, b,> r
+    <f b, d,> r r f,\p
+    g r r4
+    r8 es'( d c) %60
+    b16( f d f) b( f d' c)
+    b8 es16( d c b a c)
+    b8 g'16( f es d c es)
+    \appoggiatura es d8 b'16( a g f es d)
+    g8 r r c, %65
+    b a16([\< b] c d es e)
+    f8.(\fp d16 b16) a32(\< b c d es f)
+    \once \slurDashed g8.(\fp es16 c8) r
+    des4:16\p des16 des d d
+    es4: es16\cresc es e e %70
+    f\< f ges ges ges(\> f es des)\!
+    des8( c) r r16 ges' \markStopDeleted
+    r f r c r des r ges
+    r f r c r des r ges
+    r f r es r des r c %75
+    b4( e,)
+    f r8\fermata r
+    <b d,!>4\f r
+    <d f, b,> r
+    <f b, d,> <as! b, d,> %80
+    <as,! b,>\fermata r8 as\p
+    g r r4
+    r8 g( c es)
+    d f4 a,8
+    b4 es16(-\dolce d c b) %85
+    b( a g' f) f( es d c)
+    c( b b' a g f es d)
+    h( c g' f f es d c)
+    b( d cis d) b( d cis d)
+    b( f' e f) d( as'! g as) %90
+    f( h d c b as g f) \noBreak
+    es( d c b) a( b c as)
+    \tempoDeineGueteC \mvDl <es' g, b,>4\f <g b, es,> \noBreak
+    <c, es, as,> r
+    <c' c, f,> as8.. f32 %95
+    d4\fermata \markStartDeletedMm r
+    r8 g,\pE^\pizz g r
+    r as as r
+    r f f f
+    r g g r %100
+    r as as r
+    r g b r
+    c r r16 c(^\arco b as)
+    g8( f) r4
+    es8-! f-! ges-! d16[-! b']-! %105
+    es,-! b'-! f-! b-! ges8-! r
+    r16 ces ces ces ces ces ces ces
+    r b b b b b b b
+    r ces ces ces r c c c
+    r8 b b r %110
+    <b es, g,>\f r <es es, g,> r
+    r16 c\p c c c8 r
+    r as as as
+    r16 g g g g8 r
+    r16 b b b b b b b %115
+    c8 r r4
+    r16 g g g r as as as
+    g( b, es b) es( b es b)
+    d( b d b) d( b d b)
+    es( b es b) es( b es b) %120
+    d( b d b) d( b d b)
+    es( g fis g) es( g fis g)
+    es4 \markStopDeletedMm r
+
+    % % for MIDI start
+    % r8 es16. g32 b8 r
+    % r es,16. as32 c8 r %125
+    % r d,16. f32 b8 r
+    % r b,16. es32 g8 r
+    % r b,16. d32 f8 r
+    % r b,16. es32 g8 r
+    % % for MIDI end
+
+    r8 \after 32 _\turn es16. g32 b8 r
+    r \after 32 _\turn es,16. as32 c8 r %125
+    r \after 32 _\turn d,16. f32 b8 r
+    r \after 32 _\turn b,16. es32 g8 r
+    r \after 32 _\turn b,16. d32 f8 r
+    r \after 32 _\turn b,16. es32 g8 r
+
+    es'4\fermata r %130
+    d r8\fermata \tempoDeineGueteD r \noBreak
+    r8 d, r d
+    r es r es
+    r es r es
+    r d d r %135
+    r es'16.(\fp d32) d8 r
+    r g16.(\fp f32) f8 d'16.([\fp b32)]
+    f8 es~ es16 d( b' d,)
+    d8( c) r c16\p des~
+    des a8 b c des16~ %140
+    des a8 b c des16~
+    des a8 b c\cresc des16~
+    des d8 es f as!16
+    ges8\f r r b,\p
+    a4 r8\fermata \markStartDeletedMm r %145
+    <b d,!>\f r <d f, b,> r
+    <f b, d,> r r4
+    r8 g4\fp f8
+    f( es16) d c( b a g)
+    b8( a) r4 %150
+    r8 b16.-!\p b32-! c8-! r
+    r d16.-!\cresc d32-! es8-! r
+    r b16.\f b32 <g' b, es,>8 b,16.[ b32]
+    <as'! b, d,>8 r r as,!(\p
+    g) r r4 %155
+    R2
+    r8 f'4 a,8
+    b es16( d c b a c)
+    b8 g'16( f es d c es)
+    d8 b'16( a g f es d) %160
+    c32( h d c es d f es) g16( d es c)
+    b8( a) r c16\p des~
+    des a8 b c des16~
+    des a8 b c\cresc des16~
+    des d8 es f as!16 %165
+    ges8\f r r b,\p
+    a4 r8\fermata \markStopDeletedMm r
+    <b d,!>\f r <d f, b,> r
+    <f b, d,> r r g
+    r es( c f) %170
+    r d d( c)
+    b a g16( b a g)
+    fis4 r
+    r8 b16.-!\p b32-! c8-! r
+    r d16.-!\cresc d32-! es8-! g16.-! g32-! %175
+    <f b,>8\f-! b,16.-! b32-! <g' b, es,>8-! b,16.-! b32-!
+    <f' b, d,>8-! b,16.-! b32-! <d f, b,>8-! f16.-! f32-!
+    <as! b, d,>16 as,8 as as as16
+    g8\p-! b'-! g-! es-!
+    d f4 a,8 %180
+    b4 es16(-\dolce d c b)
+    b( a g' f f es d c)
+    c( b b' a g f es d)
+    h( c g' f f es d c)
+    b( d cis d) b( d cis d) %185
+    b(-\markup \remark "ritard." d cis d) b( d cis d) \noBreak
+    b4\fermata \tempoDeineGueteE g'8-!\f f-! \noBreak
+    es-! d-! c-! d-!
+    <g, g,>8. a32 h c8-! d-!
+    es-! f-! g-! as!-! %190
+    f4 r
+    es,\p r
+    d r
+    as' r
+    g r %195
+    es2\fp
+    d8 r32 d'64(\f es f ges as b) ces8-! b-!
+    as-! ges-! f-! es-!
+    b4 r
+    r8 e,-!\p f-! g-! %200
+    as4 r8 c~
+    c b-! as-! g-!
+    f[-! g]-! c r
+    h r f r
+    \scaleDurations 4/3 { es16.( f64 g a h c d) } es8 h! %205
+    c r <es es, g,>\mf r
+    \scaleDurations 4/3 { \mvDl <g h, d, g,>16.\f fis64( e d c h a) g16.( fis64 e d c h a) }
+    g8 r\fermata g''(-\dolce as!
+    b![ es,]) as([ \grace { b32[ as g as] } b16 c)]
+    b8( g) es([ g)] %210
+    b,( as') \grace as16 \once \slurDashed g( f g as)
+    f4 r
+    r8 es~ es16 f32 es d16 c
+    b8( g) r4
+    R2 %215
+    r8 es~ es16( g b es)
+    c8 r r4
+    r f8.\fz d16
+    f( es d c) b8-!\p b-!
+    \appoggiatura as g4 as'8.\fp d,16 %220
+    f16( es d c) b(\p h c as)
+    as8( g) r4
+    r8 es~ es16 g( b des)
+    % h8( c) as b16 c % for MIDI
+    h8( c) \after 16 \turn as b16 c
+    c( b as g) b( as g f) %225
+    es(\f f32 g as b c64 d es f) g8-! d-!
+    es-! h-! c-! d-!
+    h-! g-! r4
+    d'\p r8 f,-!
+    es-! d-! g'[-!\f d]-! %230
+    es-! h-! c-! d-!
+    h-! g-! r4
+    d'\p r8 f,-!
+    \grace f16 es8-! d-! as''[ h,,]
+    c g'' f d, %235
+    es es' h-! c-!
+    d-! es-! f-! fis-!
+    g r16 g64(\mf a h c) d8-! h-!
+    c-! g-! es-! c-!
+    h r16 g64(\cresc a h! c) d16-! f-! h,-! d-! %240
+    c-!\f es-! g,-! c-! es,-! g-! c,-! es-!
+    g,8 r\fermata g''8-\dolce as!
+    b!([ es,)] as[ \grace { b32[ as g as] } b16 c]
+    b8([ g)] es( g)
+    b,( as') \grace as16 g(\trill f g as) %245
+    f4 r
+    r8 es~ es16 f32 es d16 c
+    b8( g) r4
+    R2
+    r8 es~ es16( g b es) %250
+    c8 r r4
+    r f8.\f d16
+    f( es d c) b8-!\p b-!
+    \appoggiatura as g4 as'8.\f d,16
+    f( es d c) b(\p h c as) %255
+    as8( g) r4
+    r8 es~ es16( g b des)
+    h8( c) es16.(\cresc f64 es d16 c)
+    c( b as g) b( as g f)
+    es(\p d f es) g( f as g) %260
+    c( b es d c b as g)
+    g( f c' b as g f es)
+    d( f' d as') f( d b as)
+    fis( g d es g b es g)
+    b( g es des) b( g es des) %265
+    c( es as c) es( c es c)
+    b( g es' b) b( as g f)
+    es4 d16(-\dolce es c' b)
+    b8.( as16 g f es d)
+    f( es as g) c( b g' es) %270
+    b8.( as16 g f es d)
+    es( b g b es g b g)
+    es( b g b es g b g)
+    es2~\perd
+    es4\! r\fermata \bar "|." %275 finis
   }
 }

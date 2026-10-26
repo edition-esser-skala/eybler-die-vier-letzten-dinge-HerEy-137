@@ -125,7 +125,7 @@ GroßIstSoprano = {
     f,2 d'4.\fz d8
     g,4 h\ff c d
     es e f g %125
-    as1\fermata \startDeleted
+    as1\fermata \markStartDeleted
     r2 f,\p
     es r
     d! r
@@ -180,7 +180,7 @@ GroßIstSoprano = {
     c2 a4.\fz a8
     b!4 g\ff as b
     c as des es %180
-    f1\fermata \stopDeleted
+    f1\fermata \markStopDeleted
     R
     f,2\p r
     f r
@@ -1174,4 +1174,115 @@ JehovahGrossSopranoILyrics = \lyricmode {
   ein; du warſt, du
   biſt, und du wirſt
   ſeyn. %29 finis
+}
+
+DeineGueteSopranoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key es \major \time 2/4 \autoBeamOff \tempoDeineGuete
+    R2*3
+    r4\fermata \markStartDeletedMm r
+    R2*26 %30
+    r4 \markStopDeletedMm r
+    R2*6 %37
+    r4\fermata r
+    r4 r8\fermata \tempoDeineGueteB r
+    R2*12 \markStartDeleted %51
+    R2*4 %55
+    r4 r8\fermata r
+    R2*16 \markStopDeleted %72
+    R2*4 %76
+    r4 r8\fermata r
+    R2*3 %80
+    r4\fermata r8 r
+    R2*11 %92
+    \tempoDeineGueteC R2*3 %95
+    r4\fermata \markStartDeletedMm r
+    R2*26 %122
+    r4 \markStopDeletedMm r
+    R2*6 %129
+    r4\fermata r %130
+    r r8\fermata \tempoDeineGueteD r
+    R2*13 %144
+    r4 r8\fermata \markStartDeletedMm r %145
+    R2*21 %166
+    r4 r8\fermata \markStopDeletedMm f\mf
+    f8. f16 b8. b16
+    d8. b16 b8 r
+    r g\p c4 %170
+    r8 f, d' c
+    b a g a16([ b)]
+    b8 a r4
+    r8 b a4
+    r8 d\cresc b4 %175
+    r8 b\mf es g
+    f4 d8 r
+    b4 f8 f
+    g8.\p g16 c8 es
+    d4. c8 %180
+    b4 r8 b
+    a4. a8
+    c b r b
+    c8. d16 es8 a,
+    b4.\perd b8 %185
+    b4\! r
+    r\fermata \tempoDeineGueteE r \noBreak
+    R2*20 %207
+    r4\fermata r
+    R2*33 %241
+    r4\fermata r
+    R2*17 %259
+    r8 es,4\pp es8 %260
+    g g g g
+    g16([ f)] f8 f f
+    as8. as16 as8 as
+    as16([ g)] g8 g g
+    b b b b %265
+    c4 c8 c
+    b8. g16 b([ as)] g([ f)]
+    es4 r
+    f4. f8
+    g4 r %270
+    b4. d,8
+    es4 r
+    R2*2
+    R2\fermata \bar "|." %275 finis
+  }
+}
+
+DeineGueteSopranoILyrics = \lyricmode {
+  Ver -- %167
+  ſühnt iſt die Ge --
+  rech -- tig -- keit
+  O Gott %170
+  O Gott durch
+  dei -- ne Men -- ſchen --
+  lei -- den,
+  dein Tod
+  er -- rang %175
+  den Men -- ſchen
+  Freu -- den,
+  Freu -- den der
+  grän -- ze -- lo -- ſen
+  E -- wig -- %180
+  keit, den
+  Men -- ſchen
+  Freu -- den der
+  grän -- ze -- lo -- ſen
+  E -- wig -- %185
+  keit.
+
+  Ew’ -- ges %260
+  Glück iſt auch den
+  Wel -- ten, die die
+  Sterb -- li -- chen nicht
+  zähl -- ten ih -- res
+  kur -- zen Da -- ſeyns %265
+  Ziel, ih -- res
+  kur -- zen Da -- ſeyns
+  Ziel,
+  ew’ -- ges
+  Glück, %270
+  ew’ -- ges
+  Glück. %272 finis
 }

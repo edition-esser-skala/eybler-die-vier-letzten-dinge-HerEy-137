@@ -175,7 +175,7 @@ GroßIstCornoI = {
     R1*9 %123
     r4 e\ff e d
     c r r2 %125
-    \pao b1\ff\fermata \startDeleted
+    \pao b1\ff\fermata \markStartDeleted
     R1*5 %131
     \pa b1~\fz
     b \pd
@@ -210,7 +210,7 @@ GroßIstCornoI = {
     e2\fz r
     r4 \pao g,\ff c c
     c2 r %180
-    \pao b1\fermata \stopDeleted
+    \pao b1\fermata \markStopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -964,7 +964,7 @@ IhrGluecklichenCornoI = {
     g(\> e8)\! r r4
     \once \slurDashed e'4( d8) r r4
     R2.
-    g,4\fz r r \startDeleted
+    g,4\fz r r \markStartDeleted
     r r8 \pao g4 d'8 %15
     d4(\p c8) r r4
     R2.
@@ -996,7 +996,7 @@ IhrGluecklichenCornoI = {
     c4.\fz r8 r4
     g4. r8 r4
     r8 e'4\p\< c g8 %45
-    e4\fz r r \stopDeleted
+    e4\fz r r \markStopDeleted
     r r8 \pao g4 d'8
     c2.~
     c4 r \pao g \noBreak
@@ -1074,5 +1074,147 @@ JehovahGrossCornoI = {
     c4.\fz r8 r2 %30
     r d\fz
     c4 r r2\fermata \bar "|." %32 finis
+  }
+}
+
+DeineGueteCornoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoDeineGuete
+    c'4\f c
+    c r
+    R2
+    d4\fermata \markStartDeletedMm r
+    R2*21 %25
+    g,2~\p
+    g~^\critnote
+    g~
+    g~
+    g8 r g g %30
+    g4 \markStopDeletedMm r
+    R2*6 %37
+    r4\fermata r
+    r r8\fermata \tempoDeineGueteB r \noBreak
+    R2*12 \markStartDeleted %51
+    R2*4 %55
+    r4 r8\fermata r
+    d'\f r d r
+    d4\ten r
+    R2*3 %61
+    g,2~\p
+    g~
+    g4 r
+    R2*8 \markStopDeleted %72
+    R2*4 %76
+    r4 r8\fermata r
+    R2*2
+    d'2~\fz %80
+    d8 r\fermata r4
+    R2*3
+    g,,2~\p %85
+    g~
+    g~
+    g~
+    g8 r g r
+    g4 r %90
+    R2*2
+    \tempoDeineGueteC c'4\f c \noBreak
+    c r
+    R2 %95
+    d4\fermata \markStartDeletedMm r
+    R2*21 %117
+    g,2~\p
+    g~
+    g~ %120
+    g~
+    g8 r g g
+    g4 \markStopDeletedMm r
+    R2*6 %129
+    r4\fermata r %130
+    r r8\fermata \tempoDeineGueteD r \noBreak
+    R2*12 %143
+    g4\ten r
+    r r8\fermata \markStartDeletedMm r %145
+    R2*2
+    c4\fz r
+    R2*4 %152
+    d4\f e
+    d\ten r
+    R2*3 %157
+    g,2~\pE
+    g~
+    g8 r r4 %160
+    R2*5 %165
+    g4\fz\ten r
+    r r8\fermata \markStopDeletedMm r
+    d'4\fz d\fz
+    d\fz\ten r
+    R2*6 %175
+    d4\f e
+    d8 d16. d32 d8 d
+    d2
+    e8 r r4
+    R2 %180
+    g,,~\p
+    g~
+    g~
+    g~
+    g~ %185
+    g8\perd r g r \noBreak
+    g4\!\fermata \tempoDeineGueteE e''8\f d \noBreak
+    c r r4
+    e r
+    r8 d e f %190
+    d4 r
+    R2*15 %206
+    r4 e\f
+    r\fermata r
+    c2~\pp
+    c4 r %210
+    d e
+    d r
+    R2*5 %217
+    r4 d\mf
+    e8 r r4
+    r d\mf %220
+    e8 r r4
+    R2
+    c~\p
+    c4 r
+    R2 %225
+    c4\f e8 e
+    e4 r
+    R2*2
+    r4 e8\f e %230
+    e4 r
+    R2*6 %237
+    e2~\p
+    e~
+    e4 r %240
+    R2
+    r4\fermata r
+    c2~\p
+    c4 r
+    d e %245
+    d r
+    R2*6 %252
+    r4 d8\p d
+    d( e) r4
+    r d8\p d %255
+    \once \slurDashed d( e) r4
+    c2~
+    c4 r
+    R2*6 %264
+    c2~\p %265
+    c4 r
+    R2
+    \clef bass c,,~\p
+    c~
+    c~ %270
+    c~
+    c~
+    c~
+    c~\perd
+    c4\! r\fermata \bar "|." %275 finis
   }
 }

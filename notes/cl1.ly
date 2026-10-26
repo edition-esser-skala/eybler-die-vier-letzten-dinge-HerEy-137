@@ -283,7 +283,7 @@ GroßIstClarinettoI = {
     h2 h4.\fz h8
     \pao a4 \mvD -1 a2\ff a4
     a a b c %125
-    b1\fermata \startDeleted
+    b1\fermata \markStartDeleted
     R1*5 %131
     a1~\fz
     a2 a4. a8
@@ -330,7 +330,7 @@ GroßIstClarinettoI = {
     a\fz as\fz
     g4 ges\ff f f
     f b b b %180
-    b1\fermata \stopDeleted
+    b1\fermata \markStopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -705,7 +705,7 @@ EsHerrschetClarinettoI = {
     R\fermata
     R
     R\fermata
-    R1*20 \startDeleted %24
+    R1*20 \markStartDeleted %24
     R1*5 %29
     a'2(\p gis4 a) %30
     b2 r
@@ -724,7 +724,7 @@ EsHerrschetClarinettoI = {
     R1*2
     a2( g4 f)
     b2 r %60
-    R1*2 \stopDeleted
+    R1*2 \markStopDeleted
     R1*5 %67
     a2(\p gis4 a)
     e2 r
@@ -1539,7 +1539,7 @@ IhrGluecklichenClarinettoI = {
     g8.\mf f16 e8 e f16( g a f)
     e4( d8) r16 c'( h a g f)
     e4(\p\< g c)
-    e8.\fz d16 c8( h a g)~ \startDeleted
+    e8.\fz d16 c8( h a g)~ \markStartDeleted
     g16( f g a) e8( c' h d) %15
     h4(\p c8) \pa g([ c e)]
     d8. h16 c8 \pd c([ e g)]
@@ -1571,7 +1571,7 @@ IhrGluecklichenClarinettoI = {
     g4~\fz g16( f b a) g( f e d)
     c4( h!8) a([\decresc g f)]\!
     e4\< g c %45
-    e8.(\fz d16 c8 h a g)~ \stopDeleted
+    e8.(\fz d16 c8 h a g)~ \markStopDeleted
     g16( f g a) e8( c' h d)
     c r r4 r
     r8 a\decresc g f e d \noBreak
@@ -1747,5 +1747,189 @@ JehovahGrossClarinettoI = {
     c4.\fz r8 r2 %30
     r \mvDofs #-2.5 d2\fz
     \pao c4 r r2\fermata \bar "|." %32 finis
+  }
+}
+
+DeineGueteClarinettoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoDeineGuete
+    f'4\f a
+    d, r
+    b' g
+    e\fermata \markStartDeletedMm r
+    R2*26 %30
+    r4 \markStopDeletedMm r
+    R2*6 %37
+    r4\fermata r
+    r r8\fermata \tempoDeineGueteB r \noBreak
+    R2*12 \markStartDeleted %51
+    R2
+    r4 r8 as(\p
+    g f es d)
+    \pao c r r4 %55
+    r r8\fermata r
+    c\f r e! r
+    g4\ten r
+    R2*6 %64
+    r8 a,(\p d f) %65
+    e d r4
+    \pa r r8 c
+    a'8.\fz f16 d8 d\p
+    es4. e8
+    \after 4 \cresc f4. fis8 %70
+    g as~\fz as16 g f es \pd
+    es8( d) r4 \markStopDeleted
+    \pao es8 r r4
+    r r8 as(\p
+    g f es d) %75
+    \pao c r r4
+    r r8\fermata r
+    R2*2
+    e!2~\fz %80
+    e8 r\fermata r4
+    R2*4 %85
+    f,2\p
+    e8 r r4
+    d2
+    \pao c8 r \pao c r
+    \pao c4 r %90
+    R2*2
+    \tempoDeineGueteC f'4\f a \noBreak
+    d, r
+    b' g %95
+    e\fermata \markStartDeletedMm r8 c16^\solo a'
+    a4~ a16 b32 a g16 f
+    e8 d~ d16 f32( e g f e d)
+    c( e g f e g b a) g( f e d c cis d b)
+    gis8( a) r16 c( a' f) %100
+    f8[ \grace { e32[ g f] } e8] \tuplet 3/2 16 { c32 cis d dis[ e f] fis g gis a[ b g] }
+    e16. f64 g f8 r16 a32( g b a g f)
+    e( d cis d e fis g a) c16( b a g)
+    f8[ \grace { g16 f } e8] r g16 as~\fz
+    as e8\fz f\fz c'\fz b16 %105
+    b32( as g f e f g e) f16( g32 as! a b h c)
+    des4 e,,,\fz
+    f8-! c'''4\fz b16 as
+    g8~ g64 as g as g as g as b16( as g f)
+    f32( e d c) c8 r \grace c16 a'16.(\fz g32) %110
+    f8-! c'16.(\fz b32) a g f e d c b a
+    fis8 g~ g32 g,-! b-! d-! g-! b-! d-! g-!
+    f!32.( e64 g32. fis64 a32. g64 b32. a64) c32( b a g f e d c)
+    b8( a) \tuplet 3/2 16 { r32 f g a[ b c] d e f g[ a b] }
+    c4\fz es,,\fz\trill %115
+    \tuplet 6/4 4 { d16-! b'-! f-! d'-! b-! f'-! d-! b'-! f-! d'-! b-! f'-! }
+    c,4 g'\trill
+    f b16(-\dolce a g f)
+    f( e d c h c d e)
+    f32( f, g a b c d e) f( g a g b a g f) %120
+    e( g b a g f e d) c( b a g f e g e)
+    f8 r f f
+    f4 \markStopDeletedMm r
+    R2*4 %127
+    r8 h32( c e g b16.)\fz g32 e8
+    r32 c( d e f g a b c16.)\fz a32 f16. a32
+    h,4\fermata r %130
+    c r8\fermata \tempoDeineGueteD r \noBreak
+    R2
+    r8 a(\p d f)
+    a r r4
+    R2 %135
+    f4(\fz e8) r
+    a4(\fz g8) r
+    r f4\p e8
+    e( d) r4
+    R2*2 %141
+    r4 r8 d(\p
+    es\< e f g)\!
+    as4\ten r
+    r r8\fermata \markStartDeletedMm r %145
+    R2*2
+    a4\fz r
+    R2*4 %152
+    g4\f a
+    b!\ten r
+    R2 %155
+    r8 f(\p e d)
+    c r r4
+    r8 f16( e d c h d)
+    c8 a'16( g f e d f)
+    \grace f e8 c'16( h a g f e) %160
+    a8 r r4
+    R2*2
+    r4 r8 d,\p
+    es\< e f g\! %165
+    as4\fz\ten r
+    r r8\fermata \markStopDeletedMm r
+    c,4\fz e\fz
+    g\fz\ten r
+    r8 f16(^\solo d c h d g) %170
+    f8( e) r4
+    R2*4 %175
+    \pa r8 c~\f c16 d32 e f g a h
+    c h a g c h a g c h a g f e d c
+    b!2
+    a8 \pd r r4
+    R2 %180
+    \pa r4 f'16(-\dolce e d c)
+    c( h a' g) g( f e d)
+    d( c c' h) a( g f e)
+    cis( d a' g) g( f e d) \pd
+    c4 r %185
+    g8\perd r g r \noBreak
+    e4\fermata \tempoDeineGueteE a'8\f g \noBreak
+    f e d e
+    \pao a,4 d8 e
+    f g a b %190
+    g4 r
+    R2*5 %196
+    r4 g8-!\f as-!
+    e-! f-! b,-! as-!
+    g4 r
+    R2*7 %206
+    a'4\f r
+    r\fermata r
+    R2*17 %225
+    r4 a8\f e
+    f cis d e
+    a,4 r
+    R2
+    r4 a'8\f e %230
+    f cis d e
+    a,4 r
+    R2
+    r4 cis\p
+    d e %235
+    f r
+    R2
+    e\mfE
+    \pa f8 cis d4 \pd
+    cis r %240
+    r8 \pa a\f f d
+    a \pd r\fermata a'8\p b!
+    c!4 d
+    c a8 c
+    b4 \grace b16 a g a b %245
+    g4 r
+    R2*5 %251
+    r4 e'\f
+    f r
+    r g\f
+    f r %255
+    R2*2
+    r8 f~ f16 g32 f e16 d
+    d( c b a) c( b a g)
+    \pao f8 r r4 %260
+    R2*5 %265
+    r8 f'~\p f16 d( f d)
+    c8. a16 c( b a g)
+    \pao f4 r
+    g2
+    a8 r r4 %270
+    e2
+    f8 r a a
+    f4 a8 a
+    f2~\perd
+    f4\! r\fermata \bar "|." %275 finis
   }
 }

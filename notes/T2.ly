@@ -415,3 +415,108 @@ JehovahGrossTenoreIILyrics = \lyricmode {
   biſt, und du wirſt
   ſeyn. %29 finis
 }
+
+DeineGueteTenoreII = {
+  \relative c' {
+    \clef "treble_8"
+    \twofourtime \key es \major \time 2/4 \autoBeamOff \tempoDeineGuete
+    R2*3
+    r4\fermata \markStartDeletedMm r
+    R2*26 %30
+    r4 \markStopDeletedMm r
+    R2*6 %37
+    r4\fermata r
+    r4 r8\fermata \tempoDeineGueteB r
+    R2*12 \markStartDeleted %51
+    R2*4 %55
+    r4 r8\fermata r
+    R2*16 \markStopDeleted %72
+    r8 es\pp des c
+    b es des c
+    b c b es %75
+    des8. c16 b8. e,16
+    f8 f r\fermata r
+    r4 r8 f\mf
+    d!8. d16 f8. b16
+    d4. b8 %80
+    f4\fermata r8 d\pp
+    es4 g
+    g8 g g g
+    f4.( es8)
+    d4 r8 d %85
+    es4. es8
+    d d r4
+    r c'8. es,16
+    d2
+    d4 r %90
+    R2*2
+    \tempoDeineGueteC R2*3 %95
+    r4\fermata \markStartDeletedMm r
+    R2*26 %122
+    r4 \markStopDeletedMm r
+    R2*6 %129
+    r4\fermata r %130
+    r r8\fermata \tempoDeineGueteD r
+    R2*13 %144
+    r4 r8\fermata \markStartDeletedMm r %145
+    R2*21 %166
+    r4 r8\fermata \markStopDeletedMm r
+    R2*19 %186
+    r4\fermata \tempoDeineGueteE r
+    R2*20 %207
+    r4\fermata r
+    R2*33 %241
+    r4\fermata r
+    R2*17 %259
+    r8 es4\pp es8 %260
+    es es es es
+    as as as as
+    f f f f
+    es es es es
+    es' es es es %265
+    es4 c8 c
+    es b b b
+    b4 r
+    b4. b8
+    b4 r %270
+    b4. as8
+    g4 r
+    R2*2
+    R2\fermata \bar "|." %275 finis
+  }
+}
+
+DeineGueteTenoreIILyrics = \lyricmode {
+  Du maſ -- ſeſt %73
+  ei -- ne Span -- ne
+  Zeit, das Land der %75
+  Prü -- fung zu be --
+  woh -- nen,
+  um
+  ſie durch ei -- ne
+  E -- wig -- %80
+  keit für
+  Pflicht -- er --
+  fül -- lung zu be --
+  loh --
+  nen, für %85
+  Pflicht -- er --
+  fül -- lung
+  zu be --
+  loh --
+  nen. %90
+
+  Ew’ -- ges %260
+  Glück iſt auch den
+  Wel -- ten, die die
+  Sterb -- li -- chen nicht
+  zähl -- ten ih -- res
+  kur -- zen Da -- ſeyns %265
+  Ziel, ih -- res
+  kur -- zen Da -- ſeyns
+  Ziel,
+  ew’ -- ges
+  Glück, %270
+  ew’ -- ges
+  Glück. %272 finis
+}

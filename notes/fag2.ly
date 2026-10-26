@@ -281,7 +281,7 @@ GroßIstFagottoII = {
     a2 c4.\fz c8
     h4 g\ff es d
     c c' as g %125
-    f1\fermata \startDeleted
+    f1\fermata \markStartDeleted
     R1*5 %131
     \clef "treble_8" b'1~\fz
     b2 b4. b8
@@ -328,7 +328,7 @@ GroßIstFagottoII = {
     e\fz es\fz
     d4 des\ff c b
     as ges' f es %180
-    des1\fermata \stopDeleted
+    des1\fermata \markStopDeleted
     R1*6 %187
     R1
     g~\p
@@ -703,7 +703,7 @@ EsHerrschetFagottoII = {
     R\fermata
     R
     R\fermata
-    R1*20 \startDeleted %24
+    R1*20 \markStartDeleted %24
     R1*10 %34
     \clef "treble_8" as'2\p f %35
     c' r
@@ -721,7 +721,7 @@ EsHerrschetFagottoII = {
     R1
     \clef bass r4 c,( d es)
     f2 r %60
-    R1*2 \stopDeleted
+    R1*2 \markStopDeleted
     R1*5 %67
     g2(\p fis4 g)
     d2 r
@@ -1538,7 +1538,7 @@ IhrGluecklichenFagottoII = {
     \clef bass a,\mf r8 fis' d h
     e4 e,8 r r4
     r8 a'4 e cis8
-    a4\fz a' r8 a, \startDeleted
+    a4\fz a' r8 a, \markStartDeleted
     d h e4 e, %15
     a4.\p r8 r4
     e'( a8) r r4
@@ -1570,7 +1570,7 @@ IhrGluecklichenFagottoII = {
     \clef bass d,,\fz d' r8 d
     e4 e,8 r r4
     r8 a'4\cresc e cis8 %45
-    a4\fz a' r8 a, \stopDeleted
+    a4\fz a' r8 a, \markStopDeleted
     d h e4 e,
     a8 r r4 r
     a2.~\decresc \noBreak
@@ -1726,5 +1726,162 @@ JehovahGrossFagottoII = {
     c4.\fz r8 r2 %30
     r g'\fz
     c,4 r r2\fermata \bar "|." %32 finis
+  }
+}
+
+DeineGueteFagottoII = {
+  \relative c {
+    \clef bass
+    \twofourtime \key es \major \time 2/4 \tempoDeineGuete
+    es,4\f es
+    as r
+    f as
+    b\fermata \markStartDeletedMm r
+    R2*23 %27
+    es,2~\p
+    es~
+    es8 r es es %30
+    es4 \markStopDeletedMm r
+    R2*6 %37
+    r4\fermata r
+    r r8\fermata \tempoDeineGueteB r
+    R2*8 %47
+    \clef "treble_8" b''2~\p
+    b
+    ges4 ces %50
+    r8 a( b c) \markStartDeleted
+    des r r4
+    R2
+    r8 es(\p des c)
+    b r r4 %55
+    r r8\fermata r
+    \clef bass b,\f r b r
+    b,4\ten r
+    R2*6 %64
+    \clef "treble_8" r8 es'(\p g c) %65
+    b8 a r4
+    R2
+    r4 c~\p
+    c b
+    des ces\cresc %70
+    c8 es~\fz es16 des c b
+    \once \slurDashed b8( a) r4 \markStopDeleted
+    R2*2
+    r8 a(\p b f) %75
+    ges r r4
+    r r8\fermata r
+    R2*2
+    \clef bass b,,2~\fz %80
+    b8 r\fermata r4
+    R2*3
+    d'2\p %85
+    es
+    d
+    es
+    d8 r d r
+    d4 r %90
+    R2*2
+    \tempoDeineGueteC es,4\f es \noBreak
+    as r
+    f as %95
+    b\fermata \markStartDeletedMm r
+    R2*22 %118
+    \clef "treble_8" as'2\pE^\critnote
+    g8 r r4 %120
+    as2
+    g8 r g g
+    g4 \markStopDeletedMm r
+    R2*6 %129
+    r4\fermata r %130
+    r r8\fermata \tempoDeineGueteD r \noBreak
+    h2\p
+    c
+    a8 r r4
+    R2*3 %137
+    r8 c4\p b8
+    b( a) r4
+    R2*3 %142
+    r8 as!(\< ges f)\!
+    es4\ten r
+    r r8\fermata \markStartDeletedMm r %145
+    R2*2
+    \clef bass es,4\fz r
+    R2*4
+    b4\f es
+    b\ten r
+    R2 %155
+    r8 c'(\p d es)
+    f r r4
+    r r8 es(
+    d) r \clef "treble_8" r a'(
+    b) r r b( %160
+    es) r r4
+    R2*3
+    r8 as,(\< ges f)\! %165
+    es4\fz\ten r
+    r r8\fermata \markStopDeletedMm r
+    \clef bass b4\fz b\fz
+    b,\fz\ten r
+    R2*6 %175
+    b'4\f es,
+    b'8 b16. b32 b8 b
+    b,2
+    es8 r r4
+    R2 %180
+    d'\p
+    es
+    d
+    es
+    d4 r %185
+    b8\perd r b r
+    b4\!\fermata \tempoDeineGueteE es8\f b \noBreak
+    c g as! f
+    g d' es f
+    g b, b c %190
+    b4 r
+    R2*5 %196
+    r4 as'8-!\f ges-!
+    as-! ges-! as,-! a-!
+    b4 r
+    R2*8 %207
+    g8\f r\fermata r4
+    R2*17 %225
+    r4 es'8\f h
+    c g as f
+    g4 r
+    R2
+    r4 es'8\f h %230
+    c g as f
+    g4 r
+    R2
+    \clef "treble_8" r4 d''\p
+    es h %235
+    c r
+    R2
+    r4 d\mfE
+    c8 d es c
+    g4 r %240
+    \clef bass r8 g\f es c
+    g r\fermata r4
+    R2*9 %251
+    r4 b\f
+    es r
+    r b\f
+    es r %255
+    R2*2
+    r8 c'~ c16 d32 c b16 as
+    as( g f es) g( f es d)
+    es8 r r4 %260
+    R2*5 %265
+    r8 c'~\p c16 as( c as)
+    g8. es16 g( f es d)
+    es4 r
+    as2
+    g8 r r4 %270
+    f2
+    es8 r es es
+    es4 es8 es
+    es2~\perd
+    es4\! r\fermata \bar "|." %275 finis
   }
 }

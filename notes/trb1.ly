@@ -264,7 +264,7 @@ GroßIstTromboneI = {
     f2 a4.\fz a8
     d,4 d\ff g f
     es! g c b %125
-    as1\fermata \startDeleted
+    as1\fermata \markStartDeleted
     R1*5 %131
     g1\fz
     R
@@ -311,7 +311,7 @@ GroßIstTromboneI = {
     g\fz c,\fz
     f4 fes\ff es des
     c as as' ges %180
-    f1\fermata \stopDeleted
+    f1\fermata \markStopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -406,8 +406,8 @@ EsHerrschetTromboneI = {
     R\fermata
     R
     R\fermata
-    R1*20 \startDeleted %24
-    R1*38 \stopDeleted %62
+    R1*20 \markStartDeleted %24
+    R1*38 \markStopDeleted %62
     R1*19 %81
     \tempoEsHerrschetB R1*5 %86
     R1\fermata

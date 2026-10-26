@@ -319,7 +319,7 @@ GroßIstViola = {
     c:\fz a:\fz
     d4 d8.\ff-! d16-! c8.-! c16-! f8.-! f16-!
     es8.-! es16-! g8.-! g16-! f8.-! f16-! b8.-! b16-! %125
-    as1\fermata \startDeleted
+    as1\fermata \markStartDeleted
     r2 as,\p
     g r
     g r
@@ -390,7 +390,7 @@ GroßIstViola = {
       d4
     } >> fes8.\ff-! fes16-! es8.-! es16-! es8.-! es16-!
     es8.-! es16-! c'8.-! c16-! des8.-! des16-! as8.-! as16-! %180
-    as1\fermata \stopDeleted
+    as1\fermata \markStopDeleted
     R1*6 %187
     c,,1\pp
     g'~
@@ -935,7 +935,7 @@ EsHerrschetViola = {
     es2(\sfp\< d4 es
     e\> f! g as)\!
     c,( f es fis)
-    \after 2 \! g2.\> r4 \startDeleted
+    \after 2 \! g2.\> r4 \markStartDeleted
     f!1\p %25
     g2( f4 g)
     as2\sfp r
@@ -969,7 +969,7 @@ EsHerrschetViola = {
     h c\! r2
     r4 f( e es) %60
     d( a! g e')
-    \after 2\! d2.\> r4 \stopDeleted
+    \after 2\! d2.\> r4 \markStopDeleted
     c1\p
     d2( c4 d)
     es2\sfp r %65
@@ -2649,5 +2649,328 @@ JehovahGrossViola = {
     q4\fz r8 e, f8.. g32 a8.. h32 %30
     c8.. d32 e8.. f32 g8 r <f g,>4
     <e g, c,> r r2\fermata \bar "|." %32 finis
+  }
+}
+
+DeineGueteViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key es \major \time 2/4 \tempoDeineGuete
+    <g' b, es,>4\f <b es, g,>
+    <c es, as,> r
+    <c f, as,> <c f,>
+    <b d,>\fermata \markStartDeletedMm r
+    r8 b, b r %5
+    r c c r
+    r b b b
+    r b b r
+    r b b r
+    r b b r %10
+    as4. c8
+    b4 r
+    es,8-! f-! ges-! d-!
+    es-! f-! ges-! r
+    r16 as as as r b b b %15
+    r c ces ces b b b b
+    r as as as as8 ges
+    r << { f[ f] } \\ { d[ d] } >> r
+    r16 b' b b b r r8
+    r16 as as as as r r8 %20
+    r16 f b b b r r8
+    r16 b b b b r r8
+    r16 g g g r es es es
+    es as as as as r r8
+    r16 b b b r b b b %25
+    << {
+      <b es,>2~
+      q~
+      q~
+      q~
+      q8 \once \oneVoice r q q %30
+      q4
+    } \\ {
+      <g es>2 %26
+      <as f>
+      <g es>
+      <as f>
+      <g es>8 s es es %30
+      es4
+    } >> \markStopDeletedMm r
+    r8^\critnote b'^\pizz b r
+    r c c r
+    r f, f f
+    r es es r %35
+    r as as r
+    r g g r
+    \once \override Script.outside-staff-priority = #0
+      es4.\fp\fermata^\arco r8
+    f4 r8\fermata \tempoDeineGueteB r \noBreak
+    r g r g %40
+    r g r g
+    r a r f
+    r f f r
+    r es'16.(\fp b32) b8 r
+    r es16.(\fp f32) f8 r %45
+    r f4 g8
+    f, f' r4
+    b,16 b8 b b b16~
+    b\cresc b8 b b b16
+    es16\mf es es es es es es es %50
+    c8 ges'([\p f c] \markStartDeleted
+    des8) \brkBeam ges16 r f r c r
+    des r ges r f r c r
+    des r es r f r c r
+    b2 %55
+    c4 r8\fermata r
+    <b d!>\f r q r
+    q r r b\p
+    g r r4
+    r8 es( f g) %60
+    f f'4 a8
+    b b,4 b8~
+    b b4 b8~
+    b b( c d)
+    es r r g %65
+    f f4 c16 a
+    f8.(\fp b16 d8) f,
+    \once \slurDashed es8.(\fp b'16 es8) r
+    c4:16\p b:
+    des: ces:\cresc %70
+    es16\< es es es es(\> des) ges ges\!
+    f8( ges\fzp f a,) \markStopDeleted
+    b \brkBeam ges'16 r f r c r
+    des r ges r f r c r
+    des r ges r f r es r %75
+    des4( b)
+    a r8\fermata r
+    <b d!>4\f r
+    q r
+    <b as'!> <b f'> %80
+    <b d>\fermata r8 d\p
+    es r r4
+    r8 g, g g
+    r f4 f8
+    << {
+      <b d,>2 %85
+      <c es,>
+      <b d,>
+      <c es,>
+      <b d,>8 \once \oneVoice r q \once \oneVoice r
+      q
+    } \\ {
+      <f b>2 %85
+      <f a>
+      <f b>
+      <f a>
+      <f b>8 s q s
+      q
+    } >> r r4 %90
+    R2*2
+    \tempoDeineGueteC <g' b, es,>4\f <b es, g,> \noBreak
+    <c es, as,> r
+    <c f, as,> <c f,> %95
+    <b d,>\fermata \markStartDeletedMm r
+    r8 b,\pE^\pizz b r
+    r c c r
+    r b b b
+    r b b r %100
+    r b b r
+    r b b r
+    as r r c^\arco
+    b4 r
+    R2*2 %106
+    r16 d d d d d d d
+    r es es es es es es es
+    r es es es r es es es
+    r8 d d r %110
+    <es g,>\f r <es b> r
+    r16 c\p c c c8 r
+    r d d b
+    r16 b b b b8 r
+    r16 b b b b b b b %115
+    as8 r r4
+    r16 b b b r b b b
+    << {
+      <b es,>2~ %118
+      q~
+      q~ %120
+      q~
+      q8 \once \oneVoice r q q
+      q4
+    } \\ {
+      <g es>2 %118
+      <as f>
+      <g es> %120
+      <as f>
+      <g es>8 s es es
+      es4
+    } >> \markStopDeletedMm r
+    r8 b'( g) r
+    r \once \slurDashed es'( c) r %125
+    r as( f) r
+    r g g r
+    r as as r
+    r b b r
+    c4\fermata r %130
+    d r8\fermata \tempoDeineGueteD r \noBreak
+    r g, r g
+    r g r g
+    r a r f
+    r f f r %135
+    r g'16.(\fp f32) f8 r
+    r es16.(\fp d32) d8 r
+    r f4 g,16( g')
+    f4 r
+    r r8 es\pE %140
+    des es f es
+    des es f\cresc es
+    des16 f8 b, b' <b d,!>16
+    <b es,>8\f r r b,\p
+    c4 r8\fermata \markStartDeletedMm r %145
+    <b d!>8\f r q r
+    q r r4
+    r8 g'4\fp g8
+    g4 r8 cis,~
+    cis d r4 %150
+    r8 d16.-!\p d32-! f!8-! r
+    r f16.-!\cresc f32-! g8-! r
+    r <f b,>16.\f q32 <g b,>8 \brkBeam q16. q32
+    <d' f, b,>8 r r b,(\p
+    es,) r r4 %155
+    R2
+    r8 f4 f'8
+    b, b4 b8~
+    b a16( b c d es a,)
+    b8 b( c d) %160
+    g, g'4 g8
+    f4 r
+    r r8 es\p
+    des es f\cresc es
+    des16 f8 b, b' <b d,!>16 %165
+    <b es,>8\f r r b,\p
+    c4 r8\fermata \markStopDeletedMm r
+    <b d!>\f r q r
+    q r r g'
+    r g( f4) %170
+    r8 f f( fis)
+    g( a b cis,)
+    d4 r
+    r8 d16.-!\p d32-! f!8-! r
+    r f16.-!\cresc f32-! g8-! b16.-! b32-! %175
+    b8-!\f <f b,>16.-! q32-! <g b,>8-! q16.-! q32-!
+    <f b,>8-! d16.-! d32-! f8-! b16.-! b32-!
+    d16 d,8 d d d16
+    es8\p es, r g'
+    f f,4 f8 %180
+    << {
+      <b d,>2
+      <c es,>
+      <b d,>
+      <c es,>
+      <b d,>~ %185
+      q8 \once \oneVoice r q \once \oneVoice r
+      q4\fermata
+    } \\ {
+      <f b>2 %181
+      <f a>
+      <f b>
+      <f a>
+      <f b>~ %185
+      q8-\markup \remark "ritard." s q s \noBreak
+      q4
+    } >> \tempoDeineGueteE es''8-!\f b-! \noBreak
+    c-! g-! as!-! f-!
+    d-! g,-! es'-! f-!
+    g-! b-! b-! c-! %190
+    b4 r
+    g,\p r
+    b r
+    b r
+    b r %195
+    es,2\fp
+    f8 r d'-!\f es-!
+    as!-! ges-! ces-! c-!
+    d,!4 r
+    r8 g,-!\p as-! b-! %200
+    c4 r8 f~
+    f g-! d-! es-!
+    b[-! b]-! es r
+    d r as r
+    g r g g %205
+    g r <g es' c'>\mf r
+    <g d' h'> r \scaleDurations 4/3 { g'16.(\f fis64 e d c h a) }
+    g8 r\fermata es'!16(\p b! f' b,)
+    g'( es g es) as( es as es)
+    g( es g es) es( b es b) %210
+    f'( b, f' b,) es( b es b)
+    d( b d b) es( b f' b,)
+    g'( es g es) as( es as es)
+    g( es g es) es( b es b)
+    d( b d b) f'( b, f' b,) %215
+    f'( b, es b) g'( es g es)
+    as( es g es) f( b, es b)
+    d( b d b) d(\f b f' b,)
+    es( b es b) d(\p b d b)
+    d( b es b) d(\f b f' b,) %220
+    es( b es b) d(\p b d b)
+    d( b es b) es( b f' b,)
+    g'( es g es) g( es b' es,)
+    g( es as es) c'( es, as es)
+    b( es b es) b8. as16 %225
+    g8 r es''-!\f h-!
+    c-! g-! as-! as,-!
+    g4 r
+    <g g'>\p r8 g
+    g-! g-! es''[-! h-!] %230
+    c-! g-! as-! as,-!
+    g4 r
+    <g g'>\p r8 g-!
+    g-! g-! r d'
+    es c r g %235
+    c g' d es
+    h c c' c,
+    d r16 d64(\mf c h a) g8 d''-!
+    c-! d,-! es-! fis-!
+    g16 d64( c h a) g8 r r16 \tuplet 3/2 { g'32(\cresc a h) } %240
+    c16-!\f es-! g,-! c-! es,-! g-! c,-! es-!
+    g,8 r\fermata es'16(\p b! f' b,)
+    g'( es g es) as( es as es)
+    g( es g es) es( b es b)
+    f'( b, f' b,) es( b es b) %245
+    d( b d b) es( b f' b,)
+    g'( es g es) as( es as es)
+    g( es g es) es( b es b)
+    d( b d b) f'( b, f' b,)
+    f'( b, es b) g'( es g es) %250
+    as( es g es) f( b, es b)
+    d( b d b) d(\f b f' b,)
+    es( b es b) d(\p b d b)
+    d( b es b) d(\f b f' b,)
+    es( b es b) d(\p b d b) %255
+    d( b es b) es( b es b)
+    g'( es g es) g( es g b)
+    g( es as es) \once \slurDashed <c es>16.(\cresc <d f>64 <c es> <b d>16 <as c>)\!
+    << {
+      \slurDashed c16( b as g) b( as g f)
+      es8
+    } \\ {
+      \slurDashed as16( g f es) g( f b as)
+      g8
+    } >> r r4 %260
+    r8 b\p r b
+    r c r c
+    r d r d
+    r b r b
+    r es r es %265
+    r es r c
+    r b r as
+    <es g>2
+    <f as>
+    <es g> %270
+    <f as>
+    <es g>4 q8 q
+    q4 q8 q
+    q2~\perd
+    q4\! r\fermata \bar "|." %275 finis
   }
 }

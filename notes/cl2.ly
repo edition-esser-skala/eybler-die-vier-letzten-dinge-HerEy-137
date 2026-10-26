@@ -282,7 +282,7 @@ GroßIstClarinettoII = {
     g2 gis4.\fz gis8
     a4 e\ff f g
     f fis g \hA fis %125
-    g1\fermata \startDeleted
+    g1\fermata \markStartDeleted
     R1*5 %131
     fis1~\fz
     fis2 fis4. fis8
@@ -329,7 +329,7 @@ GroßIstClarinettoII = {
     fis\fz d\fz
     e4 c'\ff d a
     b f g as %180
-    g1\fermata \stopDeleted
+    g1\fermata \markStopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -691,7 +691,7 @@ EsHerrschetClarinettoII = {
     R\fermata
     R
     R\fermata
-    R1*20 \startDeleted %24
+    R1*20 \markStartDeleted %24
     R1*20 %44
     \once \slurDashed g'2(\f c,4 as') %45
     g2 r
@@ -704,7 +704,7 @@ EsHerrschetClarinettoII = {
     R1*2
     f2( e4 d)
     g2 r %60
-    R1*2 \stopDeleted
+    R1*2 \markStopDeleted
     R1*8 %70
     a2\f\< h4 c~
     c\> h4 d gis,\!
@@ -1462,7 +1462,7 @@ IhrGluecklichenClarinettoII = {
     e8.\mf d16 c8 c d16( e f d)
     c4( h8) r16 a'( g f e d)
     c4(\p\< e g)
-    c8.\fz h16 a8( g f e)~ \startDeleted
+    c8.\fz h16 a8( g f e)~ \markStartDeleted
     e16( d e f) c8( e d f) %15
     f4(\p e8) r r4
     r r8 g([ c e)]
@@ -1494,7 +1494,7 @@ IhrGluecklichenClarinettoII = {
     b4~\fz b16( a g f) b( a g f)
     e4( d8) f([\decresc e d)]\!
     c4\< e g %45
-    c8.(\fz h16 a8 g f e)~ \stopDeleted
+    c8.(\fz h16 a8 g f e)~ \markStopDeleted
     e16( d e f) c8( e d f)
     e r r4 r
     r8 f\decresc e d c f \noBreak
@@ -1660,5 +1660,158 @@ JehovahGrossClarinettoII = {
     c4.\fz r8 r2 %30
     r h'2\fz
     c4 r r2\fermata \bar "|." %32 finis
+  }
+}
+
+DeineGueteClarinettoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoDeineGuete
+    a'4\f c
+    f, r
+    d' b
+    g\fermata \markStartDeletedMm r
+    R2*26 %30
+    r4 \markStopDeletedMm r
+    R2*6 %37
+    r4\fermata r
+    r r8\fermata \tempoDeineGueteB r \noBreak
+    R2*12 \markStartDeleted %51
+    R2
+    r4 r8 f'(\p
+    es d c h)
+    c r r4 %55
+    r r8\fermata r
+    e,!\f r c' r
+    e4\ten r
+    R2*6 %64
+    r8 f,(\p a d) %65
+    c h r4
+    R2
+    r4 d~\p
+    d c
+    es des\cresc %70
+    f8 f~\fz f16 es d c
+    c8( h) r4 \markStopDeleted
+    es8 r r4
+    r r8 f(\p
+    es d c h!) %75
+    c r r4
+    r r8\fermata r
+    R2*2
+    b!2~\fz %80
+    b8 r\fermata r4
+    R2*4 %85
+    d,2\p
+    c8 r r4
+    h2
+    c8 r c r
+    c4 r %90
+    R2*2
+    \tempoDeineGueteC a'4\f c \noBreak
+    f, r
+    d' b %95
+    g\fermata \markStartDeletedMm r
+    R2*26 %122
+    r4 \markStopDeletedMm r
+    R2*6 %129
+    r4\fermata r %130
+    r r8\fermata \tempoDeineGueteD r \noBreak
+    R2
+    r8 f(\p a d)
+    f r r4
+    R2 %135
+    c4.\fz r8
+    c4.\fz r8
+    r d4\p c8
+    c( h) r4
+    R2*3 %142
+    r8 des\< c c\!
+    c4\ten r
+    r r8\fermata \markStartDeletedMm r %145
+    R2*2
+    c4\fz r
+    R2*4 %152
+    e4\f f
+    e\ten r
+    R2 %155
+    r8 a,(\p g f)
+    e r r4
+    r8 f'16( e d c h d)
+    c8 a'16( g f e d f)
+    \grace f e8 c'16( h a g f e) %160
+    a8 r r4
+    R2*3 %164
+    r8 des,\< c c\! %165
+    c4\fz\ten r
+    r r8\fermata \markStopDeletedMm r
+    e,!4\fz c'\fz
+    e\fz\ten r
+    R2*6 %175
+    e4\f f
+    e8 e16. e32 e8 e
+    g2
+    a8 r r4
+    R2 %180
+    c,,2\p
+    h
+    c
+    h
+    c4 r %185
+    e8\perd r e r \noBreak
+    c4\fermata \tempoDeineGueteE c'8\f e \noBreak
+    a, c f, g
+    a4 a8 cis
+    d e f g %190
+    e4 r
+    R2*5 %196
+    r4 e8-!\f f-!
+    g,-! as-! g-! f-!
+    e4 r
+    R2*7 %206
+    a4\f r
+    r\fermata r
+    R2*17 %225
+    r4 a8\f e
+    f cis d e
+    a,4 r
+    R2
+    r4 a'8\f e %230
+    f cis d e
+    a,4 r
+    R2
+    r4 b'!\p
+    a b %235
+    a r
+    R2
+    cis\mfE
+    d8 g, f gis
+    a4 r %240
+    r8 a\f f d
+    a r\fermata f'8\p g
+    a4 b
+    a f8 a
+    g4 \grace g16 f e f g %245
+    e4 r
+    R2*5 %251
+    r4 b'!\f
+    a r
+    r b\f
+    a r %255
+    R2*2
+    r8 d~ d16 e32 d c16 b
+    b( a g f) a( g f e)
+    f8 r r4 %260
+    R2*5 %265
+    r8 d'~\p d16 b( d b)
+    a8. f16 a( g f e)
+    f4 r
+    e2
+    f8 r r4 %270
+    c2~
+    c8 r c c
+    a4 c8 c
+    a2~\perd
+    a4\! r\fermata \bar "|." %275 finis
   }
 }

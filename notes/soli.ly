@@ -921,8 +921,8 @@ EsHerrschetSoli = {
   \relative c {
     \clef bass
     \twotwotime \key g \minor \time 2/2 \autoBeamOff \tempoEsHerrschet
-    R1*24 \startDeleted %24
-    R1*38 \stopDeleted %62
+    R1*24 \markStartDeleted %24
+    R1*38 \markStopDeleted %62
     R1*19 %81
     \tempoEsHerrschetB r2 r4 a' \noBreak
     fis4. fis8 fis4 r8 d
@@ -2242,8 +2242,8 @@ IhrGluecklichenSoli = {
   \relative c' {
     \clef treble
     \key a \major \time 3/4 \autoBeamOff \tempoIhrGluecklichen
-    R2.*14 \startDeleted %14
-    R2.*32 \stopDeleted %46
+    R2.*14 \markStartDeleted %14
+    R2.*32 \markStopDeleted %46
     R2.*4 %50
     \time 2/2 \tempoIhrGluecklichenB
       r2 e' \noBreak
@@ -3019,4 +3019,410 @@ JehovahGrossSoliDLyrics = \lyricmode {
   ein; du warſt, du
   biſt, und du wirſt
   ſeyn. %19 finis
+}
+
+DeineGueteSoli = {
+  \relative c' {
+    \clef "treble_8"
+    \twofourtime \key es \major \time 2/4 \autoBeamOff \tempoDeineGuete
+    R2*3
+    r4\fermata \markStartDeletedMm r
+    R2*26 %30
+    r4 \markStopDeletedMm r8 b16([^\markup \remark "Dritter Erzengel" g')] \noBreak
+    g4 r8 f16([ es)]
+    \appoggiatura d8 c4 r8 es16([ c)]
+    \appoggiatura c8 b4~ b16[ h] c([ as)]
+    as8 g r b16([ es)] %35
+    es8([ d)] r b16([ f')]
+    f8([ es)] r b16([ g')]
+    g4.\fermata a,8
+    b b r\fermata \tempoDeineGueteB d16([ es)] \noBreak
+    f8. d16 h8. g16 %40
+    c8. d16 es8 c16([ es)]
+    g8. g16 f es d c
+    es8 d r b16([ es)]
+    es4 r8 b16([ g')]
+    g4 r8 f %45
+    a,( es'4) d8
+    d c r f,
+    b4. des8
+    \appoggiatura c8 b4 r8 b
+    ces4~ ces16[ ges'] es([ ces)] %50
+    \appoggiatura b8 a4 r8 c \markStartDeleted
+    des a b c
+    des a b r
+    r c des a
+    b8. c16 des8. e,16 %55
+    f8 f r\fermata f
+    b8. f16 d'!8. b16
+    f'8. d16 b8 f
+    g a16([ h)] c([ d)] es([ f)]
+    g([ fis a g] f[ es)] d([ c)] %60
+    b!4.( \grace d16 c8)
+    b r r es16([ a,)]
+    b4 r8 f'
+    \appoggiatura es d4 r8 b
+    g'4( f16[ es)] d([ c)] %65
+    b8 a r4
+    r r8 b
+    g'8. es16 c8 c
+    des4. d8
+    \appoggiatura d8 es4 r8 e %70
+    f[ ges]~ ges16[ f] es([ des)]
+    des8([ c)] r c \markStopDeleted
+    des a b c
+    des a b r
+    r c des a %75
+    b8. c16 des8 b
+    a c r\fermata f,\f
+    b8. f16 d'!8. b16
+    f'8. d16 b b d f
+    as!4. f8 %80
+    d4\fermata r8^\critnote r
+    r g, c es
+    g16[( fis]) a[( g]) f[( es]) \tuplet 3/2 { d[( c g']) }
+    \appoggiatura g8 b,4. \grace d16 c8
+    b4 r %85
+    R2*7 %92
+    \tempoDeineGueteC R2*3 %95
+    r4\fermata \markStartDeletedMm r
+    R2*26 %122
+    r4 \markStopDeletedMm \clef treble r8 b'16([^\markup \remark "Zweyter Erzengel" g')] \noBreak
+    g4 r8 f16([ es)]
+    \appoggiatura d8 c4 r8 es16([ c)] %125
+    \appoggiatura c8 b4~ b16[ h] c([ as)]
+    \appoggiatura as8 g4 r8 b16([ es)]
+    es8([ d)] r b16([ f')]
+    f8([ es)] r16 g, b es
+    g8.\fermata es16 d([ c)] f([ a,)] %130
+    b8 b r\fermata \tempoDeineGueteD f' \noBreak
+    f8. d16 h8. g16
+    c8. d16 es g, c es
+    g8. g16 f([ es)] d([ c)]
+    es8 d r b!16([ es)] %135
+    es4 r8 b16([ g')]
+    g4 r8 f
+    a,( es'4) d8
+    \appoggiatura d c4 r
+    r r8 c %140
+    des a b c
+    des a b r
+    r d es f
+    \appoggiatura as! ges8. f16 es([ des)] c([ b)] %145
+    a8 c r\fermata \markStartDeletedMm f,
+    b8. f16 d'!8. b16 f'8. d16 b8 b
+    g'4 r8 f
+    f8([ es16)] d c([ b)] a([ g)]
+    b8 a r d, %150
+    b'4 r8 f!
+    d'4 r8 b
+    f'4 g
+    as!8.([ f16)] d8 as
+    g8([ a16 h] c[ d es f] %155
+    g8.) d16 f([ es)] d([ c)]
+    b!4. \grace d16 c8
+    b4 r8 es16([ a,)]
+    b4 r8 f'
+    \appoggiatura es d4 r8 b %160
+    g'4. es16([ c)]
+    b8([ a)] r c
+    des a b c
+    des a b r
+    r d es f %165
+    \appoggiatura as! ges8. f16 es([ des)] c([ b])
+    a8 c r\fermata \markStopDeletedMm f,
+    b8. f16 d'!8. b16
+    f'8. d16 b8 g'
+    \appoggiatura f es4 r8 f %170
+    \appoggiatura es d4 r8 d
+    d8. a16 c([ b)] a([ g)]
+    fis8 a r d,
+    b'4 r8 f!
+    d'4 r8 b %175
+    f'4 g
+    f16([ d)] b8 r d16([ f)]
+    as!4 d,,
+    es8[ b'']~ b16[ g] es([ c)]
+    f4. a,8 %180
+    b4 r
+    R2*5 %186
+    r4\fermata \tempoDeineGueteE r
+    R2*3 %190
+    r4 \clef bass b,8^\markup \remark "Erſter Erzengel" b \noBreak
+    es8. b16 g8 es
+    d d f d
+    b8. d16 f8 as
+    g g es f %195
+    ges es ces8. a16
+    b4 r
+    R2
+    r4 b'8 b
+    des8. e,16 f8 g %200
+    as as as c
+    d,!8. es!16 f8 g
+    as g g c
+    h d f,8. f16
+    es4 es'8 h %205
+    c g es c
+    g4 r
+    r\fermata r
+    R2*3 %211
+    r4 g'8 as
+    b es, as c
+    b g es g
+    b,8. d16 f8 as %215
+    as g b g
+    c8. b16 b([ as)] as([ g)]
+    f4 r
+    r b8. f16
+    \appoggiatura as8 g4 r %220
+    r8 b, b'8. f16
+    as8 g g as
+    b8. g16 es([ g)] b([ des)]
+    h8 c as b16([ c)]
+    c([ b)] as([ g)] g([ f)] es([ d)] %225
+    es4 r
+    R2
+    r4 g8 h
+    d8. h16 g8 f
+    \appoggiatura f16 es8 d r4 %230
+    R2
+    r4 g8 h
+    d8. h16 g8 f
+    \appoggiatura f16 es8 d r4
+    r d'8 f, %235
+    es4 as8 g
+    h c as,!8. as16
+    g4 r
+    r c'8 fis,
+    g4 d'8 h %240
+    c g es c
+    g r\fermata r4
+    R2*3 %245
+    r4 g'8 as
+    b es, as c
+    b g es g
+    b,8. d16 f8 as
+    as g b g %250
+    c8. b16 b([ as)] as([ g)]
+    f4 r
+    r b8. f16
+    \appoggiatura as8 g4 r
+    r8 b, b'8. f16 %255
+    g8 g b g
+    es8. g16 b8 des
+    h c as16([ es')] d([ c)]
+    c([ b)] as([ g)] b([ as)] g([ f)]
+    es4 r %260
+    b'4. as16([ g)]
+    \appoggiatura g8 f4 r
+    c'4. b16([ as)]
+    \appoggiatura as8 g4 r
+    b g, %265
+    es''8. as,,16 c([ es)] as([ c)]
+    \appoggiatura c8 b4. d,8
+    es4 r
+    b'4. as8
+    \appoggiatura as g4 r %270
+    b,4. c16([ d)]
+    es4 r
+    R2*2
+    R2\fermata \bar "|." %275 finis
+  }
+}
+
+DeineGueteSoliLyrics = \lyricmode {
+  Wie %31
+  groß, o
+  Herr, iſt
+  dei -- ne
+  Gü -- te, wie %35
+  groß, o
+  Herr, iſt
+  dei -- ne
+  Gü -- te, Du
+  leg -- teſt in der %40
+  Men -- ſchen Herz ein
+  ſelbſt ſich rich -- ten -- des Ge --
+  mü -- the. Wie
+  groß, o
+  Herr, iſt %45
+  dei -- ne
+  Gü -- te, Du
+  warn -- teſt
+  ſie durch
+  bitt -- ren %50
+  Schmerz, du
+  maſ -- ſeſt ei -- ne
+  Span -- ne Zeit,
+  das Land der
+  Prü -- fung zu be -- %55
+  woh -- nen, um
+  ſie durch ei -- ne
+  E -- wig -- keit für
+  Pflicht -- er -- fül -- lung
+  zu __ be -- %60
+  loh --
+  nen. Wie
+  groß, o
+  Herr, iſt
+  dei -- ne %65
+  Gü -- te,
+  Du
+  warn -- teſt ſie durch
+  bitt -- ren
+  Schmerz, durch %70
+  bitt -- ren
+  Schmerz, du
+  maſ -- ſeſt ei -- ne
+  Span -- ne Zeit,
+  das Land der %75
+  Prü -- fung zu be --
+  woh -- nen, um
+  ſie durch ei -- ne
+  E -- wig -- keit, durch ei -- ne
+  E -- wig -- %80
+  keit
+  für Pflicht -- er --
+  fül -- lung zu be --
+  loh -- _
+  nen. %85
+
+  Wie %123
+  groß, o
+  Herr, iſt %125
+  dei -- ne
+  Huld, wie
+  groß, o
+  Herr, wie un -- er --
+  meß -- lich dein Er -- %130
+  bar -- men! Du
+  büſ -- ſteſt für der
+  Schwa -- chen Schuld und nahmſt ſie
+  auf in dei -- nen
+  Ar -- men, wie %135
+  groß, o
+  Herr, iſt
+  dei -- ne
+  Huld!
+  Du %140
+  büſ -- ſteſt für der
+  Schwa -- chen Schuld
+  und nahmſt ſie
+  auf in dei -- nen
+  Ar -- men. Ver -- %145
+  ſühnt iſt die Ge --
+  rech -- tig -- keit O
+  Gott, durch
+  dei -- ne Men -- ſchen --
+  lei -- den; dein %150
+  Tod er --
+  rang den
+  Men -- ſchen
+  Freu -- den der
+  grän -- %155
+  ze -- lo -- ſen
+  E -- wig --
+  keit. Wie
+  groß, o
+  Herr, iſt %160
+  dei -- ne
+  Huld, du
+  büſ -- ſteſt für der
+  Schwa -- chen Schuld
+  und nahmſt ſie %165
+  auf in dei -- nen
+  Ar -- men, ver --
+  ſühnt iſt die Ge --
+  rech -- tig -- keit O
+  Gott! O %170
+  Gott durch
+  dei -- ne Men -- ſchen --
+  lei -- den, dein
+  Tod er --
+  rang den %175
+  Men -- ſchen
+  Freu -- den der
+  grän -- ze --
+  lo -- ſen
+  E -- wig -- %180
+  keit.
+
+  Noch ſind %191
+  un -- zähl -- ba -- re
+  Wel -- ten, die die
+  Sterb -- li -- chen nicht
+  zähl -- ten, de -- ren %195
+  Sitz in Schutt zer --
+  fiel.
+
+  Noch ſind
+  un -- zähl -- ba -- re %200
+  Wel -- ten, die die
+  Sterb -- li -- chen nicht
+  zähl -- ten, de -- ren
+  Sitz in Schutt zer --
+  fiel, de -- ren %205
+  Sitz in Schutt zer --
+  fiel.
+
+  Ew’ -- ges %212
+  Glück iſt auch den
+  Wel -- ten, die die
+  Sterb -- li -- chen nicht %215
+  zähl -- ten ih -- res
+  kur -- zen Da -- ſeyns
+  Ziel,
+  ew’ -- ges
+  Glück %220
+  iſt auch den
+  Wel -- ten, die die
+  Sterb -- li -- chen nicht
+  zähl -- ten ih -- res
+  kur -- zen Da -- ſeyns %225
+  Ziel.
+
+  Noch ſind
+  un -- zähl -- ba -- re
+  Wel -- ten, %230
+
+  die die
+  Sterb -- li -- chen nicht
+  zähl -- ten,
+  de -- ren %235
+  Sitz, de -- ren
+  Sitz in Schutt zer --
+  fiel,
+  de -- ren
+  Sitz, de -- ren %240
+  Sitz in Schutt zer --
+  fiel.
+
+  Ew’ -- ges %246
+  Glück iſt auch den
+  Wel -- ten, die die
+  Sterb -- li -- chen nicht
+  zähl -- ten ih -- res %250
+  kur -- zen Da -- ſeyns
+  Ziel,
+  ew’ -- ges
+  Glück
+  iſt auch den %255
+  Wel -- ten, die die
+  Sterb -- li -- chen nicht
+  zähl -- ten ih -- res
+  kur -- zen Da -- ſeyns
+  Ziel, %260
+  ew’ -- ges
+  Glück,
+  ew’ -- ges
+  Glück,
+  ew’ -- ges %265
+  Glück iſt ih -- res
+  Da -- ſeyns
+  Ziel,
+  ew’ -- ges
+  Glück, %270
+  ew’ -- ges
+  Glück. %272 finis
 }

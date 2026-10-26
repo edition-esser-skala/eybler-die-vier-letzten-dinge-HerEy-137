@@ -86,12 +86,34 @@ pococresc = #(make-music
   'span-type 'text
   'span-text (markup (#:normal-text #:small "poco cresc.")))
 
-startDeleted = {
+% vide marks color their bar line red
+markStartDeleted = {
+  \once \override Score.BarLine.color = #(rgb-color .8313 0 0)
+  \once \override Score.SpanBar.color = #(rgb-color .8313 0 0)
   \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
   \mark \markup { \with-color #(rgb-color .8313 0 0) { \hspace #3.5 \raise #.5 \musicglyph "scripts.coda" \remark "vi -" } }
 }
 
-stopDeleted = {
+markStopDeleted = {
+  \once \override Score.BarLine.color = #(rgb-color .8313 0 0)
+  \once \override Score.SpanBar.color = #(rgb-color .8313 0 0)
+  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \mark \markup { \with-color #(rgb-color .8313 0 0) { \remark "- de" \raise #.5 \musicglyph "scripts.coda" \hspace #3.9 } }
+}
+
+% vide marks for midmeasure add a dotted red barline
+markStartDeletedMm = {
+  \once \override Score.BarLine.color = #(rgb-color .8313 0 0)
+  \once \override Score.SpanBar.color = #(rgb-color .8313 0 0)
+  \noBreak \bar ";"
+  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \mark \markup { \with-color #(rgb-color .8313 0 0) { \hspace #3.5 \raise #.5 \musicglyph "scripts.coda" \remark "vi -" } }
+}
+
+markStopDeletedMm = {
+  \once \override Score.BarLine.color = #(rgb-color .8313 0 0)
+  \once \override Score.SpanBar.color = #(rgb-color .8313 0 0)
+  \noBreak \bar ";"
   \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
   \mark \markup { \with-color #(rgb-color .8313 0 0) { \remark "- de" \raise #.5 \musicglyph "scripts.coda" \hspace #3.9 } }
 }
@@ -191,6 +213,11 @@ tempoHerrLass = \tempoMarkup "Adagio"
 tempoSeinVaterarm = \tempoMarkup "Recitativo"
   tempoSeinVaterarmB = \tempoMarkup "Larghetto"
 tempoJehovahGross = \tempoMarkup "Andante maestoso"
+tempoDeineGuete = \tempoMarkup "Adagio"
+  tempoDeineGueteB = \tempoMarkup "[Poco più mosso]"
+  tempoDeineGueteC = \tempoMarkup "[Adagio]"
+  tempoDeineGueteD = \tempoMarkup "[Poco più mosso]"
+  tempoDeineGueteE = \tempoMarkup "Allegretto"
 
 
 \include "notes/fl1.ly"

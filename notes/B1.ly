@@ -113,7 +113,7 @@ GroßIstBasso = {
     a2 c4.\fz c8
     h4 g\ff es d
     c c' as! g %125
-    f1\fermata \startDeleted
+    f1\fermata \markStartDeleted
     r2 f\p
     g r
     g, r
@@ -166,7 +166,7 @@ GroßIstBasso = {
     e2 es4.\fz es8
     d4 des\ff c b
     as ges' f es %180
-    des1\fermata \stopDeleted
+    des1\fermata \markStopDeleted
     R
     f,2\p r
     g! r
@@ -1038,4 +1038,109 @@ JehovahGrossBassoILyrics = \lyricmode {
   ein; du warſt, du
   biſt, und du wirſt
   ſeyn. %29 finis
+}
+
+DeineGueteBasso = {
+  \relative c {
+    \clef bass
+    \twofourtime \key es \major \time 2/4 \autoBeamOff \tempoDeineGuete
+    R2*3
+    r4\fermata \markStartDeletedMm r
+    R2*26 %30
+    r4 \markStopDeletedMm r
+    R2*6 %37
+    r4\fermata r
+    r4 r8\fermata \tempoDeineGueteB r
+    R2*12 \markStartDeleted %51
+    R2*4 %55
+    r4 r8\fermata r
+    R2*16 \markStopDeleted %72
+    r8 c'\pp des a
+    b c des a
+    b a b f %75
+    ges8. ges16 ges8 ges
+    f f r\fermata r
+    r4 r8 f\mf
+    b,8. b16 b8. b'16
+    b4. b,8 %80
+    b4\fermata r8 b\pp
+    es4 es
+    es8 es es es
+    f4( f,)
+    b r8 b %85
+    b4. b8
+    b b r4
+    r b8. b16
+    b2
+    b4 r %90
+    R2*2
+    \tempoDeineGueteC R2*3 %95
+    r4\fermata \markStartDeletedMm r
+    R2*26 %122
+    r4 \markStopDeletedMm r
+    R2*6 %129
+    r4\fermata r %130
+    r r8\fermata \tempoDeineGueteD r
+    R2*13 %144
+    r4 r8\fermata \markStartDeletedMm r %145
+    R2*21 %166
+    r4 r8\fermata \markStopDeletedMm r
+    R2*19 %186
+    r4\fermata \tempoDeineGueteE r
+    R2*20 %207
+    r4\fermata r
+    R2*33 %241
+    r4\fermata r
+    R2*17 %259
+    r8 es4\pp es8 %260
+    g, g g g
+    as as as as
+    b b b b
+    es es es es
+    g g g g %265
+    as4 as8 as
+    b b b, b
+    es4 r
+    b4. b8
+    es4 r %270
+    b4. b8
+    es4 r
+    R2*2
+    R2\fermata \bar "|." %275 finis
+  }
+}
+
+DeineGueteBassoLyrics = \lyricmode {
+  Du maſ -- ſeſt %73
+  ei -- ne Span -- ne
+  Zeit, das Land der %75
+  Prü -- fung zu be --
+  woh -- nen,
+  um
+  ſie durch ei -- ne
+  E -- wig -- %80
+  keit für
+  Pflicht -- er --
+  fül -- lung zu be --
+  loh --
+  nen, für %85
+  Pflicht -- er --
+  fül -- lung
+  zu be --
+  loh --
+  nen. %90
+
+  Ew’ -- ges %260
+  Glück iſt auch den
+  Wel -- ten, die die
+  Sterb -- li -- chen nicht
+  zähl -- ten ih -- res
+  kur -- zen Da -- ſeyns %265
+  Ziel, ih -- res
+  kur -- zen Da -- ſeyns
+  Ziel,
+  ew’ -- ges
+  Glück, %270
+  ew’ -- ges
+  Glück. %272 finis
 }

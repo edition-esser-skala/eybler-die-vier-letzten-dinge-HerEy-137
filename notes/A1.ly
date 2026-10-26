@@ -120,7 +120,7 @@ GroßIstAlto = {
     f2 a4.\fz a8
     d,4 d\ff g f
     es! g c b %125
-    as1\fermata \startDeleted
+    as1\fermata \markStartDeleted
     r2 des,\p
     c r
     h r
@@ -175,7 +175,7 @@ GroßIstAlto = {
     g2 ges4.\fz ges8
     f4 fes\ff es des
     c es as ges %180
-    f!1\fermata \stopDeleted
+    f!1\fermata \markStopDeleted
     R
     des2\p r
     h r
@@ -1090,4 +1090,115 @@ JehovahGrossAltoILyrics = \lyricmode {
   ein; du warſt, du
   biſt, und du wirſt
   ſeyn. %29 finis
+}
+
+DeineGueteAlto = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key es \major \time 2/4 \autoBeamOff \tempoDeineGuete
+    R2*3
+    r4\fermata \markStartDeletedMm r
+    R2*26 %30
+    r4 \markStopDeletedMm r
+    R2*6 %37
+    r4\fermata r
+    r4 r8\fermata \tempoDeineGueteB r
+    R2*12 \markStartDeleted %51
+    R2*4 %55
+    r4 r8\fermata r
+    R2*16 \markStopDeleted %72
+    R2*4 %76
+    r4 r8\fermata r
+    R2*3 %80
+    r4\fermata r8 r
+    R2*11 %92
+    \tempoDeineGueteC R2*3 %95
+    r4\fermata \markStartDeletedMm r
+    R2*26 %122
+    r4 \markStopDeletedMm r
+    R2*6 %129
+    r4\fermata r %130
+    r r8\fermata \tempoDeineGueteD r
+    R2*13 %144
+    r4 r8\fermata \markStartDeletedMm r %145
+    R2*21 %166
+    r4 r8\fermata \markStopDeletedMm f\mf
+    b,8. b16 b8. b16
+    b8. b16 b8 r
+    r c\p c4 %170
+    r8 b b d
+    d d g cis,
+    d d r4
+    r8 d f!4
+    r8 f\cresc g4 %175
+    r8 b,\mf g' es
+    b'4 f8 r
+    d4 f8 as!
+    g8.\p g16 es8 g
+    f4. es8 %180
+    d4 r8 b
+    b4. b8
+    b b r b
+    b8. b16 b8 b
+    b4.\perd b8 %185
+    b4\! r
+    r\fermata \tempoDeineGueteE r \noBreak
+    R2*20 %207
+    r4\fermata r
+    R2*33 %241
+    r4\fermata r
+    R2*17 %259
+    r8 b4\pp b8 %260
+    es es es es
+    c c c c
+    d d d d
+    d16([ es)] es8 es es
+    es es es es %265
+    as4 as8 as
+    g8. es16 g([ f)] es([ d)]
+    es4 r
+    d4. d8
+    es4 r %270
+    d4. d8
+    es4 r
+    R2*2
+    R2\fermata \bar "|." %275 finis
+  }
+}
+
+DeineGueteAltoLyrics = \lyricmode {
+  Ver -- %167
+  ſühnt iſt die Ge --
+  rech -- tig -- keit
+  O Gott %170
+  O Gott durch
+  dei -- ne Men -- ſchen --
+  lei -- den,
+  dein Tod
+  er -- rang %175
+  den Men -- ſchen
+  Freu -- den,
+  Freu -- den der
+  grän -- ze -- lo -- ſen
+  E -- wig -- %180
+  keit, den
+  Men -- ſchen
+  Freu -- den der
+  grän -- ze -- lo -- ſen
+  E -- wig -- %185
+  keit.
+
+  Ew’ -- ges %260
+  Glück iſt auch den
+  Wel -- ten, die die
+  Sterb -- li -- chen nicht
+  zähl -- ten ih -- res
+  kur -- zen Da -- ſeyns %265
+  Ziel, ih -- res
+  kur -- zen Da -- ſeyns
+  Ziel,
+  ew’ -- ges
+  Glück, %270
+  ew’ -- ges
+  Glück. %272 finis
 }

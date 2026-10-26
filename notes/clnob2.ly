@@ -175,7 +175,7 @@ GroßIstClarinoBII = {
     r2 e4.\fz e8
     e2 r
     r4 d'\ff d c %125
-    g1\ff\fermata \startDeleted
+    g1\ff\fermata \markStartDeleted
     R1*5 %131
     c,1~\fz
     c2 c4. c8
@@ -206,7 +206,7 @@ GroßIstClarinoBII = {
     R1
     c2\fz r
     r4 b'\ff b b %180
-    g1\fermata \stopDeleted
+    g1\fermata \markStopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }

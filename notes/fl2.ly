@@ -259,7 +259,7 @@ GroßIstFlautoII = {
     c2 d4.\fz d8
     d4 g,2\ff h4
     c c2 e4 %125
-    f1\fermata \ottava #0 \startDeleted
+    f1\fermata \ottava #0 \markStartDeleted
     R1*5 %131
     \ottava #1 g,1~\fz
     g2 g4. g8
@@ -299,7 +299,7 @@ GroßIstFlautoII = {
     e\fz c\fz
     d4 g\ff as g
     as as as c %180
-    des1\fermata \stopDeleted
+    des1\fermata \markStopDeleted
     R1*12 %193
     R1\fermata \bar "|." %194 finis
   }
@@ -1024,7 +1024,7 @@ IhrGluecklichenFlautoII = {
     cis'8.\mf h16 a8 a h16( cis d h)
     a4( gis8) r r4
     R2.
-    r4 r r8 cis~ \startDeleted
+    r4 r r8 cis~ \markStartDeleted
     cis16( h cis d) a8( cis h d,) %15
     d4(\p cis8) r r4
     R2.*3
@@ -1053,7 +1053,7 @@ IhrGluecklichenFlautoII = {
     g4~\fz g16( fis e d) cis( d e fis)
     cis4( h8) r r4
     R2. %45
-    r4 r r8 cis'~\pE \stopDeleted
+    r4 r r8 cis'~\pE \markStopDeleted
     cis16( h cis d) a8( cis h d,)
     cis r r4 r
     r r e8.\decresc d16 \noBreak
