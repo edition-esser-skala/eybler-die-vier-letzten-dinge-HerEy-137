@@ -1,5 +1,5 @@
 % lilypond --include=$EES_TOOLS_PATH -dno-point-and-click snippet_2.ly
-% pdfcrop --margins "0 5 0 0" snippet_2.pdf snippet_2.pdf
+% pdfcrop --margins "0 0 0 0" snippet_2.pdf snippet_2.pdf
 
 \version "2.24.2"
 
@@ -173,7 +173,7 @@ Violone = {
 
 \score {
   <<
-    \new StaffGroup \with { \setGroupDistance #16 #16 } <<
+    \new StaffGroup \with { \setGroupDistance #10 #11 } <<
       \new Staff {
         \set Staff.instrumentName = \markup \center-column { "fl" "1, 2" }
         \partCombine #'(0 . 10) \FlautoI \FlautoII
@@ -187,14 +187,14 @@ Violone = {
         \partCombine #'(0 . 10) \FagottoI \FagottoII
       }
     >>
-    \new StaffGroup <<
+    \new StaffGroup \with { \setGroupDistance #10 #11 } <<
       \new Staff {
         \set Staff.instrumentName = \markup \center-column { "cor" "1, 2" }
         \partCombine #'(0 . 10) \CornoI \CornoII
       }
     >>
-    \new StaffGroup <<
-      \new GrandStaff \with { \smallGroupDistance } <<
+    \new StaffGroup \with { \setGroupDistance #10 #11 } <<
+      \new GrandStaff \with { \setGroupDistance #10 #11 } <<
         \set GrandStaff.instrumentName = "vl"
         \new Staff {
           \set Staff.instrumentName = "1"
@@ -210,7 +210,7 @@ Violone = {
         \Viola
       }
     >>
-    \new ChoirStaff \with { \setGroupDistance #14 #15 } <<
+    \new ChoirStaff \with { \setGroupDistance #11 #11 } <<
       \new Staff {
         \set Staff.instrumentName = "Eva"
         \new Voice = "SoliA" { \dynamicUp \SoliA }
