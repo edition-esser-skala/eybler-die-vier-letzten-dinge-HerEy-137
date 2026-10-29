@@ -1219,11 +1219,11 @@ UnaussprechlichFlautoI = {
     \clef treble
     \key c \major \time 4/4 \tempoUnaussprechlich
     R1
-    c''\fff\fermata
+    \ottava #1 c''\fff\fermata
     R
     e\fff\fermata
     R \noBreak %5
-    g\fff\fermata \bar "||"
+    g\fff\fermata \ottava #0 \bar "||"
     \key c \minor \tempoUnaussprechlichB R1*9 %15
     r2 \tempoUnaussprechlichC r
     R1*2

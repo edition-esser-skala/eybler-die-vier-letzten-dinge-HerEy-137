@@ -557,7 +557,7 @@ EsHerrschetOboeI = {
     r4 es'2\f es4
     as2 r
     R1 %115
-    des,1\fz-\critnote
+    des,1\fz
     c\fz
     h
     c2 fis,

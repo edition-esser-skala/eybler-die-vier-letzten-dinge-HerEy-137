@@ -1431,8 +1431,8 @@ GottDerAltViolinoI = \transpose e es {
     r cis4 a' cis,8
     r h4 gis' h,8
     r a4 fis' a,8 %115
-    gis8. a16 h8 e16([ dis] fis e gis e) %for MIDI
-    % \after 8 _\turn gis8. a16 h8 e16([ dis] fis e gis e)
+    % gis8. a16 h8 e16([ dis] fis e gis e) %for MIDI
+    \after 8 _\turn gis8. a16 h8 e16([ dis] fis e gis e)
     his4( cis8) fis16([\mf eis] gis fis a fis)
     e4( dis8) \brkBeam h(\mf cis16 dis e fis)
     gis8 h~\sfp h16 a( cis, fis) fis( e) e( dis)
