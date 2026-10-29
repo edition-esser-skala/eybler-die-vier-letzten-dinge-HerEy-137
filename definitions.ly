@@ -218,6 +218,7 @@ tempoDeineGuete = \tempoMarkup "Adagio"
   tempoDeineGueteC = \tempoMarkup "[Adagio]"
   tempoDeineGueteD = \tempoMarkup "[Poco più mosso]"
   tempoDeineGueteE = \tempoMarkup "Allegretto"
+tempoEsToen = \tempoMarkup "Allegro vivace"
 
 
 \include "notes/fl1.ly"

@@ -814,3 +814,285 @@ UnaussprechlichTromboneIII = {
     es r\fermata \bar "|." %38 finis
   }
 }
+
+EsToenTromboneIII = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoEsToen
+    % R2*12 %12 for MIDI
+    \grace s32*3 R2*12 %12
+    g'4\f g
+    g2~
+    g~ %15
+    g4 r
+    R2*2
+    g2~
+    g~ %20
+    g~
+    g~
+    g4 r8 g
+    g4 g
+    gis2 %25
+    a4 gis
+    a r
+    fis e
+    d2
+    e4 fis %30
+    g g
+    g g
+    g2~
+    g~
+    g~ %35
+    g~
+    g\fz
+    e\fz
+    d~
+    d %40
+    g4 r
+    g2~
+    g4 r
+    g2~
+    g4 r %45
+    g2\fz
+    g\fz
+    g\fz
+    g\fz
+    g~\fz %50
+    g4 g
+    c, r8 c
+    c4 c
+    c c~\fz
+    c c~\fz %55
+    c c~\fz
+    c c
+    d r
+    R2*7 %65
+    g2\fz
+    g8 a h a
+    g4 r
+    R2*25 %93
+    r4 d
+    d d %95
+    h' r
+    R2
+    r4 e,
+    e e
+    c' r %100
+    R2
+    r4 e,
+    f a
+    a r
+    R2 %105
+    r4 d,
+    e g
+    g r
+    R2*5 %113
+    c,2\fz
+    a'4 d, %115
+    g r
+    R2
+    r4 g
+    g g
+    g r %120
+    R2*19 %139
+    c,2~\fE %140
+    c4 r
+    c2~
+    c4 r
+    R2*3 %146
+    r4 r8 g'
+    g4 g
+    g g~\fz
+    g g~\fz %150
+    g g
+    c, c
+    c c~\fz
+    c c~\fz
+    c c %155
+    R2*5 %160
+    f2\fz
+    f\fz
+    g\fz
+    g
+    c,4 r %165
+    R2*7 %172
+    r4 r8 c
+    d4 e
+    f r8 d %175
+    e4 fis
+    g r8 e
+    fis4 gis
+    a g
+    c2\fzE %180
+    h4 g~
+    g f!
+    e a~
+    a g
+    fis h~ %185
+    h a
+    g a
+    h a8 h
+    c4 r8 e,
+    f4 g %190
+    a r8 fis
+    g4 a
+    h r8 gis
+    a4 h
+    c h %195
+    a2
+    g!4 r
+    r4 g
+    c, r
+    r a' %200
+    d, r
+    r h'
+    e, a
+    d, g \markStartDeleted
+    c, r8 c %205
+    d4 e
+    f r8 d
+    e4 fis
+    g r8 e
+    fis4 gis8 gis %210
+    a4 g
+    c2\fzE
+    h4 g
+    b2
+    a4 r %215
+    R2*3
+    r4 d,~
+    d c %220
+    h! e~
+    e d
+    c f~
+    f es
+    d4. c8 %225
+    b4 b'
+    a r
+    R2*6 %233
+    r4 r8 d,
+    e4. f8 %235
+    g4 r8 g
+    f4. g8
+    a4 r8 a
+    g4. a8
+    h4 r8 h %240
+    c4 e,
+    fis r8 gis
+    a4 c,
+    d r8 e
+    f!8 e d g %245
+    c,4 r8 d
+    g fis e a
+    d,4 r8 e
+    a gis fis h
+    e,4 a %250
+    d, g!
+    c, f!
+    h, e
+    a, r
+    R2*9 %263
+    r4 r8 d
+    e4 fis %265
+    g r
+    R2
+    r4 r8 c,
+    d4 e
+    f! r %270
+    R2
+    r4 r8 b,
+    c4 d
+    es r8 c
+    d4 e %275
+    f r8 d
+    e!4 fis
+    g f
+    b2
+    a4 f %280
+    g b
+    es, es'~
+    es d~
+    d c~
+    c b %285
+    a2
+    g4 r8 e!
+    f4. g8
+    e4 r8 fis
+    g4. a8 %290
+    fis4 r8 gis
+    a4. h8
+    e,4 r
+    R2*5 \markStopDeleted %298
+    r4 r8 c
+    d4 e %300
+    f r8 d
+    e4 fis
+    g r8 e
+    f!4 g
+    a g %305
+    c2
+    h4 g
+    a4. h8
+    c4 h
+    a2 %310
+    g
+    fis
+    e4 r
+    R2*6 %319
+    r4 r8 d %320
+    e4 fis
+    g r8 e
+    f!4 g
+    a r8 fis
+    g4 a %325
+    h c
+    f,! g
+    c, r
+    R2*5 %333
+    r4 g'~
+    g fis %335
+    g e
+    a4. g8
+    f!4 f
+    g4. f8
+    e4 c~ %340
+    c d8 e
+    f4 d~
+    d e8 f
+    g4 e~
+    e f8 g %345
+    a4 f~
+    f g8 a
+    g4 c
+    g2
+    c,4 r %350
+    R2
+    c4\fz r
+    R2*3 %355
+    c4\fz r
+    R2*8 %364
+    e2~\fz %365
+    e
+    c~\ffz
+    c
+    f~
+    f4 r %370
+    R2\fermata
+    R2*5 %376
+    c2~\ff
+    c
+    c~
+    c %380
+    g'~
+    g
+    c,4 r
+    R2
+    c4 r %385
+    R2
+    c4 r
+    c c
+    c r
+    c r %390
+    c r\fermata \bar "|." %391 finis
+  }
+}

@@ -2974,3 +2974,376 @@ DeineGueteViola = {
     q4\! r\fermata \bar "|." %275 finis
   }
 }
+
+EsToenViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key c \major \time 2/4 \tempoEsToen
+    % % for MIDI start
+    % c4\ff r
+    % R2
+    % c4 r
+    % R2
+    % c4 r %5
+    % R2*6 %11
+    % c8\f g e c
+    % % for MIDI end
+
+    \grace { g32[ a h] } c4\ff r
+    R2
+    \grace { g32[ a h] } c4 r
+    R2
+    \grace { g32[ a h] } c4 r %5
+    R2*6 %11
+    \grace { g'32_[ a h] } c8\f g e c
+
+    g h d g
+    g, h d g
+    c, e g c %15
+    g, h d g
+    c, h c d
+    e d e fis
+    g, h d g
+    g, c e g %20
+    g, h d g
+    g, c e g
+    g, h d g
+    g, g' f,! f'!
+    e, gis h d %25
+    c c' h, h'
+    a, c e a
+    fis fis' e, e'
+    d, d' d d,
+    e e, fis fis' %30
+    g d h g
+    g' g, g g'
+    g g, g g'
+    g g, g g'
+    g g, g g' %35
+    g g, g g'
+    g2:16\fz
+    b:\fz
+    h8 d h g
+    d d' d d, %40
+    g, h d g
+    c, e g c,
+    g h d g
+    c, e g c,
+    g h d h %45
+    g\fz h d g
+    h, d g h
+    d, g h d
+    h g d h
+    g h d g %50
+    h d h g
+    c c, e g
+    c4 r
+    r \grace { g,32[ a h] } c4~\fz
+    c \grace { g32[ a h] } c4~\fz %55
+    c \grace { g32[ a h] } c4~\fz
+    c g'~
+    g g~
+    g8 a h c
+    h4 r8 \tuplet 3/2 8 { d,16 e fis } %60
+    g4 d h' g
+    d8 fis a d,
+    g d h d
+    g, g' fis, fis' %65
+    e\fz e' c, c'
+    d, d' d d,
+    g, h d g
+    fis, fis' e, e'
+    d, d' e, e' %70
+    d, d' c, c'
+    h h' c, c'
+    h, h' a, a'
+    g,4 <h g'>
+    <c e> <c d> %75
+    <h d> r
+    r r8 \tuplet 3/2 8 { g'16 fis e }
+    d4 fis
+    a d
+    d, g %80
+    h d
+    d, fis
+    a d
+    g, r
+    r r8 \tuplet 3/2 8 { a16 gis fis } %85
+    e4 gis
+    h e
+    e, a
+    c e
+    e, gis %90
+    h e
+    a,8 a, a' a
+    a g! f! e
+    d d' d, d
+    e f g a %95
+    h h, h' h
+    h a g f
+    e e' e, e
+    f g a h
+    c c, c' c %100
+    c b a g
+    f a a, a'
+    f a e a
+    d, f a d
+    h a g f %105
+    e g g, g'
+    e g d g
+    c, c' g e
+    c c' c c,
+    c c' c c, %110
+    c c' c c,
+    c c' c c,
+    c c' g e
+    c\fz e g c
+    a, a' d,, d' %115
+    g, g' d h
+    g g' g g,
+    g g' g g,
+    g g' g g,
+    g h d g %120
+    e g c, e
+    g d\p h g
+    c g' e c
+    g4 r
+    R2*3 %127
+    \grace { g32[ a h] } c4\f r
+    R2
+    \grace { g32[ a h] } c4 r %130
+    R2
+    \grace { g32[ a h] } c4 r
+    R2*6 %138
+    \grace { g32[ a h] } c8 c' g e
+    c8 c' c c, %140
+    c c' c c,
+    c c' c c,
+    c c' c c,
+    h h' b b,
+    a a' g g, %145
+    f f' fis, fis'
+    g g, h d
+    g4 r
+    r \grace { d32[ e fis] } <g g,>4~\fz
+    q \grace { d32[ e fis] } <g g,>4~\fz %150
+    q \grace { d32[ e fis] } <g g,>4\fz
+    R2
+    r4 \grace { g,32[ a h] } <c c,>4~\fz
+    q \grace { g32[ a h] } <c c,>4~\fz
+    q \grace { g32[ a h] } <c c,>8 c %155
+    h h' b b,
+    a a' g g,
+    f f' g g,
+    c e g c
+    h, h' b, b' %160
+    a\fz f c a
+    c'\fz a f c
+    g'\fz e c g
+    g'4 <f g,>
+    <e g,> r8 c' %165
+    h, h' a, a'
+    g, g' a, a'
+    g, g' f, f'
+    e, e' f, f'
+    e, e' d, d' %170
+    c,4 <c' e>
+    <c f a> <g f'>
+    <e' g, c,> r
+    R2*15 %188
+    r4 r8 c
+    d4 e %190
+    f r8 d
+    e4 fis
+    g4 r8 e
+    fis4 gis8 gis
+    a4 g %195
+    c4.\fz c8
+    h4 g
+    g f
+    e a
+    a g %200
+    fis h
+    h a
+    g8 fis g a
+    h c a h \markStartDeleted
+    c4 r8 e, %205
+    f!8 e f g
+    a4 r8 fis
+    g fis g a
+    h4 r8 gis
+    a gis a h %210
+    c4 h
+    a4. a8
+    g!4 r
+    r c,~
+    c a' %215
+    g2
+    f
+    e
+    r4 r8 d
+    e4 fis %220
+    g r8 e
+    fis4 gis
+    a r8 f
+    g!4 a8 a
+    b4 f %225
+    d'4. d8
+    c4 f,
+    f es
+    d g
+    g f %230
+    e! a
+    a g
+    f8 e f g
+    a g a h
+    c4 r8 e, %235
+    d c d e
+    f4 r8 f
+    e d e fis
+    g4 r8 g
+    f! e f g %240
+    e d e f
+    d c d e
+    c h c d
+    b a b c
+    a4 r8 f' %245
+    e d e fis
+    g4 r8 g
+    fis e fis gis
+    a4 r8 a
+    gis fis gis a %250
+    h c a h
+    c h c a
+    h a fis gis
+    a4 r8 cis,
+    d cis d e %255
+    fis4 r8 dis
+    e dis e fis
+    g!4 r8 e
+    f! e f g
+    a4 r8 a %260
+    b a b c
+    a g a b
+    g f g a
+    f4 r8 fis
+    g fis g a %265
+    d,4 g
+    g f!
+    e r8 e
+    f e f g
+    c,4 f %270
+    f es
+    d r8 d
+    es d es f
+    b,4 r8 e
+    f e f g %275
+    c,4 r8 fis
+    g fis g a
+    d, b' a g
+    f! e f g
+    a g a b %280
+    g f g a
+    b a b c
+    a g a b
+    g fis g a
+    fis e fis g %285
+    a g e fis
+    g4 r
+    R2*4 %291
+    r4 r8 fis
+    gis4 a
+    h r8 gis
+    a4 h %295
+    c4 r8 a
+    h4 c8 c
+    d4 g, \markStopDeleted
+    e'4. e8
+    d4 c %300
+    a8. g16 f4
+    r a
+    d, g
+    g f
+    e8 fis g4~ %305
+    g fis
+    g r
+    r r8 f!
+    e d e fis
+    g4 fis~ %310
+    fis e~
+    e dis
+    e r8 e
+    fis4 gis
+    a r8 f %315
+    g!4 a
+    b r8 g
+    a4 h8 h
+    c4 a
+    f8 g a h %320
+    c4 r
+    R2*5 %326
+    r4 r8 d,
+    e4 fis
+    g r8 e
+    f!4 g %330
+    a4 r8 fis
+    g4 a8 a
+    h4 g
+    c4. h8
+    a4 a %335
+    d, g8 f!
+    e f d e
+    f4 f8 e
+    d e c d
+    e4 e~ %340
+    e f8 g
+    a4 f~
+    f g8 a
+    h4 g~
+    g a8 h %345
+    c4 a~
+    a f~
+    f e
+    g4. f8
+    e c' c c %350
+    c, c' c c
+    c,\fz c' c c
+    c, c' c c
+    c, c' c c
+    c, c' c c %355
+    c,\fz c' c c
+    c, c' c c
+    c4 c,~
+    c c
+    c d~ %360
+    d d
+    d e~
+    e e
+    e e
+    e8\cresc e4 e8~ %365
+    e e4 e8
+    <e c'>\ff q4 q8~
+    q q4 q8
+    <f a>4 f,
+    R2 %370
+    R\fermata
+    R2*3
+    \grace { g32[ a h] } c4\ff r %375
+    R2
+    \grace { g32[ a h] } c4 r
+    R2
+    \grace { g32[ a h] } c4 r
+    R2 %380
+    <g' g,>4 r
+    <h d, g,> r
+    <c e, g, c,> r
+    R2
+    c16 c e e c c g g %385
+    e e c' c g g e e
+    c4 r
+    <c' e, g, c,> <e e, g, c,>
+    <c e, g, c,> r
+    \grace { g,32[ a h] } <c c,>4 r %390
+    \grace { g32[ a h] } <c c,>4 r\fermata \bar "|." %392 finis
+  }
+}

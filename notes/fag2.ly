@@ -1885,3 +1885,351 @@ DeineGueteFagottoII = {
     es4\! r\fermata \bar "|." %275 finis
   }
 }
+
+EsToenFagottoII = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoEsToen
+    % R2*12 %12 for MIDI
+    \grace s32*3 R2*12 %12
+    g4\f g
+    g2
+    c %15
+    g4 r8 g
+    c h c d
+    e d e fis
+    g4 r8 g
+    c,4 e %20
+    g g,
+    c e
+    g r8 g,
+    g4 f
+    e d' %25
+    c h
+    a r8 a
+    fis4 e
+    d d
+    e fis %30
+    g2~
+    g~
+    g~
+    g~
+    g~ %35
+    g~
+    g\fz
+    e\fz
+    d
+    d' %40
+    g,4 r8 g
+    c,4 e
+    g r8 g
+    c,4 e
+    g r %45
+    g2\fz
+    h\fz
+    d\fz
+    h\fz
+    g~\fz %50
+    g4 h
+    c r8 c
+    c4 c
+    c c,~\fz
+    c c~\fz %55
+    c c~\fz
+    c c
+    d2~
+    d4 d
+    g r %60
+    R2*3
+    r4 r8 g
+    g4 fis %65
+    e\fz c
+    d d
+    g g'
+    fis e
+    d e %70
+    d c
+    h c
+    h a
+    g e
+    c d %75
+    g r
+    R2
+    d'~
+    d
+    g~ %80
+    g
+    d~
+    d
+    g4 r
+    R2 %85
+    e2~
+    e
+    a~
+    a
+    e~ %90
+    e
+    a4 r8 a,
+    a g f e
+    d2
+    f %95
+    h4 r8 h
+    h a g f
+    e2
+    g
+    c4 r8 c %100
+    c b a g
+    f4 a
+    f e
+    d r8 d'
+    h a g f %105
+    e4 g
+    e d
+    c r8 c'
+    c4 c~
+    c c %110
+    c c~
+    c c
+    c g8 e
+    c2\fz
+    a'4 d, %115
+    g r8 g
+    g4 g~
+    g g~
+    g g
+    g r8 g %120
+    e4 c
+    g' r
+    R2*3 %125
+    g2~\p
+    g\cresc
+    c,4\! r
+    R2*11 %139
+    c4\fE c %140
+    c r
+    c c
+    c r8 c'
+    h4 b
+    a g %145
+    f fis
+    g r8 g
+    g4 g
+    g g~\fz
+    g g~\fz %150
+    g g
+    c, c
+    c c~\fz
+    c c~\fz
+    c c' %155
+    h b
+    a g
+    f g
+    c r8 c
+    h4 b %160
+    a2\fz
+    f\fz
+    g\fz
+    g
+    c,4 c' %165
+    h a
+    g a
+    g f
+    e f
+    e d %170
+    c a'
+    f g
+    c, r
+    R2*7 %180
+    \clef "treble_8" r4 r8 g''
+    a4 h
+    c r8 a
+    h4 cis
+    d4 r8 h %185
+    cis4 dis8 dis
+    e4 c
+    f!4.\fz f8
+    e4 c
+    c b %190
+    a d
+    d c
+    h! e
+    e d
+    c8 h c d %195
+    e d e fis
+    g4 r8 h,
+    c h c d
+    e4 r8 cis
+    d cis d e %200
+    fis4 r8 dis
+    e dis e fis
+    g4 e
+    d!4. d8 \markStartDeleted
+    c4 r %205
+    r8 c c c
+    f,4 r
+    r8 d' d d
+    g,4 r
+    r8 e' e e %210
+    a,4 r
+    r a
+    d h
+    g r
+    r f'~ %215
+    f e~
+    e8 a, d4
+    d cis
+    d r8 fis,
+    g fis g a %220
+    h4 r8 gis
+    a gis a h
+    c4 r8 a
+    b a b c
+    d4 r %225
+    R2
+    r4 r8 f,
+    g4 a
+    b4 r8 g
+    a4 h! %230
+    c r8 a
+    h!4 cis8 cis
+    d4 c
+    f4. f8
+    e4 c %235
+    c b
+    a d
+    d c
+    h! e
+    e d %240
+    d c
+    c h
+    h a
+    a g
+    f r %245
+    R2*8 %253
+    r4 r8 a
+    h4 cis %255
+    d r8 h
+    cis4 dis
+    e r8 c
+    d!4 e8 e
+    f4 d %260
+    g4. g8
+    f4 f
+    e4. e8
+    d4 d
+    d c %265
+    h r8 g
+    a4 h
+    c c
+    c b
+    a r8 f %270
+    g4 a
+    b b
+    b as
+    g c
+    c b %275
+    a! d
+    c4. c8
+    b4 r
+    R2*7 %285
+    r4 r8 a
+    b a b c
+    a4 r8 h!
+    c h c d
+    h4 r8 cis %290
+    d cis d e
+    a,4 r
+    R2*2
+    r4 g %295
+    c d
+    g, a
+    h4. h8 \markStopDeleted
+    c4 r
+    r r8 g %300
+    a4 h
+    c r8 a
+    h4 cis
+    d r8 h
+    c!4 d8 d %305
+    e4 d
+    g4. f!8
+    e4 r8 d
+    c h c d
+    e4 d~ %310
+    d c~
+    c h
+    h e
+    e d
+    c f! %315
+    f es
+    d g
+    g f
+    e! f8 e
+    d4. d8 %320
+    c4 r8 a
+    h4 cis
+    d r8 h
+    c!4 d
+    e r8 cis %325
+    d4 e8 e
+    f4 e8 d
+    c!4 d
+    g, r
+    R2*3 %332
+    r4 e'8 d
+    c h c d
+    e4 r %335
+    r e8 d
+    cis d h cis
+    d4 d8 c
+    h c a h
+    c4 c8 h %340
+    a h a g
+    f4 d'8 c
+    h c h a
+    g4 e'8 d
+    c d c h %345
+    a4 f'8 e
+    d c h c
+    d4 e
+    d2
+    c4 \clef bass r8 c, %350
+    c4 c
+    c2\fz
+    c4 c
+    c4. c8
+    c4 c %355
+    c2\fz
+    c4 c
+    c c~
+    c b
+    a d~ %360
+    d c
+    h! e~
+    e d
+    c a
+    e2~\fz %365
+    e
+    c~\ffz
+    c
+    f4 r
+    R2 %370
+    R\fermata
+    R2*5 %376
+    c'2~\ff
+    c
+    c~
+    c %380
+    g~
+    g
+    c4 r
+    R2
+    r8 e' c g %385
+    e c' g e
+    c4 r
+    c, c
+    c r
+    c r %390
+    c r\fermata \bar "|." %391 finis
+  }
+}

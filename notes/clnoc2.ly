@@ -487,3 +487,172 @@ JehovahGrossClarinoCII = {
     e r r2\fermata \bar "|." %32 finis
   }
 }
+
+EsToenClarinoCII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoEsToen
+    % r4 e8.\f e16 %for MIDI
+    \grace s32*3 r4 e8.\f e16
+    e8 e g g
+    e4 c'8. c16
+    c8 c e e
+    c4 e8. e16 %5
+    e8 c c c
+    g4 d'8. d16
+    d8 g, g g
+    e g e g
+    c,4 e8 c %10
+    g' g16 g g8 g
+    e4 r
+    R2
+    g
+    c %15
+    g4 r
+    R2*2
+    g2
+    c %20
+    g4 r
+    R2*3
+    e2 %25
+    R2*11 %36
+    g4 r
+    b r
+    d r
+    R2*2 %41
+    c,8 c16 c e8 c
+    g4 r
+    c'2
+    g4 r %45
+    R2*8 %53
+    e4.\fz e8
+    e4.\fz e8 %55
+    e4 r
+    R2*9 %65
+    g,4\fz r
+    R2
+    g4 r
+    R2*17 %85
+    e'4 r
+    R2
+    e4 r
+    R2
+    e4 r8 e16 e %90
+    e4 e
+    e4 r
+    R2*16 %108
+    c2~
+    c~ %110
+    c~
+    c
+    c4 e
+    g\fz r
+    r d' %115
+    g, r
+    R2*3
+    r4 r8 g %120
+    e4 c
+    g' r
+    R2*5 %127
+    r4 e8.\f e16
+    e8 e g g
+    e4 c'8. c16 %130
+    c8 c e e
+    c4 e8. e16
+    e8 c c c
+    g4 d'8. d16
+    d8 g, g g %135
+    e g e g
+    c,4 e8 c
+    g' g16 g g8 g
+    e4 r
+    R2 %140
+    c4 r
+    R2
+    c4 r
+    R2*5 %148
+    g'2\fz
+    g\fz %150
+    g4 r
+    R2
+    e\fz
+    e\fz
+    e4 r %155
+    R2*5 %160
+    c'2\fz
+    c\fz
+    c\fz
+    g
+    e4 r %165
+    R2*6 %171
+    r4 g
+    e r
+    R2*31 \markStartDeleted %204
+    c4 r %205
+    R2*5 %210
+    r4 g'
+    c2
+    g4 r
+    c,2~
+    c4 r %215
+    R2*79 %294
+    r4 g' %295
+    c2
+    d4 c
+    g2 \markStopDeleted
+    c4 r
+    R2*5 %304
+    r4 g %305
+    c2
+    g4 r
+    R2*19 %326
+    r4 g,
+    c r
+    R2*7 %335
+    g4 r
+    R2
+    g4 r
+    R2
+    g4 r %340
+    R2
+    g4 r
+    R2
+    g4 r
+    R2 %345
+    g4 r
+    r d''~
+    d c~
+    c g
+    e r %350
+    R2
+    c4 r
+    R2*3 %355
+    c4 r
+    R2*8 %364
+    e4.\f e16 e %365
+    e4 e
+    e4.\ff e16 e
+    e4 e
+    c r
+    R2 %370
+    R\fermata
+    R2*3
+    r4 e8.\f e16 %375
+    e8 e g g
+    e4 c'8. c16
+    c8 c e e
+    c4 c,8. c16
+    c8 e g c %380
+    g4 g8. g16
+    g4 g
+    e r
+    R2
+    r8 e' c g %385
+    e c' g e
+    c4 r
+    e e
+    e r
+    c r %390
+    c r\fermata \bar "|." %391 finis
+  }
+}

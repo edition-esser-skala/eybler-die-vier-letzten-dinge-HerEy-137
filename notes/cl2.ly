@@ -1815,3 +1815,352 @@ DeineGueteClarinettoII = {
     a4\! r\fermata \bar "|." %275 finis
   }
 }
+
+EsToenClarinettoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoEsToen
+    % R2*12 %12 for MIDI
+    \grace s32*3 R2*12 %12
+    g'4\f g
+    g2
+    g %15
+    g4 r8 g
+    c, h c d
+    e d e fis
+    g4 r8 g
+    g2 %20
+    g
+    g
+    g4 r8 g
+    g4 g
+    gis2 %25
+    a4 gis
+    a r8 a
+    a4 a
+    a fis
+    g a %30
+    d, r8 g
+    fis4 f
+    e d
+    e g
+    g2~ %35
+    g4 a
+    d,2\fz
+    g~\fz
+    g4 d~
+    d d %40
+    d r8 g
+    g2~
+    g4 r8 g
+    g2~
+    g4 r8 g %45
+    g2\fz
+    g\fz
+    g\fz
+    g\fz
+    g~\fz %50
+    g4 g
+    g r8 e
+    e4 e
+    e e~\fz
+    e e~\fz %55
+    e e~\fz
+    e e
+    d2~
+    d8 c h c
+    h4 r %60
+    R2*3
+    r4 r8 g'
+    g4 a %65
+    g4.\fz e8
+    d c h c
+    h4 h'
+    a g
+    fis g %70
+    fis e
+    d e
+    d fis
+    g g
+    g c, %75
+    h r
+    R2
+    d~
+    d~
+    d~ %80
+    d~
+    d~
+    d~
+    d4 r
+    R2 %85
+    e~
+    e~
+    e~
+    e~
+    e~ %90
+    e~
+    e4 r8 c
+    d e f g
+    a2~
+    a %95
+    f4 r8 d
+    e f g a
+    h2~
+    h
+    g4 r8 c, %100
+    c4 c
+    c a~
+    a g'
+    f r8 d
+    d4 h %105
+    h g~
+    g f'
+    e r8 e
+    f4 e
+    f e %110
+    f e
+    g c8 g
+    c,4 e
+    g2\fz
+    a %115
+    g4 r8 h,
+    c4 d
+    e g~
+    g c
+    h r8 g %120
+    g4 e
+    d r
+    R2*3 %125
+    f2~\p
+    f\cresc
+    e4\! r
+    R2*11 %139
+    f4\fE f %140
+    e r
+    f f
+    e r8 e
+    f4 g
+    f g %145
+    a a
+    d, r8 g
+    d4 d
+    d d~\fz
+    d d~\fz %150
+    d d
+    e e
+    e e~\fz
+    e e~\fz
+    e g %155
+    g g
+    f g
+    a g
+    g r8 g
+    g4 g %160
+    f2\fz
+    a\fz
+    g~\fz
+    g4 f
+    e e %165
+    d c
+    h c
+    h a
+    g a
+    g f' %170
+    e e
+    f d
+    c r
+    R2*15 %188
+    r4 r8 c
+    d4 e %190
+    f r8 d
+    e4 fis
+    g4 r8 e
+    fis4 gis8 gis
+    a4 g %195
+    c4.\fz c8
+    h4 g
+    g f
+    e a
+    a g %200
+    fis h
+    h a
+    g8 fis g a
+    h c a h \markStartDeleted
+    c4 r8 e, %205
+    f!8 e f g
+    a4 r8 fis
+    g fis g a
+    h4 r8 gis
+    a gis a h %210
+    c4 h
+    a4. a8
+    g!4 r
+    r c,~
+    c a' %215
+    g2
+    f
+    e
+    r4 r8 d
+    e4 fis %220
+    g r8 e
+    fis4 gis
+    a r8 f
+    g!4 a8 a
+    b4 f %225
+    d'4. d8
+    c4 f,
+    f es
+    d g
+    g f %230
+    e! a
+    a g
+    f8 e f g
+    a g a h
+    c4 r8 e, %235
+    d c d e
+    f4 r8 f
+    e d e fis
+    g4 r8 g
+    f! e f g %240
+    e d e f
+    d c d e
+    c h c d
+    b a b c
+    a4 r8 f' %245
+    e d e fis
+    g4 r8 g
+    fis e fis gis
+    a4 r8 a
+    gis fis gis a %250
+    h c a h
+    c h c a
+    h a fis gis
+    a4 r8 cis,
+    d cis d e %255
+    fis4 r8 dis
+    e dis e fis
+    g!4 r8 e
+    f! e f g
+    a4 r8 a %260
+    b a b c
+    a g a b
+    g f g a
+    f4 r8 fis
+    g fis g a %265
+    d,4 g
+    g f!
+    e r8 e
+    f e f g
+    c,4 f %270
+    f es
+    d r8 d
+    es d es f
+    b,4 r8 e
+    f e f g %275
+    c,4 r8 fis
+    g fis g a
+    d, b' a g
+    f! e f g
+    a g a b %280
+    g f g a
+    b a b c
+    a g a b
+    g fis g a
+    fis e fis g %285
+    a g e fis
+    g4 r
+    R2*4 %291
+    r4 r8 fis
+    gis4 a
+    h r8 gis
+    a4 h %295
+    c4 r8 a
+    h4 c8 c
+    d4 g, \markStopDeleted
+    e'4. e8
+    d4 c %300
+    a8. g16 f4
+    r a
+    d, g
+    g f
+    e8 fis g4~ %305
+    g fis
+    g r
+    r r8 f!
+    e d e fis
+    g4 fis~ %310
+    fis e~
+    e dis
+    e r8 e
+    fis4 gis
+    a r8 f %315
+    g!4 a
+    b r8 g
+    a4 h8 h
+    c4 a
+    f8 g a h %320
+    c4 r
+    R2*5 %326
+    r4 r8 d,
+    e4 fis
+    g r8 e
+    f!4 g %330
+    a4 r8 fis
+    g4 a8 a
+    h4 g
+    c4. h8
+    a4 a %335
+    d, g8 f!
+    e f d e
+    f4 f8 e
+    d e c d
+    e4 e~ %340
+    e f8 g
+    a4 f~
+    f g8 a
+    h4 g~
+    g a8 h %345
+    c4 a~
+    a f~
+    f e
+    g4. f8
+    e4 r8 e %350
+    f4 g
+    \mvDofs #1 f4.\fz g8
+    a4 g
+    g4. e8
+    f4 g %355
+    \mvDofs #1 f4.\fz g8
+    a4 g
+    g r8 c,
+    c4 c
+    c r8 d %360
+    d4 d
+    d r8 e
+    e4 e
+    e e
+    e2~\fz %365
+    e
+    c'~\ffz
+    c~
+    c4 r
+    R2 %370
+    R\fermata
+    R2*5 %376
+    c,2~\ff
+    c
+    e~
+    e %380
+    g~
+    g
+    g8 e' c g
+    e c' g e
+    c e' c g %385
+    e c' g e
+    c4 r
+    c c
+    c r
+    c r %390
+    c r\fermata \bar "|." %391 finis
+  }
+}

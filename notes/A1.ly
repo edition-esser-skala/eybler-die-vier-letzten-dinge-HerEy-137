@@ -1202,3 +1202,683 @@ DeineGueteAltoLyrics = \lyricmode {
   ew’ -- ges
   Glück. %272 finis
 }
+
+EsToenAltoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \autoBeamOff \tempoEsToen
+    % R2*3 %for MIDI
+    \grace s32*3 R2*3
+    r4 r8 g'\f
+    c4 c %5
+    e c
+    f4.\fz d8
+    h4 g8 g
+    c4 c
+    c4.\fz g8 %10
+    g4 g
+    g r8 g
+    g4 g
+    h4. h8
+    c4. c8 %15
+    g4 g8 g
+    c,([ h)] c([ d)]
+    e([ d)] e([ fis)]
+    g2~
+    g~ %20
+    g~
+    g
+    g4 r8 g
+    g4 g
+    gis4. e8 %25
+    e4 e
+    e r8 a
+    a4 a
+    a fis
+    g! a %30
+    d, r8 g
+    fis4 f
+    e g
+    g g
+    g g8 g %35
+    g4 a
+    g2\fz
+    g\fz
+    g~
+    g4 d %40
+    d r8 g
+    g4. g8
+    g4 g
+    g4. g8
+    g4 g8 g %45
+    f'!2\fz
+    d\fz
+    h\fz
+    g\fz
+    g~\fz %50
+    g4 g
+    g r8 g
+    g4 g
+    c4.\fz g8
+    c4.\fz g8 %55
+    c4\fz g8 g
+    g4 g
+    g4. d8
+    d4 d
+    d r8 d %60
+    g4 d
+    h' g
+    fis4. fis8
+    g4 r8 g
+    g4 a %65
+    h4.\fz c8
+    h([ a)] g([ fis)]
+    g4 r
+    R2*6 %74
+    r4 r8 d %75
+    g([ fis)] g([ a)]
+    h([ a)] h([ c)]
+    d2~
+    d~
+    d~ %80
+    d~
+    d4 d
+    d4. d8
+    h4 g
+    r r8 a %85
+    gis4 h
+    e, gis
+    a c
+    e, a8 a
+    gis2~ %90
+    gis4 h
+    a r8 c,
+    d([ e)] f([ g!)]
+    a2~
+    a4 a %95
+    f d
+    R2
+    r4 r8 h'
+    h([ a)] g([ f)]
+    e4 e8 e %100
+    f([ g)] a([ e)]
+    f4 e
+    a g
+    f r
+    R2*3 %107
+    r4 r8 g
+    a4 g
+    g g %110
+    c c
+    h c8 g
+    c,4 e
+    g4.\fz g8
+    a4 a %115
+    g r8 g
+    fis4 f
+    e g
+    g a
+    g2~ %120
+    g~\decresc
+    g~\p
+    g~
+    g4 r
+    R2*6 %130
+    r4 r8 g\f
+    c4 c
+    e c
+    f4.\fz d8
+    h4 g8 g %135
+    c4 c
+    c4.\fz g8
+    g4 g
+    g r8 g
+    a4 a %140
+    g g
+    a4. a8
+    g4 g8 g
+    g4 g
+    f g %145
+    a a
+    g r
+    R2*3 %150
+    r4 r8 g
+    g4 g
+    g4.\fz g8
+    g4.\fz g8
+    g4\fz g8 g %155
+    g4 g
+    f g
+    a g
+    g r8 g
+    g4 g %160
+    a2\fz
+    c\fz
+    c(\fz
+    h4) f
+    e r %165
+    R2*23 %188
+    r4 r8 c
+    d4 e %190
+    f r8 d
+    e4 fis
+    g4 r8 e
+    fis4 gis8 gis
+    a4 g %195
+    c4.\fz c8
+    h4 g
+    g f
+    e a
+    a g %200
+    fis h
+    h a
+    g8([ fis)] g([ a)]
+    h([ c)] a([ h)] \markStartDeleted
+    c4 r8 e, %205
+    f!8([ e)] f([ g)]
+    a4 r8 fis
+    g([ fis)] g([ a)]
+    h4 r8 gis
+    a([ gis)] a([ h)] %210
+    c4 h
+    a4. a8
+    g!4 r
+    r c,~
+    c a' %215
+    g2
+    f
+    e
+    r4 r8 d
+    e4 fis %220
+    g r8 e
+    fis4 gis
+    a r8 f
+    g!4 a8 a
+    b4 f %225
+    d'4. d8
+    c4 f,
+    f es
+    d g
+    g f %230
+    e! a
+    a g
+    f8([ e)] f([ g)]
+    a([ g)] a([ h)]
+    c4 r8 e, %235
+    d([ c)] d([ e)]
+    f4 r8 f
+    e([ d)] e([ fis)]
+    g4 r8 g
+    f!([ e)] f([ g)] %240
+    e([ d)] e([ f)]
+    d([ c)] d([ e)]
+    c([ h)] c([ d)]
+    b([ a)] b([ c)]
+    a4 r8 f' %245
+    e([ d)] e([ fis)]
+    g4 r8 g
+    fis([ e)] fis([ gis)]
+    a4 r8 a
+    gis([ fis)] gis([ a)] %250
+    h[ c a h]
+    c[ h c a]
+    h[ a fis gis]
+    a4 r8 cis,
+    d([ cis)] d([ e)] %255
+    fis4 r8 dis
+    e([ dis)] e([ fis)]
+    g!4 r8 e
+    f!([ e)] f([ g)]
+    a4 r8 a %260
+    b([ a)] b([ c)]
+    a[ g a b]
+    g[ f g a]
+    f4 r8 fis
+    g([ fis)] g([ a)] %265
+    d,4 g
+    g f!
+    e r8 e
+    f([ e)] f([ g)]
+    c,4 f %270
+    f es
+    d r8 d
+    es([ d)] es([ f)]
+    b,4 r8 e
+    f([ e)] f([ g)] %275
+    c,4 r8 fis
+    g([ fis)] g([ a)]
+    d,([ b')] a([ g)]
+    f!([ e)] f([ g)]
+    a[ g a b] %280
+    g[ f g a]
+    b[ a b c]
+    a[ g a b]
+    g[ fis g a]
+    fis[ e] fis([ g)] %285
+    a([ g)] e([ fis)]
+    g4 r
+    R2*4 %291
+    r4 r8 fis
+    gis4 a
+    h r8 gis
+    a4 h %295
+    c4 r8 a
+    h4 c8 c
+    d4 g, \markStopDeleted
+    e'4. e8
+    d4 c %300
+    a8. g16 f4
+    r a
+    d, g
+    g f
+    e8[ fis] g4~ %305
+    g fis
+    g r
+    r r8 f!
+    e([ d)] e([ fis)]
+    g4 fis~ %310
+    fis e~
+    e dis
+    e r8 e
+    fis4 gis
+    a r8 f %315
+    g!4 a
+    b r8 g
+    a4 h8 h
+    c4 a
+    f8([ g)] a([ h)] %320
+    c4 r
+    R2*5 %326
+    r4 r8 d,
+    e4 fis
+    g r8 e
+    f!4 g %330
+    a4 r8 fis
+    g4 a8 a
+    h4 g
+    c4. h8
+    a4 a %335
+    d, g8([ f!)]
+    e([ f)] d([ e)]
+    f4 f8([ e)]
+    d([ e)] c([ d)]
+    e4 e~ %340
+    e f8[ g]
+    a4 f~
+    f g8[ a]
+    h4 g~
+    g a8[ h] %345
+    c4 a~
+    a f~
+    f e
+    g4. f8
+    e4 r8 g %350
+    g4 g
+    a4.\fz c8
+    a4 g
+    g g8 g
+    g4 g %355
+    a4.\fz c8
+    a4 g
+    g r8 c,
+    d4 e
+    f r8 d %360
+    e4 fis
+    g r8 e
+    fis4 gis8 gis
+    a4 a
+    gis4. e8 %365
+    e4 e
+    c'4.\fz g!8
+    g4 c
+    c4.\fz b8
+    a2 %370
+    R\fermata
+    r4 d\f
+    h! c8([ e,)]
+    g4. f8
+    e4 r %375
+    e4.\ff e8
+    e4 e
+    g4. g8
+    g4 g
+    g c %380
+    h2~
+    h
+    c4 r
+    R2*7 %390
+    R2\fermata \bar "|." %391 finis
+  }
+}
+
+EsToenAltoILyrics = \lyricmode {
+  Es %4
+  tön’ in %5
+  ew’ -- gen
+  Ju -- bel --
+  tö -- nen des
+  un -- aus --
+  ſprech -- lich %10
+  Gu -- ten
+  Lob, es
+  tön’ in
+  ew’ -- gen
+  Ju -- bel -- %15
+  tö -- nen, in
+  ew’ -- gen
+  Ju -- bel --
+  tö --
+
+  nen des %23
+  un -- aus --
+  ſprech -- lich %25
+  Gu -- ten
+  Lob, des
+  un -- aus --
+  ſprech -- lich
+  Gu -- ten %30
+  Lob, es
+  tön’ in
+  ew’ -- gen
+  Ju -- bel --
+  tö -- nen des %35
+  un -- aus --
+  ſprech --
+  lich
+  Gu --
+  ten %40
+  Lob, es
+  tön’ in
+  ew’ -- gen
+  Ju -- bel --
+  tö -- nen des %45
+  un --
+  aus --
+  ſprech --
+  lich
+  Gu -- %50
+  ten
+  Lob, es
+  tön’ in
+  ew’ -- gen
+  Ju -- bel -- %55
+  tö -- nen des
+  un -- aus --
+  ſprech -- lich
+  Gu -- ten
+  Lob, des %60
+  un -- aus --
+  ſprech -- lich
+  Gu -- ten
+  Lob, des
+  un -- aus -- %65
+  ſprech -- lich
+  Gu -- ten
+  Lob.
+
+  Es %75
+  tön’ in
+  ew’ -- gen,
+  ew’ --
+
+  gen %82
+  Ju -- bel --
+  tö -- nen,
+  es %85
+  tön’ in
+  ew’ -- gen
+  Ju -- bel --
+  tö -- nen des
+  Gu -- %90
+  ten
+  Lob, in
+  ew’ -- gen
+  Ju --
+  bel -- %95
+  tö -- nen,
+
+  in
+  Ju -- bel --
+  tö -- nen des %100
+  un -- aus --
+  ſprech -- lich
+  Gu -- ten
+  Lob,
+
+  es %108
+  tön’ in
+  ew’ -- gen %110
+  Ju -- bel --
+  tö -- nen des
+  un -- aus --
+  ſprech -- lich
+  Gu -- ten %115
+  Lob, des
+  un -- aus --
+  ſprech -- lich
+  Gu -- ten
+  Lob. __ %120
+
+  Es %131
+  tön’ in
+  ew’ -- gen
+  Ju -- bel --
+  tö -- nen des %135
+  un -- aus --
+  ſprech -- lich
+  Gu -- ten
+  Lob, es
+  tön’ in %140
+  ew’ -- gen
+  Ju -- bel --
+  tö -- nen des
+  un -- aus --
+  ſprech -- lich %145
+  Gu -- ten
+  Lob,
+
+  es %151
+  tön’ in
+  ew’ -- gen
+  Ju -- bel --
+  tö -- nen des %155
+  un -- aus --
+  ſprech -- lich
+  Gu -- ten
+  Lob, des
+  un -- aus -- %160
+  ſprech --
+  lich
+  Gu --
+  ten
+  Lob. %165
+
+  Der %189
+  Men -- ſchen %190
+  ſchuf, und
+  ſie er --
+  hob zu
+  Söh -- nen des
+  Reichs der %195
+  Herr -- lich --
+  keit, al --
+  le -- lu --
+  ja, al --
+  le -- lu -- %200
+  ja, al --
+  le -- lu --
+  ja, al --
+  le -- lu --
+  ja, al -- %205
+  le -- lu --
+  ja, al --
+  le -- lu --
+  ja, al --
+  le -- lu -- %210
+  ja, al --
+  le -- lu --
+  ja,
+  al --
+  le -- %215
+  lu --
+  _
+  ja,
+  der
+  Men -- ſchen %220
+  ſchuf, und
+  ſie er --
+  hob zu
+  Söh -- nen des
+  Reichs der %225
+  Herr -- lich --
+  keit, al --
+  le -- lu --
+  ja, al --
+  le -- lu -- %230
+  ja, al --
+  le -- lu --
+  ja, al --
+  le -- lu --
+  ja, al -- %235
+  le -- lu --
+  ja, al --
+  le -- lu --
+  ja, al --
+  le -- lu -- %240
+  ja, al --
+  le -- lu --
+  ja, al --
+  le -- lu --
+  ja, al -- %245
+  le -- lu --
+  ja, al --
+  le -- lu --
+  ja, al --
+  le -- lu -- %250
+  ja, __
+  _
+  _
+  _ al --
+  le -- lu -- %255
+  ja, al --
+  le -- lu --
+  ja, al --
+  le -- lu --
+  ja, al -- %260
+  le -- lu --
+  ja, __
+  _
+  _ al --
+  le -- lu -- %265
+  ja, al --
+  le -- lu --
+  ja, al --
+  le -- lu --
+  ja, al -- %270
+  le -- lu --
+  ja, al --
+  le -- lu --
+  ja, al --
+  le -- lu -- %275
+  ja, al --
+  le -- lu --
+  ja, al --
+  le -- lu --
+  ja, __ %280
+  _
+  _
+  _
+  _
+  _ al -- %285
+  le -- lu --
+  ja,
+
+  der %292
+  Men -- ſchen
+  ſchuf, und
+  ſie er -- %295
+  hob zu
+  Söh -- nen des
+  Reichs der
+  Herr -- lich --
+  keit, der %300
+  Herr -- lich -- keit,
+  al --
+  le -- lu --
+  ja, al --
+  le -- _ %305
+  lu --
+  ja,
+  al --
+  le -- lu --
+  ja, al -- %310
+  le --
+  lu --
+  ja, der
+  Men -- ſchen
+  ſchuf, und %315
+  ſie er --
+  hob zu
+  Söh -- nen des
+  Reichs der
+  Herr -- lich -- %320
+  keit,
+
+  der %327
+  Men -- ſchen
+  ſchuf, und
+  ſie er -- %330
+  hob zu
+  Söh -- nen des
+  Reichs der
+  Herr -- _
+  _ lich -- %335
+  keit, al --
+  le -- lu --
+  ja, al --
+  le -- lu --
+  ja, al -- %340
+  _
+  _ _
+  _
+  _ _
+  _ %345
+  _ _
+  _
+  _
+  le -- lu --
+  ja. Es %350
+  tön’ in
+  ew’ -- gen
+  Ju -- bel --
+  tö -- nen des
+  un -- aus -- %355
+  ſprech -- lich
+  Gu -- ten
+  Lob, der
+  Men -- ſchen
+  ſchuf, und %360
+  ſie er --
+  hob zu
+  Söh -- nen des
+  Reichs der
+  Herr -- lich -- %365
+  keit, der
+  Herr -- lich --
+  keit, der
+  Herr -- lich --
+  keit, %370
+
+  des
+  Reichs der
+  Herr -- lich --
+  keit, %375
+  al -- le --
+  lu -- ja,
+  al -- le --
+  lu -- ja,
+  al -- le -- %380
+  lu --
+
+  ja. %383 finis
+}

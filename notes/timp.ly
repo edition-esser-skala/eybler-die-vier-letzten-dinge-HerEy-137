@@ -575,3 +575,155 @@ JehovahGrossTimpani = {
     c r r2\fermata \bar "|." %32 finis
   }
 }
+
+EsToenTimpani = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoEsToen
+    % r4 c8\f \tuplet 3/2 8 { c16 c c } %for MIDI
+    \grace s32*3 r4 c8\f \tuplet 3/2 8 { c16 c c }
+    c8 c c c
+    c4 c8 \tuplet 3/2 8 { c16 c c }
+    c8 c c c
+    c4 c8 \tuplet 3/2 8 { c16 c c } %5
+    c8 \tuplet 3/2 8 { c16 c c } c8 c
+    g4 g8 \tuplet 3/2 8 { g16 g g }
+    g8 \tuplet 3/2 8 { g16 g g } g8 g
+    c \tuplet 3/2 8 { c16 c c } c8 c
+    c \tuplet 3/2 8 { c16 c c } c8 c %10
+    g \tuplet 3/2 8 { g16 g g } g8 g
+    c4 r
+    R2
+    g4 r8 \tuplet 3/2 8 { g16 g g }
+    c4 r8 \tuplet 3/2 8 { c16 c c } %15
+    g4 r
+    R2*2
+    g4 r8 \tuplet 3/2 8 { g16 g g }
+    c4 r8 \tuplet 3/2 8 { c16 c c } %20
+    g4 r8 \tuplet 3/2 8 { g16 g g }
+    c4 r8 \tuplet 3/2 8 { c16 c c }
+    g4 r
+    R2*13 %36
+    g4 r
+    g r
+    R2*3 %41
+    c4 r8 \tuplet 3/2 8 { c16 c c }
+    g4 r
+    c r8 \tuplet 3/2 8 { c16 c c }
+    g4 r %45
+    R2*8 %53
+    c4.\fz \tuplet 3/2 8 { c16 c c }
+    c4.\fz \tuplet 3/2 8 { c16 c c } %55
+    c4 r
+    R2*9 %65
+    g4\fz r
+    R2
+    g4 r
+    R2*40 %108
+    c2~\fz\startTrillSpan
+    c~ %110
+    c~\fz
+    c
+    c4\fz\stopTrillSpan c\fz
+    c\fz r
+    R2 %115
+    g4 r
+    R2*11 %127
+    r4 c8\f \tuplet 3/2 8 { c16 c c }
+    c8 c c c
+    c4 c8 \tuplet 3/2 8 { c16 c c } %130
+    c8 c c c
+    c4 c8 \tuplet 3/2 8 { c16 c c }
+    c8 \tuplet 3/2 8 { c16 c c } c8 c
+    g4 g8 \tuplet 3/2 8 { g16 g g }
+    g8 \tuplet 3/2 8 { g16 g g } g8 g %135
+    c \tuplet 3/2 8 { c16 c c } c8 c
+    c \tuplet 3/2 8 { c16 c c } c8 c
+    g \tuplet 3/2 8 { g16 g g } g8 g
+    c4 r
+    R2 %140
+    c4 r
+    R2
+    c4 r
+    R2*5 %148
+    g4.\fz \tuplet 3/2 8 { g16 g g }
+    g4.\fz \tuplet 3/2 8 { g16 g g } %150
+    g4 r
+    R2
+    c4.\fz \tuplet 3/2 8 { c16 c c }
+    c4.\fz \tuplet 3/2 8 { c16 c c }
+    c4 r %155
+    R2*5 %160
+    c4. \tuplet 3/2 8 { c16 c c }
+    c4. \tuplet 3/2 8 { c16 c c }
+    g4. \tuplet 3/2 8 { g16 g g }
+    g4 g
+    c r %165
+    R2*6 %171
+    r4 g
+    c r
+    R2*31 \markStartDeleted %204
+    c4 r %205
+    R2*8 %213
+    c2~\startTrillSpan
+    c4\stopTrillSpan r %215
+    R2*82 %297
+    g2\trill \markStopDeleted
+    c4 r
+    R2*5 %304
+    r4 g %305
+    c2\trill
+    g4 r
+    R2*19 %326
+    r4 g
+    c r
+    R2*7 %335
+    g4 r
+    R2
+    g4 r
+    R2
+    g4 r %340
+    R2
+    g4 r
+    R2
+    g4 r
+    R2 %345
+    g4 r
+    R2
+    g4 c
+    g8 g16 g g8 g
+    c4 r %350
+    R2
+    c4 r
+    R2
+    c~\startTrillSpan
+    c~ %355
+    c~\fz
+    c~
+    c4\stopTrillSpan r
+    R2*8 %366
+    c4.\ff \tuplet 3/2 8 { c16 c c }
+    c8 c c c
+    c4 r
+    R2 %370
+    R\fermata
+    R2*3
+    r4 c8\f \tuplet 3/2 8 { c16 c c } %375
+    c8 c c c
+    c4 c8 \tuplet 3/2 8 { c16 c c }
+    c8 c c c
+    c4 c8 \tuplet 3/2 8 { c16 c c }
+    c8 c c c %380
+    g \tuplet 3/2 8 { g16 g g } g8 g
+    g g g g
+    c4 r
+    R2
+    c4 r %385
+    R2
+    c4 r
+    c c
+    c r
+    c r %390
+    c r\fermata \bar "|." %391 finis
+  }
+}

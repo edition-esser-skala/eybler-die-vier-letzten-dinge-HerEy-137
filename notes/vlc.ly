@@ -2456,3 +2456,394 @@ DeineGueteCello = {
     es4\! r\fermata \bar "|." %275 finis
   }
 }
+
+EsToenCello = {
+  \relative c {
+    \clef bass
+    \twofourtime \key c \major \time 2/4 \tempoEsToen
+    % %for MIDI start
+    % <c c,>4\ff r
+    % R2
+    % <c c,>4 r
+    % R2
+    % <c c,>4 r %5
+    % %for MIDI end
+
+    \grace { g32[ a h] } <c c,>4\ff r
+    R2
+    \grace { g32[ a h] } <c c,>4 r
+    R2
+    \grace { g32[ a h] } <c c,>4 r %5
+
+    R2*6 %11
+    c8\f g' e c
+    g h d g
+    g, h d g
+    c, e g c %15
+    g, h d g
+    c, h c d
+    e d e fis
+    g, h d g
+    g, c e g %20
+    g, h d g
+    g, c e g
+    g, h d g
+    g, g' f,! f'!
+    e, gis h d %25
+    c c' h, h'
+    a, c e a
+    fis fis' e, e'
+    d, d' d d,
+    e e, fis fis' %30
+    g d h g
+    g' g, g g'
+    g g, g g'
+    g g, g g'
+    g g, g g' %35
+    g g, g g'
+    g,\fz g' h g
+    e,\fz e' g e
+    d d' h g
+    d d' d d, %40
+    g, h d g
+    c, e g c,
+    g h d g
+    c, e g c,
+    g h d h %45
+    g\fz h d g
+    h, d g h
+    d, g h d
+    h g d h
+    g h d g %50
+    h d h g
+    c c, e g
+    c4 r
+    r <c, c,>~\fz
+    q q~\fz %55
+    q q~\fz
+    q q
+    d8 d' h g
+    d'4 d,
+    g r8 \tuplet 3/2 8 { d'16 e fis } %60
+    g4 d
+    h g
+    d8 fis a d,
+    g d h d
+    g, g' fis, fis' %65
+    e\fz e' c, c'
+    d, d' d d,
+    g h d g
+    fis, fis' e, e'
+    d, d' e, e' %70
+    d, d' c, c'
+    h, h' c, c'
+    h, h' a, a'
+    g,4 e'
+    c d %75
+    g, r
+    r r8 \tuplet 3/2 8 { g'16 fis e }
+    d4 fis
+    a d
+    d, g %80
+    h d
+    d, fis
+    a d
+    g, r
+    r r8 \tuplet 3/2 8 { a16 gis fis } %85
+    e4 gis
+    h e
+    e, a
+    c e
+    e, gis %90
+    h e
+    a,8 a, a' a
+    a g! f! e
+    d d' d, d
+    e f g a %95
+    h h, h' h
+    h a g f
+    e e' e, e
+    f g a h
+    c c, c' c %100
+    c b a g
+    f a a, a'
+    f a e a
+    d, f a d
+    h a g f %105
+    e g g, g'
+    e g d g
+    c, c' g e
+    c c' c c,
+    c c' c c, %110
+    c c' c c,
+    c c' c c,
+    c c' g e
+    c\fz e g c
+    a, a' d,, d' %115
+    g, g' d h
+    g g' g g,
+    g g' g g,
+    g g' g g,
+    g h d g %120
+    e g c, e
+    g d\p h g
+    c g' e c
+    g4 r
+    R2*3 %127
+    \grace { g32[ a h] } c4\f r
+    R2
+    \grace { g32[ a h] } c4 r %130
+    R2
+    \grace { g32[ a h] } c4 r
+    R2*6 %138
+    \grace { g32[ a h] } c8 c' g e
+    c8 c' c c, %140
+    c c' c c,
+    c c' c c,
+    c c' c c,
+    h h' b b,
+    a a' g g, %145
+    f f' fis, fis'
+    g g, h d
+    g4 r
+    r \grace { d32[ e fis] } <g g,>4~\fz
+    q \grace { d32[ e fis] } <g g,>4~\fz %150
+    q \grace { d32[ e fis] } <g g,>4\fz
+    R2
+    r4 \grace { g,32[ a h] } <c c,>4~\fz
+    q \grace { g32[ a h] } <c c,>4~\fz
+    q \grace { g32[ a h] } <c c,>8 c %155
+    h h' b b,
+    a a' g g,
+    f f' g g,
+    c e g c
+    h, h' b, b' %160
+    a,\fz c f a
+    f,\fz a c f
+    g,\fz g' e c
+    g4 g'
+    c,8 e g c %165
+    h, h' a, a'
+    g, g' a, a'
+    g, g' f, f'
+    e e' f, f'
+    e, e' d, d' %170
+    c,4 a'
+    f g
+    c, r8 c
+    d4 e
+    f r8 d %175
+    e4 fis
+    g4 r8 e
+    fis4 gis
+    a g
+    c4. c8 %180
+    h4 g~
+    g f!
+    e a~
+    a g
+    fis h~ %185
+    h a
+    g8 fis g a
+    h c a h
+    c4 r8 e,
+    f! e f g %190
+    a4 r8 fis
+    g fis g a
+    h4 r8 gis
+    a gis a h
+    c4 h %195
+    a4. a8
+    g4 r
+    r g
+    c, r
+    r a' %200
+    d, r
+    r h'
+    e, a
+    d, g \markStartDeleted
+    c, r8 c %205
+    d4 e
+    f4 r8 d
+    e4 fis
+    g4 r8 e
+    fis4 gis %210
+    a g
+    c4. c8
+    h4 g
+    b4. b8
+    a4 \clef "treble_8" f'~ %215
+    f e~
+    e8 a, d4~
+    d cis
+    d \clef bass d,~
+    d c %220
+    h! e~
+    e d
+    c f~
+    f es
+    d8 es d c %225
+    b4 b'
+    a \clef "treble_8" r8 f
+    g4 a
+    b r8 g
+    a4 h %230
+    c r8 a
+    h!4 cis
+    d c
+    f4. \clef bass d,8
+    e d e f %235
+    g4 r8 g
+    f e f g
+    a4 r8 a
+    g fis g a
+    h4 r8 h %240
+    c4 e,
+    fis r8 gis
+    a4 c,
+    d e8 e
+    f! e d g! %245
+    c,4 r8 d
+    g fis e a
+    d,4 r8 e
+    a gis fis h
+    e,4 a %250
+    d, g!
+    c, f!
+    h, e
+    a, \clef "treble_8" r8 a'
+    h4 cis %255
+    d r8 h
+    cis4 dis
+    e r8 c
+    d!4 e
+    f d %260
+    g4. g8
+    f4 f
+    e4. e8
+    d4 \clef bass r8 d,
+    e4 fis %265
+    g \clef "treble_8" r8 g
+    a4 h
+    c \clef bass r8 c,
+    d4 e
+    f! \clef "treble_8" r8 f %270
+    g4 a
+    b \clef bass r8 b,
+    c4 d
+    es r8 c
+    d4 e %275
+    f r8 d
+    e!4 fis
+    g f
+    b4. b8
+    a4 f %280
+    g b
+    es, es'~
+    es d~
+    d c~
+    c b %285
+    a4. a8
+    g4 r8 e!
+    f e f g
+    e4 r8 fis
+    g fis g a %290
+    fis4 r8 gis
+    a gis a h
+    e,4 r
+    R2
+    r4 \clef "treble_8" g %295
+    c d
+    g, a
+    h4. h8 \markStopDeleted
+    c4 \clef bass r8 c,
+    d4 e %300
+    f r8 d
+    e4 fis
+    g r8 e
+    f!4 g
+    a g %305
+    c4. c8
+    h4 g
+    a8 g a h
+    c4 h
+    a8 g a h %310
+    g fis g a
+    fis e fis g
+    e4 \clef "treble_8" e'~
+    e d
+    c f!~ %315
+    f es
+    d g~
+    g f
+    e! f8 e
+    d4 \clef bass r8 d, %320
+    e4 fis
+    g r8 e
+    f!4 g
+    a r8 fis
+    g4 a %325
+    h c
+    f,! g
+    c, \clef "treble_8" d'
+    g, r
+    R2*3 %332
+    r4 e'8 d
+    c h \clef bass g4~
+    g fis %335
+    <g g,>2~
+    q~
+    q~
+    q~
+    q~ %340
+    q~
+    q~
+    q~
+    q~
+    q~ %345
+    q~
+    q~
+    q4 c,
+    g' g,
+    c8 c' c c %350
+    c, c' c c
+    c,\fz c' c c
+    c, c' c c
+    c, c' c c
+    c, c' c c %355
+    c,\fz c' c c
+    c, c' c c
+    c4 c,~
+    c b
+    a d~ %360
+    d c
+    h! e~
+    e d
+    c8 e a, c
+    e\cresc e' e e %365
+    e e, e e
+    c\ff e g c
+    c, e g c
+    f,4 f,
+    R2 %370
+    R\fermata
+    R2*3
+    \grace { g32[ a h] } <c c,>4\ff r %375
+    R2
+    \grace { g32[ a h] } <c c,>4 r
+    R2
+    \grace { g32[ a h] } <c c,>4 r
+    R2 %380
+    <g' g,>4 r
+    <h d, g,> r
+    <c e, g, c,> r
+    R2
+    c8 e c g %385
+    e c' g e
+    c4 r
+    <c' e, g, c,> q
+    q r
+    \grace { g,32[ a h] } <c c,>4 r %390
+    \grace { g32[ a h] } <c c,>4 r\fermata \bar "|." %392 finis
+  }
+}

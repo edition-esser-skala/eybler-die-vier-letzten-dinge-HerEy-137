@@ -491,3 +491,172 @@ JehovahGrossClarinoCI = {
     c r r2\fermata \bar "|." %32 finis
   }
 }
+
+EsToenClarinoCI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoEsToen
+    % r4 c'8.\f c16 %for MIDI
+    \grace s32*3 r4 c'8.\f c16
+    c8 c e e
+    c4 e8. e16
+    e8 e g g
+    e4 g8. g16 %5
+    g8 e e e
+    d4 f8. f16
+    f8 d d d
+    \pa c g c d \pd
+    e4 c8 e %10
+    \pa g, g16 g g8 g \pd
+    c4 r
+    R2
+    d
+    e %15
+    d4 r
+    R2*2
+    d2
+    e %20
+    d4 r
+    R2*3
+    e2 %25
+    R2*11 %36
+    \pao g,4 r
+    \pao b r
+    \pao d r
+    R2*2 %41
+    \pa c,8 c16 c e8 c \pd
+    g'4 r
+    e'2
+    d4 r %45
+    R2*8 %53
+    c4.\fz c8
+    c4.\fz c8 %55
+    c4 r
+    R2*9 %65
+    g4\fz r
+    R2
+    g4 r
+    R2*17 %85
+    \pao e4 r
+    R2
+    \pao e4 r
+    R2
+    \pao e4 r8 \pa e16 e %90
+    e4 e
+    e4 \pd r
+    R2*16 %108
+    c'2~
+    c~ %110
+    c~
+    c
+    c4 e
+    g\fz r
+    r f %115
+    d r
+    R2*3
+    r4 r8 \pao g, %120
+    c4 e
+    d r
+    R2*5 %127
+    r4 c8.\f c16
+    c8 c e e
+    c4 e8. e16 %130
+    e8 e g g
+    e4 g8. g16
+    g8 e e e
+    d4 f8. f16
+    f8 d d d %135
+    \pa c g c d \pd
+    e4 c8 e
+    \pa g, g16 g g8 g \pd
+    c4 r
+    R2 %140
+    c4 r
+    R2
+    c4 r
+    R2*5 %148
+    d2\fz
+    d\fz %150
+    d4 r
+    R2
+    c\fz
+    c\fz
+    c4 r %155
+    R2*5 %160
+    \pao \mvDofs #-1.5 c2\fz
+    f\fz
+    e\fz
+    d
+    c4 r %165
+    R2*6 %171
+    r4 d
+    c r
+    R2*31 \markStartDeleted %204
+    c4 r %205
+    R2*5 %210
+    r4 d
+    e4. d8
+    d4 r
+    c2~
+    c4 r %215
+    R2*79 %294
+    r4 d %295
+    e fis
+    g e
+    d2 \markStopDeleted
+    e4 r
+    R2*5 %304
+    r4 d %305
+    e d
+    d r
+    R2*19 %326
+    r4 g,
+    e r
+    R2*7 %335
+    g4 r
+    R2
+    g4 r
+    R2
+    g4 r %340
+    R2
+    g4 r
+    R2
+    g4 r
+    R2 %345
+    g4 r
+    r f'~
+    f e
+    d2
+    c4 r %350
+    R2
+    c4 r
+    R2*3 %355
+    c4 r
+    R2*8 %364
+    \pa e,4.\f e16 e %365
+    e4 e \pd
+    c'4.\ff c16 c
+    c4 c
+    c r
+    R2 %370
+    R\fermata
+    R2*3
+    r4 c8.\f c16 %375
+    c8 c e e
+    c4 e8. e16
+    e8 e g g
+    e4 e,8. e16
+    e8 g c e %380
+    d4 d8. d16
+    d4 d
+    c r
+    R2
+    r8 e c g %385
+    e c' g e
+    c4 r
+    c' c
+    c r
+    c r %390
+    c r\fermata \bar "|." %391 finis
+  }
+}

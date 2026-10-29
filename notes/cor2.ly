@@ -1208,3 +1208,250 @@ DeineGueteCornoII = {
     c4\! r\fermata \bar "|." %275 finis
   }
 }
+
+EsToenCornoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoEsToen
+    % R2*12 %12 for MIDI
+    \grace s32*3 R2*12 %12
+    g'4\f g
+    d'4. g,8
+    c4. e,8 %15
+    g4 r
+    R2*2
+    r4 r8 g
+    c4 e, %20
+    g d'
+    c e,
+    g r
+    R2
+    e~ %25
+    e~
+    e4 r
+    R2*3 %30
+    g,2~
+    g~
+    g~
+    g~
+    g~ %35
+    g
+    g'\fz
+    g\fz
+    g
+    d' %40
+    g,4 r
+    c2
+    g
+    c
+    g %45
+    g\fz
+    g\fz
+    g\fz
+    g\fz
+    g~\fz %50
+    g4 g
+    c r8 c
+    c4 c
+    e4.\fz c8
+    e4.\fz c8 %55
+    e4\fz c~
+    c c
+    d d~
+    d d
+    g, r %60
+    R2*5 %65
+    e4.\fz g8
+    d'4 d
+    g, r
+    R2
+    g,4 r %70
+    R2
+    g4 r
+    R2
+    r4 g'
+    c d %75
+    g, r
+    R2*5 %81
+    d'2~
+    d
+    g,4 r
+    R2*5 %89
+    d'2~ %90
+    d
+    c4 r
+    R2
+    d~
+    d~ %95
+    d4 r
+    R2
+    e~
+    e~
+    e4 r %100
+    R2
+    f4 e
+    d e
+    f r
+    R2 %105
+    e4 d
+    c d
+    e r
+    c,2~
+    c~ %110
+    c~
+    c
+    c4 e
+    g\fz r
+    R2 %115
+    g,~
+    g~
+    g~
+    g~
+    g4 r8 g' %120
+    c2
+    g4 r
+    R2*3 %125
+    g2~\p
+    g\cresc
+    e4\! r
+    R2*11 %139
+    c4\fE c %140
+    c2
+    c4 c
+    c2
+    R
+    c %145
+    R
+    r4 r8 g'
+    g4 g
+    d'4.\fz g,8
+    d'4.\fz g,8 %150
+    d'4\fz g,8 g
+    c4 c
+    e4.\fz c8
+    e4.\fz c8
+    e4\fz c %155
+    R2
+    r4 c~
+    c g
+    c r8 e,
+    g4 c %160
+    c2\fz
+    c\fz
+    c\fz
+    g
+    e4 r %165
+    R2*5 %170
+    r4 c'
+    c g
+    e r
+    R2*24 %197
+    r4 g
+    c r
+    r e %200
+    d r
+    R2
+    r4 c
+    d g, \markStartDeleted
+    c c,~ %205
+    c c
+    c r
+    r d'
+    g, r
+    r e %210
+    e g
+    c2
+    g4 g
+    e r
+    R2*15 %229
+    r4 g %230
+    c r
+    R2*3
+    r4 c~ %235
+    c g
+    r d'~
+    d c
+    r e~
+    e d~ %240
+    d c
+    R2*8 %249
+    r4 c %250
+    d2
+    c4 r
+    R2*5 %257
+    r4 c
+    d e
+    f r %260
+    R2*5 %265
+    g,4 r
+    R2
+    c4 r
+    R2*26 %294
+    r4 g %295
+    c d
+    g, c
+    d2 \markStopDeleted
+    c4 r
+    R2*3 %302
+    r4 e~
+    e d
+    c g %305
+    R2*15 %320
+    r4 d'
+    g, r
+    R2*4 %326
+    r4 r8 g
+    c4 d
+    g, r
+    R2*4 %333
+    r4 g
+    c r %335
+    g,2~
+    g~
+    g~
+    g~
+    g~ %340
+    g~
+    g~
+    g~
+    g~
+    g~ %345
+    g~
+    g~
+    g4 c'~
+    c g
+    c,2~ %350
+    c~
+    c~
+    c~
+    c~
+    c~ %355
+    c~\fz
+    c~
+    c4 r
+    R2*6 %364
+    e2~\fz %365
+    e
+    c~\ffz
+    c
+    c~\ffz
+    c4 r %370
+    R2\fermata
+    R2*5 %376
+    e2~\ff
+    e
+    c'~
+    c %380
+    g~
+    g
+    e4 r
+    R2
+    r8 e' c g %385
+    e c' g e
+    c4 r
+    c c
+    c r
+    c r %390
+    c r\fermata \bar "|." %391 finis
+  }
+}

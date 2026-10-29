@@ -546,7 +546,7 @@ UnaussprechlichClarinoBI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoUnaussprechlich
-    \after 4*0 ^\markup \remark "in C" R1
+    R1
     e\fff\fermata
     R
     e\fff\fermata
@@ -561,5 +561,145 @@ UnaussprechlichClarinoBI = {
       R2
     \tempoUnaussprechlichE R2*16 %37
     R2\fermata \bar "|." %38 finis
+  }
+}
+
+EsToenClarinoBI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key c \major \time 2/4 \tempoEsToen
+    % r4 c8.\f c16 %for MIDI
+    \grace s32*3 r4 c8.\f c16
+    c8 c c c
+    c4 e8. e16
+    e8 e g g
+    e4 c'8. c16 %5
+    \pa c8 g16 g e8 c \pd
+    g'4 g8. g16
+    g8 g16 g g8 g
+    c4 c
+    \pa c8 g16 g e8 c %10
+    g g16 g g8 g
+    c4 \pd r
+    R2
+    g'8 g16 g g8 g
+    g g16 g g8 g %15
+    g4 r
+    R2*4 %20
+    d'2
+    e
+    d4 r
+    R2
+    \pao e,4 r8 \pa e16 e %25
+    e4 e
+    e \pd r
+    R2*9 %36
+    g4 r
+    g r
+    R2*3 %41
+    e'2
+    d4 r
+    \pa c,8 c16 c e8 c \pd
+    g'4 r %45
+    R2*8 %53
+    g4.\fz g16 g
+    g4.\fz g16 g %55
+    g4 r
+    R2*9 %65
+    g4\fz r
+    R2
+    g4 r
+    R2*40 %108
+    c,4 r
+    R2 %110
+    c4 r
+    R2
+    c4 e
+    g4.\fz e8
+    c4 r %115
+    R2*12 %127
+    r4 c8.\f c16
+    c8 c c c
+    c4 e8. e16 %130
+    e8 e g g
+    e4 c'8. c16
+    \pa c8 g16 g e8 c \pd
+    g'4 g8. g16
+    g8 g16 g g8 g %135
+    c4 c
+    \pa c8 g16 g e8 c
+    g g16 g g8 g
+    c4 \pd r
+    R2 %140
+    \pao c4 r
+    R2
+    \pao c4 r
+    R2*5 %148
+    g'4.\fz g16 g
+    g4.\fz g16 g %150
+    g4 r
+    R2
+    c,4.\fz c16 c
+    c4.\fz c16 c
+    c4 r %155
+    R2*5 %160
+    c'2\fz
+    c\fz
+    c\fz
+    d
+    c4 r %165
+    R2*6 %171
+    r4 g
+    g r
+    R2*31 \markStartDeleted %204
+    R2*8 %212
+    r4 g
+    e g
+    c r %215
+    R2*83 \markStopDeleted %298
+    R2*37 %335
+    g4 r
+    R2
+    g4 r
+    R2
+    g4 r %340
+    R2
+    g4 r
+    R2
+    g4 r
+    R2 %345
+    g4 r
+    R2
+    d'4 c
+    g g8 g
+    e4 r %350
+    R2
+    c'4 r
+    R2*3 %355
+    c4 r
+    R2*10 %366
+    g4.\ff g16 g
+    g4 g
+    c r
+    R2 %370
+    R\fermata
+    R2*3
+    r4 c,8.\f c16 %375
+    c8 c c c
+    c4 e8. e16
+    e8 e g g
+    e4 e'8. e16
+    e8 c g e %380
+    g g16 g g8 g
+    g g g g
+    e4 r
+    R2
+    \pao c4 r %385
+    R2
+    \pao c4 r
+    g' g
+    g r
+    \pao c, r %390
+    \pao c r\fermata \bar "|." %391 finis
   }
 }
